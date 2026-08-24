@@ -76,6 +76,41 @@ l'on donne au témoin le même avantage qu'au sujet.
 
 ---
 
+### #1 ter — Un script lancé du mauvais dossier, qui rend « 0 » en silence
+
+**2026-08-24.** Un décompte de caractères manquants a répondu
+**« 0 caractère à créer »**. Le script tournait depuis `polishedcrystal/`, donc
+`git -C pokecrystal-fr ls-files` échouait — et `subprocess` rendait une chaîne
+vide sans que rien ne proteste. Zéro fichier, zéro caractère, zéro alerte.
+
+**Contournement :** tout appel qui doit rendre des fichiers **vérifie son
+propre résultat** et sort en erreur s'il est vide. Et chaque décompte affiche
+un **contrôle d'ordre de grandeur** (« lignes lues : 24 119 — doit être
+~24 000 ») pour qu'un effondrement se voie.
+
+**La leçon, encore :** un « 0 » n'est jamais une bonne nouvelle tant qu'il
+n'est pas prouvé. Celui-ci a été repéré parce qu'il contredisait une mesure
+antérieure — pas parce que l'outil s'en est plaint.
+
+### #9 bis — Du japonais bien vivant dans la source, bien mort dans le jeu
+
+**2026-08-24.** Un relevé des caractères non-ASCII du Cristal français a sorti
+**116 caractères à créer**, dont des dizaines de kana. Ils sont réellement dans
+des macros `text`, pas dans des commentaires.
+
+Ils viennent du **Mobile Adapter GB** (`mobile/`, 2 208 caractères) — la
+fonctionnalité japonaise jamais localisée, morte dans les ROM occidentales.
+**Et Polished Crystal a supprimé ce dossier entièrement.**
+
+C'est le piège #9 en grandeur nature : une chaîne présente dans la VF n'est ni
+affichée, ni pertinente. Le décompte réel, corpus vivant, est de **12**
+caractères — dont 9 seulement comptent.
+
+**Contournement :** tout corpus de mesure exclut `mobile/`, `engine/debug/` et
+le mystery gift. → décision P14.
+
+---
+
 ## Hérités du chantier jumeau — tous rencontrés pour de vrai
 
 ### #2 — Le motif d'analyse trop strict, qui annonce sereinement « 0 »

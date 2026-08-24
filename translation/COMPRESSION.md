@@ -167,7 +167,27 @@ occupés. Chaque caractère français ajouté doit en **remplacer** un.
 
 Dans le scénario C, un seul caractère est resté sans code : **`ï`**, le plus
 rare (6 occurrences dans tout le Cristal français). Conclusion pratique :
-**renoncer à `ï`**, ce qui ramène le besoin de 19 à 18 cases.
+**renoncer à `ï`**.
+
+### Les élisions ne valent pas leur case
+
+Mesuré, contre toute attente :
+
+| cases accordées | octets (corpus apparié) | écart |
+|---|---|---|
+| 9 accents + 9 élisions (18) | 222 475 | référence |
+| 9 accents + 4 élisions (13) | 222 646 | +171 o |
+| **9 accents seuls (9)** | **222 539** | **+64 o** |
+
+**Renoncer à TOUTES les élisions coûte 64 octets** sur 222 Ko. Huffman se
+rééquilibre : privé du jeton `l'`, il donne des codes plus courts à `l` et à
+`'`, qui deviennent plus fréquents.
+
+Côté largeur d'affichage, même verdict : sans cases d'élision, **10 lignes de
+plus** dépassent 18 tuiles sur 24 113 (38 contre 28).
+
+**Le besoin réel n'est donc pas de 18 cases, mais de 9** — les seuls accents
+`à ê è ç î ô û â ù`.
 
 ---
 

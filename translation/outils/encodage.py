@@ -202,11 +202,16 @@ def blocs_du_fichier(chemin: Path):
 
     ⚠️ Doit connaître TOUTES les macros de texte, pas seulement `text` et
     `line` : voir COUPURES. Un motif partiel sous-estime silencieusement.
+
+    ⚠️ Le motif de chaîne s'arrête au premier guillemet fermant NON échappé.
+    Un `"(.*)"` glouton avale les commentaires de fin de ligne : dans
+    `data/credits_strings.asm`, il rapatriait le texte japonais d'origine
+    dans la chaîne mesurée.
     """
     label, items = None, []
     rx_lab = re.compile(r"^(\w+)::?\s*$")
-    rx_txt = re.compile(r'\s*(text|line|cont|para|next|next1)\s+"(.*)"\s*$')
-    rx_page = re.compile(r'\s*page\s+"(.*)"\s*$')
+    rx_txt = re.compile(r'\s*(text|line|cont|para|next|next1)\s+"((?:[^"\\\\]|\\\\.)*)"')
+    rx_page = re.compile(r'\s*page\s+"((?:[^"\\\\]|\\\\.)*)"')
     rx_fin = re.compile(r"\s*(done|prompt)\s*$")
     rx_cut = re.compile(r"\s*(" + "|".join(COUPURES) + r")\b")
     for ligne in Path(chemin).read_text(encoding="utf-8", errors="replace").splitlines():
