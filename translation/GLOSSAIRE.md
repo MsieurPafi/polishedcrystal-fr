@@ -133,3 +133,55 @@ Deux garde-fous obligatoires :
 
 Motif : un détecteur d'anglais est aveugle aux panneaux et aux statues d'arène,
 c'est-à-dire au texte le plus lu du jeu ([`PIEGES.md`](PIEGES.md) #3).
+
+---
+
+## 5. Le précédent officiel pour un personnage en langue étrangère
+
+**Question posée le 2026-08-24 :** que faire de `SIGHTSEERF PILAR`
+(`maps/ShamoutiCoast.asm`), touriste qui parle **espagnol correct** dans
+Polished Crystal ?
+
+⚠️ Elle est la **seule** locutrice non anglophone de tout le hack, et la seule
+utilisatrice de `á í ó ¿ ¡`.
+
+### Ce que la VF officielle de Cristal fait dans un cas voisin
+
+Le grouillot de la Team Rocket de la **Route 24** parle un anglais cassé et
+inversé. La VF officielle ne l'a pas laissé en anglais : elle a écrit du
+**français cassé à consonance hispanisante**.
+
+| `pokecrystal` (EN) | `pokecrystal-fr` (VF officielle) |
+|---|---|
+| `Beat you for sure / will TEAM ROCKET.` | `TEAM ROCKET te / battre!` |
+| `You say what? TEAM / ROCKET bye-bye a go-go?` | `Qué dit? TEAM / ROCKET cassé? / Par toi en plous?` |
+| `Oh, no! Should I / do what now on from, me?` | `Oh, non! Qué yé / dois faire moi?` |
+| `But you forget me / not!` | `Ma toi tu oublies / pas moi!` |
+
+**La technique officielle : rendre l'accent EN FRANÇAIS, ne pas conserver la
+langue étrangère.**
+
+### Mais les deux cas ne sont pas identiques
+
+| | Grouillot Route 24 | PILAR |
+|---|---|---|
+| Ce qu'il parle | de l'**anglais** mal parlé | de l'**espagnol** correct |
+| Le joueur anglophone… | comprend, avec un accent | **ne comprend pas** |
+| L'effet voulu | comique, accent | dépaysement, altérité |
+
+Appliquer la recette de la Route 24 à PILAR la rendrait **compréhensible**, ce
+qu'elle n'est pas pour un joueur anglophone. C'est un changement de fond.
+
+### Les trois options, telles qu'elles se présentent
+
+| | Ce que ça donne | Cases de charmap |
+|---|---|---|
+| **1. Garder l'espagnol** | Fidèle à l'intention : une étrangère dont on ne partage pas la langue. | coûte **5 cases** |
+| **2. Français cassé hispanisant** | Suit le précédent officiel de la Route 24. Mais elle devient compréhensible. | libère 5 cases |
+| **3. Lui faire parler anglais** | Conserve l'effet « je ne la comprends pas » pour un joueur francophone, l'anglais étant la langue étrangère de référence. Aucun caractère spécial requis. | libère 5 cases |
+
+⚠️ **Libérer ces 5 cases ne suffit pas** à combler le manque de charmap
+(il en manquerait encore 6 — voir [`DECISIONS.md`](DECISIONS.md) A1).
+**L'arbitrage se joue donc sur le fond, pas sur la place.**
+
+**En attente de décision de l'utilisateur.**

@@ -10,6 +10,7 @@ ici s'écrit ici.** Le reste du dépôt est le hack ; ce dossier est notre mémo
 | comprendre le chantier en 10 minutes | [`ETAT_DES_LIEUX.md`](ETAT_DES_LIEUX.md) |
 | savoir où on en est | [`JOURNAL.md`](JOURNAL.md) |
 | savoir pourquoi c'est comme ça | [`DECISIONS.md`](DECISIONS.md) |
+| comprendre la compression et si le FR tient | [`COMPRESSION.md`](COMPRESSION.md) |
 | écrire du français sans le refaire trois fois | [`CONVENTIONS.md`](CONVENTIONS.md) |
 | trouver un terme officiel | [`GLOSSAIRE.md`](GLOSSAIRE.md) + `donnees/glossaire_officiel.tsv` |
 | éviter une erreur déjà commise | [`PIEGES.md`](PIEGES.md) |
@@ -57,6 +58,8 @@ Tous dans `outils/`, tous importent `chemins.py`, aucun n'écrit de chemin absol
 |---|---|---|
 | `chemins.py` | Résout l'atelier depuis sa propre position. Échoue bruyamment. | ✅ |
 | `extraire_glossaire.py` | Glossaire officiel EN→FR depuis les tables indexées. | ✅ |
+| `encodage.py` | Simule l'encodage réel de PC. **Validé à −0,16 % contre la ROM.** | ✅ |
+| `estimer_cout.py` | Coût en octets du français, quatre scénarios. | ✅ |
 | lecteur `.asm` | `label -> texte`, blocs multi-lignes, terminateur `@`. | à faire |
 | `inventaire` | Décompte au critère exact, périmètre annoncé. | à faire |
 | `triage` | Orphelins / confirmés / hors d'atteinte / travail réel. | à faire |

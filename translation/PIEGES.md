@@ -56,6 +56,26 @@ S'il y en a trop pour ça, c'est que ce ne sont pas des exceptions.
 
 ---
 
+### #1 bis — Une mesure qui se compare à elle-même
+
+**2026-08-24.** Pour estimer le coût du français, j'ai régénéré des tables de
+compression **à partir du corpus français**, puis mesuré ce corpus avec elles.
+Résultat : 0,941 × — le français semblait 6 % moins cher que l'anglais.
+
+Sauf que l'anglais, lui, était mesuré avec les tables **de Rangi**, calibrées
+sur un texte voisin mais pas identique. Je comparais une table sur mesure à une
+table de confection, et j'attribuais l'écart à la langue.
+
+**Contrôle :** régénérer aussi les tables **anglaises** par la même méthode.
+Elles donnent 0,975 × — **2,5 points du « gain du français » venaient de ma
+méthode.** Le gain réel est 0,965 ×.
+
+**La leçon :** quand on compare deux choses, vérifier qu'on ne leur applique
+pas deux traitements différents. Un gain mesuré doit survivre au contrôle où
+l'on donne au témoin le même avantage qu'au sujet.
+
+---
+
 ## Hérités du chantier jumeau — tous rencontrés pour de vrai
 
 ### #2 — Le motif d'analyse trop strict, qui annonce sereinement « 0 »

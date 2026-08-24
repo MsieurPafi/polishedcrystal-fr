@@ -7,6 +7,78 @@ Les décisions vont dans [`DECISIONS.md`](DECISIONS.md), les pièges dans
 
 ---
 
+## 2026-08-24 — Jour 1, seconde séance : le coût du français
+
+**La question tranchée : le texte français tient-il dans la ROM ? → OUI.**
+Rapport complet dans [`COMPRESSION.md`](COMPRESSION.md).
+
+**Fait**
+
+- `outils/encodage.py` : simulateur de la machine à états de
+  `macros/scripts/text.asm`, **validé contre la ROM compilée** — 84,8 % de
+  prédictions exactes, **écart agrégé −0,16 %** sur 10 013 octets, plus trois
+  contrôles positifs sur cas fabriqués.
+- `outils/estimer_cout.py` : quatre scénarios sur un corpus **apparié par
+  label** de 5 524 blocs EN/FR.
+
+**Mesuré**
+
+| | |
+|---|---|
+| Part des octets passant par Huffman | **94 %** (n-grammes : 6 %) |
+| Blocs qui se compriment | 97 % |
+| Texte de PC, tables actuelles | 360 942 o |
+| FR, tout refait (scénario C) | **−21 296 o** ✅ |
+| FR, Huffman refait seul (B) | −20 339 o ✅ |
+| FR, **accents sans code Huffman** (A) | **+58 834 o** ❌ dépasse de 41 Ko |
+| Marge de verbosité avant débordement | **+8,7 % à +11,5 %** |
+| Plafond de jetons compressibles | **125**, tous occupés |
+
+**Trouvé**
+
+1. **Le levier est le Huffman, pas les n-grammes.** Contre-intuitif : les
+   n-grammes occupent 67 cases mais ne servent qu'au début de chaque bloc,
+   avant l'enclenchement de la compression (~1,6 o par bloc).
+2. **n-grammes et Huffman s'excluent** — dès que la compression démarre, le
+   charmap bascule sur `compressing`, qui n'a pas de n-grammes.
+3. **Le piège à 59 Ko** : un accent déclaré en `charmap` au lieu de `ctxtmap`
+   fait échouer la compression de **tout bloc le contenant**. → décision P11.
+4. **Précédent officiel pour PILAR** : la VF de Cristal traite le grouillot
+   hispanisant de la Route 24 en **français cassé**, pas en langue étrangère.
+   → [`GLOSSAIRE.md`](GLOSSAIRE.md) §5, trois options soumises à l'utilisateur.
+
+**Raté, et corrigé**
+
+- **Le simulateur a d'abord annoncé 57,6 % d'exactitude**, avec des écarts
+  systématiquement négatifs de −3 octets. Cause : mon lecteur de blocs ignorait
+  les **huit macros de coupure** (`text_ram`, `text_decimal`, `text_far`…).
+  Piège #2 dans sa forme la plus classique. Corrigé → 84,8 %.
+- **J'ai failli publier un gain surestimé.** Mes tables françaises sont
+  calculées sur le corpus qu'elles encodent, pas celles de PC : biais en faveur
+  du français. Contrôlé en régénérant aussi les tables **anglaises** par la
+  même méthode — **2,5 points du gain venaient de la méthode**, pas de la
+  langue. Le gain propre au français est 0,965 ×, pas 0,941 ×.
+- **Arithmétique du charmap fausse, donnée à l'utilisateur.** J'avais dit que
+  libérer les 5 cases espagnoles comblerait le manque. Faux : il faut 18 cases,
+  on en libère 12 au mieux. **Il en manque 6.** → décision A1 corrigée.
+
+**Sur `polisheddex.app`**
+
+Fan-made (par « Cammy »), explicitement non affilié à Rangi42. Ses données sont
+**dérivées de la source qu'on possède déjà**, donc sans autorité supplémentaire
+pour la traduction. Utilité réelle et non redondante : le **contexte de jeu** —
+quelles cartes le joueur atteint, quel PNJ se trouve où — c'est-à-dire l'outil
+`accessibilité` du cahier, pénible à dériver de la source seule.
+
+**Prochaine séance**
+
+1. Résoudre le déficit de 6 cases de charmap (A1) — piste : déplacer des
+   caractères compressibles rares vers la zone non compressible `$ec-$ff`.
+2. Lecteur `.asm` générique, `inventaire`, `triage`.
+3. **Aucun chiffre de travail annoncé avant le tri.**
+
+---
+
 ## 2026-08-24 — Jour 1 : reconnaissance
 
 **Fait**
