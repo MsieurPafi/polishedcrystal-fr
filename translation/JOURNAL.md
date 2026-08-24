@@ -7,6 +7,41 @@ Les décisions vont dans [`DECISIONS.md`](DECISIONS.md), les pièges dans
 
 ---
 
+## 2026-08-24 — Jour 1, troisième séance : le budget de charmap
+
+**Décision D1 de l'utilisateur : PILAR garde son espagnol**, au prix de `í` et
+`ó`. Explicitement réversible → [`CHARMAP.md`](CHARMAP.md) §4.
+
+**Fait** — [`CHARMAP.md`](CHARMAP.md), registre case par case du budget.
+
+**Le besoin recompté, deux fois**
+
+| | |
+|---|---|
+| annoncé d'abord | 18 cases (9 accents + 9 élisions) |
+| après mesure des élisions (**+64 o**, 10 débordements sur 24 113) | **9 cases** |
+| libérables sans arbitrage | 7 (6 contractions + `É`) |
+| **déficit** | **2** → comblé par D1 |
+| **marge restante** | **zéro** |
+
+**Raté, et rétracté le jour même**
+
+- **J'ai annoncé 2 cases gratuites, il n'y en avait aucune.** J'avais confondu
+  **feuille Huffman** et **tuile de police** : les 4 feuilles libres `$fc`–`$ff`
+  desservent des octets sans glyphe. L'arithmétique était juste, les `assert`
+  passaient, le décodeur est bien paramétré — trois contrôles corrects sur la
+  mauvaise question. → [`PIEGES.md`](PIEGES.md) #1 quater, décision P15 rétractée.
+- **`'s` n'est pas une contraction anglaise résiduelle** : le français l'emploie
+  66 fois, pour « J'suis ». Il ne fallait pas le libérer.
+
+**Prochaine séance**
+
+1. Quelles polices affichent du dialogue (A3), avant de dessiner 9 glyphes ×N.
+2. Appliquer le nouveau charmap, régénérer Huffman, **compiler**.
+3. Lecteur `.asm` générique, `inventaire`, `triage`.
+
+---
+
 ## 2026-08-24 — Jour 1, seconde séance : le coût du français
 
 **La question tranchée : le texte français tient-il dans la ROM ? → OUI.**

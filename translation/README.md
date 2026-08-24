@@ -11,6 +11,7 @@ ici s'écrit ici.** Le reste du dépôt est le hack ; ce dossier est notre mémo
 | savoir où on en est | [`JOURNAL.md`](JOURNAL.md) |
 | savoir pourquoi c'est comme ça | [`DECISIONS.md`](DECISIONS.md) |
 | comprendre la compression et si le FR tient | [`COMPRESSION.md`](COMPRESSION.md) |
+| savoir quelles cases de charmap sont prises | [`CHARMAP.md`](CHARMAP.md) |
 | écrire du français sans le refaire trois fois | [`CONVENTIONS.md`](CONVENTIONS.md) |
 | trouver un terme officiel | [`GLOSSAIRE.md`](GLOSSAIRE.md) + `donnees/glossaire_officiel.tsv` |
 | éviter une erreur déjà commise | [`PIEGES.md`](PIEGES.md) |

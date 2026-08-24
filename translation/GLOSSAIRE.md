@@ -184,4 +184,11 @@ qu'elle n'est pas pour un joueur anglophone. C'est un changement de fond.
 (il en manquerait encore 6 — voir [`DECISIONS.md`](DECISIONS.md) A1).
 **L'arbitrage se joue donc sur le fond, pas sur la place.**
 
-**En attente de décision de l'utilisateur.**
+### ✅ Décidé le 2026-08-24 — option 1, avec une nuance
+
+**PILAR garde son espagnol.** Les cases manquantes viennent de `í` et `ó`,
+retirés : deux mots perdent leur accent (`montón` → `monton`, `duraría` →
+`duraria`). `¡` `¿` `á` `é` sont préservés.
+
+**Décision explicitement réversible.** Registre complet, options écartées et
+chemins de retour dans [`CHARMAP.md`](CHARMAP.md) §4.
