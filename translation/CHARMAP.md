@@ -143,13 +143,115 @@ Tout est réversible tant que la police n'est pas redessinée. Dans l'ordre :
 
 ---
 
-## 5. Ce qui reste à faire
+## 5. Application — faite le 2026-08-24
 
-- [ ] Redessiner `à ê è ç î ô û â ù` dans **chaque police servant au dialogue**
-      — PC en a 8 de 114 tuiles. Lesquelles affichent du dialogue : **non
-      mesuré** ([`DECISIONS.md`](DECISIONS.md) A3).
-- [ ] Régénérer l'arbre Huffman (`utils/huffman.py`) après réaffectation.
-- [ ] Répercuter le charmap dans `utils/ngram.py`, qui embarque **sa propre
-      copie** de la liste des jetons.
-- [ ] **Vérifier les pixels**, pas seulement la déclaration
-      ([`PIEGES.md`](PIEGES.md) #11).
+### Le charmap
+
+Les 9 caractères ont pris les cases libérées, **en conservant les codes
+Huffman de leurs prédécesseurs** : seul le libellé des feuilles change,
+l'arbre garde exactement sa forme.
+
+| Octet | Était | Devient |
+|---|---|---|
+| `$c1` | `'d` | **`à`** |
+| `$c2` | `'l` | **`â`** |
+| `$c3` | `'m` | **`ç`** |
+| `$c4` | `'r` | **`è`** |
+| `$c6` | `'t` | **`ê`** |
+| `$c7` | `'v` | **`î`** |
+| `$c9` | `É` | **`ô`** |
+| `$cc` | `í` | **`ù`** |
+| `$cd` | `ó` | **`û`** |
+
+⚠️ Les codes sont donc **provisoirement mal calibrés** — `à` porte l'ancien
+code de `'d`, long de 12 bits. Ils seront réoptimisés par `make huffman` une
+fois le texte traduit, pas avant : le regénérer maintenant l'accorderait à un
+texte encore anglais.
+
+### Les polices — les 8, pas une
+
+⚠️ `Options_Typeface` (`engine/menus/options_menu.asm`) laisse le joueur
+cycler de `NORMAL_FONT` à `UNOWN_FONT`. **Chaque police affiche du dialogue**,
+donc chacune a reçu les 9 glyphes : 72 tuiles.
+
+`outils/glyphes_fr.py` les **compose** au lieu de les recopier depuis le
+Cristal français, pour que chaque glyphe reste dans le style de sa police :
+le corps vient de la lettre de base, l'accent est dérivé de l'aigu que cette
+police possède déjà (`á é í ó`). `unown`, dont les runes ignorent les
+diacritiques, rend la lettre telle quelle — exactement comme PC le fait pour
+son propre `á`.
+
+⚠️ Dans `normal`, `bold` et `serif`, l'accent de `é` est décalé à gauche et
+plus épais que celui de `á` — une bizarrerie de PC, pas de nous. `è` et `ê`
+en héritent, pour rester cohérents avec `é` dans un mot comme « élève ».
+**Question cosmétique en suspens** : faut-il normaliser `é` sur le style de
+`á` ? Cela modifierait un glyphe existant du hack.
+
+### Le clavier de saisie
+
+⚠️ `data/text/input_chars.asm` **employait les contractions supprimées** —
+`rawchar "é'd'l'm'r's't'v0"`. C'est le piège #7 du cahier, celui qui avait
+coûté le plus cher sur le chantier jumeau. Les quatre rangées concernées sont
+devenues `"éàêèçîôû0"` / `"éàêèçîôû()"`, à nombre de touches constant.
+
+**Limite connue :** `â` et `ù` ne sont pas saisissables dans un surnom — il
+n'y avait que 7 cases pour 9 accents, et ce sont les deux moins fréquents
+(88 et 73 occurrences).
+
+### Les tables à largeur fixe
+
+⚠️ Deux `assert` ont sauté à la compilation, et c'est ce qu'on leur demande :
+
+```
+PokemonNames: expected 2920 total; but got 2922
+WonderTradeOTNames2: expected 1792 total; but got 1793
+```
+
+`Farfetch'd`, `Sirfetch'd` et `Li'l D` payaient 1 octet pour `'d` / `'l` et en
+paient 2. Ils remplissent désormais leur champ en entier, donc le terminateur
+`@` devient superflu — 22 noms de Pokémon et 103 noms de DO sont **déjà**
+écrits ainsi dans PC.
+
+### Vérifié dans la ROM, pas seulement dans la source
+
+| Contrôle | Résultat |
+|---|---|
+| glyphes `à` `ç` `û` présents dans le binaire | ✓ |
+| nouvelle rangée de clavier `c8 c1 c6 c4 c3 c7 c9 cd e0` | ✓ 2 occurrences |
+| ancienne rangée anglaise | ✓ disparue |
+| contrôle positif (glyphe `a` inchangé) | ✓ |
+
+Puis une chaîne réelle traduite au critère exact — `_FruitBearingTreeText` —
+et **redécodée depuis le binaire** :
+
+```
+en clair : "C'est "        ← C, ', n-gramme « es », n-gramme « t »
+<CTXT>                     ← la compression s'enclenche
+comprimé : "un arbre à<LINE>fruits.<DONE>"
+```
+
+Reconstruit : `"C'est un arbre à<LINE>fruits.<DONE>"` — **identique à la
+source.** L'accent traverse le charmap, l'arbre de Huffman et le build.
+
+### Coût actuel en espace
+
+| | octets libres |
+|---|---|
+| avant | 17 794 (0,85 %) |
+| après | **14 782 (0,70 %)** |
+
+Les **3 012 octets** consommés sont le prix payé par le texte **encore
+anglais** : `'d 'l 'm 'r 't 'v` coûtent maintenant 2 octets au lieu d'un, sur
+3 251 occurrences. Ce coût **disparaîtra** à mesure que le texte devient
+français — et la mesure de [`COMPRESSION.md`](COMPRESSION.md) prévoit un solde
+final de −12 à −21 Ko.
+
+---
+
+## 6. Ce qui reste à faire
+
+- [ ] Réoptimiser l'arbre Huffman (`make huffman` puis `utils/huffman.py`)
+      **après** la traduction du texte, pas avant.
+- [ ] Trancher la question cosmétique de l'accent de `é` (§5).
+- [ ] Traduire `Farfetch'd` / `Sirfetch'd` (→ `Canarticho` / `Palarticho`,
+      **à vérifier**, jamais de mémoire — [`PIEGES.md`](PIEGES.md) #12).

@@ -1,7 +1,7 @@
 SECTION "_FruitBearingTreeText", ROMX
 _FruitBearingTreeText::
-	text "It's a fruit-"
-	line "bearing tree."
+	text "C'est un arbre à"
+	line "fruits."
 	done
 
 SECTION "_HeyItsFruitText", ROMX

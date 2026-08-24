@@ -5,7 +5,7 @@ NameInputLower:
 	rawchar "abcdefghi"
 	rawchar "jklmnopqr"
 	rawchar "stuvwxyz-"
-	rawchar "é'd'l'm'r's't'v0"
+	rawchar "éàêèçîôû0"
 	rawchar "123456789"
 	assert_table_length 9 * 5
 
@@ -32,7 +32,7 @@ MailEntry_Lowercase:
 	rawchar "abcdefghij"
 	rawchar "klmnopqrst"
 	rawchar "uvwxyz -.,"
-	rawchar "é'd'l'm'r's't'v()"
+	rawchar "éàêèçîôû()"
 	rawchar "“”'%↑↓№★♥♪"
 	assert_table_length 10 * 5
 
@@ -41,7 +41,7 @@ NameInputLowerQwerty:
 	rawchar "qwertyuio"
 	rawchar "asdfghjkl"
 	rawchar "zxcvbnmp-"
-	rawchar "é'r't's'd'l'v'm0"
+	rawchar "éàêèçîôû0"
 	rawchar "123456789"
 	assert_table_length 9 * 5
 
@@ -68,6 +68,6 @@ MailEntryQwerty_Lowercase:
 	rawchar "qwertyuiop"
 	rawchar "asdfghjkl-"
 	rawchar "zxcvbnm,. "
-	rawchar "é'r't's'd'l'v'm()"
+	rawchar "éàêèçîôû()"
 	rawchar "“”'%↑↓№★♥♪"
 	assert_table_length 10 * 5

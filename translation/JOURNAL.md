@@ -7,6 +7,72 @@ Les décisions vont dans [`DECISIONS.md`](DECISIONS.md), les pièges dans
 
 ---
 
+## 2026-08-24 — Jour 1, quatrième séance : le français EXISTE dans la ROM
+
+**La ROM se construit avec les 9 accents français, et une première chaîne
+traduite en ressort à l'identique.** Détail dans [`CHARMAP.md`](CHARMAP.md) §5.
+
+**Fait**
+
+- 9 caractères installés dans les cases libérées, **codes Huffman conservés** :
+  seul le libellé des feuilles change, l'arbre garde sa forme.
+- `outils/glyphes_fr.py` : **72 glyphes** dessinés — 9 accents × **8 polices**,
+  composés depuis les lettres de chaque police pour rester dans son style.
+- Clavier de saisie, `utils/ngram.py`, tables à largeur fixe : mis à jour.
+- Décision D1 appliquée au texte de PILAR.
+- **Première chaîne traduite** au critère exact : `_FruitBearingTreeText`.
+
+**Trouvé**
+
+- ⚠️ **Les 8 polices affichent toutes du dialogue** : `Options_Typeface` laisse
+  le joueur en choisir une. Ce n'était pas une police à alimenter, mais huit.
+  → question A3 tranchée.
+- ⚠️ **Le clavier de saisie employait les contractions supprimées**
+  (`rawchar "é'd'l'm'r's't'v0"`). C'est le piège #7 du cahier — celui qui avait
+  le plus coûté sur le chantier jumeau. Attrapé avant la compilation, en
+  cherchant systématiquement toutes les références aux jetons retirés.
+- ⚠️ **Zéro majuscule accentuée ET zéro ligature** dans le corpus français
+  (`À Â Ç È Ê Ë Î Ï Ô Ù Û É Œ Æ` = 0 chacune). Le cahier prévoyait de garder
+  `Ç`, `Œ`, `À` et `Ù` ; la Gen 2 n'en fait rien et écrit ` A `, ` LA `,
+  `CA `, `OU?`. → [`CONVENTIONS.md`](CONVENTIONS.md) §2 corrigée.
+
+**Raté, et corrigé**
+
+- **PIL réécrivait les polices en 8 bits** là où les originaux sont en 2 bits :
+  +50 % de taille et un en-tête PNG différent. J'ai écrit l'encodeur à la main,
+  **validé en réécrivant un fichier inchangé** — il doit ressortir identique
+  octet pour octet. Quatre témoins passent.
+- **Le circonflexe de `î` sortait décalé.** J'isolais l'accent en soustrayant la
+  lettre de base ; pour `i`, le point se soustrayait de l'accent et faussait
+  l'emprise. L'accent se lit simplement aux lignes 0-1.
+- **Deux `assert` ont sauté à la compilation** — `PokemonNames` et
+  `WonderTradeOTNames2`. `Farfetch'd`, `Sirfetch'd` et `Li'l D` débordaient
+  leur champ à largeur fixe. C'est le contrôle qui a fait son travail.
+
+**Vérifié dans la ROM, pas dans la source**
+
+Glyphes présents, nouvelle rangée de clavier présente, ancienne disparue,
+contrôle positif OK. Puis `_FruitBearingTreeText` **redécodé depuis le
+binaire** :
+
+```
+"C'est " en clair → <CTXT> → "un arbre à<LINE>fruits.<DONE>" comprimé
+```
+
+Reconstruit identique à la source. L'accent traverse tout.
+
+**Espace libre** : 17 794 → **14 782** (−3 012). C'est le texte **encore
+anglais** qui paie : `'d 'l 'm 'r 't 'v` coûtent 2 octets au lieu d'un, sur
+3 251 occurrences. Ce coût s'efface à mesure que le texte devient français.
+
+**Prochaine séance**
+
+1. Lecteur `.asm` générique, `inventaire`, `triage` — le vrai décompte.
+2. Phase 2 : appliquer le critère exact en masse.
+3. `make huffman` **après** la traduction, pas avant.
+
+---
+
 ## 2026-08-24 — Jour 1, troisième séance : le budget de charmap
 
 **Décision D1 de l'utilisateur : PILAR garde son espagnol**, au prix de `í` et

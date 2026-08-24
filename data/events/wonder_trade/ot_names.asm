@@ -401,7 +401,7 @@ WonderTradeOTNames2:
 	rawchar "Aoooo@@" ; $8a
 	rawchar "Jimmy@@" ; $8b
 	rawchar "Cly@@@@" ; $8c
-	rawchar "Li'l D@@" ; $8d
+	rawchar "Li'l D@" ; $8d
 	rawchar "Arty@@@" ; $8e
 	rawchar "Abe@@@@" ; $8f
 	rawchar "Baba@@@" ; $90

@@ -108,7 +108,7 @@ GenericTrainerSightseerfPilar:
 	line "tus #mon!"
 
 	para "Debes de haber"
-	line "viajado un montón"
+	line "viajado un monton"
 
 	para "para tener tanta"
 	line "experiencia."
@@ -124,7 +124,7 @@ GenericTrainerSightseerfPilar:
 	done
 
 .BeatenText:
-	text "Pensé que duraría"
+	text "Pensé que duraria"
 	line "más…"
 	done
 

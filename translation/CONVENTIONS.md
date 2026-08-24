@@ -61,25 +61,27 @@ découvrir un dépassement oblige à tout reformuler.
 ⚠️ **Cette section a d'abord été écrite fausse** (« 0 ligne > 18 dans PC »),
 faute d'avoir dépouillé `@` et `{d:}`. Voir [`PIEGES.md`](PIEGES.md) #2 bis.
 
-## 2. Aucune capitale accentuée
+## 2. Aucune capitale accentuée — et aucune exception
 
 **Mesuré : 0 capitale accentuée sur 44 945** dans le Cristal français. Zéro.
-La règle est constante d'une génération à l'autre.
 
-Écrire donc **`ARENE`**, **`ECORCIA`**, **`MAITRE`**, **`EBENELLE`**.
+⚠️ **Le cahier de mission prévoit des exceptions ; la Gen 2 n'en fait aucune.**
+Il annonce que gardent leur signe la cédille `Ç`, la ligature `Œ`, et `À`/`Ù`
+là où l'accent est le seul écart avec un autre mot. Décompte exhaustif sur le
+corpus vivant :
 
-**Gardent leur signe :**
-
-| Signe | Pourquoi |
+| | occurrences |
 |---|---|
-| la cédille `Ç` | ce n'est pas un accent |
-| la ligature `Œ` | ce n'est pas un accent |
-| `À` et `Ù` | là où l'accent est le seul écart avec un autre mot : `À`/`A`, `LÀ`/`LA`, `OÙ`/`OU` |
+| `À` `Â` `Ç` `È` `Ê` `Ë` `Î` `Ï` `Ô` `Ù` `Û` `É` | **0 chacune** |
+| `Œ` `Æ` | **0** |
 
-Confirmation croisée : `É` est **déclaré au charmap français et employé zéro
-fois**. Ne pas lui réserver de case (`DECISIONS.md` A1).
+L'officiel écrit ` A `, ` LA `, `CA `, `OU?` — sans accent, sans cédille.
 
----
+Écrire donc **`ARENE`**, **`ECORCIA`**, **`MAITRE`**, **`EBENELLE`**, **`CA`**,
+**`OU`**, **`LA`**.
+
+**Conséquence technique :** aucun glyphe de capitale accentuée n'a été dessiné,
+et le budget de charmap n'en réserve aucun ([`CHARMAP.md`](CHARMAP.md)).
 
 ## 3. Ponctuation : pas d'espace avant les signes doubles
 

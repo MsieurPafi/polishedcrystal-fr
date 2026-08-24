@@ -162,21 +162,26 @@ DEF FIRST_REGULAR_TEXT_CHAR EQU $7f
 	ctxtmap "♂",        $be, 001101000011011000
 	ctxtmap "♀",        $bf, 1000011101101000001
 
+; Français : les contractions anglaises 'd 'l 'm 'r 't 'v, la capitale É et
+; les accentuées espagnoles í ó ont cédé leur case aux accents français.
+; Les codes Huffman sont CONSERVÉS tels quels : seul le libellé des feuilles
+; change, l'arbre garde sa forme. Ils seront réoptimisés par `make huffman`
+; une fois le texte traduit. Registre : translation/CHARMAP.md
 	ctxtmap "'",        $c0, 0011010000111
-	ctxtmap "'d",       $c1, 100001100110
-	ctxtmap "'l",       $c2, 1000011010
-	ctxtmap "'m",       $c3, 1000011100
-	ctxtmap "'r",       $c4, 0011011111
+	ctxtmap "à",        $c1, 100001100110
+	ctxtmap "â",        $c2, 1000011010
+	ctxtmap "ç",        $c3, 1000011100
+	ctxtmap "è",        $c4, 0011011111
 	ctxtmap "'s",       $c5, 00101111
-	ctxtmap "'t",       $c6, 110101000
-	ctxtmap "'v",       $c7, 10111011010
+	ctxtmap "ê",        $c6, 110101000
+	ctxtmap "î",        $c7, 10111011010
 
 	ctxtmap "é",        $c8, 001101000110110
-	ctxtmap "É",        $c9, 1000011101101000000
+	ctxtmap "ô",        $c9, 1000011101101000000
 	ctxtmap "á",        $ca, 00110100001101101
 	ctxtmap "<BOLDH>",  $cb, 0011010001101010111
-	ctxtmap "í",        $cc, 100001110110100010
-	ctxtmap "ó",        $cd, 110101111100111000
+	ctxtmap "ù",        $cc, 100001110110100010
+	ctxtmap "û",        $cd, 110101111100111000
 
 	ctxtmap "¿",        $ce, 100001110110100011
 	ctxtmap "¡",        $cf, 0011010001101010110
