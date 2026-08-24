@@ -65,6 +65,21 @@ Reconstruit identique à la source. L'accent traverse tout.
 anglais** qui paie : `'d 'l 'm 'r 't 'v` coûtent 2 octets au lieu d'un, sur
 3 251 occurrences. Ce coût s'efface à mesure que le texte devient français.
 
+**Décision D2, en fin de séance**
+
+L'utilisateur a demandé pourquoi composer plutôt que recopier les glyphes du
+Cristal français. La vérification a montré que **7 polices sur 8 sont
+incompatibles** avec le style vanilla (0 des 9 glyphes utilisables dans `bold`
+ou `italic`) — mais aussi que dans `normal`, **4 des 9 glyphes composés
+étaient déjà identiques** à l'officiel, ce qui valide la méthode.
+
+Et surtout : `è` et `ê` héritaient d'une bizarrerie de PC. Une fois `é`
+normalisé, ils deviennent **identiques au pixel près** au Cristal français.
+`normal` passe à **6 glyphes sur 9** conformes à l'officiel. → décision D2.
+
+⚠️ Piège évité : le test de normalisation écrasait le `é` d'`unown`, dont les
+runes n'ont pas de diacritiques. Corrigé en testant d'abord `á == a`.
+
 **Prochaine séance**
 
 1. Lecteur `.asm` générique, `inventaire`, `triage` — le vrai décompte.

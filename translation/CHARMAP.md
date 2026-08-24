@@ -181,11 +181,34 @@ police possède déjà (`á é í ó`). `unown`, dont les runes ignorent les
 diacritiques, rend la lettre telle quelle — exactement comme PC le fait pour
 son propre `á`.
 
-⚠️ Dans `normal`, `bold` et `serif`, l'accent de `é` est décalé à gauche et
-plus épais que celui de `á` — une bizarrerie de PC, pas de nous. `è` et `ê`
-en héritent, pour rester cohérents avec `é` dans un mot comme « élève ».
-**Question cosmétique en suspens** : faut-il normaliser `é` sur le style de
-`á` ? Cela modifierait un glyphe existant du hack.
+### Décision D2 — normaliser l'accent de `é`
+
+Dans `normal`, `bold`, `serif` et `chicago`, PC dessinait l'accent de `é`
+décalé à gauche et plus épais que celui de `á` — une incohérence **interne au
+hack**. Comme `è` et `ê` héritent de l'accent de `é`, elle se serait propagée
+à toute la famille `e`, soit 4 187 occurrences prévues.
+
+⚠️ **Ce n'était pas qu'une question de goût.** Mesuré : une fois `é` aligné sur
+`á`, les `è` et `ê` composés deviennent **identiques au pixel près** à ceux du
+Cristal français officiel. La normalisation ramène donc la famille entière sur
+la typographie que les joueurs francophones connaissent.
+
+**Décidée par l'utilisateur le 2026-08-24.** C'est le seul endroit où l'on
+modifie un glyphe **préexistant** de Polished Crystal.
+
+Résultat : **6 des 9 glyphes de `normal` sont identiques au Cristal français**
+(contre 4 avant) — `è â ô û ê î`. Les 3 restants diffèrent à raison :
+
+| | pourquoi |
+|---|---|
+| `à` `ù` | accent un pixel à droite, aligné sur le `á` de PC. L'officiel n'est pas cohérent avec lui-même là-dessus (son `à` et son `è` ne s'alignent pas pareil). |
+| `ç` | le `c` de PC est **carré**, celui du Cristal VF est **rond**. Recopier aurait mis un `c` rond au milieu des `c` carrés. |
+
+⚠️ **Piège évité de justesse** : la première version du test de normalisation
+comparait les lignes 0-1 de `á` et `é`. Dans `unown`, dont les runes n'ont
+aucun diacritique, ce sont deux runes **différentes** — le test les jugeait
+incohérentes et écrasait le `é` d'unown par un mélange des deux. Corrigé en
+testant d'abord si la police a des accents du tout (`á == a`).
 
 ### Le clavier de saisie
 

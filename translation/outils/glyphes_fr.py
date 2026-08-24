@@ -229,6 +229,43 @@ def cedille_sous(base):
     return out
 
 
+def normaliser_e_aigu(im):
+    """Aligne l'accent de `é` sur celui de `á`, quand ils diffèrent.
+
+    Dans `normal`, `bold` et `serif`, PC dessine l'accent de `é` décalé à
+    gauche et deux fois plus épais que celui de `á` — une incohérence interne
+    du hack. Comme `è` et `ê` héritent de l'accent de `é`, cette bizarrerie se
+    propagerait à toute la famille `e`, soit 4 187 occurrences.
+
+    Vérifié : une fois `é` aligné sur `á`, les `è` et `ê` composés sont
+    **identiques au pixel près** à ceux du Cristal français officiel. Cette
+    normalisation ne fait donc pas qu'harmoniser — elle ramène la famille
+    entière sur la typographie officielle française.
+
+    ⚠️ C'est le seul endroit où l'on modifie un glyphe **préexistant** de
+    Polished Crystal. Décidé avec l'utilisateur (décision D2).
+    """
+    a, e = lire(im, 0xA0), lire(im, 0xA4)
+    a_aigu, e_aigu = lire(im, 0xCA), lire(im, 0xC8)
+    if a_aigu == a:
+        # Police sans diacritiques (unown) : `á` y est identique à `a`, donc
+        # il n'y a aucun accent à propager. Première version sans ce test :
+        # elle comparait les lignes 0-1 de deux runes DIFFÉRENTES, les jugeait
+        # incohérentes, et écrasait le `é` d'unown par un mélange des deux.
+        return False
+    if [a_aigu[0], a_aigu[1]] == [e_aigu[0], e_aigu[1]]:
+        return False                       # déjà cohérente
+    accent = decale([a_aigu[0], a_aigu[1]], centre(e) - centre(a))
+    neuf = vide()
+    for y in range(2, 8):
+        neuf[y] = list(e[y])
+    for y in (0, 1):
+        for x in colonnes(accent[y]):
+            neuf[y][x] = True
+    ecrire(im, 0xC8, neuf)
+    return True
+
+
 def composer(im, caractere):
     octet_base, octet_soeur = RECETTE[caractere]
     base = lire(im, octet_base)
@@ -267,6 +304,7 @@ def main():
     for nom in POLICES:
         chemin = HACK / "gfx/font" / f"{nom}.png"
         im = Image.open(chemin).convert("L")
+        normalise = normaliser_e_aigu(im)   # AVANT de composer è et ê
         # Tout lire AVANT d'écrire : í et ó sont des sources ET des cibles.
         composes = {}
         for octet, car in CIBLES.items():
@@ -285,7 +323,8 @@ def main():
                 print()
         else:
             ecrire_png_2bits(chemin, im)
-            print(f"  {nom}.png : 9 glyphes écrits")
+            print(f"  {nom}.png : 9 glyphes écrits"
+                  + ("  + é normalisé" if normalise else ""))
     return 0
 
 
