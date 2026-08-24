@@ -7,6 +7,64 @@ Les décisions vont dans [`DECISIONS.md`](DECISIONS.md), les pièges dans
 
 ---
 
+## 2026-08-24 — Jour 1, cinquième séance : le décompte
+
+**Le chiffre existe enfin.** Rapport complet : [`INVENTAIRE.md`](INVENTAIRE.md).
+
+| | blocs |
+|---|---|
+| **travail mécanique** (reprise de l'officiel) | **7 765** |
+| **travail de rédaction** (propre au hack) | **6 723** |
+| orphelins écartés | 612 |
+| confirmés (`FR == EN`, ne se traduit pas) | 158 |
+
+⚠️ **Majorant**, pas liste de tâches : l'accessibilité en jeu n'est pas mesurée.
+
+**Fait**
+
+- `outils/lecteur.py` — `label -> texte` pour les trois dépôts, échec bruyant
+  sur macro inconnue, **contrôle de couverture** intégré.
+- `outils/inventaire.py` — critère exact, avec normalisation de notation.
+- `outils/triage.py` — orphelins et ventilation par domaine.
+
+**Raté huit fois, et c'est le contrôle de couverture qui l'a dit**
+
+Le premier lecteur tournait, sortait des milliers de blocs, ne protestait
+jamais — et **perdait 10 918 lignes sur 39 166**, soit 28 % du texte du hack.
+
+| Ce qui échappait | Ampleur |
+|---|---|
+| labels **locaux** `.Foo:` (motif exigeant une lettre en tête) | 10 918 lignes |
+| texte **en ligne** après `writethistext`, sans label | (inclus) |
+| **Pokédex** — chaque entrée commence par `db "Seed@"` | 1 667 |
+| fichiers **sans label** (entrées du dex vanilla) | 1 263 |
+| `if DEF(FAITHFUL)` en **colonne 0** | 22 blocs |
+| labels **alias** partageant un texte | 2 |
+
+Le dernier est **littéralement** l'exemple du cahier (« un motif exigeant
+exactement un espace avant `=` »). Final : **39 168 vues / 39 166 attendues**.
+
+⚠️ **Et le contrôle lui-même était faux au premier essai**, inventant 2 001
+lignes manquantes. Un contrôle se contrôle aussi. → [`PIEGES.md`](PIEGES.md)
+#2 quater.
+
+**Deux autres pièges du cahier, rencontrés en vrai**
+
+- **#10, la notation** : 1 311 blocs classés « retouchés » ne différaient que
+  par la **casse** — PC a converti l'ALL-CAPS vanilla en casse mixte.
+  Normaliser avant de comparer a **doublé** le décompte des applicables.
+- **#9, les orphelins** : 4 220 annoncés, **612 réels**. Les blocs implicites
+  n'ont pas de nom, et les labels locaux sont cités par leur forme courte.
+
+**Prochaine séance**
+
+1. **Phase 2** : appliquer le critère exact en masse sur les 3 772
+   « applicables », avec conversion de casse vers la convention de PC.
+2. Outil d'**accessibilité** — pour que le majorant devienne un chiffre.
+3. Compiler après chaque lot.
+
+---
+
 ## 2026-08-24 — Jour 1, quatrième séance : le français EXISTE dans la ROM
 
 **La ROM se construit avec les 9 accents français, et une première chaîne

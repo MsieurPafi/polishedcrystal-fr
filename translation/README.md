@@ -12,6 +12,7 @@ ici s'écrit ici.** Le reste du dépôt est le hack ; ce dossier est notre mémo
 | savoir pourquoi c'est comme ça | [`DECISIONS.md`](DECISIONS.md) |
 | comprendre la compression et si le FR tient | [`COMPRESSION.md`](COMPRESSION.md) |
 | savoir quelles cases de charmap sont prises | [`CHARMAP.md`](CHARMAP.md) |
+| savoir combien de travail il reste | [`INVENTAIRE.md`](INVENTAIRE.md) |
 | écrire du français sans le refaire trois fois | [`CONVENTIONS.md`](CONVENTIONS.md) |
 | trouver un terme officiel | [`GLOSSAIRE.md`](GLOSSAIRE.md) + `donnees/glossaire_officiel.tsv` |
 | éviter une erreur déjà commise | [`PIEGES.md`](PIEGES.md) |
@@ -61,9 +62,11 @@ Tous dans `outils/`, tous importent `chemins.py`, aucun n'écrit de chemin absol
 | `extraire_glossaire.py` | Glossaire officiel EN→FR depuis les tables indexées. | ✅ |
 | `encodage.py` | Simule l'encodage réel de PC. **Validé à −0,16 % contre la ROM.** | ✅ |
 | `estimer_cout.py` | Coût en octets du français, quatre scénarios. | ✅ |
-| lecteur `.asm` | `label -> texte`, blocs multi-lignes, terminateur `@`. | à faire |
-| `inventaire` | Décompte au critère exact, périmètre annoncé. | à faire |
-| `triage` | Orphelins / confirmés / hors d'atteinte / travail réel. | à faire |
+| `glyphes_fr.py` | Compose les 9 accents dans les 8 polices. | ✅ |
+| `lecteur.py` | `label -> texte`. Échec bruyant sur macro inconnue, **contrôle de couverture**. | ✅ |
+| `inventaire.py` | Décompte au critère exact, périmètre annoncé. | ✅ |
+| `triage.py` | Orphelins / travail réel, ventilé par domaine. | ✅ |
+| `accessibilité` | Quelles cartes le joueur atteint réellement. | à faire |
 | `verif_longueurs` | Aucune ligne > 18 tuiles, macros développées. | à faire |
 | `verif_glossaire` | Balaie par valeurs anglaises connues, pas par détection. | à faire |
 | `capitales` | Retire les accents des capitales, liste de gardés. | à faire |

@@ -138,6 +138,75 @@ question.
 
 ---
 
+### #2 quater — Le lecteur perdait 28 % du texte, sans rien dire
+
+**2026-08-24.** Le premier lecteur `.asm` semblait fonctionner : il tournait,
+sortait des milliers de blocs, et le mode strict ne protestait pas. Il perdait
+**10 918 lignes sur 39 166**.
+
+Quatre causes, toutes de la même famille — un motif d'analyse trop étroit :
+
+| Ce qui échappait | Pourquoi | Ampleur |
+|---|---|---|
+| labels **locaux** `.BlancheIntro2Text:` | le motif exigeait une lettre en tête | 10 918 lignes |
+| texte **en ligne** après `writethistext` | aucun label pour le porter | (inclus) |
+| entrées du **Pokédex** | commencent par `db "Seed@"`, pris pour une macro inconnue qui fermait le bloc | 1 667 |
+| `if DEF(FAITHFUL)` en **colonne 0** | le motif exigeait une indentation | 22 blocs |
+
+Ce dernier est **littéralement** l'exemple du cahier : « un motif exigeant
+exactement un espace avant `=` → 285 chaînes invisibles ».
+
+**Le contournement, et il est structurel :** un **contrôle de couverture**.
+`lecteur.controle_couverture()` compte d'un côté les lignes brutes portant une
+macro de texte, de l'autre ce que le lecteur a retenu, et signale l'écart
+fichier par fichier. C'est lui qui a trouvé les quatre causes, l'une après
+l'autre. Sans lui, l'inventaire aurait annoncé un chiffre faux d'un tiers avec
+le même aplomb.
+
+⚠️ **Et le contrôle lui-même était faux au premier essai** : il marquait le
+bloc entier « venu d'un `db` » au lieu de l'élément, et inventait 2 001 lignes
+manquantes qui n'existaient pas. Un contrôle se contrôle aussi.
+
+### #10 bis — La casse : 1 311 chaînes cachées par une notation
+
+**2026-08-24.** Le critère exact appliqué brut classait **1 849 blocs**
+« retouchés par le hack ». Or **1 311 d'entre eux ne différaient que par la
+casse** : Polished Crystal a converti systématiquement l'ALL-CAPS du vanilla
+en casse mixte.
+
+```
+LUCKY NUMBER SHOW!  ->  Lucky Number Show!
+PROF.ELM            ->  Prof.Elm
+#MON                ->  #mon
+FARFETCH'D          ->  Farfetch'd
+```
+
+Ce n'est pas une retouche de contenu. Deux autres notations relevées :
+`<PLAY_G>` ↔ `<PLAYER>` (205 occurrences) et `<……>`, une tuile vanilla valant
+« …… », écrite `……` par PC.
+
+**Normaliser avant de comparer a doublé le décompte des applicables.**
+
+⚠️ **Mais la casse n'est ignorée que pour COMPARER.** Pour écrire, le français
+devra suivre la convention de PC — c'est une transformation à construire, pas
+un détail.
+
+### #9 ter — 86 % des « orphelins » n'en étaient pas
+
+**2026-08-24.** Le triage annonçait **4 220 symboles orphelins**. Deux erreurs
+de détection :
+
+- les **blocs implicites** — du texte en ligne, sans nom : rien ne peut les
+  citer, donc tous « orphelins » ;
+- les **labels locaux**, cités dans la source par leur forme courte `.Enfant`
+  et non par leur nom qualifié `Parent.Enfant` : **3 622 labels parfaitement
+  référencés** comptés comme morts.
+
+Total réel : **612**. Le détecteur porte désormais un contrôle sur cas
+fabriqué — un label inventé doit compter 0, un témoin plus de 1.
+
+---
+
 ## Hérités du chantier jumeau — tous rencontrés pour de vrai
 
 ### #2 — Le motif d'analyse trop strict, qui annonce sereinement « 0 »
