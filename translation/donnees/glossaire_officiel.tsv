@@ -1,0 +1,935 @@
+categorie	anglais	francais	note	source
+Capacité	ABSORB	VOL-VIE		data/moves/names.asm
+Capacité	ACID	ACIDE		data/moves/names.asm
+Capacité	ACID ARMOR	ACIDARMURE		data/moves/names.asm
+Capacité	AEROBLAST	AEROBLAST	identique	data/moves/names.asm
+Capacité	AGILITY	HATE		data/moves/names.asm
+Capacité	AMNESIA	AMNESIE		data/moves/names.asm
+Capacité	ANCIENTPOWER	POUV.ANTIQUE		data/moves/names.asm
+Capacité	ATTRACT	ATTRACTION		data/moves/names.asm
+Capacité	AURORA BEAM	ONDE BOREALE		data/moves/names.asm
+Capacité	BARRAGE	PILONNAGE		data/moves/names.asm
+Capacité	BARRIER	BOUCLIER		data/moves/names.asm
+Capacité	BATON PASS	RELAIS		data/moves/names.asm
+Capacité	BEAT UP	BASTON		data/moves/names.asm
+Capacité	BELLY DRUM	COGNOBIDON		data/moves/names.asm
+Capacité	BIDE	PATIENCE		data/moves/names.asm
+Capacité	BIND	ETREINTE		data/moves/names.asm
+Capacité	BITE	MORSURE		data/moves/names.asm
+Capacité	BLIZZARD	BLIZZARD	identique	data/moves/names.asm
+Capacité	BODY SLAM	PLAQUAGE		data/moves/names.asm
+Capacité	BONE CLUB	MASSD'OS		data/moves/names.asm
+Capacité	BONE RUSH	CHARGE-OS		data/moves/names.asm
+Capacité	BONEMERANG	OSMERANG		data/moves/names.asm
+Capacité	BUBBLE	ECUME		data/moves/names.asm
+Capacité	BUBBLEBEAM	BULLES D'O		data/moves/names.asm
+Capacité	CHARM	CHARME		data/moves/names.asm
+Capacité	CLAMP	CLAQUOIR		data/moves/names.asm
+Capacité	COMET PUNCH	POING COMETE		data/moves/names.asm
+Capacité	CONFUSE RAY	ONDE FOLIE		data/moves/names.asm
+Capacité	CONFUSION	CHOC MENTAL		data/moves/names.asm
+Capacité	CONSTRICT	CONSTRICTION		data/moves/names.asm
+Capacité	CONVERSION	ADAPTATION		data/moves/names.asm
+Capacité	CONVERSION2	ADAPTATION2		data/moves/names.asm
+Capacité	COTTON SPORE	SPORE COTON		data/moves/names.asm
+Capacité	COUNTER	RIPOSTE		data/moves/names.asm
+Capacité	CRABHAMMER	PINCE-MASSE		data/moves/names.asm
+Capacité	CROSS CHOP	COUP-CROIX		data/moves/names.asm
+Capacité	CRUNCH	MACHOUILLE		data/moves/names.asm
+Capacité	CURSE	MALEDICTION		data/moves/names.asm
+Capacité	CUT	COUPE		data/moves/names.asm
+Capacité	DEFENSE CURL	BOUL'ARMURE		data/moves/names.asm
+Capacité	DESTINY BOND	PRLVT DESTIN		data/moves/names.asm
+Capacité	DETECT	DETECTION		data/moves/names.asm
+Capacité	DIG	TUNNEL		data/moves/names.asm
+Capacité	DISABLE	ENTRAVE		data/moves/names.asm
+Capacité	DIZZY PUNCH	UPPERCUT		data/moves/names.asm
+Capacité	DOUBLE KICK	DOUBLE PIED		data/moves/names.asm
+Capacité	DOUBLE TEAM	REFLET		data/moves/names.asm
+Capacité	DOUBLE-EDGE	DAMOCLES		data/moves/names.asm
+Capacité	DOUBLESLAP	TORGNOLES		data/moves/names.asm
+Capacité	DRAGON RAGE	DRACO-RAGE		data/moves/names.asm
+Capacité	DRAGONBREATH	DRACOSOUFFLE		data/moves/names.asm
+Capacité	DREAM EATER	DEVOREVE		data/moves/names.asm
+Capacité	DRILL PECK	BEC VRILLE		data/moves/names.asm
+Capacité	DYNAMICPUNCH	DYNAMOPOING		data/moves/names.asm
+Capacité	EARTHQUAKE	SEISME		data/moves/names.asm
+Capacité	EGG BOMB	BOMB'OEUF		data/moves/names.asm
+Capacité	EMBER	FLAMMECHE		data/moves/names.asm
+Capacité	ENCORE	ENCORE	identique	data/moves/names.asm
+Capacité	ENDURE	TENACITE		data/moves/names.asm
+Capacité	EXPLOSION	EXPLOSION	identique	data/moves/names.asm
+Capacité	EXTREMESPEED	VIT.EXTREME		data/moves/names.asm
+Capacité	FAINT ATTACK	FEINTE		data/moves/names.asm
+Capacité	FALSE SWIPE	FAUX-CHAGE		data/moves/names.asm
+Capacité	FIRE BLAST	DEFLAGRATION		data/moves/names.asm
+Capacité	FIRE PUNCH	POING DE FEU		data/moves/names.asm
+Capacité	FIRE SPIN	DANSEFLAMME		data/moves/names.asm
+Capacité	FISSURE	ABIME		data/moves/names.asm
+Capacité	FLAIL	FLEAU		data/moves/names.asm
+Capacité	FLAME WHEEL	ROUE DE FEU		data/moves/names.asm
+Capacité	FLAMETHROWER	LANCE-FLAMME		data/moves/names.asm
+Capacité	FLASH	FLASH	identique	data/moves/names.asm
+Capacité	FLY	VOL		data/moves/names.asm
+Capacité	FOCUS ENERGY	PUISSANCE		data/moves/names.asm
+Capacité	FORESIGHT	CLAIRVOYANCE		data/moves/names.asm
+Capacité	FRUSTRATION	FRUSTRATION	identique	data/moves/names.asm
+Capacité	FURY ATTACK	FURIE		data/moves/names.asm
+Capacité	FURY CUTTER	TAILLADE		data/moves/names.asm
+Capacité	FURY SWIPES	COMBO-GRIFFE		data/moves/names.asm
+Capacité	FUTURE SIGHT	PRESCIENCE		data/moves/names.asm
+Capacité	GIGA DRAIN	GIGA-SANGSUE		data/moves/names.asm
+Capacité	GLARE	INTIMIDATION		data/moves/names.asm
+Capacité	GROWL	RUGISSEMENT		data/moves/names.asm
+Capacité	GROWTH	CROISSANCE		data/moves/names.asm
+Capacité	GUILLOTINE	GUILLOTINE	identique	data/moves/names.asm
+Capacité	GUST	TORNADE		data/moves/names.asm
+Capacité	HARDEN	ARMURE		data/moves/names.asm
+Capacité	HAZE	BUEE NOIRE		data/moves/names.asm
+Capacité	HEADBUTT	COUP D'BOULE		data/moves/names.asm
+Capacité	HEAL BELL	GLAS DE SOIN		data/moves/names.asm
+Capacité	HI JUMP KICK	PIED VOLTIGE		data/moves/names.asm
+Capacité	HIDDEN POWER	PUIS. CACHEE		data/moves/names.asm
+Capacité	HORN ATTACK	KOUD'KORNE		data/moves/names.asm
+Capacité	HORN DRILL	EMPAL'KORNE		data/moves/names.asm
+Capacité	HYDRO PUMP	HYDROCANON		data/moves/names.asm
+Capacité	HYPER BEAM	ULTRALASER		data/moves/names.asm
+Capacité	HYPER FANG	CROC DE MORT		data/moves/names.asm
+Capacité	HYPNOSIS	HYPNOSE		data/moves/names.asm
+Capacité	ICE BEAM	LASER GLACE		data/moves/names.asm
+Capacité	ICE PUNCH	POINGLACE		data/moves/names.asm
+Capacité	ICY WIND	VENT GLACE		data/moves/names.asm
+Capacité	IRON TAIL	QUEUE DE FER		data/moves/names.asm
+Capacité	JUMP KICK	PIED SAUTE		data/moves/names.asm
+Capacité	KARATE CHOP	POING-KARATE		data/moves/names.asm
+Capacité	KINESIS	TELEKINESIE		data/moves/names.asm
+Capacité	LEECH LIFE	VAMPIRISME		data/moves/names.asm
+Capacité	LEECH SEED	VAMPIGRAINE		data/moves/names.asm
+Capacité	LEER	GROZ'YEUX		data/moves/names.asm
+Capacité	LICK	LECHOUILLE		data/moves/names.asm
+Capacité	LIGHT SCREEN	MUR LUMIERE		data/moves/names.asm
+Capacité	LOCK-ON	VERROUILLAGE		data/moves/names.asm
+Capacité	LOVELY KISS	GROBISOU		data/moves/names.asm
+Capacité	LOW KICK	BALAYAGE		data/moves/names.asm
+Capacité	MACH PUNCH	MACH PUNCH	identique	data/moves/names.asm
+Capacité	MAGNITUDE	AMPLEUR		data/moves/names.asm
+Capacité	MEAN LOOK	REGARD NOIR		data/moves/names.asm
+Capacité	MEDITATE	YOGA		data/moves/names.asm
+Capacité	MEGA DRAIN	MEGA-SANGSUE		data/moves/names.asm
+Capacité	MEGA KICK	ULTIMAWASHI		data/moves/names.asm
+Capacité	MEGA PUNCH	ULTIMAPOING		data/moves/names.asm
+Capacité	MEGAHORN	MEGACORNE		data/moves/names.asm
+Capacité	METAL CLAW	GRIFFE ACIER		data/moves/names.asm
+Capacité	METRONOME	METRONOME	identique	data/moves/names.asm
+Capacité	MILK DRINK	LAIT A BOIRE		data/moves/names.asm
+Capacité	MIMIC	COPIE		data/moves/names.asm
+Capacité	MIND READER	LIRE-ESPRIT		data/moves/names.asm
+Capacité	MINIMIZE	LILLIPUT		data/moves/names.asm
+Capacité	MIRROR COAT	VOILE MIROIR		data/moves/names.asm
+Capacité	MIRROR MOVE	MIMIQUE		data/moves/names.asm
+Capacité	MIST	BRUME		data/moves/names.asm
+Capacité	MOONLIGHT	RAYON LUNE		data/moves/names.asm
+Capacité	MORNING SUN	AURORE		data/moves/names.asm
+Capacité	MUD-SLAP	COUD'BOUE		data/moves/names.asm
+Capacité	NIGHT SHADE	TENEBRES		data/moves/names.asm
+Capacité	NIGHTMARE	CAUCHEMAR		data/moves/names.asm
+Capacité	OCTAZOOKA	OCTAZOOKA	identique	data/moves/names.asm
+Capacité	OUTRAGE	COLERE		data/moves/names.asm
+Capacité	PAIN SPLIT	BALANCE		data/moves/names.asm
+Capacité	PAY DAY	JACKPOT		data/moves/names.asm
+Capacité	PECK	PICPIC		data/moves/names.asm
+Capacité	PERISH SONG	REQUIEM		data/moves/names.asm
+Capacité	PETAL DANCE	DANSE-FLEUR		data/moves/names.asm
+Capacité	PIN MISSILE	DARD-NUEE		data/moves/names.asm
+Capacité	POISON GAS	GAZ TOXIK		data/moves/names.asm
+Capacité	POISON STING	DARD-VENIN		data/moves/names.asm
+Capacité	POISONPOWDER	POUDRE TOXIK		data/moves/names.asm
+Capacité	POUND	ECRAS'FACE		data/moves/names.asm
+Capacité	POWDER SNOW	POUDREUSE		data/moves/names.asm
+Capacité	PRESENT	CADEAU		data/moves/names.asm
+Capacité	PROTECT	ABRI		data/moves/names.asm
+Capacité	PSYBEAM	RAFALE PSY		data/moves/names.asm
+Capacité	PSYCH UP	BOOST		data/moves/names.asm
+Capacité	PSYCHIC	PSYKO		data/moves/names.asm
+Capacité	PSYWAVE	VAGUE PSY		data/moves/names.asm
+Capacité	PURSUIT	POURSUITE		data/moves/names.asm
+Capacité	QUICK ATTACK	VIVE-ATTAQUE		data/moves/names.asm
+Capacité	RAGE	FRENESIE		data/moves/names.asm
+Capacité	RAIN DANCE	DANSE PLUIE		data/moves/names.asm
+Capacité	RAPID SPIN	TOUR RAPIDE		data/moves/names.asm
+Capacité	RAZOR LEAF	TRANCH'HERBE		data/moves/names.asm
+Capacité	RAZOR WIND	COUPE-VENT		data/moves/names.asm
+Capacité	RECOVER	SOIN		data/moves/names.asm
+Capacité	REFLECT	PROTECTION		data/moves/names.asm
+Capacité	REST	REPOS		data/moves/names.asm
+Capacité	RETURN	RETOUR		data/moves/names.asm
+Capacité	REVERSAL	CONTRE		data/moves/names.asm
+Capacité	ROAR	HURLEMENT		data/moves/names.asm
+Capacité	ROCK SLIDE	EBOULEMENT		data/moves/names.asm
+Capacité	ROCK SMASH	ECLATE-ROC		data/moves/names.asm
+Capacité	ROCK THROW	JET-PIERRES		data/moves/names.asm
+Capacité	ROLLING KICK	MAWASHI GERI		data/moves/names.asm
+Capacité	ROLLOUT	ROULADE		data/moves/names.asm
+Capacité	SACRED FIRE	FEU SACRE		data/moves/names.asm
+Capacité	SAFEGUARD	RUNE PROTECT		data/moves/names.asm
+Capacité	SAND-ATTACK	JET DE SABLE		data/moves/names.asm
+Capacité	SANDSTORM	TEMPETESABLE		data/moves/names.asm
+Capacité	SCARY FACE	GRIMACE		data/moves/names.asm
+Capacité	SCRATCH	GRIFFE		data/moves/names.asm
+Capacité	SCREECH	GRINCEMENT		data/moves/names.asm
+Capacité	SEISMIC TOSS	FRAPPE ATLAS		data/moves/names.asm
+Capacité	SELFDESTRUCT	DESTRUCTION		data/moves/names.asm
+Capacité	SHADOW BALL	BALL'OMBRE		data/moves/names.asm
+Capacité	SHARPEN	AFFUTAGE		data/moves/names.asm
+Capacité	SING	BERCEUSE		data/moves/names.asm
+Capacité	SKETCH	GRIBOUILLE		data/moves/names.asm
+Capacité	SKULL BASH	COUD'KRANE		data/moves/names.asm
+Capacité	SKY ATTACK	PIQUE		data/moves/names.asm
+Capacité	SLAM	SOUPLESSE		data/moves/names.asm
+Capacité	SLASH	TRANCHE		data/moves/names.asm
+Capacité	SLEEP POWDER	POUDRE DODO		data/moves/names.asm
+Capacité	SLEEP TALK	BLABLA DODO		data/moves/names.asm
+Capacité	SLUDGE	DETRITUS		data/moves/names.asm
+Capacité	SLUDGE BOMB	BOMB-BEURK		data/moves/names.asm
+Capacité	SMOG	PUREDPOIS		data/moves/names.asm
+Capacité	SMOKESCREEN	BROUILLARD		data/moves/names.asm
+Capacité	SNORE	RONFLEMENT		data/moves/names.asm
+Capacité	SOFTBOILED	E-COQUE		data/moves/names.asm
+Capacité	SOLARBEAM	LANCE-SOLEIL		data/moves/names.asm
+Capacité	SONICBOOM	SONICBOOM	identique	data/moves/names.asm
+Capacité	SPARK	ETINCELLE		data/moves/names.asm
+Capacité	SPIDER WEB	TOILE		data/moves/names.asm
+Capacité	SPIKE CANNON	PICANON		data/moves/names.asm
+Capacité	SPIKES	PICOTS		data/moves/names.asm
+Capacité	SPITE	DEPIT		data/moves/names.asm
+Capacité	SPLASH	TREMPETTE		data/moves/names.asm
+Capacité	SPORE	SPORE	identique	data/moves/names.asm
+Capacité	STEEL WING	AILE D'ACIER		data/moves/names.asm
+Capacité	STOMP	ECRASEMENT		data/moves/names.asm
+Capacité	STRENGTH	FORCE		data/moves/names.asm
+Capacité	STRING SHOT	SECRETION		data/moves/names.asm
+Capacité	STRUGGLE	LUTTE		data/moves/names.asm
+Capacité	STUN SPORE	PARA-SPORE		data/moves/names.asm
+Capacité	SUBMISSION	SACRIFICE		data/moves/names.asm
+Capacité	SUBSTITUTE	CLONAGE		data/moves/names.asm
+Capacité	SUNNY DAY	ZENITH		data/moves/names.asm
+Capacité	SUPER FANG	CROC FATAL		data/moves/names.asm
+Capacité	SUPERSONIC	ULTRASON		data/moves/names.asm
+Capacité	SURF	SURF	identique	data/moves/names.asm
+Capacité	SWAGGER	VANTARDISE		data/moves/names.asm
+Capacité	SWEET KISS	DOUX BAISER		data/moves/names.asm
+Capacité	SWEET SCENT	DOUX PARFUM		data/moves/names.asm
+Capacité	SWIFT	METEORES		data/moves/names.asm
+Capacité	SWORDS DANCE	DANSE-LAMES		data/moves/names.asm
+Capacité	SYNTHESIS	SYNTHESE		data/moves/names.asm
+Capacité	TACKLE	CHARGE		data/moves/names.asm
+Capacité	TAIL WHIP	MIMI-QUEUE		data/moves/names.asm
+Capacité	TAKE DOWN	BELIER		data/moves/names.asm
+Capacité	TELEPORT	TELEPORT	identique	data/moves/names.asm
+Capacité	THIEF	LARCIN		data/moves/names.asm
+Capacité	THRASH	MANIA		data/moves/names.asm
+Capacité	THUNDER	FATAL-FOUDRE		data/moves/names.asm
+Capacité	THUNDER WAVE	CAGE-ECLAIR		data/moves/names.asm
+Capacité	THUNDERBOLT	TONNERRE		data/moves/names.asm
+Capacité	THUNDERPUNCH	POING-ECLAIR		data/moves/names.asm
+Capacité	THUNDERSHOCK	ECLAIR		data/moves/names.asm
+Capacité	TOXIC	TOXIK		data/moves/names.asm
+Capacité	TRANSFORM	MORPHING		data/moves/names.asm
+Capacité	TRI ATTACK	TRIPLATTAQUE		data/moves/names.asm
+Capacité	TRIPLE KICK	TRIPLE PIED		data/moves/names.asm
+Capacité	TWINEEDLE	DOUBLE-DARD		data/moves/names.asm
+Capacité	TWISTER	OURAGAN		data/moves/names.asm
+Capacité	VICEGRIP	FORCE POIGNE		data/moves/names.asm
+Capacité	VINE WHIP	FOUET LIANES		data/moves/names.asm
+Capacité	VITAL THROW	CORPS PERDU		data/moves/names.asm
+Capacité	WATER GUN	PISTOLET A O		data/moves/names.asm
+Capacité	WATERFALL	CASCADE		data/moves/names.asm
+Capacité	WHIRLPOOL	SIPHON		data/moves/names.asm
+Capacité	WHIRLWIND	CYCLONE		data/moves/names.asm
+Capacité	WING ATTACK	CRU-AILE		data/moves/names.asm
+Capacité	WITHDRAW	REPLI		data/moves/names.asm
+Capacité	WRAP	LIGOTAGE		data/moves/names.asm
+Capacité	ZAP CANNON	ELECANON		data/moves/names.asm
+Classe de dresseur	#FAN	#FAN	identique	data/trainers/class_names.asm
+Classe de dresseur	#MANIAC	#MANIAC	identique	data/trainers/class_names.asm
+Classe de dresseur	#MON PROF.	PROF.#MON		data/trainers/class_names.asm
+Classe de dresseur	<PKMN> TRAINER	DRES. <PKMN>		data/trainers/class_names.asm
+Classe de dresseur	BEAUTY	CANON		data/trainers/class_names.asm
+Classe de dresseur	BIKER	MOTARD		data/trainers/class_names.asm
+Classe de dresseur	BIRD KEEPER	ORNITHOLOGUE		data/trainers/class_names.asm
+Classe de dresseur	BLACKBELT	KARATEKA		data/trainers/class_names.asm
+Classe de dresseur	BOARDER	SURFER		data/trainers/class_names.asm
+Classe de dresseur	BUG CATCHER	SCOUT		data/trainers/class_names.asm
+Classe de dresseur	BURGLAR	PILLARD		data/trainers/class_names.asm
+Classe de dresseur	CAMPER	CAMPEUR		data/trainers/class_names.asm
+Classe de dresseur	CHAMPION	MAITRE		data/trainers/class_names.asm
+Classe de dresseur	COOLTRAINER	TOPDRESSEUR		data/trainers/class_names.asm
+Classe de dresseur	ELITE FOUR	CONSEIL 4		data/trainers/class_names.asm
+Classe de dresseur	FIREBREATHER	CRACHE-FEU		data/trainers/class_names.asm
+Classe de dresseur	FISHER	PECHEUR		data/trainers/class_names.asm
+Classe de dresseur	GENTLEMAN	GENTLEMAN	identique	data/trainers/class_names.asm
+Classe de dresseur	GUITARIST	GUITARISTE		data/trainers/class_names.asm
+Classe de dresseur	HIKER	MONTAGNARD		data/trainers/class_names.asm
+Classe de dresseur	JUGGLER	JONGLEUR		data/trainers/class_names.asm
+Classe de dresseur	KIMONO GIRL	KIMONO		data/trainers/class_names.asm
+Classe de dresseur	LASS	FILLETTE		data/trainers/class_names.asm
+Classe de dresseur	LEADER	CHAMPION		data/trainers/class_names.asm
+Classe de dresseur	MEDIUM	MEDIUM	identique	data/trainers/class_names.asm
+Classe de dresseur	MYSTICALMAN	MYSTIQUE		data/trainers/class_names.asm
+Classe de dresseur	OFFICER	OFFICIER		data/trainers/class_names.asm
+Classe de dresseur	PICNICKER	PIQUE-NIQUE		data/trainers/class_names.asm
+Classe de dresseur	PSYCHIC	KINESISTE		data/trainers/class_names.asm
+Classe de dresseur	RIVAL	RIVAL	identique	data/trainers/class_names.asm
+Classe de dresseur	ROCKET	ROCKET	identique	data/trainers/class_names.asm
+Classe de dresseur	SAGE	SAGE	identique	data/trainers/class_names.asm
+Classe de dresseur	SAILOR	MARIN		data/trainers/class_names.asm
+Classe de dresseur	SCHOOLBOY	ECOLIER		data/trainers/class_names.asm
+Classe de dresseur	SCIENTIST	SCIENTIFIQUE		data/trainers/class_names.asm
+Classe de dresseur	SKIER	SKIEUSE		data/trainers/class_names.asm
+Classe de dresseur	SUPER NERD	INTELLO		data/trainers/class_names.asm
+Classe de dresseur	SWIMMER♀	NAGEUSE		data/trainers/class_names.asm
+Classe de dresseur	SWIMMER♂	NAGEUR		data/trainers/class_names.asm
+Classe de dresseur	TEACHER	PROF		data/trainers/class_names.asm
+Classe de dresseur	TWINS	JUMELLES		data/trainers/class_names.asm
+Classe de dresseur	YOUNGSTER	GAMIN		data/trainers/class_names.asm
+Contact Pokématos	----------	----------	identique	data/phone/non_trainer_names.asm
+Contact Pokématos	BIKE SHOP:	CYCLES A GOGO:		data/phone/non_trainer_names.asm
+Contact Pokématos	BILL:	LEO:		data/phone/non_trainer_names.asm
+Contact Pokématos	BUENA:<LF>   DISC JOCKEY	BUENA:<LF>   DJ		data/phone/non_trainer_names.asm
+Contact Pokématos	MOM:	MAMAN:		data/phone/non_trainer_names.asm
+Contact Pokématos	PROF.ELM:	PROF.ORME:		data/phone/non_trainer_names.asm
+Décoration	BED	LIT		data/decorations/names.asm
+Décoration	BIG	SUPER		data/decorations/names.asm
+Décoration	BLUE	:BLEU		data/decorations/names.asm
+Décoration	CANCEL	RETOUR		data/decorations/names.asm
+Décoration	CARPET	TAPIS		data/decorations/names.asm
+Décoration	DOLL	POUPEE		data/decorations/names.asm
+Décoration	FEATHERY	A PLUMES		data/decorations/names.asm
+Décoration	GOLD TROPHY	TROPHEE OR		data/decorations/names.asm
+Décoration	GREEN	:VERT		data/decorations/names.asm
+Décoration	JUMBOPLANT	MAXI PLANTE		data/decorations/names.asm
+Décoration	MAGNAPLANT	GROSSE PLANTE		data/decorations/names.asm
+Décoration	NES	NES	identique	data/decorations/names.asm
+Décoration	NINTENDO 64	NINTENDO 64	identique	data/decorations/names.asm
+Décoration	PIKACHU	PIKACHU	identique	data/decorations/names.asm
+Décoration	PINK	:ROSE		data/decorations/names.asm
+Décoration	POLKADOT	A POIS		data/decorations/names.asm
+Décoration	POSTER	POSTER	identique	data/decorations/names.asm
+Décoration	PUT IT AWAY	RANGER		data/decorations/names.asm
+Décoration	RED	:ROUGE		data/decorations/names.asm
+Décoration	SILVER TROPHY	TROPHEE ARGENT		data/decorations/names.asm
+Décoration	SUPER NES	SUPER NINTENDO		data/decorations/names.asm
+Décoration	SURF PIKACHU DOLL	JOUETPIKACHU SURF		data/decorations/names.asm
+Décoration	TOWN MAP	CARTE		data/decorations/names.asm
+Décoration	TROPICPLANT	PLANTE TROPICALE		data/decorations/names.asm
+Décoration	VIRTUAL BOY	VIRTUAL BOY	identique	data/decorations/names.asm
+Décoration	YELLOW	:JAUNE		data/decorations/names.asm
+Lieu	#MON<BSP>MANSION	MANOIR<BSP>#MON		data/maps/landmarks.asm
+Lieu	AZALEA TOWN	ECORCIA		data/maps/landmarks.asm
+Lieu	BATTLE<BSP>TOWER	TOUR DE<BSP>COMBAT		data/maps/landmarks.asm
+Lieu	BLACKTHORN<BSP>CITY	EBENELLE		data/maps/landmarks.asm
+Lieu	BURNED<BSP>TOWER	TOUR<BSP>CENDREE		data/maps/landmarks.asm
+Lieu	CELADON<BSP>CITY	CELADOPOLE		data/maps/landmarks.asm
+Lieu	CERULEAN<BSP>CAVE	CAVERNE<BSP>AZUREE		data/maps/landmarks.asm
+Lieu	CERULEAN<BSP>CITY	AZURIA		data/maps/landmarks.asm
+Lieu	CHERRYGROVE<BSP>CITY	VILLE<BSP>GRIOTTE		data/maps/landmarks.asm
+Lieu	CIANWOOD<BSP>CITY	IRISIA		data/maps/landmarks.asm
+Lieu	CINNABAR<BSP>ISLAND	CRAMOIS'<WBR>ILE		data/maps/landmarks.asm
+Lieu	DARK CAVE	ANTRE NOIRE		data/maps/landmarks.asm
+Lieu	DIGLETT'S<BSP>CAVE	CAVE<BSP>TAUPIQUEUR		data/maps/landmarks.asm
+Lieu	DRAGON'S<BSP>DEN	ANTRE DU<BSP>DRAGON		data/maps/landmarks.asm
+Lieu	ECRUTEAK<BSP>CITY	ROSALIA		data/maps/landmarks.asm
+Lieu	FAST SHIP	BATEAU<BSP>EXPRESS		data/maps/landmarks.asm
+Lieu	FUCHSIA<BSP>CITY	PARMANIE		data/maps/landmarks.asm
+Lieu	GOLDENROD<BSP>CITY	DOUBLON<1E>VILLE		data/maps/landmarks.asm
+Lieu	ICE PATH	ROUTE<BSP>DE GLACE		data/maps/landmarks.asm
+Lieu	ILEX<BSP>FOREST	BOIS AUX<BSP>CHENES		data/maps/landmarks.asm
+Lieu	INDIGO<BSP>PLATEAU	PLATEAU<BSP>INDIGO		data/maps/landmarks.asm
+Lieu	LAKE OF<BSP>RAGE	LAC<BSP>COLERE		data/maps/landmarks.asm
+Lieu	LAV<BSP>RADIO TOWER	TOUR RADIO<BSP>LAVAN.		data/maps/landmarks.asm
+Lieu	LAVENDER<BSP>TOWN	LAVANVILLE		data/maps/landmarks.asm
+Lieu	LIGHTHOUSE	PHARE		data/maps/landmarks.asm
+Lieu	MAHOGANY<BSP>TOWN	ACAJOU		data/maps/landmarks.asm
+Lieu	MT.MOON	MONT<BSP>SELENITE		data/maps/landmarks.asm
+Lieu	MT.MORTAR	MONT<BSP>CREUSET		data/maps/landmarks.asm
+Lieu	N/A	...		data/maps/landmarks.asm
+Lieu	NATIONAL<BSP>PARK	PARC<BSP>NATUREL		data/maps/landmarks.asm
+Lieu	NEW BARK<BSP>TOWN	BOURG<BSP>GEON		data/maps/landmarks.asm
+Lieu	OLIVINE<BSP>CITY	OLIVILLE		data/maps/landmarks.asm
+Lieu	PALLET TOWN	BOURG<BSP>PALETTE		data/maps/landmarks.asm
+Lieu	PEWTER CITY	ARGENTA		data/maps/landmarks.asm
+Lieu	POWER PLANT	CENTRALE		data/maps/landmarks.asm
+Lieu	RADIO TOWER	TOUR RADIO		data/maps/landmarks.asm
+Lieu	ROCK TUNNEL	GROTTE		data/maps/landmarks.asm
+Lieu	ROUTE 1	ROUTE 1	identique	data/maps/landmarks.asm
+Lieu	ROUTE 10	ROUTE 10	identique	data/maps/landmarks.asm
+Lieu	ROUTE 11	ROUTE 11	identique	data/maps/landmarks.asm
+Lieu	ROUTE 12	ROUTE 12	identique	data/maps/landmarks.asm
+Lieu	ROUTE 13	ROUTE 13	identique	data/maps/landmarks.asm
+Lieu	ROUTE 14	ROUTE 14	identique	data/maps/landmarks.asm
+Lieu	ROUTE 15	ROUTE 15	identique	data/maps/landmarks.asm
+Lieu	ROUTE 16	ROUTE 16	identique	data/maps/landmarks.asm
+Lieu	ROUTE 17	ROUTE 17	identique	data/maps/landmarks.asm
+Lieu	ROUTE 18	ROUTE 18	identique	data/maps/landmarks.asm
+Lieu	ROUTE 19	ROUTE 19	identique	data/maps/landmarks.asm
+Lieu	ROUTE 2	ROUTE 2	identique	data/maps/landmarks.asm
+Lieu	ROUTE 20	ROUTE 20	identique	data/maps/landmarks.asm
+Lieu	ROUTE 21	ROUTE 21	identique	data/maps/landmarks.asm
+Lieu	ROUTE 22	ROUTE 22	identique	data/maps/landmarks.asm
+Lieu	ROUTE 23	ROUTE 23	identique	data/maps/landmarks.asm
+Lieu	ROUTE 24	ROUTE 24	identique	data/maps/landmarks.asm
+Lieu	ROUTE 25	ROUTE 25	identique	data/maps/landmarks.asm
+Lieu	ROUTE 26	ROUTE 26	identique	data/maps/landmarks.asm
+Lieu	ROUTE 27	ROUTE 27	identique	data/maps/landmarks.asm
+Lieu	ROUTE 28	ROUTE 28	identique	data/maps/landmarks.asm
+Lieu	ROUTE 29	ROUTE 29	identique	data/maps/landmarks.asm
+Lieu	ROUTE 3	ROUTE 3	identique	data/maps/landmarks.asm
+Lieu	ROUTE 30	ROUTE 30	identique	data/maps/landmarks.asm
+Lieu	ROUTE 31	ROUTE 31	identique	data/maps/landmarks.asm
+Lieu	ROUTE 32	ROUTE 32	identique	data/maps/landmarks.asm
+Lieu	ROUTE 33	ROUTE 33	identique	data/maps/landmarks.asm
+Lieu	ROUTE 34	ROUTE 34	identique	data/maps/landmarks.asm
+Lieu	ROUTE 35	ROUTE 35	identique	data/maps/landmarks.asm
+Lieu	ROUTE 36	ROUTE 36	identique	data/maps/landmarks.asm
+Lieu	ROUTE 37	ROUTE 37	identique	data/maps/landmarks.asm
+Lieu	ROUTE 38	ROUTE 38	identique	data/maps/landmarks.asm
+Lieu	ROUTE 39	ROUTE 39	identique	data/maps/landmarks.asm
+Lieu	ROUTE 4	ROUTE 4	identique	data/maps/landmarks.asm
+Lieu	ROUTE 40	ROUTE 40	identique	data/maps/landmarks.asm
+Lieu	ROUTE 41	ROUTE 41	identique	data/maps/landmarks.asm
+Lieu	ROUTE 42	ROUTE 42	identique	data/maps/landmarks.asm
+Lieu	ROUTE 43	ROUTE 43	identique	data/maps/landmarks.asm
+Lieu	ROUTE 44	ROUTE 44	identique	data/maps/landmarks.asm
+Lieu	ROUTE 45	ROUTE 45	identique	data/maps/landmarks.asm
+Lieu	ROUTE 46	ROUTE 46	identique	data/maps/landmarks.asm
+Lieu	ROUTE 5	ROUTE 5	identique	data/maps/landmarks.asm
+Lieu	ROUTE 6	ROUTE 6	identique	data/maps/landmarks.asm
+Lieu	ROUTE 7	ROUTE 7	identique	data/maps/landmarks.asm
+Lieu	ROUTE 8	ROUTE 8	identique	data/maps/landmarks.asm
+Lieu	ROUTE 9	ROUTE 9	identique	data/maps/landmarks.asm
+Lieu	RUINS<BSP>OF ALPH	RUINES<BSP>D'ALPHA		data/maps/landmarks.asm
+Lieu	SAFARI ZONE	PARC SAFARI		data/maps/landmarks.asm
+Lieu	SAFFRON<BSP>CITY	SAFRANIA		data/maps/landmarks.asm
+Lieu	SEAFOAM<BSP>ISLANDS	ILES<BSP>ECUME		data/maps/landmarks.asm
+Lieu	SILPH CO.	SYLPHE SARL		data/maps/landmarks.asm
+Lieu	SILVER CAVE	GROTTE<BSP>ARGENTEE		data/maps/landmarks.asm
+Lieu	SLOWPOKE<BSP>WELL	PUITS<BSP>RAMOLOSS		data/maps/landmarks.asm
+Lieu	SPECIAL	SPECIAL	identique	data/maps/landmarks.asm
+Lieu	SPROUT<BSP>TOWER	TOUR<BSP>CHETIFLOR		data/maps/landmarks.asm
+Lieu	TIN TOWER	TOUR<BSP>FERRAILLE		data/maps/landmarks.asm
+Lieu	TOHJO FALLS	CHUTES<BSP>TOHJO		data/maps/landmarks.asm
+Lieu	UNDERGROUND	SOUTERRAIN		data/maps/landmarks.asm
+Lieu	UNION CAVE	CAVES<BSP>JUMELLES		data/maps/landmarks.asm
+Lieu	VERMILION<BSP>CITY	CARMIN<BSP>SUR MER		data/maps/landmarks.asm
+Lieu	VICTORY<BSP>ROAD	ROUTE<BSP>VICTOIRE		data/maps/landmarks.asm
+Lieu	VIOLET CITY	MAUVILLE		data/maps/landmarks.asm
+Lieu	VIRIDIAN<BSP>CITY	JADIELLE		data/maps/landmarks.asm
+Lieu	VIRIDIAN<BSP>FOREST	FORET<BSP>DE JADE		data/maps/landmarks.asm
+Lieu	WHIRL<BSP>ISLANDS	TOURB'<BSP>ILES		data/maps/landmarks.asm
+Objet	# BALL	# BALL	identique	data/items/names.asm
+Objet	# DOLL	# POUPEE		data/items/names.asm
+Objet	?	?	identique	data/items/names.asm
+Objet	AMULET COIN	PIECE RUNE		data/items/names.asm
+Objet	ANTIDOTE	ANTIDOTE	identique	data/items/names.asm
+Objet	AWAKENING	REVEIL		data/items/names.asm
+Objet	BASEMENT KEY	CLE SOUS-SOL		data/items/names.asm
+Objet	BERRY	BAIE		data/items/names.asm
+Objet	BERRY JUICE	JUS DE BAIE		data/items/names.asm
+Objet	BERSERK GENE	ADN BERZERK		data/items/names.asm
+Objet	BICYCLE	BICYCLETTE		data/items/names.asm
+Objet	BIG MUSHROOM	GROS CHAMPI		data/items/names.asm
+Objet	BIG PEARL	GRANDE PERLE		data/items/names.asm
+Objet	BITTER BERRY	BAIE AMERE		data/items/names.asm
+Objet	BLACKBELT	CEINT.NOIRE		data/items/names.asm
+Objet	BLACKGLASSES	LUNET.NOIRES		data/items/names.asm
+Objet	BLK APRICORN	NOIGRUME NOI		data/items/names.asm
+Objet	BLU APRICORN	NOIGRUME BLU		data/items/names.asm
+Objet	BLUE CARD	CARTE BLEUE		data/items/names.asm
+Objet	BLUESKY MAIL	LETRCIELBLEU		data/items/names.asm
+Objet	BRICK PIECE	MORC. BRIQUE		data/items/names.asm
+Objet	BRIGHTPOWDER	POUDRECLAIRE		data/items/names.asm
+Objet	BURN HEAL	ANTI-BRULE		data/items/names.asm
+Objet	BURNT BERRY	BAIE BRULURE		data/items/names.asm
+Objet	CALCIUM	CALCIUM	identique	data/items/names.asm
+Objet	CARBOS	CARBONE		data/items/names.asm
+Objet	CARD KEY	CARTE MAGN.		data/items/names.asm
+Objet	CHARCOAL	CHARBON		data/items/names.asm
+Objet	CLEANSE TAG	RUNE PURIF.		data/items/names.asm
+Objet	CLEAR BELL	GLAS TRANSP.		data/items/names.asm
+Objet	COIN CASE	BOITE JETON		data/items/names.asm
+Objet	DIRE HIT	MUSCLE +		data/items/names.asm
+Objet	DRAGON FANG	CROC DRAGON		data/items/names.asm
+Objet	DRAGON SCALE	ECAILLEDRACO		data/items/names.asm
+Objet	EGG TICKET	TICKET OEUF		data/items/names.asm
+Objet	ELIXER	ELIXIR		data/items/names.asm
+Objet	ENERGY ROOT	RACINENERGIE		data/items/names.asm
+Objet	ENERGYPOWDER	POUDRENERGIE		data/items/names.asm
+Objet	EON MAIL	LETR EVOLI		data/items/names.asm
+Objet	ESCAPE ROPE	CORDE SORTIE		data/items/names.asm
+Objet	ETHER	HUILE		data/items/names.asm
+Objet	EVERSTONE	PIERRE STASE		data/items/names.asm
+Objet	EXP.SHARE	MULTI EXP		data/items/names.asm
+Objet	FAST BALL	SPEED BALL		data/items/names.asm
+Objet	FIRE STONE	PIERRE FEU		data/items/names.asm
+Objet	FLOWER MAIL	LETR FLEUR		data/items/names.asm
+Objet	FOCUS BAND	BANDEAU +		data/items/names.asm
+Objet	FRESH WATER	EAU FRAICHE		data/items/names.asm
+Objet	FRIEND BALL	COPAIN BALL		data/items/names.asm
+Objet	FULL HEAL	TOTAL SOIN		data/items/names.asm
+Objet	FULL RESTORE	GUERISON		data/items/names.asm
+Objet	GOLD BERRY	BAIE DOREE		data/items/names.asm
+Objet	GOLD LEAF	FEUILLE D'OR		data/items/names.asm
+Objet	GOOD ROD	SUPER CANNE		data/items/names.asm
+Objet	GORGEOUS BOX	COFFRE LUXE		data/items/names.asm
+Objet	GREAT BALL	SUPER BALL		data/items/names.asm
+Objet	GRN APRICORN	NOIGRUME VER		data/items/names.asm
+Objet	GS BALL	GS BALL	identique	data/items/names.asm
+Objet	GUARD SPEC.	DEFENSE SPEC		data/items/names.asm
+Objet	HARD STONE	PIERRE DURE		data/items/names.asm
+Objet	HEAL POWDER	POUDRE SOIN		data/items/names.asm
+Objet	HEAVY BALL	MASSE BALL		data/items/names.asm
+Objet	HM01	CS01		data/items/names.asm
+Objet	HM02	CS02		data/items/names.asm
+Objet	HM03	CS03		data/items/names.asm
+Objet	HM04	CS04		data/items/names.asm
+Objet	HM05	CS05		data/items/names.asm
+Objet	HM06	CS06		data/items/names.asm
+Objet	HM07	CS07		data/items/names.asm
+Objet	HP UP	PV PLUS		data/items/names.asm
+Objet	HYPER POTION	HYPER POTION	identique	data/items/names.asm
+Objet	ICE BERRY	BAIE GEL		data/items/names.asm
+Objet	ICE HEAL	ANTIGEL		data/items/names.asm
+Objet	IRON	FER		data/items/names.asm
+Objet	ITEMFINDER	CHERCH'OBJET		data/items/names.asm
+Objet	KING'S ROCK	ROCHE ROYALE		data/items/names.asm
+Objet	LEAF STONE	PIERREPLANTE		data/items/names.asm
+Objet	LEFTOVERS	RESTES		data/items/names.asm
+Objet	LEMONADE	LIMONADE		data/items/names.asm
+Objet	LEVEL BALL	NIVEAU BALL		data/items/names.asm
+Objet	LIGHT BALL	BALLELUMIERE		data/items/names.asm
+Objet	LITEBLUEMAIL	LETRBLEUCIEL		data/items/names.asm
+Objet	LOST ITEM	OBJET PERDU		data/items/names.asm
+Objet	LOVE BALL	LOVE BALL	identique	data/items/names.asm
+Objet	LOVELY MAIL	LETRCHARM.		data/items/names.asm
+Objet	LUCKY EGG	OEUF CHANCE		data/items/names.asm
+Objet	LUCKY PUNCH	POING CHANCE		data/items/names.asm
+Objet	LURE BALL	APPAT BALL		data/items/names.asm
+Objet	MACHINE PART	PARTIE MACH.		data/items/names.asm
+Objet	MAGNET	AIMANT		data/items/names.asm
+Objet	MASTER BALL	MASTER BALL	identique	data/items/names.asm
+Objet	MAX ELIXER	MAX ELIXIR		data/items/names.asm
+Objet	MAX ETHER	HUILE MAX		data/items/names.asm
+Objet	MAX POTION	POTION MAX		data/items/names.asm
+Objet	MAX REPEL	MAX REPOUSSE		data/items/names.asm
+Objet	MAX REVIVE	RAPPEL MAX		data/items/names.asm
+Objet	METAL COAT	PEAU METAL		data/items/names.asm
+Objet	METAL POWDER	POUDRE METAL		data/items/names.asm
+Objet	MINT BERRY	BAIE MENTHE		data/items/names.asm
+Objet	MIRACLE SEED	GRAIN MIRACL		data/items/names.asm
+Objet	MIRACLEBERRY	BAIE MIRACLE		data/items/names.asm
+Objet	MIRAGE MAIL	LETR MIRAGE		data/items/names.asm
+Objet	MOOMOO MILK	LAIT MEUMEU		data/items/names.asm
+Objet	MOON BALL	LUNE BALL		data/items/names.asm
+Objet	MOON STONE	PIERRE LUNE		data/items/names.asm
+Objet	MORPH MAIL	LETR MORPH		data/items/names.asm
+Objet	MUSIC MAIL	LETR MUSIQUE		data/items/names.asm
+Objet	MYSTERY EGG	OEUF MYSTERE		data/items/names.asm
+Objet	MYSTERYBERRY	BAIE MYSTERE		data/items/names.asm
+Objet	MYSTIC WATER	EAU MYSTIQUE		data/items/names.asm
+Objet	NEVERMELTICE	GLACETERNEL		data/items/names.asm
+Objet	NORMAL BOX	COFFRE NML		data/items/names.asm
+Objet	NUGGET	PEPITE		data/items/names.asm
+Objet	OLD ROD	CANNE		data/items/names.asm
+Objet	PARK BALL	PARC BALL		data/items/names.asm
+Objet	PARLYZ HEAL	ANTI-PARA		data/items/names.asm
+Objet	PASS	PASSE		data/items/names.asm
+Objet	PEARL	PERLE		data/items/names.asm
+Objet	PINK BOW	RUBAN ROSE		data/items/names.asm
+Objet	PNK APRICORN	NOIGRUME ROS		data/items/names.asm
+Objet	POISON BARB	PIC VENIN		data/items/names.asm
+Objet	POLKADOT BOW	RUBAN A POIS		data/items/names.asm
+Objet	PORTRAITMAIL	LETRPORTRAIT		data/items/names.asm
+Objet	POTION	POTION	identique	data/items/names.asm
+Objet	PP UP	PP PLUS		data/items/names.asm
+Objet	PROTEIN	PROTEINE		data/items/names.asm
+Objet	PRZCUREBERRY	BAIE ANTIPAR		data/items/names.asm
+Objet	PSNCUREBERRY	BAIE ANTIDOT		data/items/names.asm
+Objet	QUICK CLAW	VIVE GRIFFE		data/items/names.asm
+Objet	RAGECANDYBAR	BONBON RAGE		data/items/names.asm
+Objet	RAINBOW WING	ARCENCI'AILE		data/items/names.asm
+Objet	RARE CANDY	SUPER BONBON		data/items/names.asm
+Objet	RED APRICORN	NOIGRUME RGE		data/items/names.asm
+Objet	RED SCALE	ECAILLEROUGE		data/items/names.asm
+Objet	REPEL	REPOUSSE		data/items/names.asm
+Objet	REVIVAL HERB	HERBE RAPPEL		data/items/names.asm
+Objet	REVIVE	RAPPEL		data/items/names.asm
+Objet	S.S.TICKET	PASSE BATEAU		data/items/names.asm
+Objet	SACRED ASH	CENDRESACREE		data/items/names.asm
+Objet	SCOPE LENS	LENTILSCOPE		data/items/names.asm
+Objet	SECRETPOTION	POTIONSECRET		data/items/names.asm
+Objet	SHARP BEAK	BEC POINTU		data/items/names.asm
+Objet	SILVER LEAF	FEUILLE ARG.		data/items/names.asm
+Objet	SILVER WING	AILE ARGENT		data/items/names.asm
+Objet	SILVERPOWDER	POUDRE ARG.		data/items/names.asm
+Objet	SLOWPOKETAIL	QUEUERAMOLOS		data/items/names.asm
+Objet	SMOKE BALL	BOULE FUMEE		data/items/names.asm
+Objet	SODA POP	SODA COOL		data/items/names.asm
+Objet	SOFT SAND	SABLE DOUX		data/items/names.asm
+Objet	SPELL TAG	RUNE SORT		data/items/names.asm
+Objet	SQUIRTBOTTLE	CARAPUCE A O		data/items/names.asm
+Objet	STAR PIECE	MORC. ETOILE		data/items/names.asm
+Objet	STARDUST	POUSS.ETOILE		data/items/names.asm
+Objet	STICK	BATON		data/items/names.asm
+Objet	SUN STONE	PIERRESOLEIL		data/items/names.asm
+Objet	SUPER POTION	SUPER POTION	identique	data/items/names.asm
+Objet	SUPER REPEL	SUPEREPOUSSE		data/items/names.asm
+Objet	SUPER ROD	MEGA CANNE		data/items/names.asm
+Objet	SURF MAIL	LETR SURF		data/items/names.asm
+Objet	TERU-SAMA	TERU-SAMA	identique	data/items/names.asm
+Objet	THICK CLUB	MASSE OS		data/items/names.asm
+Objet	THUNDERSTONE	PIERREFOUDRE		data/items/names.asm
+Objet	TINYMUSHROOM	PETIT CHAMPI		data/items/names.asm
+Objet	TM01	CT01		data/items/names.asm
+Objet	TM02	CT02		data/items/names.asm
+Objet	TM03	CT03		data/items/names.asm
+Objet	TM04	CT04		data/items/names.asm
+Objet	TM05	CT05		data/items/names.asm
+Objet	TM06	CT06		data/items/names.asm
+Objet	TM07	CT07		data/items/names.asm
+Objet	TM08	CT08		data/items/names.asm
+Objet	TM09	CT09		data/items/names.asm
+Objet	TM10	CT10		data/items/names.asm
+Objet	TM11	CT11		data/items/names.asm
+Objet	TM12	CT12		data/items/names.asm
+Objet	TM13	CT13		data/items/names.asm
+Objet	TM14	CT14		data/items/names.asm
+Objet	TM15	CT15		data/items/names.asm
+Objet	TM16	CT16		data/items/names.asm
+Objet	TM17	CT17		data/items/names.asm
+Objet	TM18	CT18		data/items/names.asm
+Objet	TM19	CT19		data/items/names.asm
+Objet	TM20	CT20		data/items/names.asm
+Objet	TM21	CT21		data/items/names.asm
+Objet	TM22	CT22		data/items/names.asm
+Objet	TM23	CT23		data/items/names.asm
+Objet	TM24	CT24		data/items/names.asm
+Objet	TM25	CT25		data/items/names.asm
+Objet	TM26	CT26		data/items/names.asm
+Objet	TM27	CT27		data/items/names.asm
+Objet	TM28	CT28		data/items/names.asm
+Objet	TM29	CT29		data/items/names.asm
+Objet	TM30	CT30		data/items/names.asm
+Objet	TM31	CT31		data/items/names.asm
+Objet	TM32	CT32		data/items/names.asm
+Objet	TM33	CT33		data/items/names.asm
+Objet	TM34	CT34		data/items/names.asm
+Objet	TM35	CT35		data/items/names.asm
+Objet	TM36	CT36		data/items/names.asm
+Objet	TM37	CT37		data/items/names.asm
+Objet	TM38	CT38		data/items/names.asm
+Objet	TM39	CT39		data/items/names.asm
+Objet	TM40	CT40		data/items/names.asm
+Objet	TM41	CT41		data/items/names.asm
+Objet	TM42	CT42		data/items/names.asm
+Objet	TM43	CT43		data/items/names.asm
+Objet	TM44	CT44		data/items/names.asm
+Objet	TM45	CT45		data/items/names.asm
+Objet	TM46	CT46		data/items/names.asm
+Objet	TM47	CT47		data/items/names.asm
+Objet	TM48	CT48		data/items/names.asm
+Objet	TM49	CT49		data/items/names.asm
+Objet	TM50	CT50		data/items/names.asm
+Objet	TWISTEDSPOON	CUILLERTORDU		data/items/names.asm
+Objet	ULTRA BALL	HYPER BALL		data/items/names.asm
+Objet	UP-GRADE	EVOLUTOR		data/items/names.asm
+Objet	WATER STONE	PIERRE EAU		data/items/names.asm
+Objet	WHT APRICORN	NOIGRUME BLC		data/items/names.asm
+Objet	X ACCURACY	PRECISION +		data/items/names.asm
+Objet	X ATTACK	ATTAQUE +		data/items/names.asm
+Objet	X DEFEND	DEFENSE +		data/items/names.asm
+Objet	X SPECIAL	SPECIAL +		data/items/names.asm
+Objet	X SPEED	VITESSE +		data/items/names.asm
+Objet	YLW APRICORN	NOIGRUME JNE		data/items/names.asm
+Poche	BALL POCKET	POCHE BALLS		data/items/pocket_names.asm
+Poche	ITEM POCKET	POCHE OBJETS		data/items/pocket_names.asm
+Poche	KEY POCKET	POCHE RARES		data/items/pocket_names.asm
+Poche	TM POCKET	POCHE CT		data/items/pocket_names.asm
+Pokémon	?????	?????	identique	data/pokemon/names.asm
+Pokémon	ABRA	ABRA	identique	data/pokemon/names.asm
+Pokémon	AERODACTYL	PTERA		data/pokemon/names.asm
+Pokémon	AIPOM	CAPUMAIN		data/pokemon/names.asm
+Pokémon	ALAKAZAM	ALAKAZAM	identique	data/pokemon/names.asm
+Pokémon	AMPHAROS	PHARAMP		data/pokemon/names.asm
+Pokémon	ARBOK	ARBOK	identique	data/pokemon/names.asm
+Pokémon	ARCANINE	ARCANIN		data/pokemon/names.asm
+Pokémon	ARIADOS	MIGALOS		data/pokemon/names.asm
+Pokémon	ARTICUNO	ARTIKODIN		data/pokemon/names.asm
+Pokémon	AZUMARILL	AZUMARILL	identique	data/pokemon/names.asm
+Pokémon	BAYLEEF	MACRONIUM		data/pokemon/names.asm
+Pokémon	BEEDRILL	DARDARGNAN		data/pokemon/names.asm
+Pokémon	BELLOSSOM	JOLIFLOR		data/pokemon/names.asm
+Pokémon	BELLSPROUT	CHETIFLOR		data/pokemon/names.asm
+Pokémon	BLASTOISE	TORTANK		data/pokemon/names.asm
+Pokémon	BLISSEY	LEUPHORIE		data/pokemon/names.asm
+Pokémon	BULBASAUR	BULBIZARRE		data/pokemon/names.asm
+Pokémon	BUTTERFREE	PAPILUSION		data/pokemon/names.asm
+Pokémon	CATERPIE	CHENIPAN		data/pokemon/names.asm
+Pokémon	CELEBI	CELEBI	identique	data/pokemon/names.asm
+Pokémon	CHANSEY	LEVEINARD		data/pokemon/names.asm
+Pokémon	CHARIZARD	DRACAUFEU		data/pokemon/names.asm
+Pokémon	CHARMANDER	SALAMECHE		data/pokemon/names.asm
+Pokémon	CHARMELEON	REPTINCEL		data/pokemon/names.asm
+Pokémon	CHIKORITA	GERMIGNON		data/pokemon/names.asm
+Pokémon	CHINCHOU	LOUPIO		data/pokemon/names.asm
+Pokémon	CLEFABLE	MELODELFE		data/pokemon/names.asm
+Pokémon	CLEFAIRY	MELOFEE		data/pokemon/names.asm
+Pokémon	CLEFFA	MELO		data/pokemon/names.asm
+Pokémon	CLOYSTER	CRUSTABRI		data/pokemon/names.asm
+Pokémon	CORSOLA	CORAYON		data/pokemon/names.asm
+Pokémon	CROBAT	NOSTENFER		data/pokemon/names.asm
+Pokémon	CROCONAW	CROCRODIL		data/pokemon/names.asm
+Pokémon	CUBONE	OSSELAIT		data/pokemon/names.asm
+Pokémon	CYNDAQUIL	HERICENDRE		data/pokemon/names.asm
+Pokémon	DELIBIRD	CADOIZO		data/pokemon/names.asm
+Pokémon	DEWGONG	LAMANTINE		data/pokemon/names.asm
+Pokémon	DIGLETT	TAUPIQUEUR		data/pokemon/names.asm
+Pokémon	DITTO	METAMORPH		data/pokemon/names.asm
+Pokémon	DODRIO	DODRIO	identique	data/pokemon/names.asm
+Pokémon	DODUO	DODUO	identique	data/pokemon/names.asm
+Pokémon	DONPHAN	DONPHAN	identique	data/pokemon/names.asm
+Pokémon	DRAGONAIR	DRACO		data/pokemon/names.asm
+Pokémon	DRAGONITE	DRACOLOSSE		data/pokemon/names.asm
+Pokémon	DRATINI	MINIDRACO		data/pokemon/names.asm
+Pokémon	DROWZEE	SOPORIFIK		data/pokemon/names.asm
+Pokémon	DUGTRIO	TRIOPIKEUR		data/pokemon/names.asm
+Pokémon	DUNSPARCE	INSOLOURDO		data/pokemon/names.asm
+Pokémon	EEVEE	EVOLI		data/pokemon/names.asm
+Pokémon	EGG	OEUF		data/pokemon/names.asm
+Pokémon	EKANS	ABO		data/pokemon/names.asm
+Pokémon	ELECTABUZZ	ELEKTEK		data/pokemon/names.asm
+Pokémon	ELECTRODE	ELECTRODE	identique	data/pokemon/names.asm
+Pokémon	ELEKID	ELEKID	identique	data/pokemon/names.asm
+Pokémon	ENTEI	ENTEI	identique	data/pokemon/names.asm
+Pokémon	ESPEON	MENTALI		data/pokemon/names.asm
+Pokémon	EXEGGCUTE	NOEUNOEUF		data/pokemon/names.asm
+Pokémon	EXEGGUTOR	NOADKOKO		data/pokemon/names.asm
+Pokémon	FARFETCH'D	CANARTICHO		data/pokemon/names.asm
+Pokémon	FEAROW	RAPASDEPIC		data/pokemon/names.asm
+Pokémon	FERALIGATR	ALIGATUEUR		data/pokemon/names.asm
+Pokémon	FLAAFFY	LAINERGIE		data/pokemon/names.asm
+Pokémon	FLAREON	PYROLI		data/pokemon/names.asm
+Pokémon	FORRETRESS	FORETRESS		data/pokemon/names.asm
+Pokémon	FURRET	FOUINAR		data/pokemon/names.asm
+Pokémon	GASTLY	FANTOMINUS		data/pokemon/names.asm
+Pokémon	GENGAR	ECTOPLASMA		data/pokemon/names.asm
+Pokémon	GEODUDE	RACAILLOU		data/pokemon/names.asm
+Pokémon	GIRAFARIG	GIRAFARIG	identique	data/pokemon/names.asm
+Pokémon	GLIGAR	SCORPLANE		data/pokemon/names.asm
+Pokémon	GLOOM	ORTIDE		data/pokemon/names.asm
+Pokémon	GOLBAT	NOSFERALTO		data/pokemon/names.asm
+Pokémon	GOLDEEN	POISSIRENE		data/pokemon/names.asm
+Pokémon	GOLDUCK	AKWAKWAK		data/pokemon/names.asm
+Pokémon	GOLEM	GROLEM		data/pokemon/names.asm
+Pokémon	GRANBULL	GRANBULL	identique	data/pokemon/names.asm
+Pokémon	GRAVELER	GRAVALANCH		data/pokemon/names.asm
+Pokémon	GRIMER	TADMORV		data/pokemon/names.asm
+Pokémon	GROWLITHE	CANINOS		data/pokemon/names.asm
+Pokémon	GYARADOS	LEVIATOR		data/pokemon/names.asm
+Pokémon	HAUNTER	SPECTRUM		data/pokemon/names.asm
+Pokémon	HERACROSS	SCARHINO		data/pokemon/names.asm
+Pokémon	HITMONCHAN	TYGNON		data/pokemon/names.asm
+Pokémon	HITMONLEE	KICKLEE		data/pokemon/names.asm
+Pokémon	HITMONTOP	KAPOERA		data/pokemon/names.asm
+Pokémon	HO-OH	HO-OH	identique	data/pokemon/names.asm
+Pokémon	HOOTHOOT	HOOTHOOT	identique	data/pokemon/names.asm
+Pokémon	HOPPIP	GRANIVOL		data/pokemon/names.asm
+Pokémon	HORSEA	HYPOTREMPE		data/pokemon/names.asm
+Pokémon	HOUNDOOM	DEMOLOSSE		data/pokemon/names.asm
+Pokémon	HOUNDOUR	MALOSSE		data/pokemon/names.asm
+Pokémon	HYPNO	HYPNOMADE		data/pokemon/names.asm
+Pokémon	IGGLYBUFF	TOUDOUDOU		data/pokemon/names.asm
+Pokémon	IVYSAUR	HERBIZARRE		data/pokemon/names.asm
+Pokémon	JIGGLYPUFF	RONDOUDOU		data/pokemon/names.asm
+Pokémon	JOLTEON	VOLTALI		data/pokemon/names.asm
+Pokémon	JUMPLUFF	COTOVOL		data/pokemon/names.asm
+Pokémon	JYNX	LIPPOUTOU		data/pokemon/names.asm
+Pokémon	KABUTO	KABUTO	identique	data/pokemon/names.asm
+Pokémon	KABUTOPS	KABUTOPS	identique	data/pokemon/names.asm
+Pokémon	KADABRA	KADABRA	identique	data/pokemon/names.asm
+Pokémon	KAKUNA	COCONFORT		data/pokemon/names.asm
+Pokémon	KANGASKHAN	KANGOUREX		data/pokemon/names.asm
+Pokémon	KINGDRA	HYPOROI		data/pokemon/names.asm
+Pokémon	KINGLER	KRABBOSS		data/pokemon/names.asm
+Pokémon	KOFFING	SMOGO		data/pokemon/names.asm
+Pokémon	KRABBY	KRABBY	identique	data/pokemon/names.asm
+Pokémon	LANTURN	LANTURN	identique	data/pokemon/names.asm
+Pokémon	LAPRAS	LOKHLASS		data/pokemon/names.asm
+Pokémon	LARVITAR	EMBRYLEX		data/pokemon/names.asm
+Pokémon	LEDIAN	COXYCLAQUE		data/pokemon/names.asm
+Pokémon	LEDYBA	COXY		data/pokemon/names.asm
+Pokémon	LICKITUNG	EXCELANGUE		data/pokemon/names.asm
+Pokémon	LUGIA	LUGIA	identique	data/pokemon/names.asm
+Pokémon	MACHAMP	MACKOGNEUR		data/pokemon/names.asm
+Pokémon	MACHOKE	MACHOPEUR		data/pokemon/names.asm
+Pokémon	MACHOP	MACHOC		data/pokemon/names.asm
+Pokémon	MAGBY	MAGBY	identique	data/pokemon/names.asm
+Pokémon	MAGCARGO	VOLCAROPOD		data/pokemon/names.asm
+Pokémon	MAGIKARP	MAGICARPE		data/pokemon/names.asm
+Pokémon	MAGMAR	MAGMAR	identique	data/pokemon/names.asm
+Pokémon	MAGNEMITE	MAGNETI		data/pokemon/names.asm
+Pokémon	MAGNETON	MAGNETON	identique	data/pokemon/names.asm
+Pokémon	MANKEY	FEROSINGE		data/pokemon/names.asm
+Pokémon	MANTINE	DEMANTA		data/pokemon/names.asm
+Pokémon	MAREEP	WATTOUAT		data/pokemon/names.asm
+Pokémon	MARILL	MARILL	identique	data/pokemon/names.asm
+Pokémon	MAROWAK	OSSATUEUR		data/pokemon/names.asm
+Pokémon	MEGANIUM	MEGANIUM	identique	data/pokemon/names.asm
+Pokémon	MEOWTH	MIAOUSS		data/pokemon/names.asm
+Pokémon	METAPOD	CHRYSACIER		data/pokemon/names.asm
+Pokémon	MEW	MEW	identique	data/pokemon/names.asm
+Pokémon	MEWTWO	MEWTWO	identique	data/pokemon/names.asm
+Pokémon	MILTANK	ECREMEUH		data/pokemon/names.asm
+Pokémon	MISDREAVUS	FEUFOREVE		data/pokemon/names.asm
+Pokémon	MOLTRES	SULFURA		data/pokemon/names.asm
+Pokémon	MR.MIME	M.MIME		data/pokemon/names.asm
+Pokémon	MUK	GROTADMORV		data/pokemon/names.asm
+Pokémon	MURKROW	CORNEBRE		data/pokemon/names.asm
+Pokémon	NATU	NATU	identique	data/pokemon/names.asm
+Pokémon	NIDOKING	NIDOKING	identique	data/pokemon/names.asm
+Pokémon	NIDOQUEEN	NIDOQUEEN	identique	data/pokemon/names.asm
+Pokémon	NIDORAN♀	NIDORAN♀	identique	data/pokemon/names.asm
+Pokémon	NIDORAN♂	NIDORAN♂	identique	data/pokemon/names.asm
+Pokémon	NIDORINA	NIDORINA	identique	data/pokemon/names.asm
+Pokémon	NIDORINO	NIDORINO	identique	data/pokemon/names.asm
+Pokémon	NINETALES	FEUNARD		data/pokemon/names.asm
+Pokémon	NOCTOWL	NOARFANG		data/pokemon/names.asm
+Pokémon	OCTILLERY	OCTILLERY	identique	data/pokemon/names.asm
+Pokémon	ODDISH	MYSTHERBE		data/pokemon/names.asm
+Pokémon	OMANYTE	AMONITA		data/pokemon/names.asm
+Pokémon	OMASTAR	AMONISTAR		data/pokemon/names.asm
+Pokémon	ONIX	ONIX	identique	data/pokemon/names.asm
+Pokémon	PARAS	PARAS	identique	data/pokemon/names.asm
+Pokémon	PARASECT	PARASECT	identique	data/pokemon/names.asm
+Pokémon	PERSIAN	PERSIAN	identique	data/pokemon/names.asm
+Pokémon	PHANPY	PHANPY	identique	data/pokemon/names.asm
+Pokémon	PICHU	PICHU	identique	data/pokemon/names.asm
+Pokémon	PIDGEOT	ROUCARNAGE		data/pokemon/names.asm
+Pokémon	PIDGEOTTO	ROUCOUPS		data/pokemon/names.asm
+Pokémon	PIDGEY	ROUCOOL		data/pokemon/names.asm
+Pokémon	PIKACHU	PIKACHU	identique	data/pokemon/names.asm
+Pokémon	PILOSWINE	COCHIGNON		data/pokemon/names.asm
+Pokémon	PINECO	POMDEPIK		data/pokemon/names.asm
+Pokémon	PINSIR	SCARABRUTE		data/pokemon/names.asm
+Pokémon	POLITOED	TARPAUD		data/pokemon/names.asm
+Pokémon	POLIWAG	PTITARD		data/pokemon/names.asm
+Pokémon	POLIWHIRL	TETARTE		data/pokemon/names.asm
+Pokémon	POLIWRATH	TARTARD		data/pokemon/names.asm
+Pokémon	PONYTA	PONYTA	identique	data/pokemon/names.asm
+Pokémon	PORYGON	PORYGON	identique	data/pokemon/names.asm
+Pokémon	PORYGON2	PORYGON2	identique	data/pokemon/names.asm
+Pokémon	PRIMEAPE	COLOSSINGE		data/pokemon/names.asm
+Pokémon	PSYDUCK	PSYKOKWAK		data/pokemon/names.asm
+Pokémon	PUPITAR	YMPHECT		data/pokemon/names.asm
+Pokémon	QUAGSIRE	MARAISTE		data/pokemon/names.asm
+Pokémon	QUILAVA	FEURISSON		data/pokemon/names.asm
+Pokémon	QWILFISH	QWILFISH	identique	data/pokemon/names.asm
+Pokémon	RAICHU	RAICHU	identique	data/pokemon/names.asm
+Pokémon	RAIKOU	RAIKOU	identique	data/pokemon/names.asm
+Pokémon	RAPIDASH	GALOPA		data/pokemon/names.asm
+Pokémon	RATICATE	RATTATAC		data/pokemon/names.asm
+Pokémon	RATTATA	RATTATA	identique	data/pokemon/names.asm
+Pokémon	REMORAID	REMORAID	identique	data/pokemon/names.asm
+Pokémon	RHYDON	RHINOFEROS		data/pokemon/names.asm
+Pokémon	RHYHORN	RHINOCORNE		data/pokemon/names.asm
+Pokémon	SANDSHREW	SABELETTE		data/pokemon/names.asm
+Pokémon	SANDSLASH	SABLAIREAU		data/pokemon/names.asm
+Pokémon	SCIZOR	CIZAYOX		data/pokemon/names.asm
+Pokémon	SCYTHER	INSECATEUR		data/pokemon/names.asm
+Pokémon	SEADRA	HYPOCEAN		data/pokemon/names.asm
+Pokémon	SEAKING	POISSOROY		data/pokemon/names.asm
+Pokémon	SEEL	OTARIA		data/pokemon/names.asm
+Pokémon	SENTRET	FOUINETTE		data/pokemon/names.asm
+Pokémon	SHELLDER	KOKIYAS		data/pokemon/names.asm
+Pokémon	SHUCKLE	CARATROC		data/pokemon/names.asm
+Pokémon	SKARMORY	AIRMURE		data/pokemon/names.asm
+Pokémon	SKIPLOOM	FLORAVOL		data/pokemon/names.asm
+Pokémon	SLOWBRO	FLAGADOSS		data/pokemon/names.asm
+Pokémon	SLOWKING	ROIGADA		data/pokemon/names.asm
+Pokémon	SLOWPOKE	RAMOLOSS		data/pokemon/names.asm
+Pokémon	SLUGMA	LIMAGMA		data/pokemon/names.asm
+Pokémon	SMEARGLE	QUEULORIOR		data/pokemon/names.asm
+Pokémon	SMOOCHUM	LIPPOUTI		data/pokemon/names.asm
+Pokémon	SNEASEL	FARFURET		data/pokemon/names.asm
+Pokémon	SNORLAX	RONFLEX		data/pokemon/names.asm
+Pokémon	SNUBBULL	SNUBBULL	identique	data/pokemon/names.asm
+Pokémon	SPEAROW	PIAFABEC		data/pokemon/names.asm
+Pokémon	SPINARAK	MIMIGAL		data/pokemon/names.asm
+Pokémon	SQUIRTLE	CARAPUCE		data/pokemon/names.asm
+Pokémon	STANTLER	CERFROUSSE		data/pokemon/names.asm
+Pokémon	STARMIE	STAROSS		data/pokemon/names.asm
+Pokémon	STARYU	STARI		data/pokemon/names.asm
+Pokémon	STEELIX	STEELIX	identique	data/pokemon/names.asm
+Pokémon	SUDOWOODO	SIMULARBRE		data/pokemon/names.asm
+Pokémon	SUICUNE	SUICUNE	identique	data/pokemon/names.asm
+Pokémon	SUNFLORA	HELIATRONC		data/pokemon/names.asm
+Pokémon	SUNKERN	TOURNEGRIN		data/pokemon/names.asm
+Pokémon	SWINUB	MARCACRIN		data/pokemon/names.asm
+Pokémon	TANGELA	SAQUEDENEU		data/pokemon/names.asm
+Pokémon	TAUROS	TAUROS	identique	data/pokemon/names.asm
+Pokémon	TEDDIURSA	TEDDIURSA	identique	data/pokemon/names.asm
+Pokémon	TENTACOOL	TENTACOOL	identique	data/pokemon/names.asm
+Pokémon	TENTACRUEL	TENTACRUEL	identique	data/pokemon/names.asm
+Pokémon	TOGEPI	TOGEPI	identique	data/pokemon/names.asm
+Pokémon	TOGETIC	TOGETIC	identique	data/pokemon/names.asm
+Pokémon	TOTODILE	KAIMINUS		data/pokemon/names.asm
+Pokémon	TYPHLOSION	TYPHLOSION	identique	data/pokemon/names.asm
+Pokémon	TYRANITAR	TYRANOCIF		data/pokemon/names.asm
+Pokémon	TYROGUE	DEBUGANT		data/pokemon/names.asm
+Pokémon	UMBREON	NOCTALI		data/pokemon/names.asm
+Pokémon	UNOWN	ZARBI		data/pokemon/names.asm
+Pokémon	URSARING	URSARING	identique	data/pokemon/names.asm
+Pokémon	VAPOREON	AQUALI		data/pokemon/names.asm
+Pokémon	VENOMOTH	AEROMITE		data/pokemon/names.asm
+Pokémon	VENONAT	MIMITOSS		data/pokemon/names.asm
+Pokémon	VENUSAUR	FLORIZARRE		data/pokemon/names.asm
+Pokémon	VICTREEBEL	EMPIFLOR		data/pokemon/names.asm
+Pokémon	VILEPLUME	RAFFLESIA		data/pokemon/names.asm
+Pokémon	VOLTORB	VOLTORBE		data/pokemon/names.asm
+Pokémon	VULPIX	GOUPIX		data/pokemon/names.asm
+Pokémon	WARTORTLE	CARABAFFE		data/pokemon/names.asm
+Pokémon	WEEDLE	ASPICOT		data/pokemon/names.asm
+Pokémon	WEEPINBELL	BOUSTIFLOR		data/pokemon/names.asm
+Pokémon	WEEZING	SMOGOGO		data/pokemon/names.asm
+Pokémon	WIGGLYTUFF	GRODOUDOU		data/pokemon/names.asm
+Pokémon	WOBBUFFET	QULBUTOKE		data/pokemon/names.asm
+Pokémon	WOOPER	AXOLOTO		data/pokemon/names.asm
+Pokémon	XATU	XATU	identique	data/pokemon/names.asm
+Pokémon	YANMA	YANMA	identique	data/pokemon/names.asm
+Pokémon	ZAPDOS	ELECTHOR		data/pokemon/names.asm
+Pokémon	ZUBAT	NOSFERAPTI		data/pokemon/names.asm
+Statistique	ABILITY	APTITUDE		data/battle/stat_names.asm
+Statistique	ACCURACY	PRECISION		data/battle/stat_names.asm
+Statistique	ATTACK	ATTAQUE		data/battle/stat_names.asm
+Statistique	DEFENSE	DEFENSE	identique	data/battle/stat_names.asm
+Statistique	EVASION	ESQUIVE		data/battle/stat_names.asm
+Statistique	SPCL.ATK	ATQ.SPE.		data/battle/stat_names.asm
+Statistique	SPCL.DEF	DEF.SPE.		data/battle/stat_names.asm
+Statistique	SPEED	VITESSE		data/battle/stat_names.asm
+Type	???	???	identique	data/types/names.asm
+Type	BUG	INSECTE		data/types/names.asm
+Type	DARK	TENEBRES		data/types/names.asm
+Type	DRAGON	DRAGON	identique	data/types/names.asm
+Type	ELECTRIC	ELECTRIK		data/types/names.asm
+Type	FIGHTING	COMBAT		data/types/names.asm
+Type	FIRE	FEU		data/types/names.asm
+Type	FLYING	VOL		data/types/names.asm
+Type	GHOST	SPECTRE		data/types/names.asm
+Type	GRASS	PLANTE		data/types/names.asm
+Type	GROUND	SOL		data/types/names.asm
+Type	ICE	GLACE		data/types/names.asm
+Type	NORMAL	NORMAL	identique	data/types/names.asm
+Type	POISON	POISON	identique	data/types/names.asm
+Type	PSYCHIC	PSY		data/types/names.asm
+Type	ROCK	ROCHE		data/types/names.asm
+Type	STEEL	ACIER		data/types/names.asm
+Type	WATER	EAU		data/types/names.asm
