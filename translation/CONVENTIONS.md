@@ -83,6 +83,72 @@ L'officiel écrit ` A `, ` LA `, `CA `, `OU?` — sans accent, sans cédille.
 **Conséquence technique :** aucun glyphe de capitale accentuée n'a été dessiné,
 et le budget de charmap n'en réserve aucun ([`CHARMAP.md`](CHARMAP.md)).
 
+## 2 bis. Casse : on MODERNISE — décision D3
+
+**Décidée par l'utilisateur le 2026-08-24.**
+
+Polished Crystal a converti **systématiquement** la casse ALL-CAPS du Cristal
+vanilla en casse mixte. Ce n'est pas une retouche ponctuelle : **1 311 blocs**
+de texte ne diffèrent du vanilla que par ça.
+
+| vanilla | Polished Crystal |
+|---|---|
+| `LUCKY NUMBER SHOW!` | `Lucky Number Show!` |
+| `PROF.ELM` | `Prof.Elm` |
+| `#MON` | `#mon` |
+| `FARFETCH'D` | `Farfetch'd` |
+
+Le cahier disait : « mesure d'abord ce que le hack fait déjà ; s'il modernise
+systématiquement, suis-le. » **La mesure est faite, il modernise. On suit.**
+
+Précédent relevé par l'utilisateur : *Pokémon Version Violette*, romhack de
+Rouge/Bleu de même esprit, a appliqué la même modernisation.
+
+### Ce que ça implique concrètement
+
+Le français officiel écrit les noms propres en capitales : `ECORCIA`,
+`TEAM ROCKET`, `ARENE`. Il faudra les convertir : `Écorcia`, `Team Rocket`,
+`Arène`.
+
+Ampleur mesurée sur le corpus français officiel :
+
+| | |
+|---|---|
+| formes en capitales distinctes | **1 483** |
+| occurrences | **15 997** |
+| déjà couvertes par `donnees/glossaire_officiel.tsv` | 228 formes, 27 % des occurrences |
+
+⚠️ **La conversion sera OUTILLÉE, pas manuelle.** Un dictionnaire
+`CAPITALES -> Casse Mixte` de 1 483 entrées, dont la plupart se déduisent
+mécaniquement. Les autres se tranchent une fois et servent partout.
+
+### ⚠️ La conséquence que la casse mixte entraîne : des CAPITALES ACCENTUÉES
+
+En capitales, le français ne s'accentue pas — c'est la règle du §2, mesurée à
+zéro sur 44 945. **En casse mixte, la règle ne s'applique plus** : `ECORCIA`
+devient `Écorcia`, `ILES ECUME` devient `Îles Écume`.
+
+Déduit du corpus (mots présents à la fois en capitales et en minuscules
+accentuées) :
+
+| Capitale | occurrences | exemples |
+|---|---|---|
+| `Î` | 60 | `ILE` → `Île`, `ILES` → `Îles` |
+| `Â` | 11 | `AME` → `Âme` |
+| `Ç` | 1 | `CA` → `Ça` |
+
+⚠️ **Cette méthode ne voit pas les noms propres**, qui n'apparaissent jamais en
+minuscules. `ECORCIA`, `EBENELLE`, `ECUME`, `ECOLIER` sont des candidats — à
+**vérifier sur Poképédia, jamais de mémoire** ([`PIEGES.md`](PIEGES.md) #12).
+
+⚠️ **Et le charmap est à marge ZÉRO** ([`CHARMAP.md`](CHARMAP.md)). Chaque
+capitale accentuée ajoutée devra en remplacer une autre. Les réserves connues :
+les 3 caractères espagnols restants (`á` `¿` `¡`, ce qui rouvrirait D1) et
+`<SHARP>` (au prix du lecteur de musique). **Décision à prendre quand le
+nombre exact sera connu.**
+
+---
+
 ## 3. Ponctuation : pas d'espace avant les signes doubles
 
 Contre-intuitif pour du français, mais **c'est la règle des jeux Pokémon**, et

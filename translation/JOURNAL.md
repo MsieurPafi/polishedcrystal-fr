@@ -7,6 +7,53 @@ Les décisions vont dans [`DECISIONS.md`](DECISIONS.md), les pièges dans
 
 ---
 
+## 2026-08-24 — Jour 1, sixième séance : décision D3 et une correction
+
+**Décision D3 de l'utilisateur : on MODERNISE** — casse mixte, comme le hack.
+Précédent qu'il a relevé : *Pokémon Version Violette*, romhack de Rouge/Bleu
+de même esprit, a fait de même. → [`CONVENTIONS.md`](CONVENTIONS.md) §2 bis.
+
+**Correction : le Pokédex n'était pas réécrit, mon lecteur était incomplet**
+
+J'avais annoncé « 666 blocs de Pokédex à rédiger contre 2 récupérables ».
+L'utilisateur a demandé un exemple concret — Héricendre — et l'exemple a
+montré que PC est **identique au vanilla**, à la casse et à la macro près.
+
+Cause : chaque entrée vanilla commence par deux `db` (la catégorie de l'espèce,
+puis la première ligne de description) **avant** le moindre `next`. Le lecteur
+les laissait tomber, la description vanilla ressortait amputée de ses deux
+premières lignes, et ne correspondait plus à celle de PC.
+
+Réel : **215 des 334 entrées** reprennent le vanilla, **119** sont propres au
+hack. C'est la neuvième correction du lecteur — et la seule que le contrôle de
+couverture ne pouvait pas voir, puisqu'il ne dénombre que les lignes de
+**macros**, pas les `db`.
+
+**Chiffres révisés**
+
+| | avant | après |
+|---|---|---|
+| travail mécanique | 7 765 | **8 087** |
+| travail de rédaction | 6 723 | **6 113** |
+
+**Ce que D3 ouvre**
+
+⚠️ La casse mixte exige des **capitales accentuées** : `ECORCIA` devient
+`Écorcia`, `ILES ECUME` devient `Îles Écume`. Mesuré sur le corpus : `Î`
+(60 occ.), `Â` (11), `Ç` (1) — plus les **noms propres**, invisibles à cette
+méthode et à vérifier sur Poképédia.
+
+Et le charmap est à **marge zéro**. → question A6, bloquante pour la phase 2.
+
+**Prochaine séance**
+
+1. Faire vérifier à l'utilisateur la liste des noms propres candidats.
+2. Trancher A6 : d'où viennent les cases des capitales accentuées.
+3. Construire le dictionnaire `CAPITALES -> Casse Mixte` (1 483 formes).
+4. **Phase 2** sur les 4 070 applicables.
+
+---
+
 ## 2026-08-24 — Jour 1, cinquième séance : le décompte
 
 **Le chiffre existe enfin.** Rapport complet : [`INVENTAIRE.md`](INVENTAIRE.md).

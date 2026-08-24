@@ -167,6 +167,33 @@ le même aplomb.
 bloc entier « venu d'un `db` » au lieu de l'élément, et inventait 2 001 lignes
 manquantes qui n'existaient pas. Un contrôle se contrôle aussi.
 
+### #2 quinquies — Le contrôle de couverture avait un angle mort
+
+**2026-08-24.** Après huit corrections, le lecteur affichait 39 168 lignes vues
+sur 39 166 attendues. J'ai cru la couverture complète. Elle ne l'était pas.
+
+Le contrôle dénombre les lignes portant une **macro de texte** (`text`, `line`,
+`next`…). Il ne compte **pas** les `db "..."`. Or chaque entrée du Pokédex
+vanilla commence par deux `db` avant son premier `next` :
+
+```asm
+	db "FIRE MOUSE@"      ; la catégorie de l'espèce
+	db "The fire that"    ; la 1re ligne de description
+	next "spouts from its"
+```
+
+Le lecteur laissait tomber les deux, la description ressortait amputée, et les
+251 entrées vanilla ne correspondaient plus à celles de PC. J'en ai conclu que
+le hack avait « réécrit le Pokédex » — et je l'ai annoncé à l'utilisateur.
+
+C'est **sa demande d'un exemple concret** (Héricendre) qui a révélé l'erreur :
+les deux textes étaient identiques à la casse près.
+
+**La leçon :** un contrôle vert ne prouve que ce qu'il mesure. Celui-ci
+mesurait les lignes de macros et rien d'autre ; il ne pouvait pas voir un
+manque situé hors de son périmètre. **Quand un résultat surprend — « le hack a
+réécrit tout le Pokédex » —, c'est un signal, pas une conclusion.**
+
 ### #10 bis — La casse : 1 311 chaînes cachées par une notation
 
 **2026-08-24.** Le critère exact appliqué brut classait **1 849 blocs**

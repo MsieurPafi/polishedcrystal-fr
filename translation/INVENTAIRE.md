@@ -13,31 +13,31 @@ heuristique. Il a fallu trois outils et huit corrections avant d'y croire.
 ```
   catégorie              plafond   orphelins   RETENU
   ----------------------------------------------------
-  applicable               3774          2       3772
-  renommé                  1473        104       1369
-  retouché                 1910          0       1910
-  ambigu                    827        113        714
-  propre au hack           7116        393       6723
+  applicable               4072          2       4070
+  renommé                  1715        104       1611
+  retouché                 1664          0       1664
+  ambigu                    855        113        742
+  propre au hack           6506        393       6113
   ----------------------------------------------------
-  TOTAL                   15100        612      14488
+  TOTAL                   14812        612      14200
 ```
 
 | | blocs | ce que ça veut dire |
 |---|---|---|
-| **Travail mécanique** | **7 765** | le français officiel se reprend, avec plus ou moins d'adaptation |
-| **Travail de rédaction** | **6 723** | contenu propre au hack, aucune source |
+| **Travail mécanique** | **8 087** | le français officiel se reprend, avec plus ou moins d'adaptation |
+| **Travail de rédaction** | **6 113** | contenu propre au hack, aucune source |
 | Écartés (orphelins) | 612 | déclarés, cités par rien |
 
 ### Le détail des catégories
 
 | Catégorie | Blocs | Critère |
 |---|---|---|
-| **applicable** | 3 772 | `PC == EN` et `FR != EN` — le français officiel se reprend **tel quel** |
-| **renommé** | 1 369 | le hack a changé le nom du label, pas le texte — l'officiel s'applique |
-| **retouché** | 1 910 | le hack a modifié le texte — reprendre l'officiel et **reporter la retouche** |
-| **ambigu** | 714 | le texte existe en vanilla mais plusieurs labels le portent — récupérable **au cas par cas** |
-| **confirmé** | 158 | `FR == EN` — le terme ne se traduit pas. **Ce n'est pas du travail.** |
-| **propre au hack** | 6 723 | aucun équivalent vanilla — à rédiger |
+| **applicable** | 4 070 | `PC == EN` et `FR != EN` — le français officiel se reprend **tel quel** |
+| **renommé** | 1 611 | le hack a changé le nom du label, pas le texte — l'officiel s'applique |
+| **retouché** | 1 664 | le hack a modifié le texte — reprendre l'officiel et **reporter la retouche** |
+| **ambigu** | 742 | le texte existe en vanilla mais plusieurs labels le portent — récupérable **au cas par cas** |
+| **confirmé** | 103 | `FR == EN` — le terme ne se traduit pas. **Ce n'est pas du travail.** |
+| **propre au hack** | 6 113 | aucun équivalent vanilla — à rédiger |
 
 ### Où le travail se trouve
 
@@ -52,8 +52,20 @@ heuristique. Il a fallu trois outils et huit corrections avant d'y croire.
 | talents | 160 | — |
 | capacités | 81 | 176 |
 
-⚠️ Le **Pokédex** est presque intégralement à rédiger (666 contre 2) : Polished
-Crystal porte 289 espèces contre 251, et a réécrit les descriptions.
+⚠️ **Correction du 2026-08-24.** J'avais annoncé le Pokédex « presque
+intégralement à rédiger, 666 contre 2 ». **C'était mon lecteur, pas le hack.**
+
+Chaque entrée du Pokédex vanilla commence par deux `db` — la catégorie de
+l'espèce puis la première ligne de description — avant le moindre `next`. Le
+lecteur les laissait tomber, la description vanilla ressortait amputée, et ne
+correspondait donc plus à celle de PC.
+
+Réel : **215 des 334 entrées** du Pokédex de PC reprennent le texte vanilla à
+la casse près ; **119** sont propres au hack — les espèces qu'il ajoute
+(289 contre 251) et quelques réécritures.
+
+Exemple, Héricendre : PC est **identique** au vanilla, à la casse (`FIRE MOUSE`
+→ `Fire Mouse`) et à la macro (`db` → `text`) près.
 
 ---
 

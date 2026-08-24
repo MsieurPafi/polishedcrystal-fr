@@ -229,7 +229,13 @@ def lire_fichier(chemin, strict=True):
             #     (`data/pokemon/dex_entries/abra.asm`) est dans ce cas.
             # Les jeter perdait 5 771 lignes dans PC et 1 263 dans le vanilla.
             # On ouvre donc un bloc IMPLICITE, nommé d'après son contexte.
-            if courant is None or (courant.a_du_texte and not ouvert):
+            # ⚠️ On teste le texte venu de MACROS (genre « t »), pas celui
+            # d'un `db` (genre « d »). Sinon la catégorie du Pokédex, écrite
+            # en `db` juste avant la description, provoquait une découpe en
+            # deux blocs et la description repartait amputée de sa première
+            # ligne.
+            deja = any(g == "t" for g, _ in courant.elements) if courant else False
+            if courant is None or (deja and not ouvert):
                 implicites += 1
                 base = global_courant or Path(chemin).stem
                 nom_implicite = f"{base}#{implicites}"
@@ -249,8 +255,21 @@ def lire_fichier(chemin, strict=True):
             continue
 
         if nom in DONNEES:
+            chaines = RX_CHAINE.findall(reste)
+            if chaines and courant is None:
+                # ⚠️ Une entrée du Pokédex vanilla COMMENCE par deux `db` :
+                #   db "FIRE MOUSE@"      ; la catégorie de l'espèce
+                #   db "The fire that"    ; la première ligne de description
+                # avant le moindre `next`. Sans ce cas, ces deux lignes
+                # tombaient dans le vide, la description vanilla amputée ne
+                # correspondait plus à celle de PC, et les 251 entrées du
+                # Pokédex passaient pour du contenu propre au hack.
+                implicites += 1
+                base = global_courant or Path(chemin).stem
+                nom_implicite = f"{base}#{implicites}"
+                courant = Bloc(nom_implicite, str(chemin), n)
+                blocs[nom_implicite] = courant
             if courant is not None:
-                chaines = RX_CHAINE.findall(reste)
                 if chaines:
                     # genre « d » : du texte, mais issu d'une directive de
                     # données. Compte pour le contenu, pas pour le contrôle
