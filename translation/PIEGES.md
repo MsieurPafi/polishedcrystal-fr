@@ -111,6 +111,33 @@ le mystery gift. → décision P14.
 
 ---
 
+### #1 quater — Deux ressources distinctes, prises pour une seule
+
+**2026-08-24.** J'ai annoncé à l'utilisateur qu'il restait de la place « à
+récupérer » pour les accents français : 4 feuilles Huffman `$fc`–`$ff` sont
+inutilisées, et abaisser `FIRST_SHIFTED_LEAF_CHAR_ID` les rend accessibles.
+L'arithmétique était juste, les `assert` passaient, le décodeur est bien
+paramétré. **Et l'idée était sans objet.**
+
+Un caractère de Polished Crystal a besoin de **deux** ressources indépendantes :
+
+| Ressource | Plage | Ce qu'elle donne |
+|---|---|---|
+| une **tuile de police** | octets `$7f`–`$f0` | le glyphe s'affiche |
+| une **feuille Huffman** | octets `$7f`–`$eb` et `$4d`–`$5c` | le caractère se comprime |
+
+Les feuilles que je voulais récupérer desservent `$4b`–`$5c` : des octets de
+n-grammes et de contrôle, **qui n'ont aucune tuile**. Elles ne peuvent donc pas
+loger un `à`. J'avais raisonné sur la ressource abondante en croyant traiter la
+ressource rare.
+
+**La leçon :** quand une contrainte se lève trop facilement, vérifier qu'on
+parle bien de la même contrainte. J'ai passé le contrôle arithmétique, celui
+des `assert` et celui du décodeur — trois contrôles justes sur la mauvaise
+question.
+
+---
+
 ## Hérités du chantier jumeau — tous rencontrés pour de vrai
 
 ### #2 — Le motif d'analyse trop strict, qui annonce sereinement « 0 »
