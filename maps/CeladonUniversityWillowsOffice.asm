@@ -61,8 +61,8 @@ CeladonUniversityWillowsOfficeScientistText:
 	done
 
 CeladonUniversityWillowsOfficeBlackboardText:
-	text "Someone wrote “DO"
-	line "NOT ERASE” with"
+	text "Someone wrote DO"
+	line "NOT ERASE with"
 
 	para "an arrow toward"
 	line "an illegible"
@@ -91,7 +91,7 @@ CeladonUniversityWillowsOfficeBookshelf2Text:
 CeladonUniversityWillowsOfficeComputer:
 	jumpthistext
 
-	text "“#mon Transfer"
-	line "System” is on the"
+	text "#mon Transfer"
+	line "System is on the"
 	cont "screen."
 	done

@@ -150,8 +150,8 @@ endc
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "× 1   ¥1000@"
-	db "×10  ¥10000@"
+	db "x 1   ¥1000@"
+	db "x10  ¥10000@"
 	db "Cancel@"
 
 GoldenrodHoneyHouseButterfreeText:

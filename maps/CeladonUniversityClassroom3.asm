@@ -90,7 +90,7 @@ CeladonUniversityClassroom3Super_nerdText:
 	line "from the unit of"
 
 	para "electric current,"
-	line "the “ampere.”"
+	line "the ampere."
 
 	para "Rearrange the"
 	line "letters, and"
@@ -101,9 +101,9 @@ CeladonUniversityClassroom3BlackboardText:
 	text "'Phylogenetics'"
 	line "is on the board."
 
-	para "“…#mon can be"
+	para "…#mon can be"
 	line "divided into 14"
-	cont "“Egg groups”,"
+	cont "Egg groups,"
 	cont "plus Ditto."
 
 	para "Baby #mon can-"
@@ -111,7 +111,7 @@ CeladonUniversityClassroom3BlackboardText:
 
 	para "Legendary #mon"
 	line "have not been"
-	cont "studied.”"
+	cont "studied."
 	done
 
 CeladonUniversityClassroom3Bookshelf1Text:
@@ -131,7 +131,7 @@ CeladonUniversityClassroom3Bookshelf2Text:
 	line "ten by Prof."
 	cont "Silktree."
 
-	para "“Ruins of Alph"
+	para "Ruins of Alph"
 	line "Investigation"
-	cont "Report”…"
+	cont "Report…"
 	done

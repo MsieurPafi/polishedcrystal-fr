@@ -247,9 +247,9 @@ BurnedTowerSign:
 EcruteakShrineSign:
 	text "Ecruteak Shrine"
 
-	para "“Life is a lamp-"
+	para "Life is a lamp-"
 	line "flame before a"
-	cont "wind.”"
+	cont "wind."
 	done
 
 EcruteakBarrierStationSign:

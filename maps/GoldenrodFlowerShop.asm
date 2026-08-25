@@ -109,8 +109,8 @@ FlowerShopTeacherScript:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "× 1    ¥200@"
-	db "×10   ¥2000@"
+	db "x 1    ¥200@"
+	db "x10   ¥2000@"
 	db "Cancel@"
 
 FlowerShopFloriaScript:

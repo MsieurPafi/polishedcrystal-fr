@@ -58,9 +58,9 @@ ViridianSchoolHouseYoungsterScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "“What doesn't KO"
+	text "What doesn't KO"
 	line "a #mon makes"
-	cont "it stronger.”"
+	cont "it stronger."
 
 	para "That's the effect"
 	line "of a Weak Policy."

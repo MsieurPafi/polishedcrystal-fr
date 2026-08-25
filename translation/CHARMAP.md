@@ -320,7 +320,59 @@ occupe le jeu, les trois autres cases (`<SHARP>`, `♥`, `♪`) sont seules
 disponibles : il faudra donc **échelonner** l'ajout des capitales, ou accepter
 une croissance temporaire de la ROM.
 
-**Décision A6 en attente.**
+### ✅ Appliqué le 2026-08-25
+
+⚠️ **Ma proposition initiale était fausse.** J'avais annoncé `<SHARP>` + `♥` +
+`♪` + `'s` en croyant `♥` et `♪` cantonnés au clavier de surnom. Vérification
+faite, ils servent dans de **vrais dialogues** — 10 et 24 occurrences : des PNJ
+qui chantent, des répliques enjôleuses. Ma recherche s'était arrêtée aux
+quatre premières lignes, toutes dans `input_chars.asm`.
+
+**Les quatre cases réellement prises, sans rien perdre :**
+
+| Octet | Était | Devient | Ce que ça coûte |
+|---|---|---|---|
+| `$ba` | `“` | **`É`** | 56 guillemets anglais. Le français **n'en emploie aucun** ([`CONVENTIONS.md`](CONVENTIONS.md) §4). |
+| `$bb` | `”` | **`Ç`** | idem |
+| `$c5` | `'s` | **`Î`** | 66 usages en français (« J'suis ») coûtent 1 tuile de plus. ⚠️ 44 lignes **anglaises** débordent temporairement, jusqu'à leur traduction. |
+| `$db` | `×` | **`Â`** | remplacé par un `x` minuscule, à deux pixels près, sur 8 étiquettes de prix |
+
+**Ni PILAR, ni le lecteur de musique, ni les cœurs, ni les notes de musique
+n'ont été touchés.**
+
+### Les capitales, techniquement
+
+⚠️ Une minuscule occupe les lignes 2-6 : les lignes 0-1 accueillent l'accent.
+**Une capitale occupe les lignes 0-6** — aucune place au-dessus.
+
+PC résolvait déjà le problème pour son `É` : le `E` y est **comprimé de 7
+lignes à 5**. `outils/capitales_fr.py` reproduit cette compression
+(`ligne0 = src0|src1`, puis 2,3,4, puis `src5|src6`) — et **elle redonne
+exactement le corps que le dessinateur avait tracé à la main**, dans 5 polices
+sur 8.
+
+Pour les 3 autres (`serif`, `chicago`, `unown`), on ne recalcule pas : le `É`
+d'origine est **repris tel quel** de l'historique git. Dans `serif` il conserve
+des empattements que la compression perdait ; dans `unown`, dont les runes
+ignorent les diacritiques, la lettre est rendue inchangée.
+
+`Ç` fait exception : la cédille se pose ligne 7, libre. Le `C` garde sa forme
+entière.
+
+### Ce que la compilation a attrapé
+
+| Erreur | Cause |
+|---|---|
+| `Character literals must be a single charmap unit` | `ld [hl], '“'` — le Pokématos encadrait le nom de la station de guillemets. Remplacés par des espaces : la mise en page est préservée. |
+| idem, 8 fois | `ld a, '×'` — des **littéraux**, que le remplacement dans les chaînes n'avait pas touchés. |
+| idem | `ld [hl], '\'s'` — le code collait le possessif anglais après le nom du Pokémon. **Piège #7** : le français exige un changement de code. Supprimé. |
+| `CHARVAL: No character mapping for "×"` | des `×` dans des macros `next1`, hors des `db`. |
+
+**Espace libre : 14 782 → 12 871.** Les ~1 900 octets sont le prix du `'s`
+libéré sur du texte encore anglais ; ils reviendront avec la traduction.
+
+**Vérifié dans la ROM** : `É` `Ç` `Î` `Â` présents, plus un contrôle positif
+sur un glyphe inchangé.
 
 ---
 

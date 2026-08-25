@@ -200,7 +200,7 @@ CalcMagikarpLength:
 
 ; if bc < 10:    [wMagikarpLengthMm] = c + 190
 ; if bc ≥ $ff00: [wMagikarpLengthMm] = c + 1370
-; else:          [wMagikarpLengthMm] = z × 100 + (bc − x) / y
+; else:          [wMagikarpLengthMm] = z x 100 + (bc − x) / y
 
 ; X, Y, and Z depend on the value of b as follows:
 
@@ -286,7 +286,7 @@ CalcMagikarpLength:
 	ldh a, [hQuotient + 2]
 	ld c, a
 
-	; de = c + 100 × (2 + i)
+	; de = c + 100 x (2 + i)
 	xor a
 	ldh [hMultiplicand + 0], a
 	ldh [hMultiplicand + 1], a

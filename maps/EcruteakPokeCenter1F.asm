@@ -37,7 +37,7 @@ PokemonJournalMortyScript:
 	line "have once seen"
 	cont "Entei. He says:"
 
-	para "“It was amazing."
+	para "It was amazing."
 	line "Entei looked me"
 	cont "in the eyes."
 
@@ -48,7 +48,7 @@ PokemonJournalMortyScript:
 	line "right through me,"
 
 	para "down into the dep-"
-	line "ths of my heart…”"
+	line "ths of my heart…"
 	done
 
 EcruteakPokeCenter1FBillScript:

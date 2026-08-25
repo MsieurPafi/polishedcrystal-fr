@@ -143,9 +143,9 @@ CinnabarIslandGymSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "“Cinnabar Gym has"
+	para "Cinnabar Gym has"
 	line "relocated to Sea-"
-	cont "foam Islands.”"
+	cont "foam Islands."
 
 	para "-- Blaine"
 	done

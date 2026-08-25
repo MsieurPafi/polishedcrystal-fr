@@ -172,8 +172,8 @@ CeladonUniversityLibrary1FBookshelf2Text:
 	para "pictures of"
 	line "#mon."
 
-	para "“Todd Snap's Scrap-"
-	line "folio” is written"
+	para "Todd Snap's Scrap-"
+	line "folio is written"
 	cont "on the cover."
 	done
 
@@ -217,7 +217,7 @@ CeladonUniversityLibrary1FBookshelf6Text:
 	cont "that can't tell"
 	cont "lies."
 
-	para "“Pinpokéo” is"
+	para "Pinpokéo is"
 	line "written on the"
 	cont "cover."
 	done
@@ -244,7 +244,7 @@ CeladonUniversityLibrary1FBookshelf8Text:
 	para "advice to new"
 	line "anglers."
 
-	para "“Odds and Rods” is"
+	para "Odds and Rods is"
 	line "written on the"
 	cont "cover."
 	done
@@ -278,8 +278,8 @@ CeladonUniversityLibrary1FBookshelf11Text:
 	done
 
 CeladonUniversityLibrary1FBookshelf12Text:
-	text "“The Secret Life"
-	line "of Laughter” by"
+	text "The Secret Life"
+	line "of Laughter by"
 	cont "Joe King."
 	cont "Puntastic!"
 	done

@@ -114,8 +114,8 @@ ShamoutiHotel1FLadyText:
 	para "In Alola, where I'm"
 	line "from, there's a man"
 
-	para "who will “Hyper"
-	line "Train” your #-"
+	para "who will Hyper"
+	line "Train your #-"
 	cont "mon--bringing out"
 
 	para "its full poten-"
@@ -125,7 +125,7 @@ ShamoutiHotel1FLadyText:
 
 ShamoutiHotel1FYoungsterText:
 	text "I heard that"
-	line "<TRENDY> is “in”"
+	line "<TRENDY> is in"
 	cont "right now!"
 	done
 

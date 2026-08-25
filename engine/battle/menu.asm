@@ -70,7 +70,7 @@ ContestBattleMenuDataHeader:
 .Strings:
 	db "Fight@"
 	db "<PK><MN>@"
-	db "Ball×  @"
+	db "Ballx  @"
 	db "Run@"
 
 ShowParkBallsRemaining:
@@ -93,7 +93,7 @@ SafariBattleMenuDataHeader:
 	dba ShowSafariBallsRemaining
 
 .Strings:
-	db "Ball×  @"
+	db "Ballx  @"
 	db "Bait@"
 	db "Rock@"
 	db "Run@"

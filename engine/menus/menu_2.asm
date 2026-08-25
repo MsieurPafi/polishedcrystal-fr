@@ -102,7 +102,7 @@ PlaceMenuItemQuantity:
 _PlaceMenuQuantity:
 	ld de, SCREEN_WIDTH + 1
 	add hl, de
-	ld a, '×'
+	ld a, 'x'
 	ld [hli], a
 	ld de, wMenuSelectionQuantity
 	lb bc, 1, 2

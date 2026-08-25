@@ -82,7 +82,7 @@ Route7Snorlax:
 Route7UndergroundPathSignText:
 	text "What's this flyer?"
 
-	para "“Uncouth trainers"
+	para "Uncouth trainers"
 	line "have been holding"
 
 	para "battles in the"
@@ -93,7 +93,7 @@ Route7UndergroundPathSignText:
 	cont "cal residents, the"
 	cont "Underground Path"
 	cont "has been sealed"
-	cont "indefinitely.”"
+	cont "indefinitely."
 
 	para "-- Celadon Police"
 	done

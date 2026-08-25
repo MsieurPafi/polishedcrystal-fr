@@ -16,14 +16,14 @@ UpdateItemDescriptionAndBagQuantity:
 	lb bc, 2, 4
 	call PrintNum
 	pop hl
-	; "Bag ×  9", "Bag × 99" "Bag ×999", or "Bag×9999"
+	; "Bag x  9", "Bag x 99" "Bag x999", or "Bagx9999"
 	ld a, [hl]
 	assert ' ' < $80 && '0' >= $80
 	add a ; overflows iff a == ' '
 	jr nc, .print_x
 	dec hl
 .print_x
-	ld [hl], '×'
+	ld [hl], 'x'
 UpdateItemDescription:
 	ld a, [wMenuSelection]
 	ld [wCurSpecies], a
@@ -57,14 +57,14 @@ UpdateExpCandyDescriptionAndBagQuantity:
 	lb bc, 2, 4
 	call PrintNum
 	pop hl
-	; "Bag ×  9", "Bag × 99" "Bag ×999", or "Bag×9999"
+	; "Bag x  9", "Bag x 99" "Bag x999", or "Bagx9999"
 	ld a, [hl]
 	assert ' ' < $80 && '0' >= $80
 	add a ; overflows iff a == ' '
 	jr nc, .print_x
 	dec hl
 .print_x
-	ld [hl], '×'
+	ld [hl], 'x'
 UpdateExpCandyDescription:
 	ld a, [wMenuSelection]
 	ld [wCurSpecies], a

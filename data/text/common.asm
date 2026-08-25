@@ -2662,9 +2662,9 @@ _LuckyNumberMatchPCText::
 	para "of "
 	text_ram wStringBuffer2
 	text " in Box"
-	line "“"
+	line ""
 	text_ram wStringBuffer1
-	text "”."
+	text "."
 	prompt
 
 SECTION "_CaughtAskNicknameText", ROMX

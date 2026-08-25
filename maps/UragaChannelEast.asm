@@ -91,6 +91,6 @@ ScaryCaveEastSignText:
 	text "There's graffiti"
 	line "on this sign…"
 
-	para "“This cave is"
-	line "scary!”"
+	para "This cave is"
+	line "scary!"
 	done

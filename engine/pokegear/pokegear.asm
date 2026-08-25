@@ -954,7 +954,7 @@ UpdateRadioStation:
 RadioChannels:
 ; frequencies and the shows that play on them.
 
-; frequency value given here = 4 × ingame_frequency − 2
+; frequency value given here = 4 x ingame_frequency − 2
 	dbw 16, .PkmnTalk
 	dbw 28, .PokemonMusic
 	dbw 32, .LuckyChannel
@@ -1422,13 +1422,13 @@ PlayRadio:
 	lb bc, 4, 18
 	call Textbox
 	hlcoord 1, 14
-	ld [hl], '“'
+	ld [hl], ' '
 	pop de
 	hlcoord 2, 14
 	rst PlaceString
 	ld h, b
 	ld l, c
-	ld [hl], '”'
+	ld [hl], ' '
 	jmp ApplyTilemapInVBlank
 
 PlayRadioStationPointers:

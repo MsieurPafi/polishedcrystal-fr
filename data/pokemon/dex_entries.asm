@@ -3310,7 +3310,7 @@ WooperPaldeanPokedexEntry::
 SECTION "TaurosPaldeanPokedexEntry", ROMX
 TaurosPaldeanPokedexEntry::
 	db "Wild Bull@"
-	text "The “Combat Breed”"
+	text "The Combat Breed"
 	next "fights in close"
 	next "quarters. It uses"
 	page "its short horns"
@@ -3320,7 +3320,7 @@ TaurosPaldeanPokedexEntry::
 SECTION "TaurosPaldeanFirePokedexEntry", ROMX
 TaurosPaldeanFirePokedexEntry::
 	db "Wild Bull@"
-	text "The “Blaze Breed's”"
+	text "The Blaze Breed's"
 	next "horns can reach"
 	next "over 1800 degrees."
 	page "Those gored by"
@@ -3330,7 +3330,7 @@ TaurosPaldeanFirePokedexEntry::
 SECTION "TaurosPaldeanWaterPokedexEntry", ROMX
 TaurosPaldeanWaterPokedexEntry::
 	db "Wild Bull@"
-	text "The “Aqua Breed”"
+	text "The Aqua Breed"
 	next "swims by jetting"
 	next "water from its"
 	page "horns. Its high"

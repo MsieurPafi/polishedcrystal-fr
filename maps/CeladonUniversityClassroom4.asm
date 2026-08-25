@@ -227,8 +227,8 @@ CeladonUniversityClassroom4Rich_boyScript:
 
 .Text2:
 	text "There are some"
-	line "rare “hidden"
-	cont "abilities” that"
+	line "rare hidden"
+	cont "abilities that"
 
 	para "an Ability Cap"
 	line "can't change."

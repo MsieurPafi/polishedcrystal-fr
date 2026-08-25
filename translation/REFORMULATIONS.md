@@ -97,3 +97,33 @@ Pour mémoire, ne pas confondre avec :
 - le **report de retouche** du hack sur le texte officiel (phase 3), qui suit
   le hack et non notre goût ;
 - l'**espagnol de PILAR** privé de `í` et `ó` (D1), qui relève du charmap.
+
+---
+
+## 3. Différences de CODE, pas de texte
+
+⚠️ Cas où le français impose de modifier le **code**, pas seulement la chaîne
+— le piège #7 du cahier.
+
+### `engine/battle/ability_gfx.asm` — le possessif du bandeau de talent
+
+L'anglais construit le bandeau en **collant un `'s`** après le nom du Pokémon :
+
+```asm
+	; Append 's
+	ld [hl], '\'s'
+```
+
+donnant « Pikachu's » au-dessus de « Static ». Le français n'a pas de
+possessif suffixé. L'ajout est **supprimé** : le bandeau affiche « Pikachu »
+puis « Statik », où la possession est implicite et se lit sans peine.
+
+Repéré parce que la compilation a refusé le littéral `'\'s'` après la
+libération de cette case de charmap — **le compilateur a fait le travail d'un
+relecteur.**
+
+### `engine/pokegear/pokegear.asm` — les guillemets du Pokématos
+
+Le code encadrait le nom de la station de radio de guillemets courbes
+(`ld [hl], '“'`). Le français n'emploie pas de guillemets ; ils sont remplacés
+par des **espaces**, ce qui préserve exactement la mise en page.

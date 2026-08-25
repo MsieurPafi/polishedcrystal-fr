@@ -119,9 +119,9 @@ CeladonUniversityClassroom2BlackboardText:
 	line "first virtual"
 	cont "#mon created."
 
-	para "“Hypothesis: tech-"
+	para "Hypothesis: tech-"
 	line "nology grows expo-"
-	cont "nentially.”"
+	cont "nentially."
 	done
 
 CeladonUniversityClassroom2Bookshelf1Text:

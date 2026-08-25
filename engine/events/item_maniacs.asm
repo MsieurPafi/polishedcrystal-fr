@@ -106,7 +106,7 @@ ItemManiac_SelectQuantity:
 	call MenuBoxCoord2Tile
 	ld de, 2 * SCREEN_WIDTH + 10
 	add hl, de
-	ld a, '×'
+	ld a, 'x'
 	ld [hli], a
 	ld de, wItemQuantityChangeBuffer
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2

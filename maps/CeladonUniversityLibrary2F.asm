@@ -76,9 +76,9 @@ CeladonUniversityLibrary2FArtistScript:
 	end
 
 .Text1:
-	text "“Jasmine gazed"
+	text "Jasmine gazed"
 	line "into Erika's deep"
-	cont "brown eyes…”"
+	cont "brown eyes…"
 	done
 
 .Text2:
@@ -90,7 +90,7 @@ CeladonUniversityLibrary2FArtistScript:
 	done
 
 CeladonUniversityLibrary2FSuper_nerdText:
-	text "The “net send”"
+	text "The net send"
 	line "command will show"
 
 	para "a message on"
@@ -99,9 +99,9 @@ CeladonUniversityLibrary2FSuper_nerdText:
 
 	para "Hmm, what to send…"
 
-	para "“Free pizza in"
+	para "Free pizza in"
 	line "Prof.Westwood's"
-	cont "office!”"
+	cont "office!"
 
 	para "Hehehe."
 	done
@@ -205,8 +205,8 @@ CeladonUniversityLibrary2FBookshelf8Text:
 	para "on the cover"
 	line "of this book."
 
-	para "“How to Train Your"
-	line "Dragonite” is"
+	para "How to Train Your"
+	line "Dragonite is"
 	cont "written in bold."
 	done
 
@@ -217,8 +217,8 @@ CeladonUniversityLibrary2FBookshelf9Text:
 	para "inhabited entirely"
 	line "by #mon!"
 
-	para "“Pikachu's Adven-"
-	line "tures in #Park”"
+	para "Pikachu's Adven-"
+	line "tures in #Park"
 
 	para "is written on the"
 	line "cover."
@@ -229,13 +229,13 @@ CeladonUniversityLibrary2FBookshelf10Text:
 	line "an island of giant"
 	cont "#mon robots."
 
-	para "“#mon Robotics”"
+	para "#mon Robotics"
 	line "by Anne Droid…"
 	done
 
 CeladonUniversityLibrary2FBookshelf11Text:
-	text "“Forgive and"
-	line "Forget” by Saul"
+	text "Forgive and"
+	line "Forget by Saul"
 	cont "Goode."
 
 	para "There's a picture"
@@ -244,7 +244,7 @@ CeladonUniversityLibrary2FBookshelf11Text:
 	done
 
 CeladonUniversityLibrary2FBookshelf12Text:
-	text "“Weightlessness”"
+	text "Weightlessness"
 	line "by Andy Gravity."
 	cont "Sounds flighty!"
 	done
@@ -274,19 +274,19 @@ CeladonUniversityLibrary2FBookshelf15Text:
 	line "picting a fearsome"
 	cont "#mon."
 
-	para "“Absofusion and"
-	line "the Tao Trio” is"
+	para "Absofusion and"
+	line "the Tao Trio is"
 
 	para "written in big"
 	line "letters."
 	done
 
 CeladonUniversityLibrary2FBookshelf16Text:
-	text "“Ancient #-"
+	text "Ancient #-"
 	line "mopolis: A History"
 
 	para "of Extinct"
-	line "#mon”"
+	line "#mon"
 
 	para "Sounds"
 	line "interesting!"
@@ -294,10 +294,10 @@ CeladonUniversityLibrary2FBookshelf16Text:
 
 CeladonUniversityLibrary2FBookshelf17Text:
 	text "It's a book titled"
-	line "“Typecasting: The"
+	line "Typecasting: The"
 
 	para "Mystery of"
-	line "Sudowoodo”."
+	line "Sudowoodo."
 	done
 
 CeladonUniversityLibrary2FBookshelf18Text:
@@ -362,5 +362,5 @@ CeladonUniversityLibrary2FComputer4:
 
 	text "There's a web page"
 	line "about how to be a"
-	cont "“l33t h4x0r”."
+	cont "l33t h4x0r."
 	done

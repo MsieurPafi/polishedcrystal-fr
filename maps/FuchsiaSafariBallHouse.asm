@@ -97,6 +97,6 @@ FuchsiaSafariBallHouseOfficerScript:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "× 1   ¥2000@"
-	db "×10  ¥20000@"
+	db "x 1   ¥2000@"
+	db "x10  ¥20000@"
 	db "Cancel@"

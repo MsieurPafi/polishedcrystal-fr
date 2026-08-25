@@ -118,7 +118,7 @@ RocketHideoutB1FPicnickerZane:
 
 .BeatenText:
 	text "You've got that"
-	line "“spark”, alright."
+	line "spark, alright."
 
 	para "Keep it alive!"
 	done

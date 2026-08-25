@@ -420,8 +420,8 @@ GoldenrodCityGymLassText:
 	para "She bolted out of"
 	line "here and shouted,"
 
-	para "“I have got to get"
-	line "a Radio Card!”"
+	para "I have got to get"
+	line "a Radio Card!"
 	done
 
 GoldenrodCityStationSignText:

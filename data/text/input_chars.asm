@@ -24,7 +24,7 @@ MailEntry_Uppercase:
 	rawchar "KLMNOPQRST"
 	rawchar "UVWXYZ?!…:"
 	rawchar "1234567890"
-	rawchar "<PK><MN><PO><KE>&♂♀¥×/"
+	rawchar "<PK><MN><PO><KE>&♂♀¥É/"
 	assert_table_length 10 * 5
 
 MailEntry_Lowercase:
@@ -33,7 +33,7 @@ MailEntry_Lowercase:
 	rawchar "klmnopqrst"
 	rawchar "uvwxyz -.,"
 	rawchar "éàêèçîôû()"
-	rawchar "“”'%↑↓№★♥♪"
+	rawchar "ÇÎ'%↑↓№★♥♪"
 	assert_table_length 10 * 5
 
 NameInputLowerQwerty:
@@ -60,7 +60,7 @@ MailEntryQwerty_Uppercase:
 	rawchar "ASDFGHJKL:"
 	rawchar "ZXCVBNM?!…"
 	rawchar "1234567890"
-	rawchar "<PK><MN><PO><KE>&♂♀¥×/"
+	rawchar "<PK><MN><PO><KE>&♂♀¥É/"
 	assert_table_length 10 * 5
 
 MailEntryQwerty_Lowercase:
@@ -69,5 +69,5 @@ MailEntryQwerty_Lowercase:
 	rawchar "asdfghjkl-"
 	rawchar "zxcvbnm,. "
 	rawchar "éàêèçîôû()"
-	rawchar "“”'%↑↓№★♥♪"
+	rawchar "ÇÎ'%↑↓№★♥♪"
 	assert_table_length 10 * 5

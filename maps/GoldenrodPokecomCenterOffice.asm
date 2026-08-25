@@ -47,7 +47,7 @@ AdminRangiText:
 RangiComputerScript:
 	jumpthistext
 
-	text "“Optimizing…” is"
+	text "Optimizing… is"
 	line "blinking on the"
 	cont "screen."
 

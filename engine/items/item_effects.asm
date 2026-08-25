@@ -1784,7 +1784,7 @@ WingCase_MonSelected:
 	call SwapHLDE
 	ld bc, SCREEN_WIDTH
 	add hl, bc
-	ld a, '×'
+	ld a, 'x'
 	ld [hli], a
 	lb bc, 2, 3
 	jmp PrintNum
@@ -2138,7 +2138,7 @@ CandyJar_MonSelected:
 	call SwapHLDE
 	ld bc, SCREEN_WIDTH - 3
 	add hl, bc
-	ld a, '×'
+	ld a, 'x'
 	ld [hli], a
 	lb bc, 1, 2
 	jmp PrintNum
@@ -2322,13 +2322,13 @@ ApricornBox:
 
 .Text
 	text  " Red   Blu"
-	next1 "   ×     ×"
+	next1 "   x     x"
 	next1 " Ylw   Grn"
-	next1 "   ×     ×"
+	next1 "   x     x"
 	next1 " Wht   Blk"
-	next1 "   ×     ×"
+	next1 "   x     x"
 	next1 " Pnk"
-	next1 "   ×"
+	next1 "   x"
 	done
 
 PrintAprValues:

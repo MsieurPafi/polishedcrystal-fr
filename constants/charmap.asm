@@ -155,14 +155,21 @@ DEF FIRST_REGULAR_TEXT_CHAR EQU $7f
 	ctxtmap "y",        $b8, 111100
 	ctxtmap "z",        $b9, 11010100101
 
-	ctxtmap "“",        $ba, 11010111110101
-	ctxtmap "”",        $bb, 0011010001100
+	ctxtmap "É",        $ba, 11010111110101
+	ctxtmap "Ç",        $bb, 0011010001100
 	ctxtmap "-",        $bc, 00110101
 	ctxtmap ":",        $bd, 001011101
 	ctxtmap "♂",        $be, 001101000011011000
 	ctxtmap "♀",        $bf, 1000011101101000001
 
-; Français : les contractions anglaises 'd 'l 'm 'r 't 'v, la capitale É et
+; Français, 2e vague — les CAPITALES accentuées qu'exige la casse mixte (D3).
+; Cédé leur case : les guillemets courbes “ ” (56 usages anglais, ZÉRO en
+; français — cf. CONVENTIONS.md §4), la ligature 's (66 usages en français
+; contre 1 970 en anglais) et le signe × (8 étiquettes de prix, remplacé par
+; un x minuscule à deux pixels près).
+; Ni PILAR, ni le lecteur de musique, ni les cœurs n'ont été touchés.
+;
+; Français, 1re vague : les contractions anglaises 'd 'l 'm 'r 't 'v, la capitale É et
 ; les accentuées espagnoles í ó ont cédé leur case aux accents français.
 ; Les codes Huffman sont CONSERVÉS tels quels : seul le libellé des feuilles
 ; change, l'arbre garde sa forme. Ils seront réoptimisés par `make huffman`
@@ -172,7 +179,7 @@ DEF FIRST_REGULAR_TEXT_CHAR EQU $7f
 	ctxtmap "â",        $c2, 1000011010
 	ctxtmap "ç",        $c3, 1000011100
 	ctxtmap "è",        $c4, 0011011111
-	ctxtmap "'s",       $c5, 00101111
+	ctxtmap "Î",        $c5, 00101111
 	ctxtmap "ê",        $c6, 110101000
 	ctxtmap "î",        $c7, 10111011010
 
@@ -201,7 +208,7 @@ DEF FIRST_REGULAR_TEXT_CHAR EQU $7f
 	ctxtmap "♪",        $d9, 100001110110110
 	ctxtmap "♥",        $da, 1101011111001111
 
-	ctxtmap "×",        $db, 1000011101101011
+	ctxtmap "Â",        $db, 1000011101101011
 	ctxtmap "/",        $dc, 001101000110111
 	ctxtmap "%",        $dd, 110101111100111001
 

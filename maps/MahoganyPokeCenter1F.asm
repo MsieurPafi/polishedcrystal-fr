@@ -39,8 +39,8 @@ PokemonJournalPryceScript:
 	cont "winter, which has"
 
 	para "earned him the"
-	line "nickname “the"
-	cont "winter trainer”."
+	line "nickname the"
+	cont "winter trainer."
 	done
 
 MahoganyPokeCenter1FPokefanmText:

@@ -431,7 +431,7 @@ RuinsOfAlphResearchCenterComputerText_GotAllUnown:
 RuinsOfAlphResearchCenterPrinterText_DoesntWork:
 	text "It's a printer."
 	line "The display says"
-	cont "“PC LOAD LETTER”."
+	cont "PC LOAD LETTER."
 
 	para "…What does that"
 	line "mean?"

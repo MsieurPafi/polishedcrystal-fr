@@ -148,7 +148,7 @@ CinnabarVolcano1FBuckScript:
 .NoText:
 	text "I'll keep asking"
 	line "until you say"
-	cont "“Yes!”"
+	cont "Yes!"
 	done
 
 .BeatenText:

@@ -140,9 +140,9 @@ KukuiScript:
 	done
 
 Route22CooltrainerfText:
-	text "The name “Kanto”"
-	line "means “east of the"
-	cont "barrier.”"
+	text "The name Kanto"
+	line "means east of the"
+	cont "barrier."
 
 	para "I suppose the"
 	line "barrier must be"

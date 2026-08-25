@@ -205,14 +205,11 @@ GetAbilityNameAndPkmn:
 	ld hl, wAbilityPkmn
 	rst PlaceString
 
-	; Append 's
-	ld hl, wAbilityPkmn
-.name_loop
-	ld a, [hli]
-	cp '@'
-	jr nz, .name_loop
-	ld [hld], a
-	ld [hl], '\'s'
+	; French Difference : l'anglais colle un « 's » possessif après le nom
+	; (« Pikachu's » / « Static »). Le français n'a pas de possessif suffixé :
+	; le bandeau affiche simplement « Pikachu » puis « Statik », où la
+	; possession est implicite. L'ajout est donc supprimé.
+	; Voir translation/REFORMULATIONS.md §3.
 	ret
 
 ResetAbilityTilemap:

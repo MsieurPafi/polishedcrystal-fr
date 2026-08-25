@@ -98,8 +98,8 @@ FarmerMScript_SellMilk:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "× 1    ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}@"
-	db "×12   ¥{d:ROUTE39FARMHOUSE_DOZEN_MILK_PRICE}@"
+	db "x 1    ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}@"
+	db "x12   ¥{d:ROUTE39FARMHOUSE_DOZEN_MILK_PRICE}@"
 	db "Cancel@"
 
 .Milking:
