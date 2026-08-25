@@ -26,7 +26,7 @@ dépasse 18 tuiles.
 |---|---|---|---|
 | 1 | `ToddSaleText` | **Être** sur le toit, / c'est top. | Sur le toit, c'est / vraiment top. |
 | 2 | `VanceNumberDeclinedText` | **Être** pote avec les / fans des oiseaux, / c'est bien… | Avoir un pote fan / des oiseaux, c'est / bien… |
-| 3 | `_AreYouABoyOrAreYouAGirlText` | **Êtes**-vous un gar- / çon ou une fille? | Tu es un garçon / ou une fille? |
+| 3 | `_AreYouABoyOrAreYouAGirlText` | **Êtes**-vous un gar- / çon ou une fille? | **Vous êtes** un gar- / çon ou une fille? *(voir §1 bis)* |
 | 4 | `NationalParkTeacher1Text` | **Être** maîtresse / d'école donne de / petites manies. | Le métier de / maîtresse donne de / petites manies. |
 | 5 | `NationalParkTeacher1Text` | **Être** élève modèle / mérite un petit / quelque chose. | Un élève modèle / mérite un petit / quelque chose. |
 | 6 | `YoungsterOwenSeenText` | **Être** honnête, ça / c'est chouette! | Jouer franc-jeu, / ça c'est chouette! |
@@ -36,14 +36,56 @@ dépasse 18 tuiles.
 
 ### Notes de traduction
 
-- **#3** passe du vouvoiement au tutoiement. L'anglais de PC est familier
-  (*« Are you a boy? Or are you a girl? »*) et le hack modernise partout
-  ailleurs — le tutoiement est cohérent avec D3. **À valider.**
+- **#3** — voir §1 bis : la solution retenue **conserve le texte officiel**.
 - **#8** — « Devenir » se rapproche en réalité **davantage** de l'anglais que
   l'officiel : *« Becoming a good trainer is really tough. »* La contrainte
   technique améliore ici la traduction.
 - **#4** perd « d'école » (« maîtresse d'école » → « maîtresse »), sans
   ambiguïté dans le contexte : la scène se passe dans une école.
+
+---
+
+## 1 bis. Le cas n°3 — et une anomalie de la VF officielle
+
+**Question posée par l'utilisateur :** le vouvoiement de « Êtes-vous un garçon
+ou une fille? » a-t-il une raison ? Peut-on écrire « Vous êtes… » ?
+
+**Réponse : oui, et c'est la meilleure solution.** Inverser suffit à faire
+passer le `ê` en **minuscule** — plus aucune capitale accentuée requise — et
+les deux lignes tiennent :
+
+```
+   17 ✓ │Vous êtes un gar-│
+   17 ✓ │çon ou une fille?│
+```
+
+Aucun mot n'est changé. Le registre est préservé. La contrainte technique
+disparaît par simple inversion.
+
+### Ce que la vérification a révélé
+
+⚠️ **Le vouvoiement est une anomalie isolée du Cristal français.** Compté sur
+toute l'introduction du Prof. Chen :
+
+| | occurrences |
+|---|---|
+| « vous / votre / vos » | **1** — cette phrase, et elle seule |
+| « tu / ton / ta / tes / toi » | **25** |
+
+Deux répliques plus loin, le même personnage demande : « Heu... C'est quoi
+**ton** nom? »
+
+Ce n'est donc pas un registre voulu, mais un écart du traducteur d'époque — et
+ce n'était pas une contrainte de place : « Es-tu un garçon » tient en 15 tuiles.
+
+### Pourquoi on le garde quand même
+
+**Le hack est la source, l'officiel est la référence.** Corriger une incohérence
+de la VF officielle n'entre pas dans notre mandat, et les joueurs francophones
+vivent avec depuis 2001. On préserve.
+
+L'anomalie est consignée ici pour qu'on ne la reprenne pas plus tard pour une
+faute de notre part.
 
 ---
 
