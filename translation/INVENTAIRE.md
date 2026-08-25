@@ -13,31 +13,31 @@ heuristique. Il a fallu trois outils et huit corrections avant d'y croire.
 ```
   catégorie              plafond   orphelins   RETENU
   ----------------------------------------------------
-  applicable               4072          2       4070
-  renommé                  1715        104       1611
-  retouché                 1664          0       1664
-  ambigu                    855        113        742
-  propre au hack           6506        393       6113
+  applicable               3235          1       3234
+  renommé                  1317          0       1317
+  retouché                  436          0        436
+  ambigu                    140          0        140
+  propre au hack           4404         65       4339
   ----------------------------------------------------
-  TOTAL                   14812        612      14200
+  TOTAL                    9532         66       9466
 ```
 
 | | blocs | ce que ça veut dire |
 |---|---|---|
-| **Travail mécanique** | **8 087** | le français officiel se reprend, avec plus ou moins d'adaptation |
-| **Travail de rédaction** | **6 113** | contenu propre au hack, aucune source |
-| Écartés (orphelins) | 612 | déclarés, cités par rien |
+| **Travail mécanique** | **5 127** | le français officiel se reprend, avec plus ou moins d'adaptation |
+| **Travail de rédaction** | **4 339** | contenu propre au hack, aucune source |
+| Écartés (orphelins) | 66 | déclarés, cités par rien |
 
 ### Le détail des catégories
 
 | Catégorie | Blocs | Critère |
 |---|---|---|
-| **applicable** | 4 070 | `PC == EN` et `FR != EN` — le français officiel se reprend **tel quel** |
-| **renommé** | 1 611 | le hack a changé le nom du label, pas le texte — l'officiel s'applique |
-| **retouché** | 1 664 | le hack a modifié le texte — reprendre l'officiel et **reporter la retouche** |
-| **ambigu** | 742 | le texte existe en vanilla mais plusieurs labels le portent — récupérable **au cas par cas** |
+| **applicable** | 3 234 | `PC == EN` et `FR != EN` — le français officiel se reprend **tel quel** |
+| **renommé** | 1 317 | le hack a changé le nom du label, pas le texte — l'officiel s'applique |
+| **retouché** | 436 | le hack a modifié le texte — reprendre l'officiel et **reporter la retouche** |
+| **ambigu** | 140 | le texte existe en vanilla mais plusieurs labels le portent — récupérable **au cas par cas** |
 | **confirmé** | 103 | `FR == EN` — le terme ne se traduit pas. **Ce n'est pas du travail.** |
-| **propre au hack** | 6 113 | aucun équivalent vanilla — à rédiger |
+| **propre au hack** | 4 339 | aucun équivalent vanilla — à rédiger |
 
 ### Où le travail se trouve
 
@@ -161,7 +161,26 @@ glissé vers un voisin. → `PIEGES.md` #4.
 
 ---
 
-## 6. Sur les 612 orphelins
+## 5 bis. ⚠️ Chiffres corrigés le 2026-08-25
+
+Les totaux publiés le 24 août étaient **gonflés de moitié** par un bug d'alias :
+mon lecteur fusionnait des labels qu'une commande de script séparait pourtant,
+et le même texte se retrouvait attribué jusqu'à douze fois
+([`PIEGES.md`](PIEGES.md) #4 bis).
+
+| | annoncé le 24 | réel |
+|---|---|---|
+| travail mécanique | 8 087 | **5 127** |
+| travail de rédaction | 6 113 | **4 339** |
+| orphelins | 612 | **66** |
+
+Le contrôle de couverture ne pouvait pas le détecter : aucune ligne n'était
+perdue, elles étaient seulement comptées plusieurs fois. **Un contrôle qui
+vérifie qu'on ne perd rien ne vérifie pas qu'on ne duplique pas.**
+
+---
+
+## 6. Sur les 66 orphelins
 
 Un label cité par aucun autre fichier. ⚠️ Deux pièges dans leur détection,
 tous deux résolus :

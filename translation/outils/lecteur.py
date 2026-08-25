@@ -183,6 +183,7 @@ def lire_fichier(chemin, strict=True):
     ouvert = False      # un bloc de texte est-il commencé et non terminé ?
     global_courant = ""  # pour qualifier les labels locaux
     implicites = 0       # compteur de blocs sans label
+    contenu = False      # quelque chose (même non textuel) depuis le label ?
     for n, ligne in enumerate(
         chemin.read_text(encoding="utf-8", errors="replace").splitlines(), 1
     ):
@@ -206,7 +207,14 @@ def lire_fichier(chemin, strict=True):
             #       text "Has a high criti-"
             # Sans ce cas, le premier label repartait vide et son texte était
             # attribué au seul second.
-            if courant is not None and not courant.elements:
+            # ⚠️ « vide » signifie : RIEN entre les deux labels, pas même une
+            # commande de script. Sans le drapeau `contenu`, un label comme
+            #   Route11FruitTree:
+            #       fruittree FRUITTREE_ROUTE_11
+            # paraissait vide (le lecteur n'enregistre pas les commandes de
+            # script) et se faisait fusionner avec le label suivant : le texte
+            # de la Route 11 se retrouvait sous 12 labels sans rapport.
+            if courant is not None and not courant.elements and not contenu:
                 blocs[nom_complet] = courant
                 courant.label = nom_complet
                 ouvert = False
@@ -214,6 +222,7 @@ def lire_fichier(chemin, strict=True):
             courant = Bloc(nom_complet, str(chemin), n)
             blocs[nom_complet] = courant
             ouvert = False
+            contenu = False
             continue
 
         m = RX_MACRO.match(ligne)
@@ -281,6 +290,9 @@ def lire_fichier(chemin, strict=True):
                     # instruction venue (`popc` dans mobile/) déclencherait
                     # le mode strict à tort.
             continue
+
+        if nom not in DIRECTIVES:
+            contenu = True      # une vraie macro : le label n'est plus vide
 
         if nom in DIRECTIVES:
             if nom in ("if", "elif", "else") and courant is not None and ouvert:

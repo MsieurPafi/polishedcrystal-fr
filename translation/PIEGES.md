@@ -218,6 +218,39 @@ Ce n'est pas une retouche de contenu. Deux autres notations relevées :
 devra suivre la convention de PC — c'est une transformation à construire, pas
 un détail.
 
+### #4 bis — Mon fusionneur d'alias inventait des jumeaux
+
+**2026-08-25.** Le lecteur fusionne deux labels consécutifs quand rien ne les
+sépare — cas réel de `data/moves/descriptions.asm`, où `StoneEdgeDescription`
+et `XScissorDescription` partagent un texte.
+
+Mais « rien ne les sépare » était mal défini : le lecteur n'enregistre pas les
+**commandes de script**, donc un label comme
+
+```asm
+Route11FruitTree:
+	fruittree FRUITTREE_ROUTE_11
+```
+
+paraissait vide et se faisait fusionner avec le suivant. Résultat : le texte
+d'un dresseur de la Route 11 se retrouvait attribué à **douze labels** sans
+rapport — un panneau, un arbre à fruits, un objet caché.
+
+**Repéré par surprise** : en listant les phrases contenant « Etre », j'ai vu la
+même phrase revenir douze fois. Un doublon inexplicable est un symptôme.
+
+**Contournement :** un drapeau `contenu`, levé par toute macro qui n'est pas
+une directive d'assemblage. Un label n'est « vide » que si **rien** ne le suit,
+pas même une commande de script.
+
+**Ce que ça a coûté :** des chiffres faux, annoncés à l'utilisateur. Le total
+retenu passait de 14 200 à **9 466** — les 4 734 excédentaires étaient des
+blocs fantômes. Le décompte des phrases à reformuler tombait de 21 à 9.
+
+⚠️ **Le contrôle de couverture ne pouvait pas le voir** : aucune ligne de texte
+n'était perdue, elles étaient seulement attribuées plusieurs fois. Un contrôle
+qui vérifie qu'on ne perd rien ne vérifie pas qu'on ne duplique pas.
+
 ### #9 ter — 86 % des « orphelins » n'en étaient pas
 
 **2026-08-24.** Le triage annonçait **4 220 symboles orphelins**. Deux erreurs
