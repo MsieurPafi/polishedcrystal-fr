@@ -188,7 +188,7 @@ IrwinFogBadgeGossipText:
 	line "Incroyable!"
 
 	para "J'étais à l'entrée"
-	line "de l'Arene pour"
+	line "de l'Arène pour"
 
 	para "t'encourager."
 	line "Tu le savais ça?"

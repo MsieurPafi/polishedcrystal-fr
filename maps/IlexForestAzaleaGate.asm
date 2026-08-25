@@ -60,8 +60,8 @@ ProfOaksAide1Script:
 	done
 
 IlexForestAzaleaGateOfficerText:
-	text "Le Bois aux Che-"
-	line "nés est immense!"
+	text "Le Bois aux Chê-"
+	line "nes est immense!"
 	cont "Attention!"
 	done
 

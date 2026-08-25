@@ -210,7 +210,7 @@ OlivineCityRivalGymText:
 	para "En parlant de"
 	line "minus, le"
 
-	para "champion d'Arene"
+	para "champion d'Arène"
 	line "n'est pas ici."
 
 	para "Il est soi-disant"
@@ -428,7 +428,7 @@ OlivineCityPortSignText:
 	done
 
 OlivineGymSignText:
-	text "champion d'Arene"
+	text "champion d'Arène"
 	line "d'Oliville:"
 	cont "Jasmine"
 

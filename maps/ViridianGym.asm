@@ -193,7 +193,7 @@ LeaderBlueBeforeText:
 
 	para "Tu dis quoi?"
 	line "Tu as passé toutes"
-	cont "les Arenes de"
+	cont "les Arènes de"
 	cont "Johto?"
 
 	para "Ils sont nuls à"

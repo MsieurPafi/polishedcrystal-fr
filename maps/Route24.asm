@@ -172,13 +172,13 @@ Route24RocketAfterBattleText:
 	line "la volé moi."
 
 	para "La planqué aussi"
-	line "dans Arene Azuria."
+	line "dans Arène Azuria."
 
 	para "Dans l'eau tu la"
 	line "cherches au"
 	cont "milieu."
 
-	para "Dans l'Arene, OK?"
+	para "Dans l'Arène, OK?"
 	line "Tout compris?"
 
 	para "Ma toi tu oublies"

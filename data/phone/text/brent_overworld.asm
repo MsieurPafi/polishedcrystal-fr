@@ -23,14 +23,14 @@ BrentAskNumber1Text:
 
 BrentAskNumber2Text:
 	text "Je peux tout te"
-	line "dire sur Leo..."
+	line "dire sur Léo..."
 
 	para "Alors laisse-moi"
 	line "ton numéro."
 	done
 
 BrentNumberAcceptedText:
-	text "Leo..."
+	text "Léo..."
 	line "Il est trop fort!"
 
 	para "Je veux être un"

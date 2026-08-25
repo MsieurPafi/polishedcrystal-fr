@@ -676,9 +676,9 @@ SchoolboyAlanBooksText:
 	done
 
 MeetArthurText:
-	text "Jerome: Qui es-tu?"
+	text "Jérôme: Qui es-tu?"
 
-	para "Moi c'est Jerome"
+	para "Moi c'est Jérôme"
 	line "du jeudi."
 	done
 
@@ -689,8 +689,8 @@ ArthurGivesGiftText:
 
 
 ArthurThursdayText:
-	text "Jerome: Moi c'est"
-	line "Jerome du jeudi,"
+	text "Jérôme: Moi c'est"
+	line "Jérôme du jeudi,"
 
 	para "le deuxième fils"
 	line "des sept enfants."
@@ -703,7 +703,7 @@ Route36SignText:
 
 RuinsOfAlphNorthSignText:
 	text "ruines d'alpha"
-	line "Entree Nord"
+	line "Entrée Nord"
 	done
 
 Route36TrainerTips1Text:

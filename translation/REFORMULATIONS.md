@@ -89,6 +89,18 @@ faute de notre part.
 
 ---
 
+## 1 ter. Les mots que `ï` nous coûte
+
+`ï` a été abandonné faute de case de charmap (décision P13). Six occurrences,
+toutes remplacées :
+
+| Officiel | Retenu | Motif |
+|---|---|---|
+| `Aïe!` `Aïeuuu!` | **`Ouille!`** `Ouilleuu!` | interjection française exacte, sans tréma |
+| `CAID` → `Caïd` | **`Cadre`** | ⚠️ **à confirmer.** Traduit l'anglais `EXECUTIVE`, un rang de la Team Rocket. En capitales l'officiel écrit `CAID` sans tréma ; en casse mixte il faudrait `Caïd`. « Cadre » dit le même rang en français courant — **à vérifier sur Poképédia**, jamais de mémoire ([`PIEGES.md`](PIEGES.md) #12). |
+
+---
+
 ## 2. Ce qui n'est PAS une reformulation
 
 Pour mémoire, ne pas confondre avec :

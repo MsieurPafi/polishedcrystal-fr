@@ -263,7 +263,7 @@ RadioTower5FRocketBossBeforeText:
 	line "sacré talent."
 
 	para "Nous allons con-"
-	line "trôler cette sta-"
+	line "trôler cette Sta-"
 
 	para "tion de radio pour"
 	line "annoncer au monde"

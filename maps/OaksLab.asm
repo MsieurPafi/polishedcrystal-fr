@@ -412,10 +412,10 @@ OakNoKantoBadgesText:
 	text "Chen: Hmm? Tu ne"
 	line "collectionnes pas"
 	cont "les Badges des"
-	cont "Arenes de Kanto?"
+	cont "Arènes de Kanto?"
 
 	para "Les Champions"
-	line "d'Arene de Kanto"
+	line "d'Arène de Kanto"
 
 	para "sont aussi forts"
 	line "que ceux de Johto."

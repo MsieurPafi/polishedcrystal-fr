@@ -210,7 +210,7 @@ PewterCitySignText:
 	done
 
 PewterGymSignText:
-	text "champion d'Arene"
+	text "champion d'Arène"
 	line "d'Argenta:"
 	cont "pierre"
 

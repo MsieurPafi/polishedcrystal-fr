@@ -2,8 +2,8 @@ ToddAskNumber1Text:
 	text "d'ici, je peux"
 	line "voir le centre"
 
-	para "Commercial de dou-"
-	line "Blonville. Il y a"
+	para "Commercial de Dou-"
+	line "blonville. Il y a"
 
 	para "des offres spécia-"
 	line "les sur le toit de"

@@ -260,7 +260,7 @@ PokeCenter2FMovementData_ReceptionistStepsRightAndDown:
 
 Text_BattleReceptionistIntro:
 	text "Bienvenue au"
-	line "Colisee du Club"
+	line "Colisée du Club"
 	cont "Link."
 
 	para "Vous pouvez y"

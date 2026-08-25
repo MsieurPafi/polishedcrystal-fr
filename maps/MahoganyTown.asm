@@ -200,8 +200,8 @@ MahoganyTownSouvenirShopSignText1:
 	done
 
 MahoganyGymSignText:
-	text "champion d'Arene"
-	line "d'Acajou: Fredo"
+	text "champion d'Arène"
+	line "d'Acajou: Frédo"
 
 	para "Le prof. qui"
 	line "venait du froid"

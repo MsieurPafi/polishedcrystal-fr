@@ -351,8 +351,8 @@ EcruteakGymGuyWinText:
 	done
 
 EcruteakGymClosedText:
-	text "Mortimer, le Cham-"
-	line "Pion, est absent."
+	text "Mortimer, le cham-"
+	line "pion, est absent."
 
 	para "Tu dois partir."
 

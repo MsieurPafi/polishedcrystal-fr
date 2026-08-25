@@ -190,7 +190,7 @@ CeruleanCityCooltrainerFText3: ; text > text
 CeruleanCityFisherText:
 	text "Je suis un super"
 	line "fan d'Ondine de"
-	cont "l'Arene d'Azuria."
+	cont "l'Arène d'Azuria."
 	done
 
 CeruleanCityFisherRocketTipText:
@@ -241,7 +241,7 @@ CeruleanCitySignText:
 	done
 
 CeruleanGymSignText:
-	text "champion d'Arene"
+	text "champion d'Arène"
 	line "d'Azuria: Ondine"
 
 	para "Une vraie petite"

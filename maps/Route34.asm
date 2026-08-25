@@ -598,7 +598,7 @@ TrainerCooltrainerfKate:
 	jumpthisopenedtext
 
 CooltrainerfKateAfterText:
-	text "Irene: Désolée de"
+	text "Irène: Désolée de"
 	line "t'avoir sauté"
 	cont "dessus."
 
@@ -706,7 +706,7 @@ CamperTodd1BeatenText:
 
 CamperTodd1AfterText:
 	text "Je devrais en"
-	line "mettre un en pen-"
+	line "mettre un en Pen-"
 
 	para "sion. Ou peut-"
 	line "être utiliser des"
@@ -811,18 +811,18 @@ CooltrainerfJennAfterText2:
 	done
 
 CooltrainerfKateSeenText:
-	text "Irene: T'as pas"
+	text "Irène: T'as pas"
 	line "été sympa avec mes"
 	cont "petites soeurs!"
 	done
 
 CooltrainerfKateBeatenText:
-	text "Irene: Non! J'ai"
+	text "Irène: Non! J'ai"
 	line "perdu! Incroyable!"
 	done
 
 CooltrainerfKateOfferPowerHerbText:
-	text "Irene: Tu es trop"
+	text "Irène: Tu es trop"
 	line "balèze. Je n'avais"
 	cont "aucune chance."
 
@@ -836,7 +836,7 @@ Route34SignText:
 	para "Doublonville -"
 	line "Écorcia"
 
-	para "Bois aux Chenes"
+	para "Bois aux Chênes"
 	line "Sur la route"
 	done
 

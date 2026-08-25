@@ -257,7 +257,7 @@ KurtsHouseSignText:
 	done
 
 AzaleaGymSignText:
-	text "champion d'Arene"
+	text "champion d'Arène"
 	line "d'Écorcia: Hector"
 
 	para "l'expert des"
@@ -291,7 +291,7 @@ CharcoalKilnSignText:
 	done
 
 AzaleaTownIlexForestSignText:
-	text "Bois aux Chenes"
+	text "Bois aux Chênes"
 
 	para "On y entre par la"
 	line "porte."
@@ -392,7 +392,7 @@ AzaleaTownYoungsterText:
 	text "Passe par Écorcia"
 	line "et tu te retrou-"
 	cont "veras au Bois aux"
-	cont "Chenes."
+	cont "Chênes."
 
 	para "Mais ces petits"
 	line "arbustes bloquent"
@@ -444,6 +444,6 @@ AzaleaTownKurtScript:
 AzaleaTownKurtText:
 	text "Peux-tu voir pour-"
 	line "quoi le Bois aux"
-	cont "Chenes est si"
+	cont "Chênes est si"
 	cont "agité?"
 	done

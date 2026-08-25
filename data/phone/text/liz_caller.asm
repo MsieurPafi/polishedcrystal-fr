@@ -113,10 +113,10 @@ LizEarlGossipText:
 	text "Écouté!"
 
 	para "Tu connais"
-	line "Theophile, le"
+	line "Théophile, le"
 
 	para "professeur à la"
-	line "tête de l'Academie"
+	line "tête de l'Académie"
 	cont "de Mauville?"
 
 	para "Je l'ai vu courir!"
@@ -188,8 +188,8 @@ LizSalonGossipText:
 LizWhitneyGossipText:
 	text "Écouté!"
 
-	para "blanche de dou-"
-	line "Blonville est"
+	para "blanche de Dou-"
+	line "blonville est"
 
 	para "dresseur depuis"
 	line "peu de temps!"
@@ -209,7 +209,7 @@ LizBugCatchingContestGossipText:
 	para "As-tu participé au"
 	line "Concours de Captu-"
 
-	para "re au Parc"
+	para "ré au Parc"
 	line "naturel?"
 
 	para "Moi ouais. Je"

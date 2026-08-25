@@ -76,6 +76,55 @@ l'on donne au témoin le même avantage qu'au sujet.
 
 ---
 
+### #7 bis — Les mots coupés en fin de ligne, convertis en deux moitiés
+
+**2026-08-25.** L'utilisateur a relu la liste des formes à accentuer et signalé
+des mots qui n'existent pas : `EME`, `ARE`, `CHAM`, `DREE`, `CLABLE`,
+`CARNIVOREA`. Il avait raison de tiquer.
+
+Le Cristal français **coupe ses mots en fin de ligne** :
+
+```asm
+	text "CHAMPION de l'ARE-"
+	line "NE de JADIELLE."
+```
+
+Mon convertisseur traitait chaque ligne isolément : `ARE-` et `NE` devenaient
+deux mots distincts, chacun recevant une capitale initiale. Le texte appliqué
+disait **« cette Tour Cen- / Dree... »** au lieu de « Cen- / drée... » —
+capitale fautive ET accent perdu, puisque le corpus ne connaît « cendrée »
+que sous sa forme entière.
+
+**Contournement :** avant de convertir, **recoller** le mot à travers le saut
+de ligne, convertir le mot entier, puis le recouper au même endroit. Sûr
+parce que la conversion préserve le nombre de caractères — restituer un accent
+ou changer une casse ne change pas la longueur. Si elle change quand même, le
+bloc est refusé plutôt qu'écrit faux.
+
+Le recollage franchit aussi un `para`, car la coupure peut enjamber un
+changement de paragraphe (`Piste Cy-` / … / `clable`).
+
+**La leçon :** une relecture humaine a vu en quelques minutes ce qu'aucun de
+mes contrôles ne cherchait. Mes garde-fous vérifiaient la largeur et
+l'encodabilité — pas la **vraisemblance des mots produits**.
+
+### #7 ter — Le `db` de catégorie collé à la description
+
+Même relecture, mêmes symptômes, autre cause : `Champignonl`, `Gazi`,
+`Minoiseaui`, `LEZARDS'`. Chaque entrée du Pokédex commence par sa catégorie
+d'espèce en `db`, immédiatement suivie de la description :
+
+```asm
+	db "LEZARD@"
+	text "S'il est en bonne"
+```
+
+Le lecteur concatène sans séparateur et le `@` disparaît : `LEZARD` + `S'il`
+donne `LEZARDS'il`. Purement cosmétique — cela ne pollue que la liste des mots
+à vérifier, jamais le texte écrit, qui est traité ligne par ligne. Mais ça
+fabriquait de faux mots dans un fichier soumis à un humain, ce qui lui a coûté
+du temps.
+
 ### #1 ter — Un script lancé du mauvais dossier, qui rend « 0 » en silence
 
 **2026-08-24.** Un décompte de caractères manquants a répondu

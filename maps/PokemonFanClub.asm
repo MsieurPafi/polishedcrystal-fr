@@ -107,7 +107,7 @@ ClefairyDollScript:
 	done
 
 PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText:
-	text "Je suis le Presi-"
+	text "Je suis le Prési-"
 	line "dent du fan Club"
 	cont "#mon."
 
@@ -178,7 +178,7 @@ PokemonFanClubChairmanHowDisappointingText:
 	done
 
 PokemonFanClubReceptionistText:
-	text "Notre President"
+	text "Notre Président"
 	line "parle un peu trop"
 	cont "de ses #mon..."
 	done

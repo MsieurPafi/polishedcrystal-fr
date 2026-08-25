@@ -226,7 +226,7 @@ JanineText_DisappointYou:
 	line "vraie!"
 
 	para "Je suis Jeannine"
-	line "de l'Arene de"
+	line "de l'Arène de"
 	cont "Parmanie!"
 	done
 
@@ -263,7 +263,7 @@ LassAmandaBeforeText:
 	text "Gnah ha ha ha!"
 
 	para "Je suis Jeannine"
-	line "de l'Arene de"
+	line "de l'Arène de"
 	cont "Parmanie!"
 
 	para "..."

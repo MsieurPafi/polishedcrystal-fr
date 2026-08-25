@@ -246,7 +246,7 @@ BoarderRonaldBeatenText:
 	done
 
 BoarderBradSeenText:
-	text "Cette Arene a le"
+	text "Cette Arène a le"
 	line "sol glissant."
 
 	para "C'est délire, pas"
@@ -264,7 +264,7 @@ BoarderBradBeatenText:
 
 BoarderDouglasSeenText:
 	text "Je connais le"
-	line "secret de Fredo."
+	line "secret de Frédo."
 	done
 
 BoarderDouglasBeatenText:
@@ -274,9 +274,9 @@ BoarderDouglasBeatenText:
 
 SkierRoxanneSeenText:
 	text "Pour vaincre"
-	line "Fredo, notre"
+	line "Frédo, notre"
 
-	para "champion d'Arene,"
+	para "champion d'Arène,"
 	line "tu dois penser"
 	cont "avant de patiner."
 	done
@@ -298,7 +298,7 @@ SkierClarissaBeatenText:
 
 
 MahoganyGymGuyWinText:
-	text "Fredo, c'est quel-"
+	text "Frédo, c'est quel-"
 	line "qu'un, mais toi"
 	cont "t'es pas naze"
 	cont "non plus!"

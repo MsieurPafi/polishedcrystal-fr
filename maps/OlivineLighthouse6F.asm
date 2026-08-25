@@ -218,7 +218,7 @@ JasmineThankYouText:
 	line "mon poussin."
 
 	para "Je vais retourner"
-	line "à l'Arene..."
+	line "à l'Arène..."
 	done
 
 JasmineISeeText:

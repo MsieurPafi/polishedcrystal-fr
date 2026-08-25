@@ -822,7 +822,7 @@ GoldenrodUndergroundWeAreNotOpenTodayText:
 	done
 
 GoldenrodUndergroundNoEntryText: ; text > text
-	text "Entree"
+	text "Entrée"
 	line "Interdite"
 	done
 

@@ -64,7 +64,7 @@ BlackthornCitySignText:
 	done
 
 BlackthornGymSignText:
-	text "champion d'Arene"
+	text "champion d'Arène"
 	line "d'Ébènelle: Sandra"
 
 	para "La détentrice de"

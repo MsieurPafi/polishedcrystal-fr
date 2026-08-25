@@ -111,7 +111,7 @@ BrockIntroText:
 	para "Moi c'est pierre,"
 	line "le champion de"
 
-	para "l'Arene d'Argenta."
+	para "l'Arène d'Argenta."
 	line "J'adore les #-"
 	cont "mon de la roche."
 
@@ -170,7 +170,7 @@ BrockFightDoneText:
 
 CamperJerrySeenText:
 	text "Les dresseurs de"
-	line "cette Arene utili-"
+	line "cette Arène utili-"
 	cont "sent des #mon"
 	cont "du type roche."
 
@@ -200,7 +200,7 @@ PewterGymGuyWinText:
 	text "Hé! Graine de"
 	line "star! Cette"
 
-	para "Arene ne t'a pas"
+	para "Arène ne t'a pas"
 	line "posé trop de"
 	cont "problèmes..."
 

@@ -183,7 +183,7 @@ AcademyEarlSpinMovement:
 	step_end
 
 AcademyEarlIntroText:
-	text "Theophile est"
+	text "Théophile est"
 	line "mon nom!"
 
 	para "Sensationnels sont"

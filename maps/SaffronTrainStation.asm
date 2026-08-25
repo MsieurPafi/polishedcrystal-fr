@@ -178,7 +178,7 @@ SaffronMagnetTrainStationLassText:
 	line "passe?"
 
 	para "Moi j'en ai un!"
-	line "Tous ceux de sa-"
+	line "Tous ceux de Sa-"
 
 	para "Frania qui utili-"
 	line "sent le train"

@@ -166,7 +166,7 @@ VioletPokeCenter1FElmsAideScript:
 
 VioletPokeCenter1FGameboyKidText:
 	text "Un type du nom de"
-	line "Leo a créé le"
+	line "Léo a créé le"
 	cont "système de stocka-"
 	cont "ge de #mon."
 	done

@@ -549,7 +549,7 @@ BattleText_ItemPreventsStatusMoves: ; assault vest
 
 BattleText_TheMoveIsDisabled:
 	text "La capacité est"
-	line "entravée!"
+	line "Entravée!"
 	prompt
 
 BattleText_PkmnHasNoMovesLeft:

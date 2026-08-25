@@ -268,7 +268,7 @@ PicnickerErin1BeatenText:
 
 PicnickerErinAfterBattleText:
 	text "Je connais toutes"
-	line "les Arenes mais ma"
+	line "les Arènes mais ma"
 
 	para "préférée c'est"
 	line "celle de Doublon-"

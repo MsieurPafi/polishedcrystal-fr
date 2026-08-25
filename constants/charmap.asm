@@ -40,16 +40,16 @@ assert FIRST_SHIFTED_LEAF_CHAR_ID < LAST_SHIFTED_LEAF_CHAR_ID && LAST_SHIFTED_LE
 DEF SPECIALS_START EQU $52
 
 	ctxtmap "<DONE>",   $52, 011101
-	ctxtmap "@",        $53, 111111000
-	ctxtmap "<PROMPT>", $54, 1101110000
-	ctxtmap "<LNBRK>",  $55, 1100010001001
+	ctxtmap "@",        $53, 111100010
+	ctxtmap "<PROMPT>", $54, 1100100111
+	ctxtmap "<LNBRK>",  $55, 1100100110101
 	ctxtmap "<NEXT>",   $56, 01001111
 	ctxtmap "<LINE>",   $57, 01000
-	ctxtmap "<CONT>",   $58, 1101000
+	ctxtmap "<CONT>",   $58, 1100101
 	ctxtmap "<PARA>",   $59, 011111
 
 	ctxtmap "<TARGET>", $5a, 001100111110010
-	ctxtmap "<USER>",   $5b, 010011101101000
+	ctxtmap "<USER>",   $5b, 001100111110110
 	ctxtmap "<ENEMY>",  $5c, 0011001111100010
 
 	charmap "<CTXT>",   $5d
@@ -96,47 +96,47 @@ DEF FIRST_REGULAR_TEXT_CHAR EQU $7f
 
 	ctxtmap "A",        $80, 001100110
 	ctxtmap "B",        $81, 010011011
-	ctxtmap "C",        $82, 110001001
+	ctxtmap "C",        $82, 110010010
 	ctxtmap "D",        $83, 0100111010
 	ctxtmap "E",        $84, 1100000011
-	ctxtmap "F",        $85, 11111100100
+	ctxtmap "F",        $85, 11110001100
 	ctxtmap "G",        $86, 0100110100
-	ctxtmap "H",        $87, 1101110110
-	ctxtmap "I",        $88, 11111101
-	ctxtmap "J",        $89, 1101110111
+	ctxtmap "H",        $87, 1111000001
+	ctxtmap "I",        $88, 11011010
+	ctxtmap "J",        $89, 1111000011
 	ctxtmap "K",        $8a, 11000000101
-	ctxtmap "L",        $8b, 1101110101
+	ctxtmap "L",        $8b, 1111000000
 	ctxtmap "M",        $8c, 001101110
 	ctxtmap "N",        $8d, 11000000100
-	ctxtmap "O",        $8e, 1101110100
+	ctxtmap "O",        $8e, 1101101101
 	ctxtmap "P",        $8f, 001101111
-	ctxtmap "Q",        $90, 1101110001100
+	ctxtmap "Q",        $90, 1111000010001
 	ctxtmap "R",        $91, 0100110101
 	ctxtmap "S",        $92, 110000011
 	ctxtmap "T",        $93, 00110010
-	ctxtmap "U",        $94, 110001000111
+	ctxtmap "U",        $94, 110110110001
 	ctxtmap "V",        $95, 00110011110
 	ctxtmap "W",        $96, 1100001011
-	ctxtmap "X",        $97, 11000100010101000
+	ctxtmap "X",        $97, 11001001101101000
 	ctxtmap "Y",        $98, 1100001010
-	ctxtmap "Z",        $99, 11011100010000
+	ctxtmap "Z",        $99, 11110000100000
 
 	ctxtmap "(",        $9a, 001100111111
 	ctxtmap ")",        $9b, 010011101100
-	ctxtmap ".",        $9c, 110101
+	ctxtmap ".",        $9c, 110100
 	ctxtmap ",",        $9d, 0011010
-	ctxtmap "?",        $9e, 11000101
+	ctxtmap "?",        $9e, 11001000
 	ctxtmap "!",        $9f, 1101111
 
 	ctxtmap "a",        $a0, 0110
-	ctxtmap "b",        $a1, 1101001
-	ctxtmap "c",        $a2, 110010
-	ctxtmap "d",        $a3, 111110
+	ctxtmap "b",        $a1, 1101010
+	ctxtmap "c",        $a2, 110001
+	ctxtmap "d",        $a3, 111101
 	ctxtmap "e",        $a4, 000
-	ctxtmap "f",        $a5, 1111111
+	ctxtmap "f",        $a5, 1111001
 	ctxtmap "g",        $a6, 010010
 	ctxtmap "h",        $a7, 00111
-	ctxtmap "i",        $a8, 11110
+	ctxtmap "i",        $a8, 11111
 	ctxtmap "j",        $a9, 110000100
 	ctxtmap "k",        $aa, 0011000
 	ctxtmap "l",        $ab, 10110
@@ -150,15 +150,15 @@ DEF FIRST_REGULAR_TEXT_CHAR EQU $7f
 	ctxtmap "t",        $b3, 1010
 	ctxtmap "u",        $b4, 10111
 	ctxtmap "v",        $b5, 1101100
-	ctxtmap "w",        $b6, 1101101
+	ctxtmap "w",        $b6, 1101110
 	ctxtmap "x",        $b7, 110000000
 	ctxtmap "y",        $b8, 011100
 	ctxtmap "z",        $b9, 0100111000
 
-	ctxtmap "É",        $ba, 00110011111011
-	ctxtmap "Ç",        $bb, 1101110001110
+	ctxtmap "É",        $ba, 01001110110100
+	ctxtmap "Ç",        $bb, 1111000010110
 	ctxtmap "-",        $bc, 11000011
-	ctxtmap ":",        $bd, 1111110011
+	ctxtmap ":",        $bd, 1111000111
 	ctxtmap "♂",        $be, 001100111110000000
 	ctxtmap "♀",        $bf, 0100111011011100001
 
@@ -174,21 +174,21 @@ DEF FIRST_REGULAR_TEXT_CHAR EQU $7f
 ; Les codes Huffman sont CONSERVÉS tels quels : seul le libellé des feuilles
 ; change, l'arbre garde sa forme. Ils seront réoptimisés par `make huffman`
 ; une fois le texte traduit. Registre : translation/CHARMAP.md
-	ctxtmap "'",        $c0, 1100011
+	ctxtmap "'",        $c0, 1101011
 	ctxtmap "à",        $c1, 0100111001
-	ctxtmap "â",        $c2, 11011100011011
-	ctxtmap "ç",        $c3, 110111000101
-	ctxtmap "è",        $c4, 11000100000
+	ctxtmap "â",        $c2, 11110000101011
+	ctxtmap "ç",        $c3, 111100001001
+	ctxtmap "è",        $c4, 11011011001
 	ctxtmap "Î",        $c5, 010011101101111
-	ctxtmap "ê",        $c6, 11000100001
-	ctxtmap "î",        $c7, 110001000110
+	ctxtmap "ê",        $c6, 11001001100
+	ctxtmap "î",        $c7, 110110110000
 
 	ctxtmap "é",        $c8, 01001100
-	ctxtmap "ô",        $c9, 1101110001001
+	ctxtmap "ô",        $c9, 1111000010100
 	ctxtmap "á",        $ca, 00110011111000001
 	ctxtmap "<BOLDH>",  $cb, 0100111011011100000
 	ctxtmap "ù",        $cc, 00110011111010
-	ctxtmap "û",        $cd, 11011100011010
+	ctxtmap "û",        $cd, 11110000101010
 
 	ctxtmap "¿",        $ce, 010011101101110010
 	ctxtmap "¡",        $cf, 0011001111100011111
@@ -200,35 +200,35 @@ DEF FIRST_REGULAR_TEXT_CHAR EQU $7f
 
 	ctxtmap "<ID>",     $d4, 0011001111100011100
 	ctxtmap "№",        $d5, 010011101101110001
-	ctxtmap "<LV>",     $d6, 11000100010101001
+	ctxtmap "<LV>",     $d6, 11001001101101001
 	ctxtmap "<BOLDP>",  $d7, 00110011111000110
 
-	ctxtmap "&",        $d8, 1100010001010000
+	ctxtmap "&",        $d8, 1100100110110000
 
 	ctxtmap "♪",        $d9, 010011101101101
-	ctxtmap "♥",        $da, 1100010001010101
+	ctxtmap "♥",        $da, 1100100110110101
 
 	ctxtmap "Â",        $db, 0011001111100000011
 	ctxtmap "/",        $dc, 010011101101100
 	ctxtmap "%",        $dd, 010011101101110011
 
-	ctxtmap "+",        $de, 1100010001010001
+	ctxtmap "+",        $de, 1100100110110001
 	ctxtmap "<SHARP>",  $df, 0011001111100000010
 
-	ctxtmap "0",        $e0, 111111001010
-	ctxtmap "1",        $e1, 1111110010111
-	ctxtmap "2",        $e2, 1111110010110
-	ctxtmap "3",        $e3, 1101110001111
-	ctxtmap "4",        $e4, 1100010001011
-	ctxtmap "5",        $e5, 1100010001000
+	ctxtmap "0",        $e0, 111100011010
+	ctxtmap "1",        $e1, 1111000110111
+	ctxtmap "2",        $e2, 1111000110110
+	ctxtmap "3",        $e3, 1111000010111
+	ctxtmap "4",        $e4, 1100100110111
+	ctxtmap "5",        $e5, 1100100110100
 	ctxtmap "6",        $e6, 01001110110101
-	ctxtmap "7",        $e7, 110001000101011
-	ctxtmap "8",        $e8, 010011101101001
-	ctxtmap "9",        $e9, 110001000101001
+	ctxtmap "7",        $e7, 110010011011011
+	ctxtmap "8",        $e8, 001100111110111
+	ctxtmap "9",        $e9, 110010011011001
 
-	ctxtmap "¥",        $ea, 11011100010001
+	ctxtmap "¥",        $ea, 11110000100001
 
-	ctxtmap "…",        $eb, 110111001
+	ctxtmap "…",        $eb, 110110111
 
 	charmap "★",        $ec
 

@@ -286,7 +286,7 @@ PsychicLeonBeatenText:
 
 PsychicJaredSeenText:
 	text "Le Dojo d'à côté"
-	line "était jadis l'Are-"
+	line "était jadis l'Arè-"
 	cont "ne de cette ville."
 	done
 

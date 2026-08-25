@@ -1070,14 +1070,14 @@ _AskFloorElevatorText::
 
 SECTION "_BugCatchingContestTimeUpText", ROMX
 _BugCatchingContestTimeUpText::
-	text "Presentateur: bip!"
+	text "Présentateur: bip!"
 
 	para "Temps écoulé!"
 	done
 
 SECTION "_BugCatchingContestIsOverText", ROMX
 _BugCatchingContestIsOverText::
-	text "Presentateur: Le"
+	text "Présentateur: Le"
 	line "concours est fini!"
 	done
 
@@ -1113,7 +1113,7 @@ _JustSawSomeRareMonText::
 SECTION "_SavingRecordText", ROMX
 _SavingRecordText::
 	text "sauvegarde..."
-	line "ne pas Eteindre!"
+	line "ne pas Éteindre!"
 	done
 
 SECTION "_NoCoinsText", ROMX
@@ -2783,7 +2783,7 @@ _PokecenterPCWhoseText::
 
 SECTION "_PokecenterBillsPCText", ROMX
 _PokecenterBillsPCText::
-	text "PC de Leo"
+	text "PC de Léo"
 	line "connecté."
 
 	para "Gestion Stocks"
@@ -3147,7 +3147,7 @@ _MailAskSendToPCText::
 SECTION "_MailboxFullText", ROMX
 _MailboxFullText::
 	text "La boîte aux Let-"
-	line "très du PC est"
+	line "tres du PC est"
 	cont "pleine."
 	prompt
 

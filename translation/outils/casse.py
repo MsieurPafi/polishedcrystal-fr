@@ -89,6 +89,13 @@ PORTAGE = [
     # `ï` a été abandonné faute de case de charmap (décision P13). Ses 5
     # occurrences sont toutes l'interjection « Aïe! », dont le français a un
     # équivalent exact sans tréma. Voir REFORMULATIONS.md §4.
+    # « CAID » traduit l'anglais « EXECUTIVE », un rang de la Team Rocket.
+    # En capitales l'officiel l'écrit sans tréma ; en casse mixte il faudrait
+    # « Caïd », et `ï` n'a pas de case. « Cadre » dit le même rang.
+    # ⚠️ À CONFIRMER par l'utilisateur sur Poképédia (PIEGES.md #12).
+    ("CAID", "CADRE"),
+    ("Caïd", "Cadre"),
+    ("caïd", "cadre"),
     ("Aïeuuuuuuu", "Ouilleuuuuu"),
     ("Aïeuuu", "Ouilleuu"),
     ("Aïe", "Ouille"),
@@ -108,6 +115,7 @@ class Convertisseur:
         self._depuis_corpus()
         self._depuis_glossaire()
         self.table.update(VERIFIES)
+        self._depuis_verifications()
 
     def _depuis_corpus(self):
         """Source 1 : les formes minuscules écrites par les traducteurs."""
@@ -137,6 +145,26 @@ class Convertisseur:
             if f.isupper() and len(f) > 2:
                 self.table.setdefault(f, f.capitalize())
 
+    def _depuis_verifications(self):
+        """Source 0 — les formes VÉRIFIÉES par l'utilisateur.
+
+        ⚠️ **Autorité maximale.** Elles écrasent tout le reste : ni le corpus
+        ni le glossaire ne peuvent fournir l'accent d'un nom propre qui
+        n'apparaît jamais en minuscules (`ARENE` -> `Arène`, `LEO` -> `Léo`,
+        `JEROME` -> `Jérôme`). Elles ont été relevées sur Poképédia, jamais
+        écrites de mémoire (`PIEGES.md` #12).
+        """
+        chemin = DONNEES / "casse_verifie.tsv"
+        if not chemin.is_file():
+            return
+        n = 0
+        for r in csv.DictReader(chemin.open(encoding="utf-8"), delimiter="\t"):
+            forme = (r.get("proposition") or "").strip()
+            if forme:
+                self.table[r["capitales"]] = forme
+                n += 1
+        self.verifiees = n
+
     def mot(self, M):
         """Convertit UN mot en capitales.
 
@@ -157,6 +185,9 @@ class Convertisseur:
         if M in LIAISONS:
             return self.table.get(M, M.lower()).lower()
         forme = self.table.get(M)
+        if forme is not None and forme[:1].isupper():
+            # forme vérifiée par l'utilisateur : casse déjà décidée
+            return forme
         if forme is not None:
             # ⚠️ Le mot existe EN MINUSCULES dans le Cristal français : c'est
             # donc un mot COURANT, pas un nom propre. La VF le mettait en

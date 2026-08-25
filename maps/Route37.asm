@@ -191,7 +191,7 @@ SunnySundayText:
 	text "Dimitri: Mes frè-"
 	line "res et soeurs sont"
 	cont "Lucie, Marie,"
-	cont "Homer, Jerome,"
+	cont "Homer, Jérôme,"
 	cont "Vanessa et Samuel."
 
 	para "Ils sont tous plus"

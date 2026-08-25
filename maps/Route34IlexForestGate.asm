@@ -101,7 +101,7 @@ Route34IlexForestGateTeacherText:
 Route34IlexForestGateTeacher_ForestIsRestless:
 	text "Il y a un problème"
 	line "dans le Bois aux"
-	cont "Chenes..."
+	cont "Chênes..."
 
 	para "Évite d'y aller"
 	line "pour l'instant."

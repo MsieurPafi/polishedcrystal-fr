@@ -216,7 +216,7 @@ VioletCityCooltrainerM1Text:
 	line "de #mon?"
 
 	para "Si tu bats le"
-	line "champion d'Arene,"
+	line "champion d'Arène,"
 
 	para "tu passeras au"
 	line "20 heures!"
@@ -233,14 +233,14 @@ VioletCityCooltrainerFText:
 	done
 
 VioletCityGrampsText:
-	text "Albert de l'Arene"
+	text "Albert de l'Arène"
 	line "#mon de"
 
 	para "Mauville est un"
 	line "dresseur sympa!"
 
 	para "Il a hérité de"
-	line "l'Arene de son"
+	line "l'Arène de son"
 
 	para "père et a fait du"
 	line "bon travail."
@@ -286,7 +286,7 @@ VioletCitySignText:
 	done
 
 VioletGymSignText:
-	text "champion d'Arene"
+	text "champion d'Arène"
 	line "de Mauville:"
 	cont "Albert"
 
@@ -303,6 +303,6 @@ SproutTowerSignText:
 	done
 
 EarlsPokemonAcademySignText:
-	text "Academie #mon"
-	line "de Theophile"
+	text "Académie #mon"
+	line "de Théophile"
 	done

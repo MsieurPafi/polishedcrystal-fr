@@ -193,7 +193,7 @@ KantoRadioStationSignText:
 	done
 
 VolunteerPokemonHouseSignText:
-	text "Benevolat de"
+	text "Bénévolat de"
 	line "Lavanville"
 	done
 

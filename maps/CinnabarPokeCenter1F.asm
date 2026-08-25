@@ -36,7 +36,7 @@ PokemonJournalBlaineScript:
 	done
 
 CinnabarPokeCenter1FCooltrainerfText:
-	text "Auguste de l'Arene"
+	text "Auguste de l'Arène"
 	line "de Cramois'Île vit"
 
 	para "seul dans la grot-"

@@ -63,7 +63,7 @@ FuchsiaCityYoungsterText:
 	line "conseil des 4"
 	cont "était le"
 
-	para "champion de l'Are-"
+	para "champion de l'Arè-"
 	line "ne de Parmanie."
 	done
 
@@ -72,7 +72,7 @@ FuchsiaCityPokefanMText:
 	line "a pris sa succes-"
 
 	para "sion en tant que"
-	line "Championne d'Arene"
+	line "Championne d'Arène"
 	cont "après son départ"
 	cont "pour le conseil"
 	cont "des 4."
@@ -114,7 +114,7 @@ FuchsiaCitySignText:
 	done
 
 FuchsiaGymSignText:
-	text "champion d'Arene"
+	text "champion d'Arène"
 	line "de Parmanie:"
 	cont "Jeannine"
 

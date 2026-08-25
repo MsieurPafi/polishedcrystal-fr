@@ -805,7 +805,7 @@ Route32CooltrainerMText_AideIsWaiting:
 
 Route32CooltrainerMText_VioletGym:
 	text "As-tu visité"
-	line "l'Arene #mon?"
+	line "l'Arène #mon?"
 
 	para "Tu peux y mettre"
 	line "tes compétences à"
@@ -999,7 +999,7 @@ Route32SignText:
 
 Route32RuinsSignText:
 	text "ruines d'alpha"
-	line "Entree est"
+	line "Entrée est"
 	done
 
 Route32UnionCaveSignText:

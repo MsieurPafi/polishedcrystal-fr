@@ -269,7 +269,7 @@ VermilionCityBadgeGuyBattleEdgeText:
 	cont "combat."
 
 	para "Les Badges de Kan-"
-	line "To t'aideront,"
+	line "to t'aideront,"
 	cont "j'en suis sûr."
 	done
 
@@ -356,11 +356,11 @@ VermilionMachokeText:
 	done
 
 VermilionCitySuperNerdText:
-	text "Il y a huit Arenes"
+	text "Il y a huit Arènes"
 	line "à Kanto."
 
 	para "Ce grand bâtiment"
-	line "est l'Arene #-"
+	line "est l'Arène #-"
 	cont "mon de Carmin."
 	done
 
@@ -406,7 +406,7 @@ VermilionCityBadgeGuyAllBadgesText:
 	text "Félicitations!"
 
 	para "Tu as tous les"
-	line "Badges des Arenes"
+	line "Badges des Arènes"
 	cont "de Kanto!"
 
 	para "Voilà une petite"
@@ -421,7 +421,7 @@ VermilionCitySignText:
 	done
 
 VermilionGymSignText:
-	text "champion d'Arene"
+	text "champion d'Arène"
 	line "de Carmin sur mer:"
 	cont "Major Bob"
 
@@ -442,7 +442,7 @@ VermilionCityDiglettsCaveSignText:
 
 VermilionCityPortSignText:
 	text "port de Carmin"
-	line "Entree"
+	line "Entrée"
 	done
 
 VermilionCityPierSignText:

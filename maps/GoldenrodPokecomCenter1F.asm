@@ -67,7 +67,7 @@ GoldenrodPokecenter1FNurseScript:
 	jumpstd pokecenternurse
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "Le Colisee sert"
+	text "Le Colisée sert"
 	line "à faire des com-"
 	cont "bats en Link."
 

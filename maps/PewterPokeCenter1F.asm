@@ -44,7 +44,7 @@ PewterJigglypuffText:
 
 PewterPokeCenter1FTeacherText:
 	text "...Ouais et"
-	line "l'Arene de"
+	line "l'Arène de"
 
 	para "Cramois'Île a"
 	line "disparu en plus..."

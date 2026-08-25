@@ -134,8 +134,8 @@ ErikaBeforeBattleText:
 
 	para "Moi je suis Erika,"
 	line "Championne de"
-	cont "l'Arene de Celado-"
-	cont "Pole."
+	cont "l'Arène de Celado-"
+	cont "pole."
 
 	para "...Oh? Tu viens"
 	line "de Johto?"
@@ -182,7 +182,7 @@ ErikaAfterBattleText:
 
 LassMichelleSeenText:
 	text "Ça t'étonne une"
-	line "Arene remplie"
+	line "Arène remplie"
 	cont "de filles?"
 	done
 

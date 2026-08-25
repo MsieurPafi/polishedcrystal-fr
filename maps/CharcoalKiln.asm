@@ -44,7 +44,7 @@ CharcoalKilnBoss:
 	para "Mais mon Apprenti"
 	line "n'est pas revenu"
 	cont "du Bois aux"
-	cont "Chenes."
+	cont "Chênes."
 
 	para "Où est donc ce"
 	line "dresseur de"
@@ -56,7 +56,7 @@ CharcoalKilnBoss:
 	line "Team Rocket et tu"
 
 	para "as visité le bois"
-	line "aux Chenes en"
+	line "aux Chênes en"
 	cont "solitaire?"
 
 	para "Pas mal!"

@@ -489,7 +489,7 @@ BillsGrandpaStaryuText:
 	done
 
 BillsGrandpaGrowlitheText:
-	text "Leo m'a parlé d'un"
+	text "Léo m'a parlé d'un"
 	line "#mon très loyal"
 
 	para "envers son dres-"
@@ -543,7 +543,7 @@ BillsSisterUsefulNumberText:
 RecordedBillsNumberText:
 	text "<PLAYER> enregistre"
 	line "le numéro de télé-"
-	cont "phone de Leo."
+	cont "phone de Léo."
 	done
 
 BillsSisterPhoneFullText:

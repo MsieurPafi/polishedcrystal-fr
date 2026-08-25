@@ -200,7 +200,7 @@ endc
 
 CianwoodCityLassText:
 	text "Chuck, le"
-	line "champion d'Arene"
+	line "champion d'Arène"
 
 	para "s'entraîne avec"
 	line "ses #mon de"
@@ -311,7 +311,7 @@ CianwoodCitySignText:
 	done
 
 CianwoodGymSignText:
-	text "champion d'Arene"
+	text "champion d'Arène"
 	line "d'Irisia: Chuck"
 
 	para "Ses poings parlent"

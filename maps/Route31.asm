@@ -492,7 +492,7 @@ Route31YoungsterText:
 	cont "Albert."
 
 	para "Il est le champion"
-	line "de l'Arene de"
+	line "de l'Arène de"
 	cont "Mauville."
 	done
 

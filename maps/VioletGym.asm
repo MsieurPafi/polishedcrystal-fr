@@ -143,7 +143,7 @@ VioletGymStatue:
 
 FalknerIntroText:
 	text "Je suis Albert, le"
-	line "champion d'Arene"
+	line "champion d'Arène"
 	cont "de Mauville!"
 
 	para "On dit qu'avec une"
@@ -191,13 +191,13 @@ FalknerZephyrBadgeText:
 
 
 FalknerFightDoneText:
-	text "Il y a des Arenes"
+	text "Il y a des Arènes"
 	line "#mon dans"
 	cont "les alentours."
 
 	para "Tu devrais tester"
 	line "ton habileté dans"
-	cont "ces Arenes."
+	cont "ces Arènes."
 
 	para "Je vais m'entraî-"
 	line "ner plus dur pour"

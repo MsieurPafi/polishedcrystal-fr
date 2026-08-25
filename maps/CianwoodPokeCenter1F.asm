@@ -62,7 +62,7 @@ CianwoodGymGuyScript:
 
 .Text:
 	text "Les dresseurs de"
-	line "l'Arene sont des"
+	line "l'Arène sont des"
 	cont "grosses brutes."
 
 	para "Je veux pas qu'ils"
@@ -84,7 +84,7 @@ CianwoodGymGuyScript:
 	line "force."
 
 	para "Et les rochers au"
-	line "milieu de l'Arene?"
+	line "milieu de l'Arène?"
 
 	para "Bouge-les correc-"
 	line "tement pour accé-"

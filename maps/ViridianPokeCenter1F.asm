@@ -59,7 +59,7 @@ ViridianPokeCenter1FCooltrainermScript:
 
 ViridianPokeCenter1FCooltrainerfText:
 	text "On dit qu'il n'y a"
-	line "plus d'Arene à"
+	line "plus d'Arène à"
 	cont "Cramois'Île."
 
 	para "Qu'est-il arrivé"
@@ -69,5 +69,5 @@ ViridianPokeCenter1FCooltrainerfText:
 
 ViridianPokeCenter1FBugCatcherText:
 	text "Je rêve de devenir"
-	line "champion d'Arene."
+	line "champion d'Arène."
 	done

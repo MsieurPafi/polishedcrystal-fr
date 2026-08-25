@@ -129,7 +129,7 @@ EcruteakPokeCenter1FBillScript:
 	done
 
 .YesText:
-	text "Leo: Je savais"
+	text "Léo: Je savais"
 	line "que je pouvais"
 
 	para "compter sur toi!"
@@ -264,7 +264,7 @@ EcruteakPokeCenter1FLassScript:
 
 EcruteakPokeCenter1FCooltrainerFText:
 	text "Mortimer, le"
-	line "champion d'Arene"
+	line "champion d'Arène"
 	cont "est trooop cool."
 
 	para "Ses #mon sont"

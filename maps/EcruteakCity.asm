@@ -208,7 +208,7 @@ EcruteakCitySign:
 	done
 
 EcruteakGymSign:
-	text "champion d'Arene"
+	text "champion d'Arène"
 	line "de Rosalia:"
 	cont "Mortimer"
 

@@ -34,7 +34,7 @@ BrentLostAMonText:
 	line "Je n'avais plus de"
 	cont "# Balls..."
 
-	para "Leo se ficherait"
+	para "Léo se ficherait"
 	line "bien de moi!"
 	done
 
@@ -63,26 +63,26 @@ BrentHangUpText:
 
 BrentFatherGossipText:
 	text "Tu savais que le"
-	line "père de Leo était"
+	line "père de Léo était"
 	cont "un #maniac?"
 	done
 
 BrentGrandpaGossipText:
 	text "Tu savais que le"
-	line "grand-père de Leo"
+	line "grand-père de Léo"
 
 	para "n'était pas un"
 	line "#maniac?"
 	done
 
 BrentGoldenrodGossipText:
-	text "Tu savais que Leo"
+	text "Tu savais que Léo"
 	line "était né à"
 	cont "Doublonville?"
 	done
 
 BrentRoute25GossipText:
-	text "Tu savais que Leo"
+	text "Tu savais que Léo"
 	line "vivait sur la"
 	cont "route 25 à Kanto?"
 	done
@@ -90,42 +90,42 @@ BrentRoute25GossipText:
 BrentAbraGossipText:
 	text "Tu savais que le"
 	line "premier #mon"
-	cont "de Leo a attrapé"
+	cont "de Léo a attrapé"
 	cont "est un Abra?"
 	done
 
 BrentSisterGossipText:
-	text "Tu savais que Leo"
+	text "Tu savais que Léo"
 	line "avait une petite"
 	cont "soeur?"
 	done
 
 BrentMilkGossipText:
-	text "Tu savais que Leo"
+	text "Tu savais que Léo"
 	line "détestait le lait?"
 	done
 
 BrentBattlingGossipText:
-	text "Tu savais que Leo"
+	text "Tu savais que Léo"
 	line "était une tache en"
 	cont "combat?"
 	done
 
 BrentFlowerShopGossipText:
-	text "Tu savais que Leo"
+	text "Tu savais que Léo"
 	line "draguait la"
 	cont "Fleuriste?"
 	done
 
 BrentKimonoGirlGossipText:
 	text "Tu savais que la"
-	line "mère de Leo était"
+	line "mère de Léo était"
 	cont "une Kimono?"
 	done
 
 BrentSorryImTooBusyText:
 	text "Tu veux en savoir"
-	line "plus sur Leo?"
+	line "plus sur Léo?"
 
 	para "Je suis trop"
 	line "occupé."

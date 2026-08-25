@@ -122,7 +122,7 @@ MapCeladonMansion3FSignpost3Script:
 GameFreakGameDesignerText:
 	text "Mmmmoui?"
 
-	para "Je suis le dési-"
+	para "Je suis le Desi-"
 	line "gner du jeu!"
 
 	para "Continue à remplir"
@@ -188,7 +188,7 @@ GameFreakGraphicArtistPrintDiplomaText:
 GameFreakGraphicArtistRefusedText:
 	text "Appelle-moi si tu"
 	line "veux que j'imprime"
-	cont "ton Diplome."
+	cont "ton Diplôme."
 	done
 
 GameFreakProgrammerText:

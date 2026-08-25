@@ -221,7 +221,7 @@ ViridianCitySignText:
 	done
 
 ViridianGymSignText:
-	text "champion d'Arene"
+	text "champion d'Arène"
 	line "de Jadielle:"
 	cont "..."
 

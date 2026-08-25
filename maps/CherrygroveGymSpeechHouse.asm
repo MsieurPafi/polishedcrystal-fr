@@ -26,7 +26,7 @@ CherrygroveGymSpeechHousePokefanMText:
 	para "Tu ferais mieux de"
 	line "te rendre aux"
 
-	para "Arenes de Johto et"
+	para "Arènes de Johto et"
 	line "collecter quelques"
 	cont "Badges."
 	done
@@ -34,7 +34,7 @@ CherrygroveGymSpeechHousePokefanMText:
 CherrygroveGymSpeechHouseBugCatcherText:
 	text "Quand je serai"
 	line "grand, je serai un"
-	cont "champion d'Arene!"
+	cont "champion d'Arène!"
 
 	para "Je fais combattre"
 	line "mes #mon contre"

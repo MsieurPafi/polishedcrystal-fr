@@ -432,14 +432,14 @@ Route25MistyDateText:
 
 	para "...Oh? Tes Badges!"
 	line "Ils viennent des"
-	cont "Arenes de Johto?"
+	cont "Arènes de Johto?"
 
 	para "Si tu en as 8,"
 	line "c'est que t'es pas"
 	cont "une mauviette..."
 
 	para "OK. Viens à"
-	line "l'Arene d'Azuria."
+	line "l'Arène d'Azuria."
 
 	para "Je te lance un"
 	line "défi."
@@ -451,7 +451,7 @@ Route25MistyDateText:
 
 BillsHouseSignText:
 	text "Villa"
-	line "maison de Leo"
+	line "maison de Léo"
 	done
 
 CeruleanCapeSailboatText:

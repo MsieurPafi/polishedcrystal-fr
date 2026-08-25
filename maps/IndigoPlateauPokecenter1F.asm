@@ -497,7 +497,7 @@ IndigoPlateauTeleportGuyScript:
 	cont "Abra peut t'aider."
 
 	para "Il peut te"
-	line "Teleporter chez"
+	line "Téléporter chez"
 	cont "toi."
 
 	para "Veux-tu retourner"

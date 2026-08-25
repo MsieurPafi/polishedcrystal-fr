@@ -207,15 +207,56 @@ def main():
             stats["écarté (source française non purement textuelle)"] += 1
             continue
 
+        # --- 2 bis. RECOLLER les mots coupés en fin de ligne ---------------
+        # ⚠️ Le français officiel coupe les mots : « l'ARE- » / « NE de
+        # JADIELLE », « TOUR CEN- » / « DREE ». Convertis séparément, les
+        # fragments deviennent « l'Are- » / « Ne de Jadielle » — capitale
+        # fautive et accent perdu. On recolle le mot, on convertit, on
+        # recoupe au même endroit.
+        #
+        # Sûr parce que la conversion préserve le nombre de caractères :
+        # restituer un accent ou changer une casse ne change pas la longueur.
+        # Si elle change quand même, le bloc est refusé plutôt qu'écrit faux.
+        textes = [m[1] if m else None for m in morceaux]
+        recolles = {}
+        i = 0
+        while i < len(textes) - 1:
+            a = textes[i]
+            if a is None or not a.endswith("-") or len(a) < 2 or not a[-2].isalpha():
+                i += 1
+                continue
+            j = i + 1
+            while j < len(textes) and textes[j] is None:
+                j += 1
+            if j >= len(textes) or not textes[j] or not textes[j][0].isalpha():
+                i += 1
+                continue
+            recolles[i] = (j, len(a) - 1)     # où recouper
+            i = j
+        conversions = {}
+        rupture = None
+        for i, (j, coupe) in recolles.items():
+            entier = textes[i][:-1] + textes[j]
+            converti = conv.texte(entier)
+            if len(converti) != len(entier):
+                rupture = (entier, "recollage impossible : la conversion change la longueur")
+                break
+            conversions[i] = converti[:coupe] + "-"
+            conversions[j] = converti[coupe:]
+        if rupture:
+            refuses.append((pc_label, *rupture))
+            stats["refusé"] += 1
+            continue
+
         # --- 3. réémettre avec les macros de PC ---------------------------
         nouvelles = []
         probleme = None
-        for m in morceaux:
+        for idx, m in enumerate(morceaux):
             if m is None:
                 nouvelles.append("")
                 continue
             macro, contenu = m
-            converti = conv.texte(contenu)
+            converti = conversions.get(idx) or conv.texte(contenu)
             converti = reform.get(converti, converti)
             mauvais = encodable(converti, jetons)
             if mauvais:

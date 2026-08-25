@@ -166,7 +166,7 @@ GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
 
 GoldenrodMagnetTrainStationGentlemanText:
 	text "Je suis le"
-	line "President."
+	line "Président."
 
 	para "Mon rêve était de"
 	line "construire un"

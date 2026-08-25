@@ -189,7 +189,7 @@ CeladonCityGramps1Text:
 	done
 
 CeladonCityGramps2Text:
-	text "Hihi! Cette Arene"
+	text "Hihi! Cette Arène"
 	line "est géniale! C'est"
 
 	para "réservé aux"
@@ -283,7 +283,7 @@ CeladonCitySignText:
 	done
 
 CeladonGymSignText:
-	text "champion d'Arene"
+	text "champion d'Arène"
 	line "de Celadopole:"
 	cont "Erika"
 

@@ -82,7 +82,7 @@ LavenderPokeCenter1FGentlemanText:
 	text "Au Nord de Lavan-"
 	line "ville se trouve la"
 
-	para "grotte. Traversé-"
+	para "grotte. Traverse-"
 	line "la pour accéder"
 	cont "à la centrale."
 	done

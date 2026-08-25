@@ -88,6 +88,6 @@ Route16GateCannotPassText:
 	para "Tu peux pas aller"
 	line "sur la Piste Cy-"
 
-	para "Clable sans une"
+	para "clable sans une"
 	line "Bicyclette!"
 	done

@@ -224,8 +224,8 @@ SupernerdMerleBeatenText:
 BlaineIntroText:
 	text "Auguste: Waaah!"
 
-	para "Mon Arene de Cra-"
-	line "Mois'Île a brûlé."
+	para "Mon Arène de Cra-"
+	line "mois'Île a brûlé."
 
 	para "Moi et mes #mon"
 	line "de feu n'avons"
@@ -271,7 +271,7 @@ BlaineFightDoneText:
 	done
 
 SeafoamGymGuyWinText2:
-	text "Une Arene #mon"
+	text "Une Arène #mon"
 	line "peut être n'impor-"
 
 	para "te où tant que le"

@@ -27,7 +27,7 @@ FishingDudeText:
 
 	para "Il rêve de voir le"
 	line "plus grand Magi-"
-	cont "Carpe du monde."
+	cont "carpe du monde."
 
 	para "Si ça t'embête pas"
 	line "trop, peux-tu lui"

@@ -83,7 +83,7 @@ FuchsiaPokeCenter1FCooltrainerMText:
 
 FuchsiaPokeCenter1FCooltrainerFText:
 	text "J'me suis fait"
-	line "battre à l'Arene."
+	line "battre à l'Arène."
 
 	para "Toutes les filles"
 	line "s'y ressemblent!"

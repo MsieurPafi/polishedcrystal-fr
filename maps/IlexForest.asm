@@ -998,7 +998,7 @@ Text_IlexForestMossRock:
 	done
 
 IlexForestSignpost:
-	text "Le Bois aux Chenes"
+	text "Le Bois aux Chênes"
 	line "est si dense que"
 
 	para "les feuilles ca-"
@@ -1031,7 +1031,7 @@ IlexForestTrainerTips:
 
 Text_IlexForestShrine:
 	text "Autel du"
-	line "Bois aux Chenes..."
+	line "Bois aux Chênes..."
 
 	para "En l'honneur du"
 	line "protecteur de la"
@@ -1040,7 +1040,7 @@ Text_IlexForestShrine:
 
 Text_ShrineCelebiEvent:
 	text "Autel du"
-	line "Bois aux Chenes..."
+	line "Bois aux Chênes..."
 
 	para "C'est en l'honneur"
 	line "du gardien de la"

@@ -268,7 +268,7 @@ BurnedTower1FEusineIntroText:
 	line "Suicune est dans"
 
 	para "cette Tour Cen-"
-	line "Dree..."
+	line "drée..."
 
 	para "Mais où???"
 	done
@@ -278,14 +278,14 @@ BurnedTower1FEusineText:
 	line "Suicune est dans"
 
 	para "cette Tour Cen-"
-	line "Dree..."
+	line "drée..."
 
 	para "Mais où???"
 	done
 
 BurnedTower1FMortyText:
-	text "Mortimer: Le Cham-"
-	line "Pion de Rosalia"
+	text "Mortimer: Le cham-"
+	line "pion de Rosalia"
 
 	para "doit étudier les"
 	line "#mon légen-"

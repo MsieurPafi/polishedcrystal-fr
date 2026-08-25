@@ -310,7 +310,7 @@ CoupleGailandeli2BeatenText:
 	done
 
 PicnickerKimSeenText:
-	text "Tu vas à l'Arene?"
+	text "Tu vas à l'Arène?"
 	line "Moi aussi!"
 	done
 

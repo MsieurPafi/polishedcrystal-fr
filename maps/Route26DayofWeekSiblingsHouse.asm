@@ -63,7 +63,7 @@ DayOfWeekSiblingsHousePokedexText3:
 	para "Mercredi, Homer"
 	line "Lac Colère"
 
-	para "Jeudi, Jerome"
+	para "Jeudi, Jérôme"
 	line "route 36"
 
 	para "Vendredi, Vanessa"

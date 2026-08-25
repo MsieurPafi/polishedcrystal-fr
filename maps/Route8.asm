@@ -143,7 +143,7 @@ Route8BikerZekeProtestText:
 
 BikerDwayneSeenText:
 	text "Nous sommes la"
-	line "Federation des"
+	line "Fédération des"
 	cont "dresseurs de #-"
 	cont "mon de Kanto."
 
@@ -169,7 +169,7 @@ BikerHarrisBeatenText:
 	done
 
 BikerZekeSeenText:
-	text "On est la Federa-"
+	text "On est la Fédéra-"
 	line "tion des dresseurs"
 	cont "de Kanto."
 	cont "On est cool!"

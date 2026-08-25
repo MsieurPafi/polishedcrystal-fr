@@ -219,7 +219,7 @@ OlivineGymGuyWinText:
 
 OlivineGymGuyPreText:
 	text "Jasmine, la"
-	line "Championne d'Arene"
+	line "Championne d'Arène"
 	cont "est au Phare."
 
 	para "Elle s'occupe du"
