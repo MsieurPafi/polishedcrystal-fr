@@ -276,15 +276,15 @@ TrainerOfficerDirk:
 	done
 
 CamperIvanSeenText:
-	text "I've been getting"
-	line "#mon data off"
+	text "J'ai appris plein"
+	line "de trucs sur les"
 
-	para "my radio. I think"
-	line "I'm good."
+	para "#mon à la ra-"
+	line "dio. Tu vas voir!"
 	done
 
 CamperIvanBeatenText:
-	text "I give!"
+	text "Perdu!"
 	done
 
 CoupleGailandeli1SeenText:
@@ -310,13 +310,13 @@ CoupleGailandeli2BeatenText:
 	done
 
 PicnickerKimSeenText:
-	text "Are you going to"
-	line "the Gym? Me too!"
+	text "Tu vas à l'Arene?"
+	line "Moi aussi!"
 	done
 
 PicnickerKimBeatenText:
-	text "Oh. I couldn't"
-	line "win…"
+	text "J'ai aucune"
+	line "chance..."
 	done
 
 BreederTheresaSeenText:
@@ -330,61 +330,60 @@ BreederTheresaBeatenText:
 	done
 
 JugglerIrwin1SeenText:
-	text "Behold my graceful"
-	line "Ball dexterity!"
+	text "Regarde comme je"
+	line "lance bien mes"
+	cont "Balls!"
 	done
 
 JugglerIrwin1BeatenText:
-	text "Whew! That was a"
-	line "jolt!"
+	text "Alors ça!"
 	done
 
 JugglerIrwinAfterBattleText:
-	text "I was going to"
-	line "dazzle you with my"
-	cont "prize #mon."
+	text "J'allais t'éblouir"
+	line "avec mon nouveau"
+	cont "#mon..."
 
-	para "But your prowess"
-	line "electrified me!"
+	para "Mais tu es trop"
+	line "rapide!"
 	done
 
 Bug_catcherArnie1SeenText:
-	text "I'll go anywhere"
-	line "if bug #mon"
-	cont "appear there."
+	text "Moi mon truc c'est"
+	line "les #mon"
+	cont "insecte."
 	done
 
 Bug_catcherArnie1BeatenText:
-	text "Huh? I shouldn't"
-	line "have lost that…"
+	text "Hein? Je n'aurais"
+	line "pas dû perdre..."
 	done
 
 BugCatcherArnieAfterBattleText:
-	text "My Venonat won me"
-	line "the Bug-Catching"
+	text "Mon Mimitoss a ga-"
+	line "gné au Concours de"
 
-	para "Contest at the"
-	line "National Park."
+	para "Capturé d'insecte"
+	line "au Parc Naturel."
 	done
 
 
 FirebreatherWaltSeenText:
-	text "I'm practicing my"
-	line "fire breathing."
+	text "Moi j'crache du"
+	line "feu. combat!"
 	done
 
 FirebreatherWaltBeatenText:
-	text "Ow! I scorched the"
-	line "tip of my nose!"
+	text "Tu m'as cramé!"
 	done
 
 OfficerDirkSeenText:
-	text "Danger lurks in"
-	line "the night!"
+	text "La nuit le danger"
+	line "rôde!"
 	done
 
 OfficerDirkBeatenText:
-	text "Whoops!"
+	text "Gnyaaaah!"
 	done
 
 

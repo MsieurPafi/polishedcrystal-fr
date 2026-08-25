@@ -222,31 +222,31 @@ SupernerdMerleBeatenText:
 	done
 
 BlaineIntroText:
-	text "Blaine: Waaah!"
+	text "Auguste: Waaah!"
 
-	para "My Gym in Cinnabar"
-	line "burned down."
+	para "Mon Arene de Cra-"
+	line "Mois'Île a brûlé."
 
-	para "My fire-breathing"
-	line "#mon and I are"
+	para "Moi et mes #mon"
+	line "de feu n'avons"
 
-	para "homeless because"
-	line "of the volcano."
+	para "plus de maison à"
+	line "cause du volcan."
 
 	para "Waaah!"
 
-	para "But I'm back in"
-	line "business as a Gym"
+	para "Mais je suis tou-"
+	line "jours un champion!"
 
-	para "Leader here in"
-	line "this cave."
+	para "Et je fais la loi"
+	line "dans cette grotte."
 
-	para "If you can beat"
-	line "me, I'll give you"
-	cont "a Badge."
+	para "Bats-moi et je te"
+	line "donnerai un Badge."
+	cont "Promis!"
 
-	para "Ha! You'd better"
-	line "have Burn Heal!"
+	para "J'espère que tu as"
+	line "de l'anti-brûlé!"
 	done
 
 BlaineWinLossText:
@@ -263,20 +263,20 @@ BlaineAfterBattleText:
 	done
 
 BlaineFightDoneText:
-	text "Blaine: My fire"
-	line "#mon will be"
+	text "Auguste: Mes"
+	line "#mon de feu"
 
-	para "even stronger."
-	line "Just you watch!"
+	para "seront invincibles"
+	line "tu verras!"
 	done
 
 SeafoamGymGuyWinText2:
-	text "A #mon Gym can"
-	line "be anywhere as"
+	text "Une Arene #mon"
+	line "peut être n'impor-"
 
-	para "long as the Gym"
-	line "Leader is there."
+	para "te où tant que le"
+	line "champion est là."
 
-	para "There's no need"
-	line "for a building."
+	para "Pas besoin d'un"
+	line "toit."
 	done

@@ -38,9 +38,9 @@ GenericTrainerFisherMartin:
 	done
 
 FisherMartinSeenText:
-	text "Patience is the"
-	line "key to both fish-"
-	cont "ing and #mon."
+	text "La patience est"
+	line "la meilleure arme"
+	cont "pour pêcher..."
 	done
 
 FisherMartinBeatenText:
@@ -58,15 +58,15 @@ GenericTrainerFisherStephen:
 	done
 
 FisherStephenSeenText:
-	text "I feel so content,"
-	line "fishing while lis-"
-	cont "tening to some"
-	cont "tunes on my radio."
+	text "Ça c'est le pied!"
+	line "Pêcher en écoutant"
+	cont "la radio, c'est"
+	cont "super pépère."
 	done
 
 FisherStephenBeatenText:
-	text "My stupid radio"
-	line "distracted me!"
+	text "Ma radio m'a fait"
+	line "perdre!"
 	done
 
 GenericTrainerFisherBarney:
@@ -89,14 +89,15 @@ GenericTrainerFisherBarney:
 	done
 
 FisherBarneySeenText:
-	text "What's most impor-"
-	line "tant in our every-"
-	cont "day lives?"
+	text "Quelle est la"
+	line "chose la plus im-"
+	cont "portante dans nos"
+	cont "vies quotidiennes?"
 	done
 
 FisherBarneyBeatenText:
-	text "The answer is"
-	line "coming up next!"
+	text "La réponse va"
+	line "suivre!"
 	done
 
 GenericTrainerFisherKyler:
@@ -193,8 +194,6 @@ GenericTrainerCoupleVicandtara2:
 	done
 
 Route12SignText:
-	text "Route 12"
-
-	para "North to Lavender"
-	line "Town"
+	text "route 12"
+	line "Nord: Lavanville"
 	done

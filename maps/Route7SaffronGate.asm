@@ -32,14 +32,14 @@ Route7SaffronGuardScript:
 	done
 
 Route7SaffronGuardSeriousText:
-	text "I take my guard"
-	line "job seriously."
+	text "J'suis un garde."
+	line "J'en suis fier."
 
-	para "Hey! You have a"
-	line "#dex."
+	para "Hé! T'as un"
+	line "#dex!"
 
-	para "OK. You can go"
-	line "through."
+	para "OK. Tu peux"
+	line "passer."
 	done
 
 Route7SaffronGateSilphEmployeeText:

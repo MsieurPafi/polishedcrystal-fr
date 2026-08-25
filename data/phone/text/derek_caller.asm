@@ -52,44 +52,40 @@ DerekLostAMonText:
 	done
 
 DerekHangUpText:
-	text "Well, let's talk"
-	line "again!"
+	text "A la prochaine!"
 	done
 
 DerekBugCatchingContestText:
-	text "Did you remember?"
-	line "The Bug-Catching"
-	cont "Contest is today."
+	text "Le Concours de"
+	line "Capturé, c'est"
+	cont "aujourd'hui."
 
-	para "You're going to"
-	line "go, aren't you?"
+	para "Tu y vas, toi?"
 
-	para "I think I'll"
-	line "participate with"
-
-	para "Pikachu to show"
-	line "off its cuteness."
+	para "Je vais y aller"
+	line "avec Pikachu pour"
+	cont "montrer sa jolie"
+	cont "frimousse."
 	done
 
 DerekFoundItemText:
-	text "I'd like you to"
-	line "have a Nugget."
+	text "J'ai une Pepite"
+	line "pour toi."
 
-	para "My Pikachu just"
-	line "loves it."
+	para "Mon Pikachu"
+	line "l'adore..."
 
-	para "I'm certain your"
-	line "Pikachu will love"
-	cont "it too!"
+	para "Ton Pikachu va"
+	line "aussi l'adorer!"
 	done
 
 DerekLetsGetTogetherText:
-	text "How is your"
-	line "Pikachu doing?"
+	text "Comment va ton"
+	line "Pikachu?"
 
-	para "Let's get together"
-	line "and brag about our"
-	cont "Pikachu!"
+	para "On se voit et on"
+	line "parle de Pikachu,"
+	cont "OK?"
 	done
 
 DerekComePickUpText:

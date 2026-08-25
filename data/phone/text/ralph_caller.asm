@@ -63,8 +63,8 @@ RalphBattleRematchText:
 	done
 
 RalphHangUpText:
-	text "You call your mom"
-	line "sometimes too!"
+	text "Appelle ta maman"
+	line "plus souvent!"
 	done
 
 RalphItemText:
@@ -97,14 +97,14 @@ RalphItemText:
 	done
 
 RalphNoItemText:
-	text "Yeah, I know."
+	text "Ouais, je sais."
 
-	para "You're looking for"
-	line "rare #mon."
+	para "Tu cherches des"
+	line "#mon rares."
 
-	para "Recently, all I've"
-	line "been catching are"
-	cont "Magikarp, though…"
+	para "Moi...?"
+	line "J'ai attrapé un"
+	cont "Magicarpe."
 	done
 
 RalphReminderText:
@@ -121,13 +121,12 @@ RalphReminderText:
 	done
 
 RalphHurryText:
-	text "Hey, what's the"
-	line "matter with you?"
+	text "C'est quoi ton"
+	line "problème?"
 
-	para "Aren't you coming"
-	line "over to fish for"
-	cont "Qwilfish?"
+	para "Tu viens pêcher"
+	line "les Qwilfish?"
 
-	para "I'm on Route 32,"
-	line "so hurry up!"
+	para "Sur la route 32!"
+	line "Magne-toi!"
 	done

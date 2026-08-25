@@ -78,10 +78,10 @@ BattleTowerOutsidePanUpHelperScript:
 	step_end
 
 BattleTowerOutsideSignText:
-	text "Battle Tower"
+	text "Tour de Combat"
 
-	para "Take the Ultimate"
-	line "Trainer Challenge!"
+	para "Le méga défi de"
+	line "tout dresseur!"
 	done
 
 BattleTowerOutsideAnabelScript:
@@ -179,12 +179,12 @@ BattleTowerOutsideYoungsterScript:
 	done
 
 .OpenText:
-	text "Wow, the Battle"
-	line "Tower is huge!"
+	text "Foui! C'est grand"
+	line "la Tour de Combat!"
 
-	para "There must be many"
-	line "kinds of #mon"
-	cont "in there!"
+	para "Il doit y avoir"
+	line "plein de #mon"
+	cont "différents!"
 	done
 
 BattleTowerOutsideBeautyScript:
@@ -203,25 +203,19 @@ BattleTowerOutsideBeautyScript:
 	done
 
 .OpenText:
-	text "You can use only"
-	line "three #mon."
+	text "On ne peut utili-"
+	line "ser que 3 #mon."
 
-	para "It's so hard to"
-	line "decide which three"
-
-	para "should go into"
-	line "battle…"
+	para "C'est dur de faire"
+	line "un choix..."
 	done
 
 BattleTowerOutsideSailorText:
-	text "Hehehe, I snuck"
-	line "out from work."
+	text "J'ai pris une"
+	line "perm'."
 
-	para "I can't bail out"
-	line "until I've won!"
-
-	para "I have to win it"
-	line "all. That I must!"
+	para "Je dois gagner!"
+	line "Oh que oui!"
 	done
 
 BattleTowerOutsideDoorsClosedText:

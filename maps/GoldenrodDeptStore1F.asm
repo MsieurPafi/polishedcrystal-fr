@@ -21,50 +21,56 @@ GoldenrodDeptStore1F_MapScriptHeader:
 	object_event 11,  5, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 1, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStore1FGentlemanText, -1
 
 GoldenrodDeptStore1FReceptionistText:
-	text "Welcome to Golden-"
-	line "rod Dept.Store."
+	text "Bienvenue au"
+	line "centre Commercial"
+	cont "de Doublonville."
 	done
 
 GoldenrodDeptStore1FGentlemanText:
-	text "The Dept.Store"
-	line "has a decent se-"
-	cont "lection."
+	text "Le centre Commer-"
+	line "cial a un tas de"
+	cont "bons produits."
 
-	para "But some items"
-	line "are only available"
+	para "Mais certains"
+	line "objets ne sont"
 
-	para "as Game Corner"
-	line "prizes."
+	para "disponibles qu'en"
+	line "prix à gagner au"
+	cont "Casino."
 	done
 
 GoldenrodDeptStore1FPokefanFText:
-	text "I'm raring to shop"
-	line "again today!"
+	text "Je suis très"
+	line "impatiente de"
+	cont "faire les courses!"
 	done
 
 GoldenrodDeptStore1FBugCatcherText:
-	text "Mom's good at"
-	line "bargain hunting."
+	text "Maman est trop"
+	line "forte quand il"
+	cont "s'agit de bizness."
 
-	para "She always buys"
-	line "stuff at lower"
-	cont "prices."
+	para "Elle achète tou-"
+	line "jours des trucs"
+	cont "pas chers."
 	done
 
 GoldenrodDeptStore1FDirectoryText:
-	text "1F Service Counter"
+	text "Rdc  Accueil"
 
-	para "2F Trainer's"
-	line "   Market"
+	para "1Er  boutique"
+	line "     dresseur"
 
-	para "3F Battle"
-	line "   Collection"
+	para "2Eme collection"
+	line "     de combat"
 
-	para "4F Medicine Box"
+	para "3Eme Pharmacie"
 
-	para "5F TM Corner"
+	para "4Eme Y'A bon les"
+	line "     CT"
 
-	para "6F Tranquil Square"
+	para "5Eme coin"
+	line "     tranquille"
 
-	para "Rooftop Lookout"
+	para "toit Panorama"
 	done

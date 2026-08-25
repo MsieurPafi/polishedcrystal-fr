@@ -963,29 +963,26 @@ endc
 	done
 
 ElmText_Accepted:
-	text "Thanks, <PLAYER>!"
+	text "Merci, <PLAYER>!"
 
-	para "You're a great"
-	line "help!"
+	para "Tu es chic!"
 	done
 
 ElmText_Refused:
-	text "But… Please, I"
-	line "need your help!"
+	text "Mais..."
+	line "J'en ai besoin!"
 	done
 
 ElmText_ResearchAmbitions:
-	text "When I announce my"
-	line "findings, I'm sure"
+	text "Mes recherches"
+	line "terminées, nous"
 
-	para "we'll delve a bit"
-	line "deeper into the"
+	para "en saurons un peu"
+	line "plus sur le mystè-"
+	cont "re des #mon."
 
-	para "many mysteries of"
-	line "#mon."
-
-	para "You can count on"
-	line "it!"
+	para "Et ça c'est pas"
+	line "rien!"
 	done
 
 ElmText_GotAnEmail:
@@ -999,178 +996,177 @@ ElmText_GotAnEmail:
 	done
 
 ElmText_MissionFromMrPokemon:
-	text "Hey, listen."
+	text "Écouté voir."
 
-	para "I have an acquain-"
-	line "tance called Mr."
-	cont "#mon."
+	para "J'ai un ami du nom"
+	line "de M.#mon."
 
-	para "He keeps finding"
-	line "weird things and"
+	para "Il découvre sans"
+	line "cesse de drôles"
+	cont "de trucs."
 
-	para "raving about his"
-	line "discoveries."
+	para "Il vient de m'en-"
+	line "voyer un e-mail"
 
-	para "Anyway, I just got"
-	line "an e-mail from him"
+	para "disant qu'il a"
+	line "quelque chose à me"
+	cont "montrer."
 
-	para "saying that this"
-	line "time it's real."
+	para "C'est tentant mais"
+	line "j'ai vraiment trop"
+	cont "de travail..."
 
-	para "It is intriguing,"
-	line "but we're busy"
+	para "Attends!"
 
-	para "with our #mon"
-	line "research…"
+	para "Je sais!"
 
-	para "Wait!"
-
-	para "I know!"
-
-	para "<PLAYER>, can you"
-	line "go in our place?"
+	para "<PLAYER>, peux-tu"
+	line "y aller pour moi?"
 	done
 
 ElmText_ChooseAPokemon:
-	text "I want you to"
-	line "raise one of the"
+	text "Je veux que tu"
+	line "entraînes l'un"
 
-	para "#mon contained"
-	line "in these Balls."
+	para "des #mon dans"
+	line "ces Balls."
 
-	para "You'll be that"
-	line "#mon's first"
-	cont "partner, <PLAYER>!"
+	para "Il sera ton"
+	line "nouvel ami,"
+	cont "<PLAYER>!"
 
-	para "Go on. Pick one!"
+	para "Allez! Choisis!"
 	done
 
 
 LabWhereGoingText:
-	text "Elm: Wait! Where"
-	line "are you going?"
+	text "Prof.Orme: Hep!"
+	line "Où vas-tu?"
 	done
 
 TakeCyndaquilText:
-	text "Elm: You'll take"
-	line "Cyndaquil, the"
-	cont "fire #mon?"
+	text "Prof.Orme: Veux-tu"
+	line "Hericendre, le"
+	cont "#mon de feu?"
 	done
 
 TakeTotodileText:
-	text "Elm: Do you want"
-	line "Totodile, the"
-	cont "water #mon?"
+	text "Prof.Orme: Veux-tu"
+	line "Kaiminus, le"
+	cont "#mon d'eau?"
 	done
 
 TakeChikoritaText:
-	text "Elm: So, you like"
-	line "Chikorita, the"
-	cont "grass #mon?"
+	text "Prof.Orme: Veux-tu"
+	line "Germignon, le"
+	cont "#mon plante?"
 	done
 
 DidntChooseStarterText:
-	text "Elm: Think it over"
-	line "carefully."
+	text "Prof.Orme: Fais le"
+	line "bon choix!"
 
-	para "Your partner is"
-	line "important."
+	para "Ton partenaire est"
+	line "très important."
 	done
 
 ChoseStarterText:
-	text "Elm: I think"
-	line "that's a great"
-	cont "#mon too!"
+	text "Prof.Orme: C'est"
+	line "un très bon"
+	cont "#mon!"
 	done
 
 ElmDirectionsText1:
-	text "Mr.#mon lives a"
-	line "little bit beyond"
+	text "M.#mon vit"
+	line "après ville"
 
-	para "Cherrygrove, the"
-	line "next city over."
+	para "Griotte, la"
+	line "ville voisine."
 
-	para "It's almost a"
-	line "direct route"
+	para "C'est tout droit."
+	line "Tu ne peux pas te"
+	cont "perdre."
 
-	para "there, so you"
-	line "can't miss it."
+	para "Mais on ne sait"
+	line "jamais: prends mon"
 
-	para "But just in case,"
-	line "here's my phone"
-
-	para "number. Call me if"
-	line "anything comes up!"
+	para "No. de téléphone."
+	line "Appelle-moi s'il"
+	cont "arrive un truc!"
 	done
 
 ElmDirectionsText2:
-	text "If your #mon is"
-	line "hurt, you should"
+	text "Si ton #mon est"
+	line "blessé, soigne-le"
 
-	para "heal it with this"
+	para "avec cette jolie"
 	line "machine."
 
-	para "Feel free to use"
-	line "it anytime."
+	para "Utilise-la quand"
+	line "tu veux."
 	done
 
 ElmDirectionsText3:
-	text "<PLAYER>, I'm"
-	line "counting on you!"
+	text "<PLAYER>, je"
+	line "compte sur toi!"
 	done
 
 GotElmsNumberText:
-	text "<PLAYER> got Elm's"
-	line "phone number."
+	text "<PLAYER> reçoit le"
+	line "numéro de tél. du"
+	cont "Prof.Orme."
 	done
 
 ElmDescribesMrPokemonText:
-	text "Mr.#mon goes"
-	line "everywhere and"
-	cont "finds rarities."
+	text "M.#mon fouille"
+	line "un peu partout et"
+	cont "trouve des bizar-"
+	cont "reries."
 
-	para "Too bad they're"
-	line "just rare and"
-	cont "not very useful…"
+	para "Mais la plupart du"
+	line "temps ça ne sert à"
+	cont "rien..."
 	done
 
 ElmPokeBallText:
-	text "It contains a"
-	line "#mon caught by"
-	cont "Prof.Elm."
+	text "Cela contient un"
+	line "#mon attrapé"
+	cont "par le Prof.Orme."
 	done
 
 
 ElmsLabHealingMachineText2:
-	text "Would you like to"
-	line "heal your #mon?"
+	text "Voulez-vous soi-"
+	line "gner vos #mon?"
 	done
 
 ElmAfterTheftText1:
-	text "Elm: <PLAYER>, this"
-	line "is terrible…"
+	text "Orme: <PLAYER>,"
+	line "c'est affreux..."
 
-	para "Oh, yes, what was"
-	line "Mr.#mon's big"
-	cont "discovery?"
+	para "Au fait, quelle"
+	line "est la grande"
+	cont "découverte de"
+	cont "M.#mon?"
 	done
 
 ElmAfterTheftText2:
-	text "<PLAYER> handed"
-	line "the Mystery Egg to"
-	cont "Prof.Elm."
+	text "<PLAYER> confie"
+	line "l'Oeuf mystère au"
+	cont "Prof.Orme."
 	done
 
 ElmAfterTheftText3:
-	text "Elm: This?"
+	text "Prof.Orme: Ça?"
 	done
 
 ElmAfterTheftText4:
-	text "But… Is it a"
-	line "#mon Egg?"
+	text "Mais... C'est un"
+	line "Oeuf de #mon?"
 
-	para "If it is, it is a"
-	line "great discovery!"
+	para "Si c'est un vrai,"
+	line "c'est une grande"
+	cont "découverte!"
 	done
 
 ElmAfterTheftText5:
@@ -1210,15 +1206,15 @@ endc
 	done
 
 ElmAfterTheftText6:
-	text "…<PLAYER>. The"
-	line "road to the"
+	text "...<PLAYER>."
+	line "La route vers la"
 
-	para "championship will"
-	line "be a long one."
+	para "victoire est"
+	line "longue."
 
-	para "Before you leave,"
-	line "make sure that you"
-	cont "talk to your mom."
+	para "Va parler à ta"
+	line "maman avant de"
+	cont "partir."
 	done
 
 ElmAfterTheftText7:
@@ -1236,38 +1232,41 @@ ElmAfterTheftText7:
 	done
 
 ElmStudyingEggText:
-	text "Elm: Don't give"
-	line "up! I'll call if"
+	text "Prof.Orme: N'aban-"
+	line "donne pas!"
 
-	para "I learn anything"
-	line "about that Egg!"
+	para "Je t'appelle si"
+	line "j'ai du nouveau"
+	cont "sur cet Oeuf."
 	done
 
 ElmAideHasEggText:
-	text "Elm: <PLAYER>?"
-	line "Didn't you meet my"
-	cont "assistant?"
+	text "Orme: <PLAYER>?"
+	line "N'as-tu pas vu"
+	cont "mon assistant?"
 
-	para "He should have met"
-	line "you with the Egg"
+	para "Il aurait dû te"
+	line "rencontrer avec"
 
-	para "at Violet City's"
-	line "#mon Center."
+	para "l'Oeuf au centre"
+	line "#mon de"
+	cont "Mauville."
 
-	para "You must have just"
-	line "missed him. Try to"
-	cont "catch him there."
+	para "Tu as dû le rater."
+	line "Va le voir là-bas."
 	done
 
 ElmWaitingEggHatchText:
-	text "Elm: Hey, has that"
-	line "Egg changed any?"
+	text "Orme:"
+	line "l'Oeuf a-t-il"
+	cont "évolué?"
 	done
 
 
 ShowElmTogepiText1:
-	text "Elm: <PLAYER>, you"
-	line "look great!"
+	text "Orme: <PLAYER>, tu"
+	line "es en pleine"
+	cont "forme!"
 	done
 
 ShowElmTogepiText2:
@@ -1276,28 +1275,31 @@ ShowElmTogepiText2:
 	done
 
 ShowElmTogepiText3:
-	text "The Egg hatched!"
-	line "So, #mon are"
-	cont "born from Eggs…"
+	text "l'Oeuf a éclos!"
+	line "Donc les #mon"
+	cont "naissent à partir"
+	cont "d'oeufs..."
 
-	para "No, perhaps not"
-	line "all #mon are."
+	para "Mais ce n'est"
+	line "peut-être pas le"
+	cont "cas pour tous les"
+	cont "#mon."
 
-	para "Wow, there's still"
-	line "a lot of research"
-	cont "to be done."
+	para "Et beh, on a"
+	line "encore du boulot"
+	cont "avant de tout"
+	cont "savoir."
 	done
 
 ElmGiveOddSouvenirText1:
-	text "Thanks, <PLAYER>!"
-	line "You're helping"
+	text "Merci, <PLAYER>!"
+	line "Tu aides mes"
 
-	para "unravel #mon"
-	line "mysteries for us!"
+	para "recherches sur les"
+	line "#mon!"
 
-	para "I want you to have"
-	line "this as a token of"
-	cont "our appreciation."
+	para "Voilà pour toi!"
+	line "Cadeau!"
 	done
 
 ElmGiveOddSouvenirText2:
@@ -1319,23 +1321,24 @@ ElmGiveOddSouvenirText2:
 	done
 
 ElmText_CallYou:
-	text "Elm: <PLAYER>, I'll"
-	line "call you if any-"
-	cont "thing comes up."
+	text "Orme: <PLAYER>, je"
+	line "t'appelle si j'ai"
+	cont "du nouveau."
 	done
 
 AideText_AfterTheft:
-	text "…sigh… That"
-	line "stolen #mon."
+	text "...(soupir)..."
+	line "Ce #mon volé..."
 
-	para "I wonder how it's"
-	line "doing."
+	para "Je me demande"
+	line "comment il va."
 
-	para "They say a #mon"
-	line "raised by a bad"
+	para "On dit qu'un"
+	line "#mon élevé par"
 
-	para "person turns bad"
-	line "itself."
+	para "un méchant p'tit"
+	line "bonhomme tourne"
+	cont "mal lui aussi."
 	done
 
 AideText_ThiefReturnedMon:
@@ -1374,36 +1377,35 @@ AideText_ThiefReturnedMon:
 	done
 
 ElmGiveMasterBallText1:
-	text "Elm: Hi, <PLAYER>!"
-	line "Thanks to you, my"
+	text "Merci, <PLAYER>!"
+	line "Tu aides mes"
 
-	para "research is going"
-	line "great!"
+	para "recherches sur les"
+	line "#mon!"
 
-	para "Take this as a"
-	line "token of my"
-	cont "appreciation."
+	para "Voilà pour toi!"
+	line "Cadeau!"
 	done
 
 ElmGiveMasterBallText2:
-	text "The Master Ball is"
-	line "the best!"
+	text "Cette Master Ball"
+	line "est la meilleure"
+	cont "des Balls!"
 
-	para "It's the ultimate"
-	line "Ball! It'll catch"
+	para "Elle attrape"
+	line "n'importe quel"
 
-	para "any #mon with-"
-	line "out fail."
+	para "#mon à tous"
+	line "les coups."
 
-	para "It's given only to"
-	line "recognized #mon"
-	cont "researchers."
+	para "On ne la donne"
+	line "qu'aux grands"
+	cont "chercheurs"
+	cont "#mon."
 
-	para "I think you can"
-	line "make much better"
-
-	para "use of it than I"
-	line "can, <PLAYER>!"
+	para "Tu l'utiliseras"
+	line "mieux que moi,"
+	cont "<PLAYER>!"
 	done
 
 ElmGiveTicketText1:
@@ -1556,40 +1558,43 @@ ElmRefusedBattleText:
 
 
 AideText_GiveYouPotions:
-	text "<PLAYER>, I want"
-	line "you to have this"
-	cont "for your errand."
+	text "<PLAYER>, prends"
+	line "ceci pour ta"
+	cont "mission."
 	done
 
 AideText_AlwaysBusy:
-	text "There are only two"
-	line "of us, so we're"
-	cont "always busy."
+	text "On est seulement"
+	line "deux, alors on est"
+	cont "toujours occupé."
 	done
 
 AideText_TheftTestimony:
-	text "There was a loud"
-	line "noise outside…"
+	text "Il y avait du"
+	line "vacarme dehors..."
 
-	para "When we went to"
-	line "look, someone"
-	cont "stole a #mon."
+	para "Lorsque je suis"
+	line "allé jeter un"
+	cont "oeil, on avait"
+	cont "volé un #mon."
 
-	para "It's unbelievable"
-	line "that anyone would"
-	cont "do that!"
+	para "C'est impensable,"
+	line "il faut vraiment"
+	cont "ne pas avoir de"
+	cont "coeur pour faire"
+	cont "une telle chose!"
 
-	para "…sigh… That"
-	line "stolen #mon."
+	para "...(soupir)..."
+	line "Ce #mon volé."
 
-	para "I wonder how it's"
-	line "doing."
+	para "Je me demande"
+	line "comment il va."
 
-	para "They say a #mon"
-	line "raised by a bad"
+	para "On dit que les"
+	line "#mon élevés"
 
-	para "person turns bad"
-	line "itself."
+	para "par un méchant de-"
+	line "viennent mauvais."
 	done
 
 ElmsLabOfficerText1:
@@ -1618,11 +1623,11 @@ ElmsLabOfficerText2:
 	done
 
 ElmsLabOfficerText3:
-	text "OK! So <RIVAL>"
-	line "was his name."
+	text "Il s'appelait"
+	line "donc <RIVAL>."
 
-	para "Thanks for helping"
-	line "my investigation!"
+	para "Merci pour ta"
+	line "coopération!"
 	done
 
 ElmsLabLyraWhichPokemonText:
@@ -1725,35 +1730,37 @@ ElmsLabLyraTheftGoodbyeText:
 	done
 
 ElmsLabWindowText1:
-	text "The window's open."
+	text "La fenêtre est"
+	line "ouverte."
 
-	para "A pleasant breeze"
-	line "is blowing in."
+	para "Un filet d'air"
+	line "passe."
 	done
 
 ElmsLabWindowText2:
-	text "He broke in"
-	line "through here!"
+	text "Il a déboulé ici!"
 	done
 
 ElmsLabTravelTip1Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> ouvre un"
+	line "livre."
 
-	para "Travel Tip 1:"
+	para "Astuce Voyagé 1:"
 
-	para "Press Start to"
-	line "open the Menu."
+	para "Appuyez sur Start"
+	line "pour ouvrir le"
+	cont "menu."
 	done
 
 ElmsLabTravelTip2Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> ouvre le"
+	line "livre."
 
-	para "Travel Tip 2:"
+	para "Astuce Voyagé 2:"
 
-	para "Record your trip"
-	line "with Save!"
+	para "Enregistrez votre"
+	line "périple avec"
+	cont "sauver!"
 	done
 
 ElmsLabTravelTip3Text:
@@ -1768,20 +1775,21 @@ ElmsLabTravelTip3Text:
 	done
 
 ElmsLabTravelTip4Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> ouvre le"
+	line "livre."
 
-	para "Travel Tip 4:"
+	para "Astuce Voyagé 4:"
 
-	para "Check your #mon"
-	line "moves. Press the"
-
-	para "A Button to switch"
-	line "moves."
+	para "Voir les capacités"
+	line "des #mon."
+	cont "Appuyez sur le"
+	cont "bouton A pour"
+	cont "déplacer les"
+	cont "capacités."
 	done
 
 ElmsLabTrashcanText:
-	text "The wrapper from"
-	line "the snack Prof.Elm"
-	cont "ate is in there…"
+	text "Il y a le papier"
+	line "d'emballage du"
+	cont "sandwich du Prof."
 	done

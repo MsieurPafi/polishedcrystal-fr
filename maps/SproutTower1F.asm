@@ -62,16 +62,18 @@ GenericTrainerSageChow:
 	done
 
 SageChowSeenText:
-	text "We stand guard in"
-	line "this tower."
+	text "Nous montons la"
+	line "garde dans cette"
+	cont "tour."
 
-	para "Here, we express"
-	line "our gratitude to"
-	cont "honor all #mon."
+	para "Nous y exprimons"
+	line "notre gratitude"
+	cont "envers tous les"
+	cont "#mon."
 	done
 
 SageChowBeatenText:
-	text "Th-Thank you!"
+	text "M--Merci!"
 	done
 
 SproutTower1FSage1Text:
@@ -81,26 +83,28 @@ SproutTower1FSage1Text:
 	done
 
 SproutTower1FSage2Text:
-	text "Sprout Tower was"
-	line "built long ago"
+	text "La Tour Chetiflor"
+	line "a été construite"
 
-	para "as a place for"
-	line "#mon training."
+	para "il y a longtemps"
+	line "pour entraîner les"
+	cont "#mon."
 	done
 
 SproutTower1FTeacherText:
-	text "See the pillar"
-	line "shaking?"
+	text "Vois-tu le pilier"
+	line "trembler?"
 
-	para "People are train-"
-	line "ing upstairs."
+	para "On s'entraîne sec"
+	line "au-dessus."
 	done
 
 SproutTower1FStatueText:
-	text "A #mon statue…"
+	text "Une statue de"
+	line "#mon..."
 
-	para "It looks very"
-	line "distinguished."
+	para "Ça a l'air cher"
+	line "et raffiné."
 	done
 
 KimonoGirlMakoScript:

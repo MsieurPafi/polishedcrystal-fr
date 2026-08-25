@@ -44,14 +44,13 @@ Route40BattleTowerGateRockerScript:
 	done
 
 .OpenText:
-	text "Battle Tower has"
-	line "opened."
+	text "La Tour de Combat"
+	line "a ouvert ses"
+	cont "portes."
 
-	para "I want to go, but"
-	line "I haven't thought"
-
-	para "up a cool line for"
-	line "when I win."
+	para "Je veux y aller"
+	line "mais..."
+	cont "J'ai peur."
 	done
 
 Route40BattleTowerGateTwinScript:
@@ -67,12 +66,10 @@ Route40BattleTowerGateTwinScript:
 	done
 
 .OpenText:
-	text "The levels of the"
-	line "#mon I want to"
+	text "Mes #mon ont"
+	line "tous des niveaux"
+	cont "différents..."
 
-	para "use are all"
-	line "different."
-
-	para "I have to go train"
-	line "them now!"
+	para "Je dois les"
+	line "entraîner!"
 	done

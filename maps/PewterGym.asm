@@ -101,41 +101,45 @@ PewterGymStatue:
 	jumpstd gymstatue2
 
 BrockIntroText:
-	text "Brock: Wow, it's"
-	line "not often that we"
+	text "pierre: C'est pas"
+	line "tous les jours"
 
-	para "get a challenger"
-	line "from Johto."
+	para "qu'on reçoit de la"
+	line "visite de quelqu'"
+	cont "un de Johto."
 
-	para "I'm Brock, the"
-	line "Pewter Gym Leader."
+	para "Moi c'est pierre,"
+	line "le champion de"
 
-	para "I'm an expert on"
-	line "Rock-type #mon."
+	para "l'Arene d'Argenta."
+	line "J'adore les #-"
+	cont "mon de la roche."
 
-	para "My #mon are im-"
-	line "pervious to most"
+	para "Mes #mon sont"
+	line "insensibles à la"
 
-	para "physical attacks."
-	line "You'll have a hard"
+	para "plupart des atta-"
+	line "ques physiques. Tu"
 
-	para "time inflicting"
-	line "any damage."
+	para "vas en baver pour"
+	line "leur faire des"
+	cont "dégâts."
 
-	para "Come on!"
+	para "C'est parti!"
 	done
 
 BrockWinLossText:
-	text "Brock: Your #-"
-	line "mon's powerful at-"
-	cont "tacks overcame my"
-	cont "rock-hard defense…"
+	text "pierre: Tes #-"
+	line "mon ont pu passer"
+	cont "ma défense de"
+	cont "pierre..."
 
-	para "You're stronger"
-	line "than I expected…"
+	para "Tu es plus balèze"
+	line "que je ne le"
+	cont "pensais..."
 
-	para "Go ahead--take"
-	line "this Badge."
+	para "Tiens... Prends"
+	line "ce Badge."
 	done
 
 BrockBoulderBadgeText:
@@ -152,36 +156,35 @@ BrockBoulderBadgeText:
 	done
 
 BrockFightDoneText:
-	text "Brock: The world"
-	line "is huge. There are"
+	text "pierre: Grand est"
+	line "le monde. Beaucoup"
 
-	para "still many strong"
-	line "trainers like you."
+	para "de dresseurs tu"
+	line "rencontreras."
+	cont "Oh que oui."
 
-	para "Just wait and see."
-	line "I'm going to be-"
-	cont "come a lot strong-"
-	cont "er too."
+	para "Tu verras..."
+	line "Je vais devenir"
+	cont "super balèze."
 	done
 
 CamperJerrySeenText:
-	text "The trainers of"
-	line "this Gym use Rock-"
-	cont "type #mon."
+	text "Les dresseurs de"
+	line "cette Arene utili-"
+	cont "sent des #mon"
+	cont "du type roche."
 
-	para "The Rock-type has"
-	line "high Defense."
+	para "Cet élément a une"
+	line "grande défense."
 
-	para "Battles could end"
-	line "up going a long"
-
-	para "time. Are you"
-	line "ready for this?"
+	para "Les combats ris-"
+	line "quent de durer"
+	cont "super longtemps."
 	done
 
 CamperJerryBeatenText:
-	text "I have to win"
-	line "these battles…"
+	text "Il faut que je"
+	line "gagne..."
 	done
 
 HikerEdwinSeenText: ; text > text
@@ -194,15 +197,13 @@ HikerEdwinBeatenText: ; text > text
 
 
 PewterGymGuyWinText:
-	text "Yo! Champ in"
-	line "making! That Gym"
+	text "Hé! Graine de"
+	line "star! Cette"
 
-	para "didn't give you"
-	line "much trouble."
+	para "Arene ne t'a pas"
+	line "posé trop de"
+	cont "problèmes..."
 
-	para "The way you took"
-	line "charge was really"
-
-	para "inspiring. I mean"
-	line "that seriously."
+	para "Tu m'as bluffé."
+	line "Sérieusement."
 	done

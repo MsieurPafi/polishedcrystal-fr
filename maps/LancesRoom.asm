@@ -154,72 +154,68 @@ LanceScript:
 	end
 
 .SeenText:
-	text "Lance: I've been"
-	line "waiting for you."
+	text "Peter:"
+	line "Je t'attendais..."
 
 	para "<PLAYER>!"
 
-	para "I knew that you,"
-	line "with your skills,"
+	para "Je savais que tu"
+	line "allais finir par"
+	cont "arriver jusqu'ici."
 
-	para "would eventually"
-	line "reach me here."
+	para "Bon. Finie la"
+	line "parlotte."
 
-	para "There's no need"
-	line "for words now."
+	para "On va se battre et"
+	line "enfin savoir qui"
 
-	para "We will battle to"
-	line "determine who is"
+	para "a le plus de"
+	line "talent."
 
-	para "the stronger of"
-	line "the two of us."
+	para "Étant le plus"
+	line "puissant et le"
 
-	para "As the most power-"
-	line "ful trainer and as"
+	para "maître de la"
+	line "Ligue..."
 
-	para "the #mon League"
-	line "Champion…"
-
-	para "I, Lance the drag-"
-	line "on master, accept"
-	cont "your challenge!"
+	para "Moi, Peter,"
+	line "l'expert des"
+	cont "dragons, j'accepte"
+	cont "de t'affronter!"
 	done
 
 .BeatenText:
-	text "…It's over."
+	text "...C'est fini."
 
-	para "But it's an odd"
-	line "feeling."
+	para "Je me sens..."
+	line "Bizarre..."
 
-	para "I'm not angry that"
-	line "I lost. In fact, I"
-	cont "feel happy."
+	para "Je ne suis pas"
+	line "fâché mais..."
+	cont "Plutôt heureux."
 
-	para "Happy that I"
-	line "witnessed the rise"
+	para "Heureux d'être le"
+	line "témoin de la nais-"
 
-	para "of a great new"
-	line "Champion!"
+	para "sance d'un nouveau"
+	line "maître!"
 	done
 
 .AfterText:
-	text "…Whew."
+	text "...Fouiii!"
 
-	para "You have become"
-	line "truly powerful,"
-	cont "<PLAYER>."
+	para "Tu as fait de gros"
+	line "progrès, <PLAYER>."
 
-	para "Your #mon have"
-	line "responded to your"
+	para "Toi et tes #mon"
+	line "êtes en parfaite"
 
-	para "strong and up-"
-	line "standing nature."
+	para "harmonie."
+	line "C'est bien, ça."
 
-	para "As a trainer, you"
-	line "will continue to"
-
-	para "grow strong with"
-	line "your #mon."
+	para "Je suis sûr que tu"
+	line "continueras à"
+	cont "progresser."
 	done
 
 .SeenRematchText:
@@ -254,43 +250,42 @@ LanceScript:
 	done
 
 .MaryText1:
-	text "Mary: Oh, no!"
-	line "It's all over!"
+	text "Lula: Oh, non!"
+	line "C'est fini! Prof."
 
-	para "Prof.Oak, if you"
-	line "weren't so slow…"
+	para "Chen, vous êtes"
+	line "trop lent..."
 	done
 
 .OakSpeechText:
-	text "Prof.Oak: Ah,"
-	line "<PLAYER>!"
+	text "Chen: Ah, <PLAYER>!"
+	line "Ça faisait bien"
+	cont "longtemps."
 
-	para "It's been a long"
-	line "while."
+	para "Tu as changé, ma"
+	line "parole."
 
-	para "You certainly look"
-	line "more impressive."
+	para "Ta victoire sur la"
+	line "Ligue est ma foi"
+	cont "impressionnante!"
 
-	para "Your conquest of"
-	line "the League is just"
-	cont "fantastic!"
+	para "Ton amour et ton"
+	line "dévouement pour"
 
-	para "Your dedication,"
-	line "trust and love for"
+	para "tes #mon en"
+	line "sont la cause."
 
-	para "your #mon made"
-	line "this happen."
+	para "Tes #mon ont"
+	line "aussi fait du beau"
+	cont "boulot."
 
-	para "Your #mon were"
-	line "outstanding too."
+	para "Ils ont reconnu"
+	line "en toi un être"
 
-	para "Because they be-"
-	line "lieved in you as a"
+	para "et un dresseur"
+	line "d'exception."
 
-	para "trainer, they per-"
-	line "severed."
-
-	para "Congratulations,"
+	para "Encore bravo,"
 	line "<PLAYER>!"
 	done
 
@@ -324,24 +319,24 @@ LanceScript:
 	done
 
 .MaryText2:
-	text "Mary: Let's inter-"
-	line "view the brand new"
-	cont "Champion!"
+	text "Lula: Faisons une"
+	line "interview du nou-"
+	cont "veau maître!"
 	done
 
 .LanceLeavingText:
-	text "Lance: This is"
-	line "getting to be a"
-	cont "bit too noisy…"
+	text "Peter: Tout ça est"
+	line "trop bruyant pour"
+	cont "moi..."
 
-	para "<PLAYER>, could you"
-	line "come with me?"
+	para "<PLAYER>,"
+	line "suis-moi."
 	done
 
 .MaryText3:
-	text "Mary: Oh, wait!"
-	line "We haven't done"
-	cont "the interview!"
+	text "Lula: Attendez!"
+	line "On n'a pas encore"
+	cont "fait l'interview!"
 	done
 
 .RushInMovement:

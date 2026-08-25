@@ -143,19 +143,23 @@ GoldenrodHappinessRaterTeacherText:
 	done
 
 GoldenrodHappinessRaterPokefanMText:
-	text "I keep losing in"
-	line "battles, and my"
+	text "Je ne fais que"
+	line "perdre les combats"
 
-	para "#mon end up"
-	line "fainting…"
+	para "avec mes #mon,"
+	line "ils sont tout le"
+	cont "temps K.O..."
 
-	para "Maybe that's why"
-	line "my #mon don't"
-	cont "like me much…"
+	para "C'est peut-être"
+	line "pour ça que mes"
+	cont "#mon ne"
+	cont "m'aiment pas trop!"
 	done
 
 GoldenrodHappinessRaterTwinText:
-	text "When I use an item"
-	line "on my #mon, it"
-	cont "acts really glad!"
+	text "Lorsque j'utilise"
+	line "un objet sur mes"
+	cont "#mon, ça"
+	cont "fait des trucs"
+	cont "cool!"
 	done

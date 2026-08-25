@@ -175,8 +175,8 @@ MysticWaterGuy:
 	jumpthisopenedtext
 
 MysticWaterGuyTextAfter:
-	text "Back to fishing"
-	line "for me, then."
+	text "Allez hop, retour"
+	line "à la pêche."
 	done
 
 GuideGentMovement1:
@@ -282,17 +282,20 @@ GuideGentIntroText:
 	done
 
 GuideGentPokeCenterText:
-	text "This is a #mon"
-	line "Center. They heal"
+	text "C'est un centre"
+	line "#mon. On y"
 
-	para "your #mon in no"
-	line "time at all."
+	para "soigne les #-"
+	line "mon en moins de"
+	cont "temps qu'il n'en"
+	cont "faut pour le dire!"
 
-	para "You'll be relying"
-	line "on them a lot, so"
+	para "Tu en auras grand"
+	line "besoin pendant ta"
 
-	para "you better learn"
-	line "about them."
+	para "quête, alors"
+	line "apprends à les"
+	cont "utiliser."
 	done
 
 GuideGentMartText:
@@ -308,14 +311,14 @@ GuideGentMartText:
 	done
 
 GuideGentRoute30Text:
-	text "Route 30 is out"
-	line "this way."
+	text "La route 30 est"
+	line "par-là."
 
-	para "Trainers will be"
-	line "battling their"
+	para "Les dresseurs"
+	line "s'y affrontent"
 
-	para "prized #mon"
-	line "there."
+	para "avec leurs #mon"
+	line "favoris."
 	done
 
 GuideGentAdvancedTipsText:
@@ -336,59 +339,61 @@ GuideGentSeaText:
 	done
 
 GuideGentGiftText:
-	text "Here…"
+	text "Voilà."
 
-	para "It's my house!"
-	line "Thanks for your"
-	cont "company."
+	para "C'est chez moi!"
+	line "Merci de m'avoir"
+	cont "tenu compagnie."
 
-	para "Let me give you a"
-	line "small gift."
+	para "Je vais te donner"
+	line "un p'tit truc."
 	done
 
 GotMapCardText:
-	text "<PLAYER>'s #gear"
-	line "now has a Map!"
+	text "Le #matos de"
+	line "<PLAYER> contient"
+	cont "maintenant une"
+	cont "carte!"
 	done
 
 GuideGentPokegearText:
-	text "#gear becomes"
-	line "more useful as you"
-	cont "add Cards."
+	text "Le #matos"
+	line "est plus utile"
+	cont "lorsqu'on y ajou-"
+	cont "te des Coupons."
 
-	para "I wish you luck on"
-	line "your journey!"
+	para "Je te souhaite"
+	line "bonne chance!"
 	done
 
 CherrygroveRivalText_Seen:
 	text "…… …… ……"
 
-	para "You got a #mon"
-	line "at the Lab."
+	para "Tu as un #mon"
+	line "du Labo."
 
-	para "What a waste."
-	line "A wimp like you."
+	para "Du gâchis, ouais!"
+	line "Une mauviette"
+	cont "comme toi..."
 
 	para "…… …… ……"
 
-	para "Don't you get what"
-	line "I'm saying?"
+	para "Bon."
+	line "J't'aime pas."
 
-	para "Well, I too, have"
-	line "a good #mon."
-
-	para "I'll show you"
-	line "what I mean!"
+	para "Je vais te montrer"
+	line "le bon #mon"
+	cont "que j'ai moi!"
 	done
 
 RivalCherrygroveWinText:
-	text "Humph. Are you"
-	line "happy you won?"
+	text "Alors?"
+	line "C'est la joie?"
 	done
 
 RivalCherrygroveLossText:
-	text "Humph. That was a"
-	line "waste of time."
+	text "Pfff. Une perte"
+	line "de temps."
 	done
 
 CherrygroveRivalTextAfter1:
@@ -415,47 +420,53 @@ CherrygroveRivalTextAfter2:
 	done
 
 CherrygroveTeacherText_HaveMapCard:
-	text "When you're with"
-	line "#mon, going"
-	cont "anywhere is fun."
+	text "C'est trop bien"
+	line "de se balader avec"
+	cont "ses #mon!"
 	done
 
 CherrygroveYoungsterText_HavePokedex:
-	text "I battled the"
-	line "trainers on the"
-	cont "road."
+	text "J'ai combattu"
+	line "un paquet de"
+	cont "dresseurs sur la"
+	cont "route."
 
-	para "My #mon lost."
-	line "They're a mess! I"
+	para "Mes #mon ont"
+	line "perdu avec honneur"
 
-	para "must take them to"
-	line "a #mon Center."
+	para "mais bon, le"
+	line "résultat est là."
+	cont "Je dois aller vite"
+	cont "fait dans un"
+	cont "centre #mon."
 	done
 
 MysticWaterGuyTextBefore:
-	text "A #mon I caught"
-	line "had an item."
+	text "Le #mon que"
+	line "j'ai attrapé avait"
+	cont "un objet."
 
-	para "I think it's"
-	line "Mystic Water."
+	para "Je crois que c'est"
+	line "de l'Eau mystique."
 
-	para "I don't need it,"
-	line "so do you want it?"
+	para "Je n'en ai pas"
+	line "besoin..."
+	cont "La veux-tu?"
 	done
 
 CherrygrovePidgeyText:
-	text "Pidgey: Pijji!"
+	text "Roucool: Rrrou!"
 	done
 
 CherrygroveCitySignText:
-	text "Cherrygrove City"
+	text "ville Griotte"
 
-	para "The City of Cute,"
-	line "Fragrant Flowers"
+	para "La ville aux"
+	line "fleurs parfumées"
 	done
 
 GuideGentsHouseSignText:
-	text "Guide Gent's House"
+	text "maison des Guides"
 	done
 
 CherrygroveCityAdvancedTipsSignText:

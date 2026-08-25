@@ -170,21 +170,22 @@ MountMoon1FRivalMovementAfter:
 MountMoonRivalTextBefore:
 	text "…… …… ……"
 
-	para "It's been a while,"
-	line "<PLAYER>."
+	para "Cela faisait"
+	line "longtemps,"
+	cont "<PLAYER>."
 
-	para "…Since I lost to"
-	line "you, I thought"
+	para "...Depuis ma"
+	line "défaite j'ai"
 
-	para "about what I was"
-	line "lacking with my"
-	cont "#mon…"
+	para "cherché l'élément"
+	line "manquant à mon"
+	cont "entraînement..."
 
-	para "And we came up"
-	line "with an answer."
+	para "Et tu sais quoi?"
+	line "Je l'ai trouvé!"
 
-	para "<PLAYER>, now we'll"
-	line "show you!"
+	para "<PLAYER>, ça va"
+	line "être ta fête!"
 	done
 
 MountMoonRivalTextWin:
@@ -233,15 +234,15 @@ MountMoonRivalTextAfter:
 MountMoonRivalTextLoss:
 	text "…… …… ……"
 
-	para "I've repaid my"
-	line "debt to you."
+	para "Yahahaha!"
+	line "Vengeance!"
 
-	para "With my #mon,"
-	line "I'm going to beat"
+	para "Avec mes #mon,"
+	line "je vais battre le"
 
-	para "the Champion and"
-	line "become the world's"
-	cont "greatest trainer."
+	para "champion et être"
+	line "le plus grand des"
+	cont "dresseurs."
 	done
 
 BugManiacKentaSeenText:

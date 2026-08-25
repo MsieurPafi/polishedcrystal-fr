@@ -856,43 +856,43 @@ MovementData_IlexForestLyraLeaves:
 
 
 IlexForestApprenticeAfterText:
-	text "Wow! Thanks a"
-	line "whole bunch!"
+	text "Woah! Merci"
+	line "beaucoup!"
 
-	para "My boss's #mon"
-	line "won't obey me be-"
-	cont "cause I don't have"
-	cont "a Badge."
+	para "Le #mon de mon"
+	line "chef n'obéit pas"
+	cont "parce que je n'ai"
+	cont "pas le bon Badge."
 	done
 
 Text_ItsTheMissingPokemon:
-	text "It's the missing"
-	line "#mon!"
+	text "C'est le #mon"
+	line "perdu!"
 	done
 
 Text_Kwaaaa:
-	text "Farfetch'd: Kwaa!"
+	text "Canarticho: Kwaa!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My Farfetch'd!"
+	text "Ah! Canarticho!"
 
-	para "You found it for"
-	line "us, kid?"
+	para "Tu nous l'as"
+	line "retrouvé?"
 
-	para "Without it, we"
-	line "wouldn't be able"
+	para "Sans lui, on ne"
+	line "peut pas couper"
 
-	para "to Cut trees for"
-	line "charcoal."
+	para "les arbres pour"
+	line "faire du charbon."
 
-	para "Thanks, kid!"
+	para "Merci!"
 
-	para "Now, how can I"
-	line "thank you…"
+	para "Bon. Comment te"
+	line "remercier..."
 
-	para "I know! Here, take"
-	line "this."
+	para "Je sais!"
+	line "Prends ceci."
 	done
 
 Text_CharcoalMasterOutro:
@@ -921,14 +921,12 @@ Text_CharcoalMasterOutro:
 	done
 
 Text_CharcoalMasterTalkAfter:
-	text "Do you want to"
-	line "apprentice as a"
+	text "Veux-tu devenir"
+	line "pro du charbon"
+	cont "comme moi?"
 
-	para "charcoal maker"
-	line "with me?"
-
-	para "You'll be first-"
-	line "rate in ten years!"
+	para "Tu verras, c'est"
+	line "cool!"
 	done
 
 Text_HeadbuttIntro:
@@ -985,9 +983,10 @@ Text_IlexForestTutorQuestion:
 
 
 Text_IlexForestLass:
-	text "Did something"
-	line "happen to the"
-	cont "forest's guardian?"
+	text "Est-il arrivé"
+	line "quelque chose au"
+	cont "gardien de la"
+	cont "forêt?"
 	done
 
 Text_IlexForestMossRock:
@@ -999,15 +998,15 @@ Text_IlexForestMossRock:
 	done
 
 IlexForestSignpost:
-	text "Ilex Forest is"
-	line "so overgrown with"
+	text "Le Bois aux Chenes"
+	line "est si dense que"
 
-	para "trees that you"
-	line "can't see the sky."
+	para "les feuilles ca-"
+	line "chent le ciel."
 
-	para "Please watch out"
-	line "for items that may"
-	cont "have been dropped."
+	para "Faites attention"
+	line "aux objets laissés"
+	cont "sur le sol."
 	done
 
 IlexForestTrainerTips:
@@ -1031,37 +1030,37 @@ IlexForestTrainerTips:
 	done
 
 Text_IlexForestShrine:
-	text "Ilex Forest"
-	line "Shrine…"
+	text "Autel du"
+	line "Bois aux Chenes..."
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector…"
+	para "En l'honneur du"
+	line "protecteur de la"
+	cont "forêt..."
 	done
 
 Text_ShrineCelebiEvent:
-	text "Ilex Forest"
-	line "Shrine…"
+	text "Autel du"
+	line "Bois aux Chenes..."
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector…"
+	para "C'est en l'honneur"
+	line "du gardien de la"
+	cont "forêt..."
 
-	para "Oh? What is this?"
+	para "Oh? C'est quoi ça?"
 
-	para "It's a hole."
-	line "It looks like the"
+	para "Il y a un trou."
+	line "On dirait que la"
 
-	para "GS Ball would fit"
-	line "inside it."
+	para "Gs Ball peut y"
+	line "entrer."
 
-	para "Want to put the GS"
-	line "Ball here?"
+	para "Déposer la"
+	line "Gs Ball?"
 	done
 
 Text_InsertGSBall:
-	text "<PLAYER> put in the"
-	line "GS Ball."
+	text "<PLAYER> dépose"
+	line "la Gs Ball."
 	done
 
 Text_KurtCaughtCelebi:
@@ -1161,16 +1160,17 @@ Text_IlexForestLyraGoodbye:
 	done
 
 BugCatcherWayneSeenText:
-	text "Don't sneak up on"
-	line "me like that!"
+	text "Ah! Tu m'as fait"
+	line "peur!"
 
-	para "You frightened a"
-	line "#mon away!"
+	para "Tu as fait fuir"
+	line "un #mon!"
 	done
 
 BugCatcherWayneBeatenText:
-	text "I hadn't seen that"
-	line "#mon before…"
+	text "Je n'avais encore"
+	line "jamais vu ce"
+	cont "#mon..."
 	done
 
 IlexForestHoneyBoyText:

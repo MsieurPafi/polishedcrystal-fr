@@ -1,47 +1,47 @@
 HueyAskNumber1Text:
-	text "Cool! That's the"
-	line "first time I've"
-	cont "lost in a while!"
+	text "Cool! Ça faisait"
+	line "longtemps que j'"
+	cont "avais pas perdu!"
 
-	para "Hey, give me your"
-	line "phone number."
+	para "Hé! Filé-moi ton"
+	line "numéro."
 
-	para "You'd be fun to"
-	line "battle, so I'll"
+	para "Je t'appelle quand"
+	line "j'aurai fait des"
 
-	para "call you when I"
-	line "get stronger!"
+	para "progrès..."
+	line "Ça marche?"
 	done
 
 HueyAskNumber2Text:
-	text "Hey, give me your"
-	line "phone number."
+	text "Hé! Filé-moi ton"
+	line "numéro."
 
-	para "You'd be fun to"
-	line "battle, so I'll"
+	para "Je t'appelle quand"
+	line "j'aurai fait des"
 
-	para "call you when I"
-	line "get stronger!"
+	para "progrès..."
+	line "Ça marche?"
 	done
 
 HueyNumberAcceptedText:
-	text "Hey, let's battle"
-	line "again!"
+	text "On combat quand"
+	line "tu veux!"
 	done
 
 HueyNumberDeclinedText:
-	text "Looks like you're"
-	line "a wimp…"
+	text "T'as l'air d'une"
+	line "mauviette..."
 	done
 
 HueyPhoneFullText:
-	text "Hey! Your phone's"
-	line "already full!"
+	text "Hé! Ton téléphone"
+	line "est plein!"
 	done
 
 HueyRematchText:
-	text "Hey! I'm tired of"
-	line "waiting for you!"
+	text "Hé! J'en ai marre"
+	line "de t'attendre!"
 	done
 
 HueyPackFullText:
@@ -51,30 +51,31 @@ HueyPackFullText:
 	done
 
 HueyRematchGiftText:
-	text "Man! You're as"
-	line "tough as ever!"
+	text "Fouiii! Tu es de"
+	line "plus en plus"
+	cont "fortiche!"
 
-	para "I've battled you"
-	line "over and over, but"
+	para "Je te lance des"
+	line "défis sans arrêt"
 
-	para "<PLAYER>, I haven't"
-	line "won once."
+	para "mais tu gagnes à"
+	line "chaque fois."
 
-	para "I bought tons of"
-	line "items to toughen"
+	para "J'ai acheté tout"
+	line "plein de trucs"
 
-	para "up my #mon, but"
-	line "to no avail…"
+	para "pour booster mes"
+	line "#mon mais..."
 
-	para "Items alone aren't"
-	line "the answer."
+	para "Les objets seuls"
+	line "ne suffisent pas."
 
-	para "That must be what"
-	line "it is…"
+	para "Il doit y avoir"
+	line "autre chose."
 
-	para "Here, take this,"
-	line "<PLAYER>."
+	para "Tiens, voilà pour"
+	line "toi, <PLAYER>."
 
-	para "I won't be needing"
-	line "it anymore…"
+	para "Je n'en ai plus"
+	line "besoin..."
 	done

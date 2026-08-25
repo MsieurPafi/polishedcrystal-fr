@@ -36,14 +36,14 @@ GenericTrainerSwimmerfNikki:
 	done
 
 SwimmerfNikkiSeenText:
-	text "If I win, you have"
-	line "to help me with my"
-	cont "suntan lotion!"
+	text "Si je gagne, tu me"
+	line "passes de la"
+	cont "crème!"
 	done
 
 SwimmerfNikkiBeatenText:
-	text "I'm worried about"
-	line "sunburn…"
+	text "Les coups de"
+	line "soleil c'est mal."
 	done
 
 GenericTrainerSwimmerfChelan:
@@ -84,8 +84,8 @@ GenericTrainerSwimmerfKendra:
 	done
 
 .BeatenText:
-	text "I didn't want to"
-	line "lose…"
+	text "Perdre c'est mal."
+	line "Pfff..."
 	done
 
 GenericTrainerSwimmermEsteban:
@@ -137,12 +137,12 @@ GenericTrainerSwimmermSeth:
 	done
 
 SwimmermSethSeenText:
-	text "Land ho! Gotta"
-	line "keep going!"
+	text "Haahahahahhaa!"
+	line "C'est la fête!"
 	done
 
 SwimmermSethBeatenText:
-	text "Glug…"
+	text "Glug..."
 	done
 
 GenericTrainerFisherMurphy:
@@ -174,12 +174,12 @@ GenericTrainerFisherArnold:
 	done
 
 FisherArnoldSeenText:
-	text "I'm bored by fish-"
-	line "ing. Let's battle!"
+	text "La pêche c'est"
+	line "long. combat!"
 	done
 
 FisherArnoldBeatenText:
-	text "Utter failure…"
+	text "Tout perdu..."
 	done
 
 GenericTrainerFisherLiam:

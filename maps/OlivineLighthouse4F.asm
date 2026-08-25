@@ -56,17 +56,17 @@ SailorKentScript:
 	done
 
 SailorKentSeenText:
-	text "Jasmine must be"
-	line "worried sick about"
-	cont "the #mon here."
+	text "Jasmine doit"
+	line "s'inquiéter à pro-"
+	cont "pos du #mon."
 
-	para "She won't even"
-	line "smile these days."
+	para "Elle ne sourit"
+	line "même plus."
 	done
 
 SailorKentBeatenText:
-	text "I can't manage a"
-	line "smile either…"
+	text "Moi non plus..."
+	line "J'souris plus..."
 	done
 
 SailorKentFinalText:
@@ -79,16 +79,17 @@ SailorKentFinalText:
 	done
 
 LassConnieSeenText:
-	text "Jasmine is this"
-	line "city's Gym Leader."
+	text "Jasmine est la"
+	line "Championne de"
+	cont "cette ville."
 
-	para "I mean to bring"
-	line "her back with me."
+	para "Et moi j'suis plus"
+	line "forte qu'elle."
 
-	para "Nobody had better"
-	line "get in my way!"
+	para "Et ça... Tu vas"
+	line "le comprendre!"
 	done
 
 LassConnieBeatenText:
-	text "Aaack! My #mon!"
+	text "Aaah! Mes #mon!"
 	done

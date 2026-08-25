@@ -62,178 +62,164 @@ LizBattleRematchText:
 	done
 
 LizWrongNumberText:
-	text "Hi, Tania. How are"
-	line "you? This is Liz."
+	text "Allô Germaine?"
+	line "Ça va? C'est Liz."
 
-	para "I'm fine, but I'm"
-	line "bored silly!"
+	para "Qu'est-ce que tu"
+	line "deviens?"
 
-	para "Huh… Wrong number?"
-	line "Oops! Sorry!"
+	para "Hein? Oups!"
+	line "Mauvais numéro!"
 	done
 
 LizHangUpText:
-	text "OK, I'll call you"
-	line "later!"
+	text "OK, à plus tard!"
 	done
 
 LizRuinsOfAlphGossipText:
-	text "Listen, listen!"
+	text "Écouté!"
 
-	para "I was listening to"
-	line "the radio in the"
+	para "J'écoutais la"
+	line "radio dans les"
 
-	para "Ruins of Alph when"
-	line "an odd broadcast"
+	para "ruines d'alpha et"
+	line "j'ai entendu un"
 
-	para "suddenly cut it on"
-	line "the regular show."
+	para "truc bizarre au"
+	line "milieu d'une"
+	cont "émission."
 
-	para "I wonder what it"
-	line "was. So strange!"
+	para "C'était quoi donc?"
 	done
 
 LizFalknerGossipText:
-	text "Listen, listen!"
+	text "Écouté!"
 
-	para "Don't you think"
-	line "Falkner of Violet"
+	para "Tu trouves pas que"
+	line "Albert de Mauville"
+	cont "est beau gosse?"
 
-	para "Gym is cool and"
-	line "handsome?"
+	para "On dit aussi que"
+	line "son père, qui"
 
-	para "But they say his"
-	line "dad, who's out"
+	para "s'entraîne sur les"
+	line "routes, est encore"
+	cont "plus beau."
 
-	para "training on the"
-	line "road, is even more"
-
-	para "cool and handsome"
-	line "than Falkner."
-
-	para "I wish I could"
-	line "meet him!"
+	para "Je veux le voir!"
 	done
 
 LizEarlGossipText:
-	text "Listen, listen!"
+	text "Écouté!"
 
-	para "Do you know Earl,"
-	line "the teacher who"
+	para "Tu connais"
+	line "Theophile, le"
 
-	para "runs the #mon"
-	line "Academy in Violet?"
+	para "professeur à la"
+	line "tête de l'Academie"
+	cont "de Mauville?"
 
-	para "I saw him doing"
-	line "pirouettes while"
+	para "Je l'ai vu courir!"
+	line "C'était à mourir"
 
-	para "he was running. It"
-	line "was wildly funny!"
+	para "de rire! Ça fait"
+	line "même de la peine!"
 	done
 
 LizSurfPikachuGossipText:
-	text "Listen, listen!"
+	text "Écouté!"
 
-	para "I collect #mon"
-	line "plush dolls."
+	para "Je collectionne"
+	line "des poupées"
+	cont "#mon."
 
-	para "But I can't seem"
-	line "to get a hold of a"
+	para "Mais je n'arrive"
+	line "pas à trouver un"
 
-	para "Surf Pikachu Doll."
-	line "None of my friends"
+	para "Jouetpikachu Surf."
+	line "Et aucun de mes"
 
-	para "have it. It must"
-	line "be totally rare!"
+	para "amis n'en a."
+	line "C'est super rare!"
 
-	para "You could really"
-	line "brag about it if"
-	cont "you had one."
+	para "Si t'en as un, tu"
+	line "peux crâner."
 	done
 
 LizMooMooMilkGossipText:
-	text "Listen, listen!"
+	text "Écouté!"
 
-	para "Do you know about"
-	line "Moomoo Milk?"
+	para "Tu connais le"
+	line "lait Meumeu?"
 
-	para "You can buy it at"
-	line "Moomoo Farm."
+	para "On peut en acheter"
+	line "au Ranch Meumeu."
 
-	para "It's supposed to"
-	line "be good for health"
+	para "C'est bon pour la"
+	line "santé et la beauté"
 
-	para "and beauty."
-	line "I really want to"
-
-	para "try some. I bet"
-	line "it's delicious!"
+	para "aussi."
+	line "J'en veux!"
+	cont "Je le vaux bien!"
 	done
 
 LizSalonGossipText:
-	text "Listen, listen!"
+	text "Écouté!"
 
-	para "There's a #mon"
-	line "Salon in Goldenrod"
+	para "Il y a un Salon"
+	line "#mon à Doublon-"
 
-	para "that's run by two"
-	line "brothers."
+	para "ville qui est tenu"
+	line "par deux frères."
 
-	para "The older brother"
-	line "is good, but the"
+	para "Le plus vieux est"
+	line "bon, mais l'autre"
+	cont "est une tache."
 
-	para "younger one really"
-	line "isn't."
+	para "Mais ça dépend"
+	line "des fois."
 
-	para "But sometimes the"
-	line "younger one does a"
+	para "A chaque fois,"
+	line "j'ai du mal à me"
 
-	para "better job than"
-	line "his brother."
-
-	para "Every time I go, I"
-	line "have a hard time"
-
-	para "trying to decide"
-	line "whom I should use…"
+	para "décider..."
 	done
 
 LizWhitneyGossipText:
-	text "Listen, listen!"
+	text "Écouté!"
 
-	para "Goldenrod Gym's"
-	line "Whitney began"
+	para "blanche de dou-"
+	line "Blonville est"
 
-	para "battling only a"
-	line "little while ago!"
+	para "dresseur depuis"
+	line "peu de temps!"
 
-	para "But the #mon"
-	line "League chose her"
-	cont "as a Gym Leader!"
+	para "Mais la Ligue"
+	line "#mon l'a"
+	cont "choisie pour être"
+	cont "Championne!"
 
-	para "I bet she must be"
-	line "totally talented."
+	para "Elle doit avoir un"
+	line "sacré talent."
 	done
 
 LizBugCatchingContestGossipText:
-	text "Listen, listen!"
+	text "Écouté!"
 
-	para "Have you ever"
-	line "taken part in a"
+	para "As-tu participé au"
+	line "Concours de Captu-"
 
-	para "Bug-Catching"
-	line "Contest at the"
-	cont "National Park?"
+	para "re au Parc"
+	line "naturel?"
 
-	para "I did once, but"
-	line "all I could catch"
-	cont "was a Caterpie."
+	para "Moi ouais. Je"
+	line "n'ai pu attraper"
+	cont "qu'un Chenipan."
 
-	para "But guess what!"
+	para "Mais tu sais quoi?"
 
-	para "I won with that"
-	line "Caterpie. Isn't"
-	cont "that great?"
+	para "J'ai pu le garder!"
+	line "C'est cool, non?"
 	done
 
 LizBeautifulMonGossipText:
@@ -252,12 +238,11 @@ LizBeautifulMonGossipText:
 	done
 
 LizForgotGossipText:
-	text "Listen, listen!"
+	text "Écouté!"
 
-	para "Uh… Um… Whoops!"
+	para "Heu... Heu..."
 
-	para "I forgot what I"
-	line "was going to say!"
+	para "J'ai oublié!"
 	done
 
 LizFawningOverMonText:

@@ -48,13 +48,14 @@ OlivineLighthouse1FSailorScript:
 	done
 
 OlivineLighthouse1FPokefanFText:
-	text "In the past, #-"
-	line "mon used to light"
+	text "Il y a longtemps,"
+	line "des #mon illu-"
 
-	para "the sea around"
-	line "Olivine at night."
+	para "minaient les mers"
+	line "autour d'Oliville."
 
-	para "The Lighthouse was"
-	line "made in honor of"
-	cont "those #mon."
+	para "Le Phare a été"
+	line "construit en"
+	cont "hommage à ces"
+	cont "#mon."
 	done

@@ -67,26 +67,26 @@ CianwoodLugiaSpeechHouseTeacherText:
 	done
 
 CianwoodLugiaSpeechHouseLassText:
-	text "I heard that you"
-	line "can only see it if"
+	text "On dit que pour la"
+	line "voir il faut abso-"
 
-	para "you have a Silver"
-	line "Wing."
+	para "lument avoir"
+	line "l'Aile argent."
 
-	para "It must have the"
-	line "same scent as the"
-	cont "creature."
+	para "Elle doit avoir la"
+	line "même odeur que la"
+	cont "créature."
 	done
 
 CianwoodLugiaSpeechHouseTwinText:
-	text "I've heard that"
-	line "the whirlpools"
+	text "On dit que les"
+	line "siphons autour des"
 
-	para "around the islands"
-	line "are caused by the"
-	cont "sea creature."
+	para "îles sont créés"
+	line "par la créature"
+	cont "marine."
 
-	para "You might need a"
-	line "special move to"
-	cont "get past them."
+	para "Il faut une capa-"
+	line "cité spéciale pour"
+	cont "les passer."
 	done

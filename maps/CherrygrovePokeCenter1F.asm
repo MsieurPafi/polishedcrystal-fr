@@ -53,26 +53,28 @@ CherrygrovePokeCenter1FTeacherScript:
 	done
 
 .Text2:
-	text "The Communication"
-	line "Center upstairs"
-	cont "was just built."
+	text "Le centre de"
+	line "communication"
+	cont "d'au-dessus vient"
+	cont "d'être construit."
 
-	para "I traded #mon"
-	line "there already!"
+	para "J'y ai échangé"
+	line "des #mon!"
 	done
 
 CherrygrovePokeCenter1FFisherText:
-	text "It's great. I can"
-	line "store any number"
+	text "C'est super. Je"
+	line "peux stocker"
 
-	para "of #mon, and"
-	line "it's all free."
+	para "autant de #mon"
+	line "que je veux et"
+	cont "c'est gratuit."
 	done
 
 CherrygrovePokeCenter1FGentlemanText:
-	text "That PC is free"
-	line "for any trainer"
-	cont "to use."
+	text "Ce PC est en libre"
+	line "service pour les"
+	cont "dresseurs."
 	done
 
 CherrygrovePokeCenter1FLadyText:

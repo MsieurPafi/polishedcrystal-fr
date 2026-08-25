@@ -23,13 +23,13 @@ VioletNicknameSpeechHouseBirdScript:
 	end
 
 VioletNicknameSpeechHouseTeacherText:
-	text "She uses the names"
-	line "of her favorite"
-	cont "things to eat."
+	text "Pour donner des"
+	line "noms rigolos à ses"
+	cont "#mon..."
 
-	para "For the nicknames"
-	line "she gives to her"
-	cont "#mon, I mean."
+	para "Elle utilise le"
+	line "nom de ses plats"
+	cont "préférés."
 	done
 
 VioletNicknameSpeechHouseLassText:

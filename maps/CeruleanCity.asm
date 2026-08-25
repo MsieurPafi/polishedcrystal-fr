@@ -149,46 +149,48 @@ CeruleanCityYoungsterScript:
 
 
 CeruleanCityCooltrainerMText2:
-	text "You're collecting"
-	line "every single kind"
-	cont "of #mon?"
+	text "Tu collectionnes"
+	line "tous les #mon"
+	cont "différents?"
 
-	para "That must be quite"
-	line "a challenge, but"
-	cont "it sounds fun too."
+	para "Ça doit pas être"
+	line "super facile..."
+	cont "Mais ça doit être"
+	cont "rigolo, non?"
 	done
 
 CeruleanCitySuperNerdText:
-	text "The Cape in the"
-	line "north is a good"
+	text "Le cap au Nord est"
+	line "un bon endroit"
 
-	para "place for dates."
-	line "Girls like it!"
+	para "pour un rencard!"
+	line "Les filles adorent"
+	cont "ça!"
 	done
 
 CeruleanCitySlowbroText:
-	text "Slowbro: Yarah?"
+	text "Flagadoss: Gaaa?"
 	done
 
 CeruleanCityCooltrainerFText1:
-	text "My Slowbro and I"
-	line "make an awesome"
-	cont "combination!"
+	text "Mon Flagadoss et"
+	line "moi on va trop"
+	cont "bien ensemble!"
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "Slowbro, show me"
-	line "your Confusion!"
+	text "Flagadoss!"
+	line "Lance choc Mental!"
 	done
 
 CeruleanCityCooltrainerFText3: ; text > text
-	text "…"
+	text "......."
 	done
 
 CeruleanCityFisherText:
-	text "I'm a huge fan of"
-	line "Cerulean Gym's"
-	cont "Misty."
+	text "Je suis un super"
+	line "fan d'Ondine de"
+	cont "l'Arene d'Azuria."
 	done
 
 CeruleanCityFisherRocketTipText:
@@ -232,19 +234,18 @@ CeruleanCaveGuardText:
 	done
 
 CeruleanCitySignText:
-	text "Cerulean City"
+	text "Azuria"
 
-	para "A Mysterious Blue"
-	line "Aura Surrounds It"
+	para "Entourée d'une"
+	line "étrange aura bleue"
 	done
 
 CeruleanGymSignText:
-	text "Cerulean City"
-	line "#mon Gym"
-	cont "Leader: Misty"
+	text "champion d'Arene"
+	line "d'Azuria: Ondine"
 
-	para "The Tomboyish"
-	line "Mermaid"
+	para "Une vraie petite"
+	line "sirène"
 	done
 
 CeruleanBikeShopSignText:
@@ -255,21 +256,18 @@ CeruleanBikeShopSignText:
 	done
 
 CeruleanPoliceSignText:
-	text "There's a notice"
-	line "here…"
+	text "Il y a une affiche"
+	line "ici..."
 
-	para "Stamp out thievery"
-	line "and make the city"
+	para "Non au vol."
+	line "Oui au bonheur."
 
-	para "a friendlier, more"
-	line "cheerful place!"
-
-	para "Cerulean Police"
+	para "police d'Azuria"
 	done
 
 CeruleanCapeSignText:
-	text "Cerulean Cape"
-	line "Ahead"
+	text "cap d'Azuria"
+	line "Tout droit"
 	done
 
 CeruleanBubblerText:

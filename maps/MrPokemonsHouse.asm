@@ -187,54 +187,57 @@ MrPokemonsHouse_OakExits:
 	step_end
 
 MrPokemonIntroText1:
-	text "Hello, hello! You"
-	line "must be <PLAYER>."
+	text "Hello! Tu dois"
+	line "être <PLAYER>."
 
-	para "Prof.Elm said that"
-	line "you would visit."
+	para "Le Prof.Orme a dit"
+	line "que tu viendrais."
 	done
 
 MrPokemonIntroText2:
-	text "This is what I"
-	line "want Prof.Elm to"
-	cont "examine."
+	text "Voilà ce que je"
+	line "voudrais que le"
+	cont "Prof.Orme examine."
 	done
 
 MrPokemonIntroText3:
-	text "I know a couple"
-	line "who run a #mon"
-	cont "Day-Care service."
+	text "Je connais un cou-"
+	line "ple d'amis qui"
+	cont "dirige une Pension"
+	cont "pour #mon."
 
-	para "They gave me that"
-	line "Egg."
+	para "Ils m'ont donné"
+	line "cet Oeuf."
 
-	para "I was intrigued,"
-	line "so I sent mail to"
-	cont "Prof.Elm."
+	para "Il m'a paru louche"
+	line "alors j'ai écrit"
+	cont "au Prof.Orme."
 
-	para "For #mon evolu-"
-	line "tion, Prof.Elm is"
-	cont "the authority."
+	para "En ce qui concerne"
+	line "les évolutions de"
+	cont "#mon, le"
+	cont "Prof.Orme est"
+	cont "incollable."
 	done
 
 MrPokemonIntroText4:
-	text "Even Prof.Oak here"
-	line "recognizes that."
+	text "Même le Prof.Chen"
+	line "le reconnaît."
 	done
 
 MrPokemonIntroText5:
-	text "If my assumption"
-	line "is correct, Prof."
-	cont "Elm will know it."
+	text "A mon avis, le"
+	line "Prof.Orme aura"
+	cont "une explication."
 	done
 
 MrPokemonsHouse_MrPokemonHealText:
-	text "You are returning"
-	line "to Prof.Elm?"
+	text "Tu retournes voir"
+	line "le Prof.Orme?"
 
-	para "Here. Your #mon"
-	line "should have some"
-	cont "rest."
+	para "Tiens. Tes #mon"
+	line "devraient se"
+	cont "reposer."
 	done
 
 MrPokemonText_OddSouvenir:
@@ -259,16 +262,15 @@ MrPokemonText_OddSouvenir:
 	done
 
 MrPokemonText_ImDependingOnYou:
-	text "I'm depending on"
-	line "you!"
+	text "Je compte sur toi!"
 	done
 
 MrPokemonText_AlwaysNewDiscoveries:
-	text "Life is delight-"
-	line "ful! Always, new"
+	text "C'est beau la vie!"
+	line "Il y a toujours"
 
-	para "discoveries to be"
-	line "made!"
+	para "quelque chose à"
+	line "découvrir!"
 	done
 
 MrPokemonsHouse_OakText1:
@@ -378,7 +380,7 @@ MrPokemonText_GimmeTheScale:
 	done
 
 MrPokemonText_GotShinyDitto:
-	text "<PLAYER> received a"
+	text "<PLAYER> reçoit un"
 	line "#mon."
 	done
 
@@ -396,31 +398,32 @@ MrPokemonText_PartyAndBoxFull:
 	done
 
 MrPokemonText_Disappointed:
-	text "That's disappoint-"
-	line "ing. That happens"
-	cont "to be very rare."
+	text "C'est dommage."
+	line "C'est si rare..."
 	done
 
 MrPokemonsHouse_ForeignMagazinesText:
-	text "It's packed with"
-	line "foreign magazines."
+	text "Il y a plein de"
+	line "magazines"
+	cont "étrangers."
 
-	para "Can't even read"
-	line "their titles…"
+	para "On ne comprend"
+	line "même pas les"
+	cont "titres."
 	done
 
 MrPokemonsHouse_BrokenComputerText:
-	text "It's a big com-"
-	line "puter. Hmm. It's"
-	cont "broken."
+	text "Un gros ordinateur"
+	line "tout cassé..."
 	done
 
 MrPokemonsHouse_StrangeCoinsText:
-	text "A whole pile of"
-	line "strange coins!"
+	text "Un tas de pièces"
+	line "bizarres!"
 
-	para "Maybe they're from"
-	line "another country…"
+	para "Elles sont peut-"
+	line "être d'un autre"
+	cont "pays..."
 	done
 
 MrPokemonsHouse_CabinetText:

@@ -66,8 +66,8 @@ OfficerfJamieDaytimeText:
 	done
 
 CyclingRoadSignText:
-	text "Cycling Road"
+	text "Piste Cyclable"
 
-	para "Downhill coasting"
-	line "all the way!"
+	para "Une descente"
+	line "d'enfer!"
 	done

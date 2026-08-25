@@ -11,32 +11,33 @@ JoeyAskNumber1Text:
 	done
 
 JoeyAskNumber2Text:
-	text "Can I get your"
-	line "phone number?"
+	text "Je peux avoir ton"
+	line "numéro?"
 
-	para "I don't want to"
-	line "lose against you!"
+	para "Je ne veux pas me"
+	line "faire battre tout"
+	cont "le temps!"
 
-	para "We have to battle"
-	line "again, OK?"
+	para "On doit remettre"
+	line "ça, OK?"
 	done
 
 JoeyNumberAcceptedText:
-	text "I'll ring you"
-	line "whenever I get the"
-	cont "urge to battle!"
+	text "Je t'appelle si"
+	line "j'veux me battre."
 	done
 
 JoeyNumberDeclinedText:
-	text "Oh, all right…"
+	text "Oh, très bien..."
 
-	para "But I won't lose"
-	line "to you again!"
+	para "Mais tu ne me"
+	line "battras plus!"
 	done
 
 JoeyPhoneFullText:
-	text "Huh, what? Your"
-	line "phone's full."
+	text "Hein? La mémoire"
+	line "de ton téléphone"
+	cont "est pleine."
 	done
 
 JoeyTopPercentageText: ; TODO: use this text from HGSS
@@ -65,8 +66,8 @@ JoeyTopPercentageText: ; TODO: use this text from HGSS
 	done
 
 JoeyRematchText:
-	text "I've been waiting!"
-	line "Let's battle now!"
+	text "Je t'attendais!"
+	line "combat!"
 	done
 
 JoeyPackFullText:

@@ -104,26 +104,27 @@ WillScript:
 	done
 
 .BeatenText:
-	text "I… I can't…"
-	line "believe it…"
+	text "C'est..."
+	line "Incroyable..."
 	done
 
 .AfterText:
-	text "Even though I was"
-	line "defeated, I won't"
-	cont "change my course."
+	text "J'ai peut-être"
+	line "perdu comme un"
+	cont "criquet mais..."
 
-	para "I will continue"
-	line "battling until I"
+	para "Je continuerai à"
+	line "combattre tant que"
 
-	para "stand above all"
-	line "trainers!"
+	para "je ne serai pas le"
+	line "plus grand!"
 
-	para "Now, <PLAYER>, move"
-	line "on and experience"
+	para "<PLAYER>..."
+	line "Continue ta route"
 
-	para "the true ferocity"
-	line "of the Elite Four."
+	para "et découvre la"
+	line "force du conseil"
+	cont "des 4!"
 	done
 
 .SeenRematchText:

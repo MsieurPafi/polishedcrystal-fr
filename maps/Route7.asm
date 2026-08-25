@@ -70,13 +70,15 @@ Route7Snorlax:
 
 
 .AwakeText:
-	text "The #gear was"
-	line "placed near the"
-	cont "sleeping Snorlax…"
+	text "Le #matos est"
+	line "placé près de"
+	cont "l'oreille du"
+	cont "Ronflex."
 
-	para "…"
+	para "..."
 
-	para "Snorlax woke up!"
+	para "Ronflex se"
+	line "réveille!"
 	done
 
 Route7UndergroundPathSignText:
@@ -99,5 +101,5 @@ Route7UndergroundPathSignText:
 	done
 
 Route7LockedDoorText:
-	text "It's locked…"
+	text "C'est fermé..."
 	done

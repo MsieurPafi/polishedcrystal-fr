@@ -36,13 +36,13 @@ GenericTrainerPokefanmRex:
 	done
 
 PokefanmRexSeenText:
-	text "My Phanpy is the"
-	line "cutest in the"
-	cont "world."
+	text "Mon Phanpy est le"
+	line "plus beau du"
+	cont "monde."
 	done
 
 PokefanmRexBeatenText:
-	text "My Phanpy!"
+	text "Mon Phanpy!"
 	done
 
 GenericTrainerPokefanmAllan:
@@ -57,13 +57,13 @@ GenericTrainerPokefanmAllan:
 	done
 
 PokefanmAllanSeenText:
-	text "My Teddiursa is"
-	line "the cutest in the"
-	cont "world."
+	text "Mon Teddiursa est"
+	line "le plus beau du"
+	cont "monde."
 	done
 
 PokefanmAllanBeatenText:
-	text "My Teddiursa!"
+	text "Mon Teddiursa!"
 	done
 
 GenericTrainerTwinsDayanddani1:
@@ -179,18 +179,19 @@ OfficerfJennyScript:
 	done
 
 Route6PokefanMText:
-	text "The road is closed"
-	line "until the problem"
+	text "La route sera"
+	line "fermée tant que le"
 
-	para "at the Power Plant"
-	line "is solved."
+	para "problème à la"
+	line "centrale ne sera"
+	cont "pas résolu."
 	done
 
 Route6UndergroundPathSignText:
-	text "Underground Path"
+	text "souterrain"
 
-	para "Cerulean City -"
-	line "Vermilion City"
+	para "Azuria -"
+	line "Carmin sur mer"
 	done
 
 Route6AdvancedTipsSignText:

@@ -151,21 +151,23 @@ PokefanF_AcrobaticsFarmer:
 	done
 
 FarmerMText_SickCow:
-	text "My Miltank ain't"
-	line "givin' me milk"
-	cont "n'more."
+	text "Ma chtite Écrémeuh"
+	line "m'donne plus eud'"
+	cont "lait."
 
-	para "This here Farm's"
-	line "got famous milk."
+	para "Et pourtant qu'il"
+	line "était bien bon"
+	cont "not'lait d'ici."
 
-	para "Most everyone"
-	line "wants a drink."
+	para "Et tout eul'monde"
+	line "y veut à boire."
 
-	para "It'll give me lots"
-	line "o' milk if'n I"
+	para "Si j'en avais des"
+	line "Baies à lui donner"
 
-	para "feed it lots o'"
-	line "Berries, I reckon."
+	para "elle m'donnerait"
+	line "aussi du lait, par"
+	cont "le fait."
 	done
 
 FarmerMText_BuyMilk:
@@ -183,8 +185,8 @@ FarmerMText_BuyMilk:
 	done
 
 FarmerMText_GotMilk:
-	text "Here ya go!"
-	line "Drink up'n enjoy!"
+	text "Tiens, poussin!"
+	line "Bien à toi!"
 	done
 
 
@@ -193,12 +195,12 @@ FarmerMText_GotMilk:
 
 
 FarmerFText_HealedMiltank:
-	text "You fixed our"
-	line "Miltank, hon. Now"
+	text "Tu nous as soigné"
+	line "not'Écrémeuh! Elle"
 
-	para "it gives Moomoo"
-	line "Milk again."
+	para "en donne à nouveau"
+	line "du bon lait!"
 
-	para "Here's somethin'"
-	line "fer your trouble."
+	para "Voilà pour"
+	line "toi, poussin."
 	done

@@ -357,27 +357,28 @@ Route36NationalParkGatePlayerWaitWithContestantsMovement:
 	step_end
 
 Route36NationalParkGateOfficer1WaitHereForAnnouncementText:
-	text "OK. Please wait"
-	line "here for the"
+	text "OK. Attends ici"
+	line "pour connaître"
 
-	para "announcement of"
-	line "the winners."
+	para "le nom des"
+	line "vainqueurs."
 	done
 
 Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText:
-	text "Some #mon can"
-	line "only be seen in"
-	cont "the Park."
+	text "Certains #mon"
+	line "n'apparaissent que"
+	cont "dans le Parc."
 	done
 
 
 BugCatchingContestant1BStillCompetingText:
-	text "Don: Luck plays a"
-	line "big part in this."
+	text "Jean-Raoul:"
+	line "La chance compte"
+	cont "beaucoup."
 
-	para "You never know"
-	line "what #mon will"
-	cont "appear."
+	para "Tu ne sais jamais"
+	line "quel #mon va"
+	cont "apparaître."
 	done
 
 
@@ -388,53 +389,59 @@ BugCatchingContestant2BStillCompetingText:
 
 
 BugCatchingContestant3BStillCompetingText:
-	text "Nick: Maybe you"
-	line "get a higher score"
+	text "Nick: On gagne"
+	line "peut-être plus de"
 
-	para "for a #mon of"
-	line "an unusual color."
+	para "points avec un"
+	line "#mon d'une"
+	cont "couleur bizarre."
 	done
 
 
 BugCatchingContestant4BStillCompetingText:
-	text "William: Well, I'm"
-	line "satisfied because"
+	text "Marcel: En tout"
+	line "cas je suis"
 
-	para "I caught a #mon"
-	line "that I wanted."
+	para "content: j'ai"
+	line "attrapé le #mon"
+	cont "que je voulais."
 	done
 
 
 BugCatchingContestant5BStillCompetingText:
-	text "Benny: I caught a"
-	line "Scyther before,"
-	cont "but I didn't win."
+	text "Foulque: J'ai eu"
+	line "un Insecateur une"
+	cont "fois mais j'ai"
+	cont "perdu."
 	done
 
 
 BugCatchingContestant6BStillCompetingText:
-	text "Barry: It's easier"
-	line "to win if you get"
+	text "Rene: C'est plus"
+	line "facile de gagner"
 
-	para "a high-level bug"
-	line "#mon."
+	para "en attrapant un"
+	line "#mon de haut"
+	cont "niveau."
 
-	para "But I think they"
-	line "also consider some"
-	cont "other points."
+	para "Mais je crois qu'"
+	line "ils prennent d'au-"
+	cont "tres points en"
+	cont "compte."
 	done
 
 
 BugCatchingContestant7BStillCompetingText:
-	text "Cindy: I really"
-	line "love bug #mon!"
+	text "Sandy: Moi j'aime"
+	line "les #mon"
+	cont "insecte!"
 	done
 
 
 BugCatchingContestant8BStillCompetingText:
-	text "Josh: I heard that"
-	line "somebody won with"
-	cont "a Caterpie!"
+	text "Arnaud: On dit que"
+	line "quelqu'un a gagné"
+	cont "avec un Chenipan!"
 	done
 
 
@@ -446,11 +453,9 @@ BugCatchingContestant9BStillCompetingText:
 
 
 BugCatchingContestant10BStillCompetingText:
-	text "Kipp: I study a"
-	line "lot, but that's"
-
-	para "not good enough to"
-	line "win."
+	text "Cyril: J'étudie"
+	line "beaucoup mais ce"
+	cont "n'est pas assez."
 	done
 
 Route36NationalParkGateOfficer1WellHoldPrizeText:
@@ -468,7 +473,7 @@ Route36NationalParkGateOfficer1WellHoldPrizeText:
 Route36NationalParkGateOfficer1HeresThePrizeText:
 	text "<PLAYER>?"
 
-	para "Here's the prize"
-	line "we were holding"
-	cont "for you."
+	para "Voilà ton prix."
+	line "On l'a gardé pour"
+	cont "toi."
 	done

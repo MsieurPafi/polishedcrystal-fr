@@ -212,15 +212,15 @@ CopycatFoundLostItemScript:
 	sjumpfwd CopycatGivePassScript
 
 .FoundDollText:
-	text "Copycat: Yay!"
-	line "That's my Clefairy"
-	cont "# Doll!"
+	text "Copieuse: Hé!"
+	line "C'est ma #"
+	cont "poupée Melofee!"
 
-	para "See the tear where"
-	line "the right leg is"
+	para "Elle est un peu"
+	line "déchirée près de"
 
-	para "sewn on? That's"
-	line "proof!"
+	para "la jambe! C'est la"
+	line "mienne!"
 	done
 
 CopycatReturnedLostItemScript:
@@ -246,9 +246,9 @@ CopycatGivePassScript:
 	done
 
 .GivePassText:
-	text "OK. Here's the"
-	line "Magnet Train Pass"
-	cont "like I promised!"
+	text "OK. Voilà le"
+	line "passe du train"
+	cont "comme promis!"
 	done
 
 CopycatFinalScript:
@@ -263,88 +263,89 @@ CopycatFinalScript:
 	done
 
 CopycatGreeting1Text:
-	text "<PLAYER>: Hi! Do"
-	line "you like #mon?"
+	text "<PLAYER>: Salut! Tu"
+	line "aimes les #mon?"
 
-	para "<PLAYER>: Uh, no, I"
-	line "just asked you."
+	para "<PLAYER>: Non. Toi."
+	line "Tu les aimes?"
 
-	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	para "<PLAYER>: Hein?"
+	line "Tu m'cherches?"
 	done
 
 CopycatLostDoll1Text:
-	text "<PLAYER>: Hi!"
-	line "I heard that you"
+	text "<PLAYER>: Salut!"
+	line "On dit que tu as"
 
-	para "lost your favorite"
-	line "# Doll."
+	para "perdu ta #"
+	line "poupée préférée."
 
-	para "<PLAYER>: If I find"
-	line "it, you'll give me"
-	cont "a rail pass?"
+	para "<PLAYER>: Si je la"
+	line "trouves, tu me"
+	cont "donnes un passe?"
 
-	para "<PLAYER>: I'll go"
-	line "find it for you."
+	para "<PLAYER>: Je vais"
+	line "la chercher."
 
-	para "You think you lost"
-	line "it when you went"
-	cont "to Vermilion City?"
+	para "Tu l'as perdue en"
+	line "allant à Carmin"
+	cont "sur mer?"
 	done
 
 CopycatThanks1Text:
-	text "<PLAYER>: Hi!"
-	line "Thanks a lot for"
-	cont "the rail pass!"
+	text "<PLAYER>: Salut!"
+	line "Merci pour le"
+	cont "passe!"
 
 	para "<PLAYER>: Pardon?"
 
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "<PLAYER>: Tu vas"
+	line "t'arrêter de répé-"
+	cont "ter c'que je dis!"
 	done
 
 CopycatGreeting2Text:
-	text "<PLAYER>: Hi. You"
-	line "must like #mon."
+	text "<PLAYER>: Salut!"
+	line "Tu aimes les"
+	cont "#mon, non?"
 
-	para "<PLAYER>: No, not"
-	line "me. I asked you."
+	para "<PLAYER>: Non, pas"
+	line "moi. Toi."
 
-	para "<PLAYER>: Pardon?"
-	line "You're weird!"
+	para "<PLAYER>: Quoi?"
+	line "T'es bizarre!"
 	done
 
 CopycatLostDoll2Text:
-	text "<PLAYER>: Hi. Did"
-	line "you really lose"
-	cont "your # Doll?"
+	text "<PLAYER>: Salut!"
+	line "On dit que tu as"
 
-	para "<PLAYER>: You'll"
-	line "really give me a"
+	para "perdu ta #"
+	line "poupée préférée."
 
-	para "rail pass if I"
-	line "find it for you?"
+	para "<PLAYER>: Si je la"
+	line "trouve, tu me"
+	cont "donnes un passe?"
 
-	para "<PLAYER>: Sure,"
-	line "I'll look for it!"
+	para "<PLAYER>: Je vais"
+	line "la chercher."
 
-	para "You think you lost"
-	line "it when you were"
-	cont "in Vermilion?"
+	para "Tu l'as perdue en"
+	line "allant à Carmin"
+	cont "sur mer?"
 	done
 
 CopycatThanks2Text:
-	text "<PLAYER>: Thank you"
-	line "for the rail pass!"
+	text "<PLAYER>: Merci"
+	line "pour le passe!"
 
-	para "<PLAYER>: …Pardon?"
+	para "<PLAYER>: ...Quoi?"
 
-	para "<PLAYER>: Is it"
-	line "really that fun to"
+	para "<PLAYER>: T'en as"
+	line "jamais marre de"
 
-	para "copy what I say"
-	line "and do?"
+	para "répéter tout ce"
+	line "que je dis?"
 	done
 
 CopycatSpinMovement:
@@ -372,7 +373,7 @@ CopycatsDodrioScript:
 	done
 
 .Text1:
-	text "Dodrio: Gii giii!"
+	text "Dodrio: Driii!"
 	done
 
 CopycatsHouse2FDollScript:

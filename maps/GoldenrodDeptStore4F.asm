@@ -25,12 +25,14 @@ GoldenrodDeptStore4FGameboyKidScript:
 	end
 
 GoldenrodDeptStore4FCooltrainerMText:
-	text "Hey. I love strong"
-	line "#mon."
+	text "Hé. Moi j'aime les"
+	line "#mon qui"
+	cont "sont trop forts."
 
-	para "I feed them Pro-"
-	line "tein to crank up"
-	cont "their Attack."
+	para "Je les nourris de"
+	line "Proteine pour"
+	cont "booster leur"
+	cont "attaque."
 	done
 
 GoldenrodDeptStore4FBugCatcherText:
@@ -63,8 +65,8 @@ GoldenrodDeptStore4FGameboyKidText:
 	done
 
 GoldenrodDeptStore4FDirectoryText:
-	text "Let Us Pump Up"
-	line "Your #mon!"
+	text "Ça fait du bien"
+	line "par où ça passe!"
 
-	para "4F Medicine Box"
+	para "3Eme Pharmacie"
 	done

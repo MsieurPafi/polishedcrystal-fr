@@ -35,9 +35,10 @@ EcruteakLugiaSpeechHouseGrampsText:
 	done
 
 EcruteakLugiaSpeechHouseYoungsterText:
-	text "Is there really a"
-	line "#mon that big?"
+	text "Existe-t-il un"
+	line "#mon aussi"
 
-	para "If it exists, it"
-	line "must be powerful."
+	para "grand? Si c'est le"
+	line "cas, il doit être"
+	cont "puissant."
 	done

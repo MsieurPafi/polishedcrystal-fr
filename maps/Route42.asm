@@ -398,31 +398,28 @@ Route42LyraWhirlpoolText:
 	done
 
 FisherTully1SeenText:
-	text "Let me demonstrate"
-	line "the power of the"
-	cont "#mon I caught!"
+	text "Je vais te montrer"
+	line "la puissance de"
+	cont "mes #mon!"
 	done
 
 FisherTully1BeatenText:
-	text "What? That's not"
-	line "right."
+	text "Hein? C'est pas"
+	line "juste!"
 	done
 
 FisherTullyAfterBattleText:
-	text "I want to become"
-	line "the trainer Champ"
+	text "Je veux devenir un"
+	line "maître avec mes"
+	cont "nouveaux #mon."
 
-	para "using the #mon"
-	line "I caught."
-
-	para "That's the best"
-	line "part of fishing!"
+	para "C'est pour ça que"
+	line "je pêche!"
 	done
 
 HikerBenjaminSeenText:
-	text "Ah, it's good to"
-	line "be outside!"
-	cont "I feel so free!"
+	text "Ah! l'air pur!"
+	line "C'est la fête!"
 	done
 
 HikerBenjaminBeatenText:
@@ -430,16 +427,17 @@ HikerBenjaminBeatenText:
 	done
 
 PokemaniacShaneSeenText:
-	text "HEY!"
+	text "hé! toi!"
 
-	para "This is my secret"
-	line "place! Get lost,"
-	cont "you outsider!"
+	para "C'est mon terri-"
+	line "toire ici!"
+	cont "Dégage!!"
 	done
 
 PokemaniacShaneBeatenText:
-	text "I should have used"
-	line "my Moon Stone…"
+	text "J'aurais dû utili-"
+	line "ser ma jolie"
+	cont "pierre lune."
 	done
 
 Route42OfficerText:
@@ -455,29 +453,29 @@ Route42OfficerText:
 	done
 
 Route42Sign1Text:
-	text "Route 42"
+	text "route 42"
 
-	para "Ecruteak City -"
-	line "Mahogany Town"
+	para "Rosalia -"
+	line "Acajou"
 	done
 
 MtMortarSign1Text:
-	text "Mt.Mortar"
+	text "Mont Creuset"
 
-	para "Waterfall Cave"
-	line "Inside"
+	para "Grotte Cascade"
+	line "Intérieur"
 	done
 
 MtMortarSign2Text:
-	text "Mt.Mortar"
+	text "Mont Creuset"
 
-	para "Waterfall Cave"
-	line "Inside"
+	para "Grotte Cascade"
+	line "Intérieur"
 	done
 
 Route42Sign2Text:
-	text "Route 42"
+	text "route 42"
 
-	para "Ecruteak City -"
-	line "Mahogany Town"
+	para "Rosalia -"
+	line "Acajou"
 	done

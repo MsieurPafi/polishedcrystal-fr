@@ -15,18 +15,16 @@ HueyBattleRematchText:
 	done
 
 HueyHangUpText:
-	text "See ya!"
+	text "A plus!"
 	done
 
 HueyWeHaveToBattleAgainSometimeText:
-	text "We have to battle"
-	line "again sometime."
+	text "Il faut se refaire"
+	line "un combat."
 
-	para "You can bet I'm"
-	line "going to keep"
-
-	para "challenging you"
-	line "till I win."
+	para "Je te lâcherai pas"
+	line "tant que je"
+	cont "n'aurai pas gagné."
 	done
 
 HueyReminderText:

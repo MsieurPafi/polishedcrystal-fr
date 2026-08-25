@@ -62,9 +62,10 @@ PharmacistGiveSecretpotionText:
 	done
 
 PharmacistDescribeSecretpotionText:
-	text "My SecretPotion is"
-	line "a tad too strong."
+	text "Ma Potionsecret"
+	line "est un tantinet"
 
-	para "I only offer it in"
-	line "an emergency."
+	para "trop forte. Je ne"
+	line "l'offre qu'en cas"
+	cont "d'extrême urgence."
 	done

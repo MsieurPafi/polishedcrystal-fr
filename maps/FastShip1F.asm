@@ -204,59 +204,59 @@ FastShip1F_PlayerLeavesShipRightMovement:
 	step_end
 
 FastShip1FSailor1Text_ToOlivine:
-	text "Fast Ship S.S.Aqua"
-	line "is en route to"
-	cont "Olivine City."
+	text "Le bateau Express"
+	line "Aquaria va à"
+	cont "Oliville."
 
-	para "We will make an"
-	line "announcement when"
-	cont "we arrive."
+	para "Nous ferons un"
+	line "appel à notre"
+	cont "arrivée."
 	done
 
 
 FastShip1FSailor2Text:
-	text "Here's your cabin."
+	text "Voici votre"
+	line "cabine."
 
-	para "You can heal your"
-	line "#mon by taking"
-	cont "a nap in the bed."
+	para "Soignez vos #-"
+	line "mon en dormant"
+	cont "dans le lit."
 
-	para "The ship will"
-	line "arrive while"
-	cont "you're sleeping."
+	para "Le bateau arrivera"
+	line "pendant votre"
+	cont "sommeil."
 	done
 
 FastShip1FSailor3Text:
-	text "The passengers are"
-	line "all trainers."
+	text "Tous les passagers"
+	line "sont dresseurs."
 
-	para "They're all itch-"
-	line "ing to battle in"
-	cont "their cabins."
+	para "Ils veulent tous"
+	line "se battre dans"
+	cont "leur cabine."
 	done
 
 FastShip1FGrandpaText:
-	text "Whoa! Excuse me."
-	line "I was in a hurry!"
+	text "Whoa! Pardon."
+	line "Je suis un peu"
+	cont "pressé!"
 
-	para "My granddaughter"
-	line "is missing!"
+	para "Ma petite-fille a"
+	line "disparu!"
 
-	para "She's just a wee"
-	line "girl. If you see"
-
-	para "her, please let me"
-	line "know!"
+	para "Elle est toute"
+	line "jeune... Préviens-"
+	cont "moi si tu la vois!"
 	done
 
 FastShip1FSailor1Text_InOlivine:
-	text "Fast Ship S.S.Aqua"
-	line "has arrived in"
-	cont "Olivine City."
+	text "Le bateau Express"
+	line "Aquaria est arrivé"
+	cont "à Oliville."
 	done
 
 FastShip1FSailor1Text_InVermilion:
-	text "Fast Ship S.S.Aqua"
-	line "has arrived in"
-	cont "Vermilion City."
+	text "Le bateau Express"
+	line "Aquaria est arrivé"
+	cont "à Carmin sur mer."
 	done

@@ -60,18 +60,18 @@ ProfOaksAide1Script:
 	done
 
 IlexForestAzaleaGateOfficerText:
-	text "Ilex Forest is"
-	line "big. Be careful!"
-	cont "Don't get lost."
+	text "Le Bois aux Che-"
+	line "nés est immense!"
+	cont "Attention!"
 	done
 
 IlexForestAzaleaGateGrannyText:
-	text "The Forest is"
-	line "watched over by"
-	cont "its protector."
+	text "Le bois est"
+	line "protégé par son"
+	cont "gardien."
 
-	para "Stay out of"
-	line "mischief!"
+	para "Alors ne fais rien"
+	line "de mal!"
 	done
 
 ProfOaksAide1HiText:

@@ -126,20 +126,21 @@ AzaleaTownRivalBattleTrigger2:
 	end
 
 .SeenText:
-	text "…Tell me some-"
-	line "thing."
+	text "...Dis-moi quelque"
+	line "chose, p'tit"
+	cont "bouchon..."
 
-	para "Is it true that"
-	line "Team Rocket has"
-	cont "returned?"
+	para "Est-ce vrai que la"
+	line "Team Rocket est de"
+	cont "retour?"
 
-	para "What? You beat"
-	line "them? Hah! Quit"
-	cont "lying."
+	para "Quoi? Tu les as"
+	line "battus? Hah!"
+	cont "Arrête de mentir."
 
-	para "You're not joking?"
-	line "Then let's see how"
-	cont "good you are."
+	para "Naan, t'aimes"
+	line "pas crâner, toi!"
+	cont "Allez, baston..."
 	done
 
 .WinText:
@@ -154,38 +155,43 @@ AzaleaTownRivalBattleTrigger2:
 	done
 
 .LossText:
-	text "…Humph! I knew"
-	line "you were lying."
+	text "...Humpff! Je me"
+	line "doutais bien que"
+	cont "tu pipotais..."
 	done
 
 .AfterText:
-	text "I hate the weak."
+	text "Je déteste les"
+	line "minus."
 
-	para "#mon, trainers."
-	line "It doesn't matter"
-	cont "who or what."
+	para "#mon ou"
+	line "dresseur, c'est"
+	cont "du kif-kif."
 
-	para "I'm going to be"
-	line "strong and wipe"
-	cont "out the weak."
+	para "Je vais devenir"
+	line "surpuissant et"
+	cont "balayer les minus."
 
-	para "That goes for Team"
-	line "Rocket too."
+	para "Et c'est pareil"
+	line "pour la Team"
+	cont "Rocket."
 
-	para "They act big and"
-	line "tough in a group."
+	para "Ils sont redoutés"
+	line "parce qu'ils agis-"
 
-	para "But get them"
-	line "alone, and they're"
-	cont "weak."
+	para "sent en groupe,"
+	line "mais un par un ils"
+	cont "sont faibles."
 
-	para "I hate them all."
+	para "Je les déteste"
+	line "tous!"
 
-	para "You stay out of my"
-	line "way. A weakling"
+	para "Hors de ma vue"
+	line "minus! Quelqu'un"
 
-	para "like you is only a"
-	line "distraction."
+	para "comme toi"
+	line "ne peut rien"
+	cont "m'apporter..."
 	done
 
 .ApproachMovement:
@@ -237,53 +243,58 @@ AzaleaTown_CelebiTrigger:
 	step_end
 
 AzaleaTownSignText:
-	text "Azalea Town"
-	line "Where People and"
+	text "Écorcia"
+	line "La ville où les"
 
-	para "#mon Live in"
-	line "Happy Harmony"
+	para "gens et les petits"
+	line "#mon sont"
+	cont "bien contents"
+	cont "d'habiter"
 	done
 
 KurtsHouseSignText:
-	text "Kurt's House"
+	text "maison de Fargas"
 	done
 
 AzaleaGymSignText:
-	text "Azalea Town"
-	line "#mon Gym"
-	cont "Leader: Bugsy"
+	text "champion d'Arene"
+	line "d'Écorcia: Hector"
 
-	para "The Walking"
-	line "Bug #mon"
-	cont "Encyclopedia"
+	para "l'expert des"
+	line "#mon insecte!"
 	done
 
 SlowpokeWellSignText:
-	text "Slowpoke Well"
+	text "Puits Ramoloss"
 
-	para "Also known as the"
-	line "Rainmaker Well."
+	para "Aussi connu sous"
+	line "le nom de..."
+	cont "Puits de pluie."
 
-	para "Locals believe"
-	line "that a Slowpoke's"
-	cont "yawn summons rain."
+	para "Les gens du coin"
+	line "pensent que le"
+	cont "baillement du"
+	cont "Ramoloss invoque"
+	cont "la pluie."
 
-	para "Records show that"
-	line "a Slowpoke's yawn"
+	para "Les archives"
+	line "montrent qu'un"
 
-	para "ended a drought"
-	line "400 years ago."
+	para "baillement de"
+	line "Ramoloss a mis fin"
+	cont "à 400 ans de"
+	cont "sécheresse."
 	done
 
 CharcoalKilnSignText:
-	text "Charcoal Kiln"
+	text "Four A charbon"
 	done
 
 AzaleaTownIlexForestSignText:
-	text "Ilex Forest"
+	text "Bois aux Chenes"
 
-	para "Enter through the"
-	line "gate."
+	para "On y entre par la"
+	line "porte."
 	done
 
 AzaleaTownAdvancedTipsSignText:
@@ -315,14 +326,12 @@ AzaleaTownGrampsScript:
 	done
 
 .Text2:
-	text "The Slowpoke have"
-	line "returned."
+	text "Les Ramoloss sont"
+	line "de retour."
 
-	para "Knowing them, they"
-	line "could've just been"
-
-	para "goofing off some-"
-	line "where."
+	para "A mon avis, ils"
+	line "devaient traîner"
+	cont "quelque part."
 	done
 
 AzaleaTownTeacherScript:
@@ -376,41 +385,41 @@ AzaleaTownTeacherScript:
 	done
 
 AzaleaTownWoosterText:
-	text "Wooster: Gugyoo…"
+	text "Kiki: Gaaahh..."
 	done
 
 AzaleaTownYoungsterText:
-	text "Cut through Azalea"
-	line "and you'll be in"
-	cont "Ilex Forest."
+	text "Passe par Écorcia"
+	line "et tu te retrou-"
+	cont "veras au Bois aux"
+	cont "Chenes."
 
-	para "But these skinny"
-	line "trees make it"
+	para "Mais ces petits"
+	line "arbustes bloquent"
+	cont "le passage."
 
-	para "impossible to get"
-	line "through."
-
-	para "The Charcoal Man's"
-	line "#mon can Cut"
-	cont "down trees."
+	para "Le #mon du"
+	line "Charbonnier peut"
+	cont "couper les arbres."
 	done
 
 AzaleaTownRocket1Text:
-	text "It's unsafe to go"
-	line "in there, so I'm"
-	cont "standing guard."
+	text "C'est dangereux"
+	line "d'entrer ici, je"
+	cont "monte la garde."
 
-	para "Aren't I a good"
-	line "Samaritan?"
+	para "J'suis trop cool,"
+	line "tu ne trouves pas?"
 	done
 
 AzaleaTownRocket2Text:
-	text "Do you know about"
-	line "SlowpokeTail? I"
-	cont "heard it's tasty!"
+	text "Que sais-tu sur la"
+	line "Queueramolos? On"
+	cont "dit que c'est"
+	cont "goûtu!"
 
-	para "Aren't you glad I"
-	line "told you that?"
+	para "C'est trop bien"
+	line "de savoir ça, non?"
 	done
 
 AzaleaTownSlowpokeScript:
@@ -433,7 +442,8 @@ AzaleaTownKurtScript:
 	end
 
 AzaleaTownKurtText:
-	text "Could you go see"
-	line "why Ilex Forest is"
-	cont "so restless?"
+	text "Peux-tu voir pour-"
+	line "quoi le Bois aux"
+	cont "Chenes est si"
+	cont "agité?"
 	done

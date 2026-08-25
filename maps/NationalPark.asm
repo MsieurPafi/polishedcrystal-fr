@@ -314,38 +314,39 @@ NationalParkLassText:
 	done
 
 NationalParkPokefanFText:
-	text "This is Mail I got"
-	line "from my daughter."
-	cont "It cheers me up."
+	text "C'est une lettre"
+	line "de ma fille."
+	cont "C'est cool, hein?"
 	done
 
 NationalParkTeacher1Text:
-	text "Pay attention,"
-	line "please!"
+	text "Où est ton"
+	line "cahier?"
 
-	para "…Oops, I have to"
-	line "quit thinking like"
+	para "...Heu, pardon."
+	line "Le métier de"
 
-	para "a teacher all the"
-	line "time."
+	para "maîtresse donne de"
+	line "petites manies."
 
-	para "You must be a"
-	line "#mon trainer."
+	para "Tu aimes les"
+	line "#mon?"
 
-	para "Since you're work-"
-	line "ing so hard, I"
+	para "Un élève modèle"
+	line "mérite un petit"
 
-	para "want you to have"
-	line "this."
+	para "quelque chose."
+	line "Tiens donc!"
 	done
 
 NationalParkTeacher1Text_GotQuickClaw:
-	text "Let a #mon hold"
-	line "that Quick Claw."
+	text "Fais tenir cette"
+	line "Vive griffe à un"
+	cont "#mon."
 
-	para "Sometimes it will"
-	line "strike first"
-	cont "during battle."
+	para "Il frappera plus"
+	line "souvent en premier"
+	cont "en combat."
 	done
 
 SchoolgirlElizaSeenText:
@@ -380,7 +381,7 @@ NationalParkTeacher2Text:
 	done
 
 NationalParkPersianText:
-	text "Persian: Fufushaa!"
+	text "Persian: Siaaaan!"
 	done
 
 NationalParkGameboyKidText:
@@ -395,77 +396,77 @@ NationalParkGameboyKidText:
 	done
 
 SchoolboyJack1SeenText:
-	text "The world of"
-	line "#mon is deep."
+	text "Grand est le monde"
+	line "des #mon."
 
-	para "There are still"
-	line "lots of things we"
-	cont "don't know."
+	para "Tant de choses"
+	line "sont encore incon-"
+	cont "nues."
 
-	para "But I know more"
-	line "than you do!"
+	para "Mais moi... J'en"
+	line "sais plus que toi!"
 	done
 
 SchoolboyJack1BeatenText:
-	text "Wha-wha-what?"
+	text "Qu-qu-quoi?"
 	done
 
 SchoolboyJackTradeMonText:
-	text "There is a lot"
-	line "to learn."
+	text "Il y a beaucoup à"
+	line "apprendre."
 
-	para "For example…"
+	para "Par exemple..."
 
-	para "There are {d:NUM_TMS} kinds"
-	line "of TMs."
+	para "Il y a 50 types"
+	line "de CT."
 
-	para "Traded #mon"
-	line "level up faster."
+	para "Les #mon"
+	line "échangés grandis-"
+	cont "sent plus vite."
 	done
 
 PokefanfBeverly1SeenText:
-	text "My #mon are"
-	line "simply darling."
+	text "Mes #mon sont"
+	line "les mieux du"
+	cont "mooooonde."
 
-	para "Let me tell you"
-	line "how proud my"
-	cont "darlings make me."
+	para "Tu vas voir ça!"
+	line "Oh que oui!"
 	done
 
 PokefanfBeverly1BeatenText:
-	text "I can beat you in"
-	line "pride, but…"
+	text "l'honneur est"
+	line "sauf..."
 	done
 
 PokefanBeverlyCuteMonText:
-	text "I must say, your"
-	line "#mon are quite"
-	cont "cute, too."
+	text "Tes #mon aussi"
+	line "sont très mignons."
 	done
 
 PokefanmWilliamSeenText:
-	text "We adore our #-"
-	line "mon, even if they"
-	cont "dislike us."
+	text "On adore nos #-"
+	line "mon, même si eux"
+	cont "nous détestent."
 
-	para "That's what being"
-	line "a fan is about."
+	para "Et c'est ça un"
+	line "vrai fan."
 	done
 
 PokefanmWilliamBeatenText:
-	text "M-my #mon!"
+	text "M-mon #mon!"
 	done
 
 
 LassKriseSeenText:
-	text "Hello? Why are you"
-	line "staring at me?"
+	text "Bonjour? Pourquoi"
+	line "tu me regardes?"
 
-	para "Oh, a battle?"
+	para "Quoi? Combat? OK!"
 	done
 
 LassKriseBeatenText: ; text > text
-	text "…Hmmm…"
+	text "...Hmmm..."
 	done
 
 BugManiacLouSeenText:
@@ -510,19 +511,19 @@ OfficermKeithDaytimeText:
 	done
 
 NationalParkRelaxationSquareText:
-	text "Relaxation Square"
-	line "National Park"
+	text "Aire de Repos du"
+	line "Parc Naturel"
 	done
 
 NationalParkBattleNoticeText:
-	text "What is this"
-	line "notice?"
+	text "C'est quoi cette"
+	line "affiche?"
 
-	para "Please battle only"
-	line "in the grass."
+	para "Se battre unique-"
+	line "ment dans l'herbe."
 
-	para "National Park"
-	line "Warden's Office"
+	para "le gardien du"
+	line "Parc Naturel"
 	done
 
 NationalParkTrainerTipsText:

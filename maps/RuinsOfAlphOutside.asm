@@ -136,10 +136,10 @@ RuinsOfAlphOutsideFisherScript:
 	jumpthisopenedtext
 
 RuinsOfAlphOutsideFisherText2:
-	text "The ruins hide a"
-	line "huge secret!"
+	text "Il y a un secret"
+	line "dans les ruines!"
 
-	para "…I think…"
+	para "Enfin je crois..."
 	done
 
 RuinsOfAlphOutsideYoungster1Script:
@@ -214,60 +214,61 @@ endr
 	step_end
 
 RuinsOfAlphOutsideScientistText:
-	text "Hm? That's a #-"
-	line "dex, isn't it?"
-	cont "May I see it?"
+	text "Hm? C'est un #-"
+	line "Dex, n'est-ce pas?"
+	cont "Puis-je le voir?"
 
-	para "There are so many"
-	line "kinds of #mon."
+	para "Il y a tant de"
+	line "#mon..."
 
-	para "Hm? What's this?"
+	para "Hmm? C'est quoi?"
 
-	para "What is this"
-	line "#mon?"
+	para "Quel est donc"
+	line "ce #mon?"
 
-	para "It looks like the"
-	line "strange writing on"
+	para "Il ressemble aux"
+	line "inscriptions sur"
 
-	para "the walls of the"
-	line "ruins."
+	para "les murs des"
+	line "ruines."
 
-	para "If those drawings"
-	line "are really #-"
-	cont "mon, there should"
-	cont "be many more."
+	para "Si ces dessins"
+	line "sont des #mon,"
+	cont "il doit y en avoir"
+	cont "beaucoup d'autres."
 
-	para "I know! Let me up-"
-	line "grade your #-"
-	cont "dex. Follow me."
+	para "Je sais! Je vais"
+	line "améliorer ton"
+	cont "#dex..."
+	cont "Suis-moi."
 	done
 
 SuperNerdStanSeenText:
-	text "What do you want?"
-	line "I'm studying--"
-	cont "don't disturb me!"
+	text "Que veux-tu?"
+	line "J'étudie, là..."
+	cont "Me cherche pas!"
 	done
 
 SuperNerdStanBeatenText:
-	text "Sorry…"
-	line "I'm frustrated by"
+	text "Pardon..."
+	line "Le manque de"
 
-	para "our lack of real"
-	line "understanding…"
+	para "communication est"
+	line "un tort..."
 	done
 
 PsychicNathanSeenText:
-	text "Hmmm… This is a"
-	line "strange place."
+	text "Hmmm... C'est"
+	line "bizarre ici."
 	done
 
 PsychicNathanBeatenText: ; text > text
-	text "…"
+	text "...."
 	done
 
 RuinsOfAlphOutsideMysteryChamberSignText:
-	text "Mystery Stone"
-	line "Panel Chamber"
+	text "pierre mystère"
+	line "chambre du Panneau"
 	done
 
 RuinsOfAlphOutsideMysteriousHallSignText:
@@ -278,16 +279,17 @@ RuinsOfAlphOutsideMysteriousHallSignText:
 	done
 
 RuinsOfAlphSignText:
-	text "Ruins of Alph"
-	line "Visitors Welcome"
+	text "ruines d'alpha"
+	line "Bienvenue"
 	done
 
 RuinsOfAlphResearchCenterSignText:
-	text "Ruins of Alph"
-	line "Research Center"
+	text "ruines d'alpha"
+	line "centre de"
+	cont "recherche"
 
-	para "The Authority On"
-	line "The Ruins of Alph"
+	para "La référence des"
+	line "ruines d'alpha"
 	done
 
 RuinsOfAlphAdvancedTipsSignText:
@@ -314,27 +316,27 @@ MapRuinsofAlphOutsideSealedCaveSign:
 	done
 
 RuinsOfAlphOutsideFisherText1:
-	text "While exploring"
-	line "the ruins, we"
+	text "En explorant les"
+	line "ruines, nous avons"
 
-	para "suddenly noticed"
-	line "an odd presence."
+	para "senti une drôle"
+	line "de présence."
 
-	para "We all got scared"
-	line "and ran away."
+	para "On a eu peur et"
+	line "on a filé."
 
-	para "You should be"
-	line "careful too."
+	para "Fais gaffe."
+	line "C'est un conseil."
 	done
 
 
 RuinsOfAlphOutsideYoungster2Text:
-	text "A… H… E… A… D…"
-	line "Hmm…"
+	text "D… R… O… I… T…"
+	line "Hmmm…"
 
-	para "What?"
+	para "Quoi?"
 
-	para "I'm decoding this"
+	para "Je décode le"
 	line "message!"
 	done
 

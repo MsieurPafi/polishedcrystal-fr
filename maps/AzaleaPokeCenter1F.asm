@@ -69,14 +69,16 @@ AzaleaPokeCenter1FCooltrainermScript:
 	done
 
 AzaleaPokeCenter1FGentlemanText:
-	text "Do your #mon"
-	line "know HM moves?"
+	text "Est-ce que ton"
+	line "#mon connait"
+	cont "des CS?"
 
-	para "Those moves can"
-	line "be used even if"
+	para "Ces actions"
+	line "peuvent être réa-"
 
-	para "your #mon has"
-	line "fainted."
+	para "lisées même si le"
+	line "#mon est"
+	cont "évanoui."
 	done
 
 AzaleaPokeCenter1FSightseermText:
@@ -92,21 +94,25 @@ AzaleaPokeCenter1FSightseermText:
 	done
 
 AzaleaPokeCenter1FPokefanfText:
-	text "Do you know about"
-	line "Apricorns?"
+	text "Connais-tu les"
+	line "Noigrumes?"
 
-	para "Crack one open,"
-	line "hollow it out and"
+	para "Ouvres-en un,"
+	line "vide-le et"
 
-	para "fit it with a"
-	line "special device."
+	para "remplis-le avec un"
+	line "appareil spécial."
 
-	para "Then you can catch"
-	line "#mon with it."
+	para "Tu pourras alors"
+	line "t'en servir pour"
+	cont "attraper des"
+	cont "#mon."
 
-	para "Before # Balls"
-	line "were invented,"
+	para "Avant que les"
+	line "# Balls ne"
 
-	para "everyone used"
-	line "Apricorns."
+	para "soient inventées"
+	line "tout le monde"
+	cont "utilisait les"
+	cont "Noigrumes."
 	done

@@ -16,33 +16,36 @@ VermilionHouseFishingSpeechHouse_MapScriptHeader:
 	object_event  2,  4, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, FishingDudeText, -1
 
 FishingDudeText:
-	text "I am the Fishing"
-	line "Dude, the elder of"
-	cont "the Fishing Bros."
+	text "Moi chuis le"
+	line "gars qui pêche,"
+	cont "l'aîné des frères"
+	cont "pêcheurs."
 
-	para "Have you met the"
-	line "Fishing Guru at"
-	cont "Lake of Rage?"
+	para "As-tu vu le maître"
+	line "pêcheur au Lac"
+	cont "colère?"
 
-	para "He dreams about"
-	line "seeing the world's"
-	cont "greatest Magikarp."
+	para "Il rêve de voir le"
+	line "plus grand Magi-"
+	cont "Carpe du monde."
 
-	para "If you don't mind,"
-	line "could you show him"
+	para "Si ça t'embête pas"
+	line "trop, peux-tu lui"
 
-	para "any Magikarp you"
-	line "catch?"
+	para "montrer les"
+	line "Magicarpe que"
+	cont "tu attrapes?"
 
-	para "Who knows, you may"
-	line "catch the Magikarp"
-	cont "of his dreams."
+	para "Qui sait, tu"
+	line "attraperas peut-"
+	cont "être le Magicarpe"
+	cont "de ses rêves."
 	done
 
 FishingDudesHousePhotoText:
-	text "It's a photo of"
-	line "people fishing…"
+	text "C'est une photo de"
+	line "pêcheurs..."
 
-	para "They're having a"
-	line "great time…"
+	para "Ils ont l'air de"
+	line "s'amuser..."
 	done

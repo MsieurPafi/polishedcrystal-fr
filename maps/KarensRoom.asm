@@ -79,55 +79,53 @@ KarenScript:
 	end
 
 .SeenText:
-	text "I am Karen of the"
-	line "Elite Four."
+	text "Je suis Marion du"
+	line "conseil des 4."
 
-	para "You're <PLAYER>?"
-	line "How amusing."
+	para "C'est toi <PLAYER>?"
+	line "C'est marrant."
 
-	para "I love Dark-type"
-	line "#mon."
+	para "Moi j'aime les"
+	line "#mon des"
+	cont "ténèbres."
 
-	para "I find their wild,"
-	line "tough image to be"
+	para "Leur look noir"
+	line "et méchant est"
 
-	para "so appealing. And"
-	line "they're so strong."
+	para "trop cool. Et ils"
+	line "sont forts aussi!"
 
-	para "Think you can take"
-	line "them? Just try to"
-	cont "entertain me."
+	para "Tu crois pouvoir"
+	line "les battre? Allez,"
+	cont "essaie pour voir."
 
-	para "Let's go."
+	para "C'est parti."
 	done
 
 .BeatenText:
-	text "Well, aren't you"
-	line "good. I like that"
-	cont "in a trainer."
+	text "Mmmm..."
+	line "C'est bien."
 	done
 
 .AfterText:
-	text "Strong #mon."
+	text "#mon puissants."
 
-	para "Weak #mon."
+	para "#mon faibles."
 
-	para "That is only the"
-	line "selfish perception"
-	cont "of people."
+	para "Cette vision est"
+	line "faite pour les"
+	cont "simples d'esprit."
 
-	para "Truly skilled"
-	line "trainers should"
+	para "Les bons dresseurs"
+	line "gagnent avec leurs"
+	cont "#mon favoris."
 
-	para "try to win with"
-	line "their favorites."
+	para "J'aime ton style."
+	line "Tu as du"
+	cont "talent..."
 
-	para "I like your style."
-	line "You understand"
-	cont "what's important."
-
-	para "Go on--the Cham-"
-	line "pion is waiting."
+	para "Allez, va..."
+	line "Le maître attend."
 	done
 
 .SeenRematchText:

@@ -48,13 +48,13 @@ ParryBattleRematchText:
 	done
 
 ParryHangUpText:
-	text "OK, give me a call"
-	line "again!"
+	text "OK, rappelle-moi"
+	line "vite!"
 	done
 
 ParryBattleWithMeText:
-	text "You'll battle with"
-	line "me again, right?"
+	text "Tu vas encore"
+	line "m'affronter, non?"
 	done
 
 ParryHaventYouGottenToText:

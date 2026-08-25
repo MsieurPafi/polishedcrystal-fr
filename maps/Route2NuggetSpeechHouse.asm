@@ -27,13 +27,10 @@ Route2NuggetSpeechHouseFisherScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "That's a Nugget."
+	text "C'est une Pepite."
 
-	para "I can't give you"
-	line "any nuggets of"
-
-	para "wisdom, so that'll"
-	line "have to do!"
+	para "Tu verras, ça vaut"
+	line "du pognon!"
 	done
 
 .Text1:

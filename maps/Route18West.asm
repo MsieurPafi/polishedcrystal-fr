@@ -39,13 +39,13 @@ GenericTrainerBikerCharles:
 	done
 
 BikerCharlesSeenText:
-	text "We're fearless"
-	line "highway stars!"
+	text "Nous on est des"
+	line "durs! Des vrais!"
 	done
 
 BikerCharlesBeatenText:
-	text "Arrrgh! Crash and"
-	line "burn!"
+	text "Arrrgh!"
+	line "Trop dur!"
 	done
 
 Route18WestBikeWarningText:

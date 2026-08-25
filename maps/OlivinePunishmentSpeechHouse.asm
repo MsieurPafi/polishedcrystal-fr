@@ -16,19 +16,23 @@ OlivinePunishmentSpeechHouse_MapScriptHeader:
 	object_event  5,  5, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivinePunishmentSpeechHouseDaughterText, -1
 
 OlivinePunishmentSpeechHouseDadText:
-	text "Along the way to"
-	line "Cianwood, there"
+	text "Sur le chemin"
+	line "d'Irisia, il y a"
 
-	para "are four deserted"
-	line "islands."
+	para "quatre îles"
+	line "désertes."
 
-	para "Bad kids are taken"
-	line "to the islands as"
-	cont "punishment!"
+	para "Les petites"
+	line "canailles y sont"
+	cont "emmenées en guise"
+	cont "de punition!"
 	done
 
 OlivinePunishmentSpeechHouseDaughterText:
-	text "Whenever I get in"
-	line "trouble, Daddy"
-	cont "always scares me."
+	text "A chaque fois que"
+	line "je fais des"
+	cont "bêtises, papa me"
+	cont "dit qu'il va m'y"
+	cont "envoyer et moi"
+	cont "j'ai peur!"
 	done

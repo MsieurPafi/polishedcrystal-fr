@@ -20,34 +20,35 @@ CeladonDeptStore1F_MapScriptHeader:
 	object_event  5,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonDeptStore1FTeacherText, -1
 
 CeladonDeptStore1FReceptionistText:
-	text "Hello! Welcome to"
-	line "Celadon Dept."
-	cont "Store!"
+	text "Bienvenue au"
+	line "centre Commercial"
+	cont "de Celadopole!"
 
-	para "The directory is"
-	line "on the wall."
+	para "Les informations"
+	line "sont sur le mur."
 	done
 
 CeladonDeptStore1FGentlemanText:
-	text "This Dept.Store is"
-	line "part of the same"
+	text "Ce centre Commer-"
+	line "cial appartient à"
 
-	para "chain as the one"
-	line "in Goldenrod City."
+	para "la même chaîne que"
+	line "celui de Doublon-"
+	cont "ville."
 
-	para "They were both"
-	line "renovated at the"
-	cont "same time."
+	para "Ils ont été réno-"
+	line "vés en même temps."
 	done
 
 CeladonDeptStore1FTeacherText:
-	text "This is my first"
-	line "time here."
+	text "C'est la première"
+	line "fois que je viens"
+	cont "ici."
 
-	para "It's so big…"
+	para "C'est grand..."
 
-	para "I'm afraid I'll"
-	line "get lost."
+	para "Je vais me perdre."
+	line "C'est sûr."
 	done
 
 CeladonDeptStore1FDirectoryText:

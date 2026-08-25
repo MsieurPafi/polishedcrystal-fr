@@ -56,29 +56,29 @@ BlackthornCitySantosCallback:
 	endcallback
 
 BlackthornCitySignText:
-	text "Blackthorn City"
+	text "Ébènelle"
 
-	para "A Quiet Mountain"
-	line "Retreat"
+	para "Une montagne calme"
+	line "et retirée du"
+	cont "reste du monde"
 	done
 
 BlackthornGymSignText:
-	text "Blackthorn City"
-	line "#mon Gym"
-	cont "Leader: Clair"
+	text "champion d'Arene"
+	line "d'Ébènelle: Sandra"
 
-	para "The Blessed User"
-	line "of Dragon #mon"
+	para "La détentrice de"
+	line "#mon dragon"
 	done
 
 MoveDeletersHouseSignText:
-	text "Move Deleter's"
-	line "House"
+	text "chez l'Effaceur de"
+	line "capacités"
 	done
 
 DragonDensSignText:
-	text "Dragon's Den"
-	line "Ahead"
+	text "Antre du Dragon"
+	line "tout droit"
 	done
 
 BlackthornCityTrainerTipsText:
@@ -131,26 +131,27 @@ SantosScript:
 	done
 
 .MeetText:
-	text "Santos: …"
+	text "Samuel: ..."
 
-	para "It's Saturday…"
+	para "On est samedi..."
 
-	para "I'm Santos of"
-	line "Saturday…"
+	para "Et moi je suis"
+	line "plus sympa le"
+	cont "samedi."
 	done
 
 .GivesGiftText:
-	text "You can have this…"
+	text "Tiens..."
 	done
 
 .SaturdayText:
-	text "Santos: …"
+	text "Samuel: ..."
 
-	para "See you again on"
-	line "another Saturday…"
+	para "A la prochaine, un"
+	line "autre samedi..."
 
-	para "I won't have any"
-	line "more gifts…"
+	para "Je n'aurai plus"
+	line "de cadeaux..."
 	done
 
 BlackthornDragonTamer1Script:
@@ -174,15 +175,12 @@ BlackthornDragonTamer1Script:
 	done
 
 .ClairIsInText:
-	text "Clair, our Gym"
-	line "Leader, is waiting"
-	cont "for you."
+	text "Sandra, notre"
+	line "Championne, vous"
+	cont "attend."
 
-	para "However, it would"
-	line "be impossible for"
-
-	para "a run-of-the-mill"
-	line "trainer to win."
+	para "Vous aurez du mal"
+	line "à la battre."
 	done
 
 .ClairIsBeatenText:
@@ -209,11 +207,11 @@ BlackthornBlackbeltScript:
 	done
 
 .Text2:
-	text "Arooo! Voices in"
-	line "my head!"
+	text "Aahhhh! Des voix"
+	line "dans ma tête!"
 
-	para "Huh? I'm listening"
-	line "to my radio!"
+	para "Hum? J'écoute ma"
+	line "radio!"
 	done
 
 BlackthornGramps1Text:
@@ -225,24 +223,25 @@ BlackthornGramps1Text:
 	done
 
 BlackthornGramps2Text:
-	text "If Clair allows"
-	line "it, her grand-"
-	cont "father--our Master"
-	cont "--will also."
+	text "Si Sandra le"
+	line "permet, son grand-"
+	cont "père, le maître,"
+	cont "le permet aussi."
 
-	para "You may enter."
+	para "Entrez."
 	done
 
 BlackthornLassText:
-	text "Are you going to"
-	line "make your #mon"
-	cont "forget some moves?"
+	text "Vas-tu faire"
+	line "oublier des"
+	cont "capacités à tes"
+	cont "#mon?"
 	done
 
 BlackthornYoungsterText:
-	text "Dragon masters all"
-	line "come from the city"
-	cont "of Blackthorn."
+	text "Tous les experts"
+	line "en dragons vien-"
+	cont "nent d'Ébènelle."
 	done
 
 BlackthornCooltrainerF1Text:

@@ -1,8 +1,9 @@
 MomPhoneGreetingText:
-	text "Hello?"
+	text "Bonjour?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Working hard?"
+	para "Oh, salut,"
+	line "<PLAYER>!"
+	cont "Ça bosse dur?"
 	done
 
 MomPhoneLandmarkText:
@@ -61,14 +62,15 @@ MomOtherAreaText:
 	done
 
 MomDeterminedText:
-	text "That sounds really"
-	line "tough."
+	text "Ça a l'air vrai-"
+	line "ment coriace."
 
-	para "But, <PLAYER>, I"
-	line "know you're really"
+	para "Mais <PLAYER>, je"
+	line "sais que tu as du"
 
-	para "determined. You'll"
-	line "be OK, right?"
+	para "courage. Tout"
+	line "ira bien, pas"
+	cont "vrai?"
 	done
 
 MomCheckBalanceText:
@@ -82,16 +84,17 @@ MomCheckBalanceText:
 	done
 
 MomImportantToSaveText:
-	text "It's important to"
-	line "save your money."
+	text "C'est important"
+	line "d'économiser."
 	done
 
 MomYoureNotSavingText:
 	text "Oh, <PLAYER>,"
-	line "you're not saving"
+	line "tu n'as pas écono-"
 
-	para "any money. Would"
-	line "you like to save?"
+	para "misé d'argent."
+	line "Veux-tu économiser"
+	cont "de l'argent?"
 	done
 
 MomYouveSavedText:
@@ -105,47 +108,46 @@ MomYouveSavedText:
 	done
 
 MomOKIllSaveText:
-	text "OK. I'll save your"
-	line "money."
+	text "OK. Je vais garder"
+	line "ton argent."
 	done
 
 MomPhoneWontSaveMoneyText:
-	text "OK. I won't save"
-	line "your money."
+	text "OK. Je ne garde"
+	line "pas ton argent."
 	done
 
 MomPhoneHangUpText:
-	text "<PLAYER>, keep it"
-	line "up! I'm rooting"
-	cont "for you, baby!"
+	text "<PLAYER>, continue"
+	line "comme ça! Je suis"
+	cont "avec toi, poussin!"
 	done
 
 MomPhoneNoPokemonText:
-	text "Hello?"
+	text "Allô?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Wasn't Prof.Elm"
-	cont "waiting for you?"
+	para "Bonjour <PLAYER>!"
+	line "Le Prof.Orme"
+	cont "t'attend, non?"
 	done
 
 MomPhoneNoPokedexText:
-	text "Hello?"
+	text "Allô?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "You're on a big"
-
-	para "mission for Prof."
-	line "Elm? Be good!"
+	para "Bonjour <PLAYER>!"
+	line "Le Prof.Orme"
+	cont "compte sur toi!"
+	cont "C'est bien!"
 	done
 
 MomPhoneNoGymQuestText:
-	text "Hello?"
+	text "Allô?"
 
-	para "Hi, <PLAYER>! If"
-	line "you're done with"
+	para "Salut, <PLAYER>!"
+	line "Si ta course est"
 
-	para "your errand come"
-	line "on home, dear."
+	para "finie, rentre à la"
+	line "maison."
 	done
 
 MomPhoneLectureText:

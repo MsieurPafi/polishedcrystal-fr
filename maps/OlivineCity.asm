@@ -196,43 +196,47 @@ OlivineCityMovementData_RivalLeavesLighthouse:
 	step_end
 
 OlivineCityRivalGymText:
-	text "…"
+	text ".........."
 
-	para "You again?"
+	para "Encore toi?"
 
-	para "There's no need to"
-	line "panic. I don't"
+	para "Pas la peine de"
+	line "paniquer. Je ne me"
 
-	para "bother with wimps"
-	line "like you."
+	para "tracasse pas avec"
+	line "des minus comme"
+	cont "toi!"
 
-	para "Speaking of weak-"
-	line "lings, the city's"
+	para "En parlant de"
+	line "minus, le"
 
-	para "Gym Leader isn't"
-	line "here."
+	para "champion d'Arene"
+	line "n'est pas ici."
 
-	para "Supposedly taking"
-	line "care of a sick"
+	para "Il est soi-disant"
+	line "en train de"
 
-	para "#mon at the"
-	line "Lighthouse."
+	para "s'occuper du #-"
+	line "mon malade au"
+	cont "Phare."
 
-	para "Humph! Boo-hoo!"
-	line "Just let sick"
-	cont "#mon go!"
+	para "Humph! Bou-hou!"
+	line "Laissons donc"
+	cont "filer les #mon"
+	cont "malades!"
 
-	para "A #mon that"
-	line "can't battle is"
-	cont "worthless!"
+	para "Un #mon qui ne"
+	line "peut pas combattre"
+	cont "est inutile!"
 
-	para "Why don't you go"
-	line "train at the"
-	cont "Lighthouse?"
+	para "Pourquoi ne vas-tu"
+	line "pas t'entraîner au"
+	cont "Phare?"
 
-	para "Who knows. It may"
-	line "make you a bit"
-	cont "less weak!"
+	para "Qui sait? Peut-"
+	line "être que cela"
+	cont "te rendra moins"
+	cont "faible!"
 	done
 
 OlivineCityRivalLighthouseText:
@@ -272,29 +276,30 @@ OlivineCityRivalLighthouseText:
 	done
 
 OlivineCityStandingYoungsterPokedexText:
-	text "Wow, you have a"
-	line "#dex!"
+	text "Heu, t'as un joli"
+	line "#dex! C'est"
 
-	para "That is just so"
-	line "awesome."
+	para "vraiment très"
+	line "impressionnant."
 	done
 
 OlivineCitySailor1Text:
-	text "Dark roads are"
-	line "dangerous at"
-	cont "night."
+	text "Les routes sombres"
+	line "sont dangereuses"
+	cont "la nuit."
 
-	para "But in the pitch-"
-	line "black of night,"
+	para "Dans la pénombre"
+	line "la plus totale,"
 
-	para "the sea is even"
-	line "more treacherous!"
+	para "la mer est encore"
+	line "plus traître!"
 
-	para "Without the beacon"
-	line "of the Lighthouse"
+	para "Sans la lumière du"
+	line "Phare pour les"
 
-	para "to guide it, no"
-	line "ship can sail."
+	para "guider, aucun"
+	line "navire ne peut"
+	cont "naviguer."
 	done
 
 OlivineCitySailor2Text:
@@ -410,35 +415,38 @@ OlivineCityLass2Text:
 	done
 
 OlivineCitySignText:
-	text "Olivine City"
+	text "Oliville"
 
-	para "The Port Closest"
-	line "to Foreign Lands"
+	para "Le port vers d'au-"
+	line "tres horizons"
 	done
 
 OlivineCityPortSignText:
-	text "Olivine Port"
-	line "Fast Ship Pier"
+	text "port d'Oliville"
+	line "port du bateau"
+	cont "Express"
 	done
 
 OlivineGymSignText:
-	text "Olivine City"
-	line "#mon Gym"
-	cont "Leader: Jasmine"
+	text "champion d'Arene"
+	line "d'Oliville:"
+	cont "Jasmine"
 
-	para "The Steel-Clad"
-	line "Defense Girl"
+	para "La fille aux nerfs"
+	line "d'acier"
 	done
 
 OlivineLighthouseSignText:
-	text "Olivine Lighthouse"
-	line "Also known as the"
-	cont "Glitter Lighthouse"
+	text "Phare d'Oliville"
+	line "Aussi connu sous"
+	cont "le nom de Phare"
+	cont "Scintillant"
 	done
 
 OlivineCityBattleTowerSignText:
-	text "Battle Tower Ahead"
-	line "Opening Now!"
+	text "Tour de Combat"
+	line "Tout droit..."
+	cont "Bienvenue!"
 	done
 
 OlivineCityCafeSignText:

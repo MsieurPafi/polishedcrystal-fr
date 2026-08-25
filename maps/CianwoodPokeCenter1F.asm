@@ -61,42 +61,37 @@ CianwoodGymGuyScript:
 	waitendtext
 
 .Text:
-	text "The #mon Gym"
-	line "trainers here are"
-	cont "macho bullies."
+	text "Les dresseurs de"
+	line "l'Arene sont des"
+	cont "grosses brutes."
 
-	para "If I stick around,"
-	line "they might come"
-	cont "after me."
+	para "Je veux pas qu'ils"
+	line "s'en prennent à"
+	cont "moi."
 
-	para "Here's some ad-"
-	line "vice: the Gym"
+	para "Un conseil: le"
+	line "champion utilise"
+	cont "le type combat."
 
-	para "Leader uses the"
-	line "Fighting-type."
+	para "Tu devrais donc"
+	line "utiliser des"
+	cont "#mon psy."
 
-	para "So you should"
-	line "confound him with"
-	cont "Psychic #mon."
+	para "Mets son équipe"
+	line "K.O. avant qu'elle"
 
-	para "Wipe out his #-"
-	line "mon before they"
+	para "n'utilise la"
+	line "force."
 
-	para "can use their"
-	line "physical strength."
+	para "Et les rochers au"
+	line "milieu de l'Arene?"
 
-	para "And those boulders"
-	line "in the middle of"
-	cont "the Gym?"
+	para "Bouge-les correc-"
+	line "tement pour accé-"
+	cont "der au champion."
 
-	para "If you don't move"
-	line "them correctly,"
-
-	para "you won't reach"
-	line "the Gym Leader."
-
-	para "If you get stuck,"
-	line "go outside."
+	para "Si tu ne peux plus"
+	line "progresser, sors."
 	done
 
 .StrengthText1:
@@ -113,32 +108,33 @@ CianwoodGymGuyScript:
 	done
 
 .WinText:
-	text "<PLAYER>! You won!"
-	line "I could tell by"
-	cont "looking at you!"
+	text "<PLAYER>!"
+	line "Tu as gagné!"
+	cont "Je le savais rien"
+	cont "qu'en te voyant!"
 	done
 
 CianwoodPokeCenter1FLassText:
-	text "Did you meet the"
-	line "#Maniac?"
+	text "As-tu rencontré le"
+	line "#maniac?"
 
-	para "He's always brag-"
-	line "ging about his"
-	cont "rare #mon."
+	para "Il se vante sans"
+	line "cesse sur ses"
+	cont "#mon rares."
 	done
 
 CianwoodPokeCenter1FSuperNerdText:
-	text "I love showing off"
-	line "the #mon that"
+	text "J'adore frimer"
+	line "avec mes #mon."
 
-	para "I've raised."
-	line "Don't you?"
+	para "Et toi?"
+	line "C'est ton truc?"
 
-	para "I'm going to get"
-	line "into a bunch of"
+	para "Je vais faire"
+	line "plein de combats"
 
-	para "battles, and show"
-	line "off my #mon!"
+	para "et frimer avec"
+	line "mes jolis #mon!"
 	done
 
 CianwoodPokeCenter1FRichBoyText:

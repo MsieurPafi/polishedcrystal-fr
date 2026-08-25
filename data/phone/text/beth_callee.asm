@@ -60,18 +60,15 @@ BethGreetNiteText:
 	done
 
 BethGenericText:
-	text "Are you the kind"
-	line "of person who goes"
+	text "Tu vas dans les"
+	line "Centres #mon"
+	cont "souvent?"
 
-	para "to #mon Centers"
-	line "often?"
+	para "Moi j'y vais tous"
+	line "les jours."
 
-	para "I go every day."
-	line "Watching out for"
-
-	para "the health of your"
-	line "#mon is a basic"
-
-	para "part of being a"
-	line "#mon trainer."
+	para "Faire attention"
+	line "à la santé de ses"
+	cont "#mon, c'est la"
+	cont "base du succès."
 	done

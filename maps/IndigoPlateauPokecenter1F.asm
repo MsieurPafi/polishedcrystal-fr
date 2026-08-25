@@ -217,31 +217,29 @@ PlateauRivalText1:
 	done
 
 PlateauRivalWinText:
-	text "…"
+	text "......"
 
-	para "OK--I lost…"
+	para "OK. J'ai perdu..."
 	done
 
 PlateauRivalText2:
-	text "…Darn… I still"
-	line "can't win…"
+	text "....zut...."
+	line "Encore perdu."
 
-	para "I… I have to think"
-	line "more about my"
-	cont "#mon…"
+	para "Y'a un truc que"
+	line "je comprends pas."
+	cont "Faut qu'je pense."
 
-	para "Humph! Try not to"
-	line "lose!"
+	para "Et penser..."
+	line "Moi j'aime pas."
 	done
 
 PlateauRivalLoseText:
-	text "…"
+	text "..."
 
-	para "Whew…"
-	line "With my partners,"
-
-	para "I'm going to be"
-	line "the Champion!"
+	para "Avec mes copains,"
+	line "je vais devenir"
+	cont "un maître!"
 	done
 
 PlateauLyraText1:
@@ -488,50 +486,48 @@ IndigoPlateauTeleportGuyScript:
 	end
 
 .Text:
-	text "Ah! You're chal-"
-	line "lenging the Elite"
+	text "Ah! Tu défies le"
+	line "conseil des 4?"
 
-	para "Four? Are you sure"
-	line "you're ready?"
+	para "Tu crois avoir"
+	line "les épaules?"
 
-	para "If you need to"
-	line "train some more,"
+	para "Si tu veux encore"
+	line "t'entraîner, mon"
+	cont "Abra peut t'aider."
 
-	para "my Abra can help"
-	line "you."
+	para "Il peut te"
+	line "Teleporter chez"
+	cont "toi."
 
-	para "It can Teleport"
-	line "you home."
-
-	para "Would you like to"
-	line "go home now?"
+	para "Veux-tu retourner"
+	line "chez toi?"
 	done
 
 .YesText:
-	text "OK, OK. Picture"
-	line "your house in your"
-	cont "mind…"
+	text "Très bien. Pense"
+	line "fort à ta maison."
 	done
 
 .NoText:
-	text "OK, OK. The best"
-	line "of luck to you!"
+	text "OK. Alors bon"
+	line "courage!"
 	done
 
 IndigoPlateauAbraText:
-	text "Abra: Aabra…"
+	text "Abra: Aabra..."
 	done
 
 IndigoPlateauCooltrainermText:
-	text "At the #mon"
-	line "League, you'll get"
+	text "A la Ligue #mon"
+	line "tu rencontreras le"
 
-	para "tested by the"
-	line "Elite Four."
+	para "terrible conseil"
+	line "des 4."
 
-	para "You have to beat"
-	line "them all. If you"
+	para "Tu devras battre"
+	line "les 4 chefs ou tu"
 
-	para "lose, you have to"
-	line "start all over!"
+	para "devras tout recom-"
+	line "mencer!"
 	done

@@ -113,9 +113,9 @@ MapRuinsofAlphHoOhChamberSignpost4Script:
 	endtext
 
 RuinsOfAlphHoOhChamberDescriptionText:
-	text "A #mon that"
-	line "flew gracefully on"
+	text "Un #mon qui"
+	line "volait avec grâce"
 
-	para "rainbow-colored"
-	line "wings."
+	para "en battant ses"
+	line "ailes irisées."
 	done

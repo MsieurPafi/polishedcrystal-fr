@@ -211,26 +211,25 @@ VermilionGymStatue:
 	jumpstd gymstatue2
 
 LtSurgeIntroText:
-	text "Surge: Hey, you"
-	line "little tyke!"
+	text "Bob: Hé toi!"
+	line "Le lutin!"
 
-	para "I have to hand it"
-	line "to you. It may not"
+	para "On peut dire que"
+	line "tu as du courage"
 
-	para "be very smart to"
-	line "challenge me, but"
-	cont "it takes guts!"
+	para "de venir me cher-"
+	line "cher des noises!"
 
-	para "When it comes to"
-	line "electric #mon,"
-	cont "I'm number one!"
+	para "Moi j'suis le boss"
+	line "des #mon"
+	cont "électriques!"
 
-	para "I've never lost on"
-	line "the battlefield."
+	para "Je n'ai jamais"
+	line "perdu un combat."
 
-	para "I'll zap you just"
-	line "like I did my"
-	cont "enemies in war!"
+	para "J'vais te punir!"
+	line "Comme à l'entraî-"
+	cont "nement!"
 	done
 
 LtSurgeWinLossText:
@@ -259,52 +258,49 @@ LtSurgeThunderBadgeText:
 
 
 LtSurgeFightDoneText:
-	text "Surge: Hey, kid!"
-	line "Still slugging and"
-	cont "chugging away?"
+	text "Bob: Hé toi!"
+	line "Tu tiens le coup?"
 
-	para "My #mon and I"
-	line "are still at it!"
+	para "Moi et mes #mon"
+	line "on a la pêche!"
 	done
 
 GentlemanGregorySeenText:
-	text "You're here to"
-	line "defeat Lt.Surge?"
+	text "Tu viens défier le"
+	line "Major Bob?"
 
-	para "Not if I can help"
-	line "it!"
+	para "C'est ce qu'on va"
+	line "voir!"
 	done
 
 GentlemanGregoryBeatenText:
-	text "Sorry I failed"
-	line "you, Lt.Surge,"
-	cont "sir!"
+	text "Pardon, Major"
+	line "Bob!"
 	done
 
 GuitaristmVincentSeenText:
-	text "Lt.Surge recog-"
-	line "nized my potential"
+	text "Le Major Bob a foi"
+	line "en mes talents de"
 
-	para "with Electric"
-	line "#mon."
+	para "dresseur de #-"
+	line "mon électriques."
 
-	para "Think you can beat"
-	line "me?"
+	para "Tu crois pouvoir"
+	line "me battre?"
 	done
 
 GuitaristmVincentBeatenText:
-	text "Ooh, how shocking!"
+	text "Ooh, sous le choc!"
 	done
 
 JugglerHortonSeenText:
-	text "I'm going to take"
-	line "you down! Prepare"
-	cont "to be shocked!"
+	text "J'vais t'allonger!"
+	line "Oh que oui!"
 	done
 
 JugglerHortonBeatenText:
 	text "Gwaaah!"
-	line "I was overpowered…"
+	line ""
 	done
 
 GuitaristfJanetSeenText:
@@ -319,11 +315,11 @@ GuitaristfJanetBeatenText:
 
 
 VermilionGymGuyWinText:
-	text "Whew! That was an"
-	line "electrifying bout!"
+	text "Fouii! C'était une"
+	line "sacrée rencontre!"
 
-	para "It sure made me"
-	line "nervous."
+	para "Ça m'a tout"
+	line "retourné."
 	done
 
 VermilionGymFoundSwitchText:
@@ -353,8 +349,8 @@ VermilionGymResetSwitchesText:
 	done
 
 VermilionGymTrashCanText:
-	text "Nope! Nothing here"
-	line "but trash."
+	text "Mmmm! Une bonne"
+	line "poubelle dégueue."
 	done
 
 VermilionGymElectricFenceText:

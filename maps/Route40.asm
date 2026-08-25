@@ -216,52 +216,48 @@ MonicaDoneScript:
 	end
 
 SwimmermSimonSeenText:
-	text "You have to warm"
-	line "up before going"
-	cont "into the water."
+	text "Il faut s'échauf-"
+	line "fer avant de se"
+	cont "baigner."
 
-	para "That's basic."
+	para "Tout le monde sait"
+	line "ça!"
 	done
 
 SwimmermSimonBeatenText:
-	text "OK! Uncle! I give!"
+	text "Ouille! Crampe!"
 	done
 
 SwimmermRandallSeenText:
-	text "Hey, you're young"
-	line "and fit!"
+	text "T'as la flemme ou"
+	line "quoi?"
 
-	para "Don't ride your"
-	line "#mon! Swim!"
+	para "Nage au lieu de"
+	line "monter sur ton"
+	cont "#mon!"
 	done
 
 SwimmermRandallBeatenText:
-	text "Uh-oh. I lost…"
+	text "Zut de flûte."
 	done
 
 SwimmerfElaineSeenText:
-	text "Are you going to"
-	line "Cianwood?"
+	text "Tu vas à Irisia?"
 
-	para "How about a quick"
-	line "battle first?"
+	para "On s'bat d'abord?"
 	done
 
 SwimmerfElaineBeatenText:
-	text "I lost that one!"
+	text "C'est perdu!"
 	done
 
 SwimmerfPaulaSeenText:
-	text "No inner tube for"
-	line "me."
-
-	para "I'm hanging on to"
-	line "a sea #mon!"
+	text "J'adore les #-"
+	line "mon marins!"
 	done
 
 SwimmerfPaulaBeatenText:
-	text "Ooh, I'm feeling"
-	line "dizzy!"
+	text "Oups!"
 	done
 
 Route40BeachGirlText:
@@ -274,73 +270,67 @@ Route40BeachGirlText:
 
 
 Route40PokefanMText2:
-	text "Hm! Look at all"
-	line "those serious-"
-	cont "looking trainers"
-	cont "streaming in."
+	text "Hmm! Tu as vu tous"
+	line "les dresseurs"
+	cont "qui sont entrés?"
 
-	para "What? What?"
+	para "C'est quoi donc?"
 	done
 
 Route40PicnickerText:
-	text "I came to Olivine"
-	line "by ship to see the"
+	text "Je suis venue à"
+	line "Oliville pour"
 
-	para "sights and soak up"
-	line "the atmosphere."
+	para "voir les beaux"
+	line "paysages..."
 
-	para "Being a port, it"
-	line "feels so different"
-	cont "from a big city."
+	para "La mer, c'est bô."
 	done
 
 
 Route40BeachGuyText2:
-	text "Have you gone to"
-	line "the Battle Tower?"
+	text "As-tu visité la"
+	line "Tour de Combat?"
 
-	para "I think a lot of"
-	line "tough trainers"
+	para "Plein de"
+	line "dresseurs super"
 
-	para "have gathered"
-	line "there already."
+	para "puissants s'y sont"
+	line "réunis."
 
-	para "But since you have"
-	line "so many Badges,"
+	para "Mais vu que tu as"
+	line "des Badges, tu"
 
-	para "you shouldn't do"
-	line "badly at all."
+	para "devrais t'en"
+	line "tirer."
 	done
 
 MeetMonicaText:
-	text "Monica: Glad to"
-	line "meet you. I'm"
+	text "Lucie: Bonjour!"
+	line "Je suis Lucie du"
 
-	para "Monica of Monday."
+	para "lundi."
 	done
 
 MonicaGivesGiftText:
-	text "As a token of our"
-	line "friendship, I have"
-	cont "a gift for you!"
+	text "Puisqu'on est des"
+	line "potes, voilà un"
+	cont "petit cadeau!"
 	done
 
 
 MonicaMondayText:
-	text "Monica: My broth-"
-	line "ers and sisters"
+	text "Lucie: Mes frères"
+	line "et soeurs sont un"
+	cont "peu partout."
 
-	para "are all over the"
-	line "place."
-
-	para "See if you could"
-	line "find them all!"
+	para "Trouve-les tous!"
 	done
 
 
 Route40SignText:
-	text "Route 40"
+	text "route 40"
 
-	para "Cianwood City -"
-	line "Olivine City"
+	para "Irisia -"
+	line "Oliville"
 	done

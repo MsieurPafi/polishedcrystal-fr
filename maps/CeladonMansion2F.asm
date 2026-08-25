@@ -26,31 +26,30 @@ CeladonMansion2FSign:
 	done
 
 CeladonMansion2FComputerText:
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> allume"
+	line "le PC."
 
 	para "…"
 
-	para "Someone was in the"
-	line "middle of compos-"
-	cont "ing an e-mail."
+	para "Quelqu'un était en"
+	line "train d'écrire un"
+	cont "e-mail..."
 
-	para "…I hope you'll"
-	line "come visit Kanto."
+	para "...J'espère que"
+	line "vous viendrez à"
+	cont "Kanto."
 
-	para "I think you'll be"
-	line "surprised at how"
+	para "Vous verrez à quel"
+	line "point les choses"
+	cont "ont changé ici."
 
-	para "much things have"
-	line "changed here."
+	para "Vous verrez même"
+	line "des #mon qui"
 
-	para "You'll also see"
-	line "many #mon that"
-
-	para "aren't native to"
+	para "n'existent pas à"
 	line "Johto."
 
-	para "To the Producer"
+	para "Pour le Producteur"
 
-	para "…"
+	para "..."
 	done

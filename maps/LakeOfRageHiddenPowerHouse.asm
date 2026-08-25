@@ -99,7 +99,7 @@ HiddenPowerGuy:
 	done
 
 .Text4:
-	text "I am meditating…"
+	text "Je médite..."
 	done
 
 .Text5:

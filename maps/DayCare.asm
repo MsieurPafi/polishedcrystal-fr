@@ -279,32 +279,29 @@ DayCareLyraEmbarassedText:
 	done
 
 Text_GrampsLookingForYou:
-	text "Gramps was looking"
-	line "for you."
+	text "Pépé te cherche."
 	done
 
 DayCareManText_GiveOddEgg:
-	text "I'm the Day-Care"
-	line "Man."
+	text "Je suis le type de"
+	line "la Pension."
 
-	para "Do you know about"
-	line "Eggs?"
+	para "Tu connais les"
+	line "oeufs?"
 
-	para "I was raising"
-	line "#mon with my"
-	cont "wife, you see."
+	para "J'élevais des"
+	line "#mon avec ma"
+	cont "femme..."
 
-	para "We were shocked to"
-	line "find an Egg!"
+	para "Et puis on a trou-"
+	line "vé un Oeuf!"
 
-	para "How incredible is"
-	line "that?"
+	para "C'est pas trop"
+	line "dingue, ça?"
 
-	para "Well, wouldn't you"
-	line "like this Egg?"
-
-	para "Then fine, this is"
-	line "yours to keep!"
+	para "Bon. Tu le veux"
+	line "cet Oeuf?"
+	cont "Tu peux le garder!"
 	done
 
 DayCareText_GotOddEgg:
@@ -313,17 +310,15 @@ DayCareText_GotOddEgg:
 	done
 
 DayCareText_DescribeOddEgg:
-	text "I found that when"
-	line "I was caring for"
+	text "J'ai trouvé ça"
+	line "en m'occupant du"
 
-	para "someone's #mon"
-	line "before."
+	para "#mon de"
+	line "quelqu'un."
 
-	para "But the trainer"
-	line "didn't want the"
-
-	para "Egg, so I'd kept"
-	line "it around."
+	para "Mais le dresseur"
+	line "ne veut pas de"
+	cont "l'Oeuf..."
 	done
 
 DayCareLadyText_GiveLyrasEgg:

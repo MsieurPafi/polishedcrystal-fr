@@ -110,44 +110,43 @@ ViridianCityTutorDreamEaterScript:
 	done
 
 ViridianCityCoffeeGrampsQuestionText:
-	text "Hey, kid! I just"
-	line "had a double shot"
+	text "Hé, toi! Je"
+	line "viens de m'enfiler"
 
-	para "of espresso, and"
-	line "I am wired!"
+	para "un double café et"
+	line "j'ai la patate!"
 
-	para "I need to talk to"
-	line "someone, so you'll"
-	cont "have to do!"
+	para "Faut qu'je parle à"
+	line "quelqu'un alors..."
+	cont "Écouté-moi!"
 
-	para "I might not look"
-	line "like much now, but"
+	para "J'ai pas l'air"
+	line "mais je suis un"
 
-	para "I was an expert at"
-	line "catching #mon."
+	para "expert en capture"
+	line "de #mon."
 
-	para "Do you believe me?"
+	para "Tu me crois, hein?"
 	done
 
 
 ViridianCityCoffeeGrampsDoubtedText:
-	text "What? You little"
-	line "whelp!"
+	text "Quoi? Sale peste!"
 
-	para "If I were just a"
-	line "bit younger, I'd"
+	para "Si j'étais plus"
+	line "jeune, j't'en"
 
-	para "show you a thing"
-	line "or two. Humph!"
+	para "ferais baver, moi!"
+	line "Oh que oui!"
 	done
 
 
 ViridianCityGrampsNearGymBlueReturnedText:
-	text "Are you going to"
-	line "battle the Leader?"
+	text "Vas-tu affronter"
+	line "le champion?"
 
-	para "Good luck to you."
-	line "You'll need it."
+	para "Bonne chance."
+	line "T'en auras besoin."
 	done
 
 ViridianCityDreamEaterFisherText:
@@ -193,11 +192,11 @@ Text_ViridianCityTutorRefused: ; text > text
 
 
 ViridianCityYoungsterText:
-	text "I heard that there"
-	line "are many items on"
+	text "On dit qu'il y a"
+	line "plein d'objets sur"
 
-	para "the ground in"
-	line "Viridian Forest."
+	para "le sol de la forêt"
+	line "de Jade."
 	done
 
 ViridianCityYoungster2Text:
@@ -215,19 +214,19 @@ ViridianCityYoungster2Text:
 	done
 
 ViridianCitySignText:
-	text "Viridian City"
+	text "Jadielle"
 
-	para "The Eternally"
-	line "Green Paradise"
+	para "Le paradis vert"
+	line "éternel"
 	done
 
 ViridianGymSignText:
-	text "Viridian City"
-	line "#mon Gym"
-	cont "Leader: …"
+	text "champion d'Arene"
+	line "de Jadielle:"
+	cont "..."
 
-	para "The rest of the"
-	line "text is illegible…"
+	para "Le reste est"
+	line "illisible..."
 	done
 
 ViridianCityTrainerTips1Text:
@@ -257,8 +256,8 @@ ViridianCityTrainerTips2Text:
 	done
 
 TrainerHouseSignText:
-	text "Trainer House"
+	text "Club des dresseurs"
 
-	para "The Club for Top"
-	line "Trainer Battles"
+	para "Réservé aux"
+	line "meilleurs"
 	done

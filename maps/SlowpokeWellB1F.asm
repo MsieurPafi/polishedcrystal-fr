@@ -137,36 +137,37 @@ KurtSlowpokeWellVictoryMovementData:
 	step_end
 
 KurtLeaveSlowpokeWellText:
-	text "Kurt: Way to go,"
+	text "Fargas: Bravo,"
 	line "<PLAYER>!"
 
-	para "Team Rocket has"
-	line "taken off."
+	para "La Team Rocket a"
+	line "décampé."
 
-	para "My back's better"
-	line "too. Let's get out"
-	cont "of here."
+	para "Mon dos va mieux."
+	line "Allez..."
+	cont "On se casse."
 	done
 
 GruntM29SeenText:
-	text "Darn! I was stand-"
-	line "ing guard up top"
+	text "Grrah! Je montais"
+	line "la garde quand un"
 
-	para "when some old coot"
-	line "yelled at me."
+	para "vieux dingue est"
+	line "venu me crier"
+	cont "dessus."
 
-	para "He startled me so"
-	line "much that I fell"
-	cont "down here."
+	para "Il m'a fichu une"
+	line "telle trouille que"
+	cont "je suis tombé ici."
 
-	para "I think I'll vent"
-	line "my anger by taking"
-	cont "it out on you!"
+	para "... Tu sais quoi?"
+	line "Je vais calmer mes"
+	cont "nerfs sur ta face!"
 	done
 
 GruntM29BeatenText:
-	text "Arrgh! This is NOT"
-	line "my day!"
+	text "Grrah! C'est pas"
+	line "mon jour!"
 	done
 
 Proton2SeenText:
@@ -184,72 +185,73 @@ Proton2SeenText:
 	done
 
 Proton2BeatenText:
-	text "You did OK today,"
-	line "but wait till next"
-	cont "time!"
+	text "Attends voir la"
+	line "prochaine fois!"
 	done
 
 TrainerProton2WhenTalkText:
-	text "Yeah, Team Rocket"
-	line "was broken up"
-	cont "three years ago."
+	text "La Team Rocket a"
+	line "été dissoute il y"
+	cont "a trois ans..."
 
-	para "But we continued"
-	line "our activities"
-	cont "underground."
+	para "Mais on a continué"
+	line "nos p'tites affai-"
+	cont "res dans l'ombre."
 
-	para "Now you can have"
-	line "fun watching us"
-	cont "stir up trouble!"
+	para "Et à partir d'au-"
+	line "jourd'hui... On va"
+	cont "tout faire sauter!"
 	done
 
 GruntM2SeenText:
-	text "Quit taking Slow-"
-	line "pokeTails?"
+	text "Arrêter de voler"
+	line "les queues de"
+	cont "Ramoloss?"
 
-	para "If we obeyed you,"
-	line "Team Rocket's rep"
-	cont "would be ruined!"
+	para "Et notre réputa-"
+	line "tion, tu y as"
+	cont "pensé?"
 	done
 
 GruntM2BeatenText:
-	text "Just…"
-	line "Too strong…"
+	text "Heu..."
+	line "Trop fort..."
 	done
 
 GruntF1SeenText:
-	text "Stop taking Tails?"
+	text "Arrêter de voler"
+	line "les queues?"
 
-	para "Yeah, just try to"
-	line "defeat all of us!"
+	para "C'est ça, oui..."
+	line "T'as raison..."
 	done
 
 GruntF1BeatenText:
-	text "You rotten brat!"
+	text "Sale môme!"
 	done
 
 SlowpokeWellB1FSlowpokeWithMailText:
-	text "A Slowpoke with"
-	line "its tail cut off…"
+	text "Un Ramoloss sans"
+	line "queue..."
 
-	para "Huh? It has Mail."
-	line "Read it?"
+	para "Hein? Il a une"
+	line "lettre. On la lit?"
 	done
 
 SlowpokeWellB1FSlowpokeMailText:
-	text "<PLAYER> read the"
-	line "Mail."
+	text "<PLAYER> lit la"
+	line "lettre."
 
-	para "Be good and look"
-	line "after the house"
+	para "Sois sage et occu-"
+	line "pe-toi bien de la"
 
-	para "with Grandpa and"
-	line "Slowpoke."
+	para "maison avec pépé"
+	line "et Ramoloss."
 
-	para "Love, Dad"
+	para "Bisous. Papa."
 	done
 
 SlowpokeWellB1FTaillessSlowpokeText:
-	text "A Slowpoke with"
-	line "its tail cut off…"
+	text "Un Ramoloss à la"
+	line "queue coupée..."
 	done

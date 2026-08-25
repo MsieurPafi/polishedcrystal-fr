@@ -67,31 +67,32 @@ GoldenrodPokecenter1FNurseScript:
 	jumpstd pokecenternurse
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "The Colosseum"
-	line "upstairs is for"
-	cont "link battles."
+	text "Le Colisee sert"
+	line "à faire des com-"
+	cont "bats en Link."
 
-	para "Battle records are"
-	line "posted on the"
-
-	para "wall, so I can't"
-	line "afford to lose."
+	para "Les records sont"
+	line "affichés sur le"
+	cont "mur. Perdre, c'est"
+	cont "la honte!"
 	done
 
 GoldenrodPokecenter1FLassText:
-	text "A higher level"
-	line "#mon doesn't"
-	cont "always win."
+	text "Un #mon de"
+	line "niveau élevé ne"
+	cont "gagnera pas à tous"
+	cont "les coups."
 
-	para "After all, it may"
-	line "have a type dis-"
-	cont "advantage."
+	para "Après tout, il y a"
+	line "peut-être un type"
+	cont "désavantagé."
 
-	para "I don't think"
-	line "there is a single"
+	para "Je ne crois pas"
+	line "qu'il y ait un"
 
-	para "#mon that is"
-	line "the toughest."
+	para "type de #mon"
+	line "qui soit le plus"
+	cont "résistant."
 	done
 
 GoldenrodPokecenter1FPokefanF:
@@ -144,26 +145,23 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 	done
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
-	text "Give away an Eon"
-	line "Mail?"
+	text "Donner Letr Evoli?"
 	done
 
 GoldenrodPokecenter1FPokefanFThisIsForYouText:
-	text "Oh, that's great!"
-	line "Thank you, honey!"
-
-	para "Here, this is for"
-	line "you in return!"
+	text "Oh, formidable!"
+	line "Merci merci!"
+	cont "Voilà pour toi!"
 	done
 
 GoldenrodPokecenter1FPokefanFTooBadText:
-	text "Oh? You don't have"
-	line "one? Too bad."
+	text "Oh? Tu n'en as"
+	line "pas? Dommage."
 	done
 
 GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
-	text "<PLAYER> gave away"
-	line "the Eon Mail."
+	text "<PLAYER> donne"
+	line "la Letr Evoli."
 	done
 
 GoldenrodPokecenter1FPokefanFGotEvioliteText:

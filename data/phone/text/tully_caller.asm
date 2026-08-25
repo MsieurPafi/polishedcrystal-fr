@@ -53,8 +53,7 @@ TullyBattleRematchText:
 	done
 
 TullyHangUpText:
-	text "Well, I'll be"
-	line "seeing you."
+	text "A plus tard."
 	done
 
 TullyFoundItemText:
@@ -72,13 +71,13 @@ TullyFoundItemText:
 	done
 
 TullyNoItemText:
-	text "Have I found"
-	line "anything good?"
+	text "Si j'ai trouvé"
+	line "quelque chose?"
 
-	para "Nope, not yet."
+	para "Pas encore."
 
-	para "It's like fishing,"
-	line "you need patience."
+	para "Patience,"
+	line "jeune poussin."
 	done
 
 TullyForwardText:

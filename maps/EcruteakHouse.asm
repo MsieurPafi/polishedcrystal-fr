@@ -211,7 +211,7 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 	done
 
 EcruteakTinTowerEntranceSageText_PleaseDoGoOn:
-	text "Please, do go on."
+	text "Va."
 	done
 
 EcruteakTinTowerEntranceSageText_HeardClearBell:
@@ -238,12 +238,14 @@ EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
 	done
 
 EcruteakTinTowerEntranceGrampsText:
-	text "Two towers…"
-	line "Two #mon…"
+	text "Deux tours..."
+	line "Deux #mon..."
 
-	para "But when one"
-	line "burned down, both"
+	para "Mais lorsqu'une"
+	line "d'entre elles a"
 
-	para "#mon flew away,"
-	line "never to return."
+	para "brûlé, les deux"
+	line "#mon se sont"
+	cont "envolés et ne sont"
+	cont "jamais revenus."
 	done

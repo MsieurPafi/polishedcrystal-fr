@@ -198,17 +198,15 @@ EeveeDollScript:
 	done
 
 OakWelcomeKantoText:
-	text "Oak: Ah, <PLAYER>!"
-	line "It's good of you"
+	text "Chen: Ah, <PLAYER>!"
+	line "Merci d'avoir vo-"
 
-	para "to come all this"
-	line "way to Kanto."
+	para "yagé jusqu'à"
+	line "Kanto."
 
-	para "What do you think"
-	line "of the trainers"
-
-	para "out here?"
-	line "Pretty tough, huh?"
+	para "Que penses-tu des"
+	line "dresseurs du coin?"
+	cont "Plutôt forts, non?"
 	done
 
 OakLabGiveStarterText:
@@ -238,10 +236,10 @@ OakLabPartyAndBoxFullText:
 	done
 
 OakLabDexCheckText:
-	text "How is your #-"
-	line "dex coming?"
+	text "Et ton #dex?"
+	line "Ça avance?"
 
-	para "Let's see…"
+	para "Voyons ça..."
 	done
 
 OakLabCatchMoreText:
@@ -411,19 +409,19 @@ OakOpenMtSilverText:
 	done
 
 OakNoKantoBadgesText:
-	text "Oak: Hmm? You're"
-	line "not collecting"
-	cont "Kanto Gym Badges?"
+	text "Chen: Hmm? Tu ne"
+	line "collectionnes pas"
+	cont "les Badges des"
+	cont "Arenes de Kanto?"
 
-	para "The Gym Leaders in"
-	line "Kanto are as tough"
+	para "Les Champions"
+	line "d'Arene de Kanto"
 
-	para "as any you battled"
-	line "in Johto."
+	para "sont aussi forts"
+	line "que ceux de Johto."
 
-	para "I recommend that"
-	line "you challenge"
-	cont "them."
+	para "Je te conseille de"
+	line "les affronter."
 	done
 
 OakNoEliteFourRematchText:
@@ -467,70 +465,69 @@ OakYesKantoBadgesText:
 	done
 
 OaksAssistant1Text:
-	text "The Prof's #mon"
-	line "Talk radio program"
+	text "La Chronique PKMN"
+	line "du Prof à la radio"
 
-	para "isn't aired here"
-	line "in Kanto."
+	para "ne passe pas ici,"
+	line "à Kanto."
 
-	para "It's a shame--I'd"
-	line "like to hear it."
+	para "C'est bête..."
+	line "Je l'aime tant."
 	done
 
 OaksAssistant2Text:
-	text "Thanks to your"
-	line "work on the #-"
-	cont "dex, the Prof's"
+	text "Grâce à ton tra-"
+	line "vail sur le #-"
+	cont "Dex, les recher-"
 
-	para "research is coming"
-	line "along great."
+	para "ches du Prof ont"
+	line "bien progressé."
 	done
 
 OaksAssistant3Text:
-	text "Don't tell anyone,"
-	line "but Prof.Oak's"
+	text "Ne le répète pas,"
+	line "mais la Chronique"
 
-	para "#mon Talk isn't"
-	line "a live broadcast."
+	para "#mon du Prof."
+	line "Chen n'est pas en"
+	cont "direct."
 	done
 
 OaksLabPoster1Text:
-	text "Press Start to"
-	line "open the Menu."
+	text "Appuyer sur Start"
+	line "pour le menu."
 	done
 
 OaksLabPoster2Text:
-	text "The Save option is"
-	line "on the Menu."
+	text "l'option sauver"
+	line "est sur le menu."
 
-	para "Use it in a timely"
-	line "manner."
+	para "Utilise-la assez"
+	line "souvent."
 	done
 
 OaksLabPCText:
-	text "There's an e-mail"
-	line "message on the PC."
+	text "Il y a un e-mail"
+	line "sur le PC."
 
 	para "…"
 
-	para "Prof.Oak, how is"
-	line "your research"
-	cont "coming along?"
+	para "Prof.Chen, comment"
+	line "ça va bien?"
+	cont "Ça bosse dur?"
 
-	para "I'm still plugging"
-	line "away."
+	para "Moi je bosse comme"
+	line "un barbare."
 
-	para "I heard rumors"
-	line "that <PLAYER> is"
+	para "On raconte que"
+	line "<PLAYER> est une"
+	cont "vraie terreur..."
 
-	para "getting quite a"
-	line "reputation."
+	para "Et dire que c'est"
+	line "grâce à nous."
 
-	para "I'm delighted to"
-	line "hear that."
-
-	para "Elm in New Bark"
-	line "Town 8-)"
+	para "Orme du Bourg Geon"
+	line "8-)"
 	done
 
 ProfOakEeveeDollTradeText:

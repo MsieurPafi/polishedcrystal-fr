@@ -321,8 +321,9 @@ RuinsOfAlphResearchCenterModifiedDexText:
 	done
 
 RuinsOfAlphResearchCenterDexUpgradedText:
-	text "<PLAYER>'s #dex"
-	line "was upgraded."
+	text "Le #dex de"
+	line "<PLAYER> est"
+	cont "amélioré!"
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
@@ -384,16 +385,17 @@ RuinsofAlphResearchCenterScientistShockedText:
 
 
 RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
-	text "Our investigation,"
-	line "with your help, is"
+	text "Grâce à ton aide,"
+	line "notre enquête sur"
 
-	para "giving us insight"
-	line "into the ruins."
+	para "les ruines donne"
+	line "enfin des"
+	cont "résultats."
 
-	para "The ruins appear"
-	line "to have been built"
+	para "Les ruines sem-"
+	line "blent être un re-"
 
-	para "as a habitat for"
+	para "fuge pour les"
 	line "#mon."
 	done
 
@@ -401,20 +403,19 @@ RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
 
 
 RuinsOfAlphResearchCenterScientist2Text_RadioWaves:
-	text "According to my"
-	line "research…"
+	text "d'après mes"
+	line "recherches..."
 
-	para "Those mysterious"
-	line "patterns appeared"
+	para "Les étranges figu-"
+	line "res sont apparues"
 
-	para "when the #Com"
-	line "Center was built."
+	para "lorsque le centre"
+	line "#com a été"
+	cont "construit."
 
-	para "It must mean that"
-	line "radio waves have"
-
-	para "some sort of a"
-	line "link…"
+	para "Les ondes radio"
+	line "doivent avoir une"
+	cont "influence..."
 	done
 
 
@@ -438,18 +439,18 @@ RuinsOfAlphResearchCenterPrinterText_DoesntWork:
 	done
 
 RuinsOfAlphResearchCenterProfSilktreePhotoText:
-	text "It's a photo of"
-	line "the Research"
+	text "C'est une photo du"
+	line "fondateur du"
 
-	para "Center's founder,"
-	line "Prof.Silktree."
+	para "centre de recher-"
+	line "che: le Prof."
+	cont "Lasoie."
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:
-	text "There are many"
-	line "academic books."
+	text "Il y a beaucoup de"
+	line "livres de science."
 
-	para "Ancient Ruins…"
-	line "Mysteries of the"
-	cont "Ancients…"
+	para "Anciennes ruines."
+	line "Antiques mystères."
 	done

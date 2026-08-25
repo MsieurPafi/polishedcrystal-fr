@@ -218,87 +218,84 @@ PowerPlantOfficer1ReturnToPostMovement:
 
 
 PowerPlantOfficer1CeruleanShadyCharacterText:
-	text "I just got word"
-	line "from Cerulean."
+	text "On raconte des"
+	line "trucs à Azuria."
 
-	para "It appears that a"
-	line "shady character"
+	para "Un drôle de type"
+	line "rôde dans les"
 
-	para "has been loitering"
-	line "around."
+	para "environs..."
+	line "C'est flippant."
 	done
 
 PowerPlantOfficer1CouldIAskForYourCooperationText:
-	text "Could I ask for"
-	line "your cooperation?"
+	text "Tu veux bien"
+	line "m'aider?"
 	done
 
 PowerPlantOfficer1HaveToBeefUpSecurityText:
-	text "We'll have to beef"
-	line "up our security"
-	cont "presence."
+	text "Il faut renforcer"
+	line "la sécurité."
 	done
 
 
 PowerPlantGymGuide1GeneratorUpAndRunningText:
-	text "The generator's up"
-	line "and running. It's"
+	text "Le générateur est"
+	line "en marche. Il crée"
 
-	para "making electricity"
-	line "to spare."
+	para "de l'électricité"
+	line "à gogo."
 	done
 
 
 PowerPlantGymGuide2GeneratorIsRunningAgainText:
-	text "The generator's"
-	line "running again!"
+	text "Le générateur est"
+	line "en marche!"
 	done
 
 
 PowerPlantOfficer2ManagerHasBeenCheerfulText:
-	text "Since the gener-"
-	line "ator's been fixed,"
+	text "Depuis la répara-"
+	line "tion du générateur"
 
-	para "the Manager has"
-	line "been cheerful."
+	para "le Patron est très"
+	line "heureux."
 	done
 
 
 PowerPlantGymGuide4WeCanGetMagnetTrainRunningText:
-	text "All right! We can"
-	line "finally get the"
-
-	para "Magnet Train"
-	line "running again."
+	text "OK! On peut à nou-"
+	line "veau faire marcher"
+	cont "le train Magnet."
 	done
 
 PowerPlantManagerWhoWouldRuinMyGeneratorText:
-	text "Manager: I, I, I'm"
-	line "ready to blast"
-	cont "someone!"
+	text "Patron: J'vais"
+	line "exploser! Faut que"
+	cont "j'me défoule!"
 
-	para "Who would dare"
-	line "ruin my generator?"
+	para "Qui a cassé mon"
+	line "générateur? Qui?"
 
-	para "I spent so much"
-	line "time on it!"
+	para "Je l'aimais tant!"
+	line "Comme mon bébé!"
 
-	para "If I catch him,"
-	line "he's going to get"
+	para "Si j'attrape cette"
+	line "crapule, il aura"
 
-	para "a taste of my Zap"
-	line "Cannon!"
+	para "droit à un coup"
+	line "d'Elecanon!"
 	done
 
 PowerPlantManagerIWontForgiveCulpritText:
-	text "Manager: I won't"
-	line "forgive him!"
+	text "Patron: Je vais"
+	line "m'le faire!"
 
-	para "The culprit can"
-	line "cry and apologize,"
+	para "Même s'il pleure,"
+	line "même s'il prie,"
 
-	para "but I'll still"
-	line "hammer him!"
+	para "je vais quand même"
+	line "me l'faire!"
 
 	para "Gahahahah!"
 	done

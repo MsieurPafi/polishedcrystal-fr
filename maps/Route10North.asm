@@ -341,7 +341,7 @@ RockTunnelSignText:
 	done
 
 PowerPlantSignText:
-	text "Kanto Power Plant"
+	text "centrale de Kanto"
 	done
 
 Route10NorthMovementData_LawrenceApproach1:

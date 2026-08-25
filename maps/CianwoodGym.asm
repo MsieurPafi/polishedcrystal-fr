@@ -250,24 +250,25 @@ ChuckIntroText1:
 	done
 
 ChuckIntroText2:
-	text "Chuck: Urggh!"
-	line "…"
+	text "Chuck: Blurrp!"
+	line "............."
 
-	para "Oooarrgh!"
+	para "Aaaarrgh!"
 	done
 
 ChuckIntroText3:
-	text "There! Scared now,"
-	line "are you?"
+	text "Alors t'as peur ou"
+	line "faut crier plus"
+	cont "fort?"
 
-	para "What?"
-	line "It has nothing to"
+	para "De quoi?"
+	line "Ça n'a rien à voir"
 
-	para "do with #mon?"
-	line "That's true!"
+	para "avec les #mon?"
+	line "Je sais!"
 
-	para "Come on. We shall"
-	line "do battle!"
+	para "Allez, en position"
+	line "pour la bataille!"
 	done
 
 ChuckLossText:
@@ -292,57 +293,66 @@ ChuckExplainBadgeText:
 	done
 
 ChuckAfterText:
-	text "WAHAHAH! I enjoyed"
-	line "battling you!"
+	text "Wahahah! J'ai aimé"
+	line "me battre contre"
+	cont "toi!"
 
-	para "But a loss is a"
-	line "loss!"
+	para "Mais une défaite"
+	line "signifie le plus"
+	cont "souvent qu'on a"
+	cont "perdu!"
 
-	para "From now on, I'm"
-	line "going to train 24"
-	cont "hours a day!"
+	para "Donc dorénavant je"
+	line "vais m'entraîner"
+	cont "24 heures sur 24!"
 	done
 
 BlackbeltYoshiSeenText:
-	text "My #mon and I"
-	line "are bound togeth-"
-	cont "er by friendship."
+	text "Mes #mon et moi"
+	line "sommes liés par"
+	cont "une grande amitié."
 
-	para "Our bond will"
-	line "never be broken!"
+	para "Notre liaison ne"
+	line "mourra jamais!"
 	done
 
 BlackbeltYoshiBeatenText:
-	text "This isn't real!"
+	text "C'est pas vrai!"
 	done
 
 BlackbeltLaoSeenText:
-	text "We martial artists"
-	line "fear nothing!"
+	text "Nous autres, les"
+	line "vaillants artistes"
+	cont "martiaux n'avons"
+	cont "peur de rien!"
+	cont "Enfin je crois..."
 	done
 
 BlackbeltLaoBeatenText:
-	text "That's shocking!"
+	text "C'est choquant!"
 	done
 
 BlackbeltNobSeenText:
-	text "Words are useless."
-	line "Let your fists do"
-	cont "the talking!"
+	text "Je ne parle pas la"
+	line "bouche pleine"
+	cont "sinon ça fait"
+	cont "heu-gneu-gneu-heu."
+	cont "Alors je me sers"
+	cont "de mes poings!"
 	done
 
 BlackbeltNobBeatenText: ; text > text
-	text "…"
+	text "..."
 	done
 
 BlackbeltLungSeenText:
-	text "My raging fists"
-	line "will shatter your"
+	text "Mes poings de ouf"
+	line "vont terrasser tes"
 	cont "#mon!"
 	done
 
 BlackbeltLungBeatenText:
-	text "I got shattered!"
+	text "Bon, je suis nul!"
 	done
 
 CianwoodGymBlackBeltText:

@@ -151,10 +151,9 @@ CinnabarIslandGymSignText:
 	done
 
 CinnabarIslandSignText:
-	text "Cinnabar Island"
+	text "Cramois'Île"
 
-	para "The Fiery Town of"
-	line "Burning Desire"
+	para "Rouge comme le feu"
 	done
 
 CinnabarIslandVolcanoWarningSignText:

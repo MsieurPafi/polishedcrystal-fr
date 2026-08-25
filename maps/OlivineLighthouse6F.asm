@@ -179,60 +179,60 @@ JasmineCianwoodPharmacyText:
 
 
 JasmineCureAmphyText:
-	text "Jasmine: …Will"
-	line "that medicine cure"
-	cont "Amphy?"
+	text "Jasmine: ...Ce mé-"
+	line "dicament va-t-il"
+	cont "soigner Phary?"
 	done
 
 PlayerHandedSecretpotionText:
-	text "<PLAYER> handed the"
-	line "SecretPotion to"
+	text "<PLAYER> donne"
+	line "la Potionsecret à"
 	cont "Jasmine."
 	done
 
 JasmineDontBeOffendedText:
-	text "Jasmine: …Um,"
-	line "please don't be"
-	cont "offended…"
+	text "Jasmine: Heu..."
+	line "Le prends pas mal"
+	cont "mais..."
 
-	para "…Amphy will not"
-	line "take anything from"
-	cont "anyone but me…"
+	para "Phary n'accepte"
+	line "que ce que je lui"
+	cont "donne..."
 	done
 
 JasmineAmphyHowAreYouFeelingText:
-	text "Jasmine: …"
+	text "Jasmine: ..."
 
-	para "Amphy, how are you"
-	line "feeling?"
+	para "Phary, comment te"
+	line "sens-tu?"
 	done
 
 JasmineThankYouText:
-	text "Jasmine: …Oh, I'm"
-	line "so relieved…"
+	text "Jasmine: Oh, je"
+	line "suis si soulagée!"
 
-	para "This is just so"
-	line "wonderful…"
+	para "C'est... C'est"
+	line "fantastique..."
 
-	para "Thank you so very,"
-	line "very much."
+	para "Merci beaucoup,"
+	line "mon poussin."
 
-	para "…I will return to"
-	line "the Gym…"
+	para "Je vais retourner"
+	line "à l'Arene..."
 	done
 
 JasmineISeeText:
-	text "Jasmine: …I see…"
+	text "Jasmine: Je vois."
 	done
 
 
 AmphyPalPalooText:
-	text "Amphy: …"
-	line "…Pa… paloo…"
+	text "Phary: ..."
+	line "...Pha! Phaaa..."
 	done
 
 
 AmphyPaluPaluluText:
-	text "Amphy: Palu!"
-	line "Palulu!"
+	text "Phary: Phapha!"
+	line "Phaaaaaa!"
 	done

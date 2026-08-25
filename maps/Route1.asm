@@ -54,14 +54,14 @@ GenericTrainerCooltrainerfQuinn:
 	done
 
 SchoolboyDannySeenText:
-	text "If trainers meet,"
-	line "the first thing to"
-	cont "do is battle."
+	text "Si 2 dresseurs se"
+	line "rencontrent, ils"
+	cont "doivent combattre."
 	done
 
 SchoolboyDannyBeatenText:
-	text "Awww… I've got a"
-	line "losing record…"
+	text "Graaaaaaah!"
+	line "Perduuuu!"
 	done
 
 SchoolboyShermanSeenText:
@@ -89,17 +89,17 @@ CooltrainermFrenchBeatenText:
 	done
 
 CooltrainerfQuinnSeenText:
-	text "You there!"
-	line "Want to battle?"
+	text "Toi là!"
+	line "Combat?"
 	done
 
 CooltrainerfQuinnBeatenText:
-	text "Down and out…"
+	text "Houlà!"
 	done
 
 Route1SignText:
-	text "Route 1"
+	text "route 1"
 
-	para "Pallet Town -"
-	line "Viridian City"
+	para "Bourg Palette -"
+	line "Jadielle"
 	done

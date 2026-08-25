@@ -172,17 +172,18 @@ Jasmine_SteelTypeIntro:
 	done
 
 Jasmine_BetterTrainer:
-	text "…You are a better"
-	line "trainer than me,"
+	text "...Bon bah t'es"
+	line "meilleur dresseur"
 
-	para "in both skill and"
-	line "kindness."
+	para "que moi, en"
+	line "compétence et en"
+	cont "gentillesse."
 
-	para "In accordance with"
-	line "League rules, I"
+	para "En accord avec les"
+	line "règles de la"
 
-	para "confer upon you"
-	line "this Badge."
+	para "Ligue, je te"
+	line "confie ce Badge."
 	done
 
 Jasmine_BadgeSpeech:
@@ -200,31 +201,33 @@ Jasmine_BadgeSpeech:
 	done
 
 Jasmine_GoodLuck:
-	text "Um… I don't know"
-	line "how to say this,"
-	cont "but good luck…"
+	text "Hum... Je ne sais"
+	line "comment dire..."
+	cont "Mais bonne chance!"
 	done
 
 OlivineGymGuyWinText:
-	text "That was awesome."
+	text "C'est très étrange"
 
-	para "The Steel-type,"
-	line "huh?"
+	para "le type Acier,"
+	line "hein?"
 
-	para "That was a close"
-	line "encounter of an"
-	cont "unknown kind!"
+	para "C'est la rencon-"
+	line "tre d'un nouveau"
+	cont "genre!"
 	done
 
 OlivineGymGuyPreText:
-	text "Jasmine, the Gym"
-	line "Leader, is at the"
-	cont "Lighthouse."
+	text "Jasmine, la"
+	line "Championne d'Arene"
+	cont "est au Phare."
 
-	para "She's been tending"
-	line "to a sick #mon."
+	para "Elle s'occupe du"
+	line "#mon malade."
 
-	para "A strong trainer"
-	line "has to be compas-"
-	cont "sionate."
+	para "Un dresseur"
+	line "puissant doit"
+	cont "avoir un coeur"
+	cont "charitable et être"
+	cont "bienveillant."
 	done

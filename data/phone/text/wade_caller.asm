@@ -68,21 +68,19 @@ WadeBattleRematchText:
 	done
 
 WadeHangUpText:
-	text "See you later!"
+	text "A plus tard!"
 	done
 
 WadeBugCatchingContestText:
-	text "The Bug-Catching"
-	line "Contest is at the"
+	text "Il y a le Concours"
+	line "de Capturé au"
+	cont "Parc aujourd'hui."
 
-	para "National Park"
-	line "today."
-
-	para "Are you going,"
+	para "Tu y vas,"
 	line "<PLAYER>?"
 
-	para "I'm trying to make"
-	line "up my mind."
+	para "Moi j'en sais"
+	line "rien..."
 	done
 
 WadeFoundItemText:
@@ -99,14 +97,14 @@ WadeFoundItemText:
 	done
 
 WadeNoBerriesText:
-	text "Huh? Berries?"
+	text "Hein? Des Baies?"
 
-	para "Sorry, I haven't"
-	line "found any yet."
+	para "J'en ai pas"
+	line "encore."
 
-	para "I'll call you if I"
-	line "find any. Will you"
-	cont "please wait?"
+	para "Je t'appelle pour"
+	line "te prévenir..."
+	cont "Attends un peu!"
 	done
 
 WadeQuickBattleText:

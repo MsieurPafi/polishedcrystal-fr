@@ -69,12 +69,12 @@ GenericTrainerYoungsterJimmy:
 	done
 
 .SeenText:
-	text "I can run like the"
-	line "wind!"
+	text "Ha ha! Je cours"
+	line "comme le vent!"
 	done
 
 .BeatenText:
-	text "Blown away!"
+	text "Haha! Génial!"
 	done
 
 GenericTrainerYoungsterWarren:
@@ -87,8 +87,8 @@ GenericTrainerYoungsterWarren:
 	done
 
 .SeenText:
-	text "Hmmm… I don't know"
-	line "what to do…"
+	text "Pfff..."
+	line "Combat?"
 	done
 
 .BeatenText:
@@ -104,13 +104,13 @@ GenericTrainerFirebreatherOtis:
 	done
 
 .SeenText:
-	text "Ah! The weather's"
-	line "as fine as ever."
+	text "Ah! Il fait beau!"
+	line "Alors combat!"
 	done
 
 .BeatenText:
-	text "It's sunny, but"
-	line "I'm all wet…"
+	text "Il fait beau mais"
+	line "j'ai froid, là..."
 	done
 
 GenericTrainerFirebreatherBurt:
@@ -125,12 +125,12 @@ GenericTrainerFirebreatherBurt:
 	done
 
 .SeenText:
-	text "Step right up and"
-	line "take a look!"
+	text "Tu cherches le"
+	line "contact?"
 	done
 
 .BeatenText:
-	text "Yow! That's hot!"
+	text "Yaaah!"
 	done
 
 GenericTrainerBlackbeltManford:

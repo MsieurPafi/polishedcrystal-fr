@@ -231,57 +231,55 @@ CatchingTutorialGoodbyeText:
 	done
 
 Route29YoungsterText:
-	text "Yo. How are your"
-	line "#mon?"
+	text "Salut. Comment"
+	line "vont tes #mon?"
 
-	para "If they're weak"
-	line "and not ready for"
+	para "s'ils sont fati-"
+	line "gués ou incapables"
 
-	para "battle, keep out"
-	line "of the grass."
+	para "de combattre,"
+	line "évite l'herbe!"
 	done
 
 Route29TeacherText:
-	text "See those ledges?"
-	line "It's scary to jump"
-	cont "off them."
+	text "Tu vois ce mur?"
+	line "Sauter de là doit"
+	cont "faire peur."
 
-	para "But you can go to"
-	line "New Bark without"
+	para "Mais tu peux aller"
+	line "à Bourg Geon sans"
 
-	para "walking through"
-	line "the grass."
+	para "marcher dans les"
+	line "hautes herbes."
 	done
 
 Route29FisherText:
-	text "I wanted to take a"
-	line "break, so I saved"
+	text "J'ai voulu faire"
+	line "une pause alors"
 
-	para "to record my"
-	line "progress."
+	para "j'ai sauvegardé ma"
+	line "partie."
 	done
 
 
 Text_WaitingForMorning:
-	text "I'm waiting for"
-	line "#mon that"
+	text "J'attends les"
+	line "#mon qui n'ap-"
 
-	para "appear only in the"
-	line "morning."
+	para "paraissent que le"
+	line "matin."
 	done
 
 MeetTuscanyText:
-	text "Tuscany: I do be-"
-	line "lieve that this is"
+	text "Marie: Il me sem-"
+	line "ble que c'est la"
 
-	para "the first time"
-	line "we've met?"
+	para "première fois que"
+	line "l'on se rencontre."
 
-	para "Please allow me to"
-	line "introduce myself."
-
-	para "I am Tuscany of"
-	line "Tuesday."
+	para "Permets-moi de me"
+	line "présenter. Je suis"
+	cont "Marie du mardi."
 	done
 
 TuscanyGivesGiftText:
@@ -294,15 +292,16 @@ TuscanyGivesGiftText:
 
 
 TuscanyTuesdayText:
-	text "Tuscany: Have you"
-	line "met Monica, my"
-	cont "older sister?"
+	text "Marie: As-tu"
+	line "rencontré Lucie,"
+	cont "ma grande soeur?"
 
-	para "Or my younger"
-	line "brother, Wesley?"
+	para "Ou mon petit frère"
+	line "Homer?"
 
-	para "I am the second of"
-	line "seven children."
+	para "Je suis la deuxiè-"
+	line "me des sept en-"
+	cont "fants."
 	done
 
 
@@ -314,10 +313,10 @@ Route29Sign1Text:
 	done
 
 Route29Sign2Text:
-	text "Route 29"
+	text "route 29"
 
-	para "Cherrygrove City -"
-	line "New Bark Town"
+	para "ville Griotte -"
+	line "Bourg Geon"
 	done
 
 Route29AdvancedTipsSignText:

@@ -481,66 +481,67 @@ PicnickerTiffany1Script:
 	jumpstd packfullf
 
 PokemaniacBenSeenText:
-	text "I love #mon!"
+	text "J'adoooore les"
+	line "#mon!"
 
-	para "That's why I"
-	line "started--and why"
+	para "C'est pour ça que"
+	line "je les collection-"
 
-	para "I'll keep on col-"
-	line "lecting #mon!"
+	para "ne tous! Vive les"
+	line "jolis #mon!"
 	done
 
 PokemaniacBenBeatenText:
-	text "How could you do"
-	line "this to me?"
+	text "Comment oses-tu?"
 	done
 
 PokemaniacBrent1SeenText:
-	text "Hey! Do you have"
-	line "any rare #mon?"
+	text "Hé! Tu as des"
+	line "#mon rares?"
 	done
 
 PokemaniacBrent1BeatenText:
-	text "Oh, my poor #-"
-	line "mon! Darlings!"
+	text "Oh! Mes jolis"
+	line "#mon!"
 	done
 
 PokemaniacBrentAfterBattleText:
-	text "I'd be happy just"
-	line "to own a single"
-	cont "rare #mon."
+	text "J'aimerais tant"
+	line "avoir de jolis"
+	cont "#mon rares."
 	done
 
 PokemaniacRonSeenText:
-	text "Would you get"
-	line "this?"
+	text "Tu le crois, toi?"
 
-	para "Some <RIVAL> guy"
-	line "made fun of my"
+	para "Un sale type,"
+	line "<RIVAL>, s'est"
+	cont "moqué de mes"
 	cont "#mon!"
 
-	para "Darn it! My #-"
-	line "mon's great!"
+	para "C'est du n'importe"
+	line "quoi! Mes #mon"
+	cont "sont trop cool!"
 	done
 
 PokemaniacRonBeatenText:
-	text "My Nidoking did"
-	line "pretty right on!"
+	text "Mon Nidoking est"
+	line "le plus fort!"
 	done
 
 FisherMarvinSeenText:
-	text "I'm in a slump."
+	text "J'suis pas fort."
 
-	para "Maybe it's the"
-	line "gear I'm using."
+	para "Mon matos n'est"
+	line "pas bon."
 
-	para "Let's battle for a"
-	line "change of pace!"
+	para "On va s'battre."
+	line "Ça va me détendre!"
 	done
 
 FisherMarvinBeatenText:
-	text "I lost, but I feel"
-	line "better anyway."
+	text "J'ai perdu, mais"
+	line "ça va mieux."
 	done
 
 CamperSpencerSeenText:
@@ -550,8 +551,8 @@ CamperSpencerSeenText:
 	done
 
 CamperSpencerBeatenText:
-	text "Losing isn't fun"
-	line "at all…"
+	text "Perdre..."
+	line "C'est mal."
 	done
 
 PicnickerTiffany1SeenText:
@@ -563,14 +564,14 @@ PicnickerTiffany1SeenText:
 	done
 
 PicnickerTiffany1BeatenText:
-	text "I played too much!"
+	text "Oups!"
 	done
 
 PicnickerTiffanyWantsPicnicText:
-	text "I'm having a pic-"
-	line "nic with #mon."
+	text "Je pique-nique"
+	line "avec mes #mon."
 
-	para "Won't you join us?"
+	para "Tu veux venir?"
 	done
 
 
@@ -608,39 +609,40 @@ SrandjrIvyandamy2BeatenText:
 	done
 
 Route43Sign1Text:
-	text "Route 43"
+	text "route 43"
 
-	para "Lake of Rage -"
-	line "Mahogany Town"
+	para "Lac Colère -"
+	line "Acajou"
 	done
 
 Route43Sign2Text:
-	text "Route 43"
+	text "route 43"
 
-	para "Lake of Rage -"
-	line "Mahogany Town"
+	para "Lac Colère -"
+	line "Acajou"
 	done
 
 Route43TrainerTipsText:
-	text "Trainer Tips"
+	text "Astuce"
 
-	para "All #mon have"
-	line "pros and cons"
+	para "Tous les #mon"
+	line "ont des atouts et"
 
-	para "depending on their"
-	line "types."
+	para "des défauts en"
+	line "fonction de leurs"
+	cont "types."
 
-	para "If their types"
-	line "differ, a higher-"
+	para "Suivant les types,"
+	line "un #mon de haut"
 
-	para "level #mon may"
-	line "lose in battle."
+	para "niveau peut perdre"
+	line "un combat."
 
-	para "Learn which types"
-	line "are strong and"
+	para "Découvrez quels"
+	line "types ont l'avan-"
 
-	para "weak against your"
-	line "#mon's type."
+	para "tage sur certains"
+	line "#mon."
 	done
 
 Route43AdvancedTipsText:

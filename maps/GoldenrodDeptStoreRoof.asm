@@ -202,25 +202,23 @@ PokeDollVendingMachine:
 	db "Cancel@"
 
 GoldenrodDeptStoreRoofPokefanFText:
-	text "Whew, I'm tired."
+	text "Fouiiii!"
 
-	para "I sometimes come"
-	line "up to the rooftop"
+	para "Je vais souvent"
+	line "sur le toit pour"
 
-	para "to take a break"
-	line "from shopping."
+	para "me reposer après"
+	line "les courses."
 	done
 
 GoldenrodDeptStoreRoofFisherText:
-	text "Pardon? Who says"
-	line "an adult can't get"
-	cont "into this?"
+	text "Pardon?"
+	line "Comment ça un"
+	cont "adulte n'a pas le"
+	cont "droit de faire ça?"
 
-	para "I'm going to be"
-	line "back every day to"
-
-	para "collect all the"
-	line "dolls!"
+	para "Je veux toutes"
+	line "les poupées!"
 	done
 
 GoldenrodDeptStoreRoofFisherDuplicateText:
@@ -245,30 +243,30 @@ GoldenrodDeptStoreRoofFisherCatchEmAllText:
 	done
 
 GoldenrodDeptStoreRoofTwinText:
-	text "They have bargain"
-	line "sales here every"
-	cont "so often."
+	text "Ils font des"
+	line "prix spéciaux ici"
+	cont "de temps en temps."
 	done
 
 GoldenrodDeptStoreRoofSuperNerdOhWowText:
-	text "Oh, wow!"
+	text "Oh!"
 	done
 
 GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
-	text "Will you quit"
-	line "bothering me?"
+	text "Tu me lâches,"
+	line "ouais?"
 	done
 
 GoldenrodDeptStoreRoofPokefanMText:
-	text "There's something"
-	line "I really want, but"
+	text "Je veux acheter un"
+	line "truc mais je n'ai"
 
-	para "I don't have the"
-	line "necessary cash…"
+	para "pas assez d'argent"
+	line "sur moi..."
 
-	para "Maybe I'll sell"
-	line "off the Berries"
-	cont "I've collected…"
+	para "Je vais peut-être"
+	line "vendre les Baies"
+	cont "que j'ai trouvées."
 	done
 
 GoldenrodDeptStoreRoofTeacherText:
@@ -280,17 +278,17 @@ GoldenrodDeptStoreRoofTeacherText:
 	done
 
 GoldenrodDeptStoreRoofBugCatcherText:
-	text "My #mon always"
-	line "get paralyzed or"
+	text "Mes #mon sont"
+	line "toujours empoison-"
 
-	para "poisoned when the"
-	line "chips are down…"
+	para "nés ou paralysés"
+	line "au mauvais moment."
 
-	para "So I came to buy"
-	line "some Full Heal."
+	para "Je vais donc ache-"
+	line "ter total soin."
 
-	para "I wonder if"
-	line "there's any left?"
+	para "Il en reste,"
+	line "tu crois?"
 	done
 
 

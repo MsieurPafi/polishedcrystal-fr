@@ -653,58 +653,61 @@ PiersRematchBeatenText:
 	done
 
 SupernerdEricSeenText:
-	text "I got booted out"
-	line "of the Game Cor-"
-	cont "ner."
+	text "Je me suis fait"
+	line "virer du Casino."
 
-	para "I was trying to"
-	line "cheat using my"
-	cont "#mon…"
+	para "J'étais juste en"
+	line "train de tricher"
+	cont "avec mon #mon!"
 	done
 
 SupernerdEricBeatenText:
-	text "…Grumble…"
+	text "...Grrr..."
 	done
 
 SupernerdTeruSeenText:
-	text "Do you consider"
-	line "type alignments in"
-	cont "battle?"
+	text "Fais-tu attention"
+	line "aux types de #-"
+	cont "mon pendant les"
+	cont "combats?"
 
-	para "If you know your"
-	line "type advantages,"
+	para "Apprends les fai-"
+	line "blesses et les a-"
 
-	para "you'll do better"
-	line "in battle."
+	para "vantages des types"
+	line "pour devenir"
+	cont "plus terrible!"
 	done
 
 SupernerdTeruBeatenText:
-	text "Ow, ow, ow!"
+	text "Oh, oh, oh!"
 	done
 
 PokemaniacIssacSeenText:
-	text "My #mon just"
-	line "got a haircut!"
+	text "Mes #mon se"
+	line "sont fait"
+	cont "toiletter!"
 
-	para "I'll show you how"
-	line "strong it is!"
+	para "Regarde comme ils"
+	line "sont beaux et"
+	cont "forts!"
 	done
 
 PokemaniacIssacBeatenText:
-	text "Aiyeeee!"
+	text "Yaaaaaaaah!"
 	done
 
 PokemaniacDonaldSeenText:
-	text "I think you have"
-	line "some rare #mon"
-	cont "with you."
+	text "Tu as des #mon"
+	line "rares avec toi,"
+	cont "je me trompe?"
 
-	para "Let me see them!"
+	para "J'veux les voir!"
 	done
 
 PokemaniacDonaldBeatenText:
-	text "Gaah! I lost!"
-	line "That makes me mad!"
+	text "Graah! Perdu!"
+	line "Ça craint!"
 	done
 
 CosplayerClaraSeenText:
@@ -720,16 +723,16 @@ CosplayerClaraBeatenText:
 	done
 
 GoldenrodUndergroundTheDoorsLockedText:
-	text "The door's locked…"
+	text "C'est fermé..."
 	done
 
 GoldenrodUndergroundTheDoorIsOpenText:
-	text "The door is open."
+	text "C'est ouvert."
 	done
 
 GoldenrodUndergroundBasementKeyOpenedDoorText:
-	text "The Basement Key"
-	line "opened the door."
+	text "La clé sous-sol a"
+	line "ouvert la porte."
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
@@ -751,17 +754,17 @@ GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherAskWhichMonText:
-	text "Which #mon"
-	line "should I work on?"
+	text "Quel #mon veux-"
+	line "tu me confier?"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherWatchItBecomeBeautifulText:
-	text "OK! Watch it"
-	line "become beautiful!"
+	text "Je vais lui refai-"
+	line "re une beauté!"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherAllDoneText:
-	text "There! All done!"
+	text "Ça y est! Fini!"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
@@ -781,18 +784,18 @@ GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherAskWhichMonText:
-	text "OK, which #mon"
-	line "should I do?"
+	text "De quel #mon"
+	line "je m'occupe?"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherIllMakeItLookCoolText:
-	text "OK! I'll make it"
-	line "look cool!"
+	text "OK! Y va être"
+	line "trop cool!"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherAllDoneText:
-	text "There we go!"
-	line "All done!"
+	text "Allez hop!"
+	line "Terminé!"
 	done
 
 HaircutBrosText_SlightlyHappier:
@@ -814,13 +817,13 @@ HaircutBrosText_MuchHappier:
 	done
 
 GoldenrodUndergroundWeAreNotOpenTodayText:
-	text "We're not open"
-	line "today."
+	text "C'est fermé"
+	line "aujourd'hui."
 	done
 
 GoldenrodUndergroundNoEntryText: ; text > text
-	text "NO ENTRY BEYOND"
-	line "THIS POINT"
+	text "Entree"
+	line "Interdite"
 	done
 
 PiersMicrophoneText:

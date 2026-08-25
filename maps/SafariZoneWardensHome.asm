@@ -41,38 +41,39 @@ WardensGranddaughter:
 	done
 
 WardensGranddaughterText1:
-	text "My grandpa is the"
-	line "Safari Zone War-"
-	cont "den."
+	text "Mon pépé est le"
+	line "gardien du Parc"
+	cont "Safari."
 
-	para "At least he was…"
+	para "Enfin..."
+	line "Il l'était."
 
-	para "He decided to go"
-	line "on a vacation and"
+	para "Il a décidé de"
+	line "prendre des vacan-"
 
-	para "took off overseas"
-	line "all by himself."
+	para "ces et de voyager"
+	line "tout seul."
 
-	para "He quit running"
-	line "Safari Zone just"
-	cont "like that."
+	para "Il a démissionné"
+	line "juste comme ça."
 	done
 
 
 WardenPhotoText:
-	text "It's a photo of a"
-	line "grinning old man"
+	text "C'est la photo"
+	line "d'un vieil homme"
 
-	para "who's surrounded"
-	line "by #mon."
+	para "entouré de"
+	line "#mon."
 	done
 
 SafariZonePhotoText:
-	text "It's a photo of a"
-	line "huge grassy plain"
+	text "C'est la photo"
+	line "d'une grande plai-"
 
-	para "with rare #mon"
-	line "frolicking in it."
+	para "ne verdoyante avec"
+	line "des #mon rares"
+	cont "tout partout."
 	done
 
 WardensHouseCuriosText:

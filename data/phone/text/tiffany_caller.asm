@@ -82,7 +82,7 @@ TiffanyItsAwfulText:
 	done
 
 TiffanyHangUpText:
-	text "Bye-bye!"
+	text "Salut!"
 	done
 
 TiffanyFoundItemText:
@@ -102,8 +102,8 @@ TiffanyFoundItemText:
 	done
 
 TiffanyNoItemText:
-	text "I love dressing up"
-	line "my Clefairy!"
+	text "J'adore habiller"
+	line "mon Melofee!"
 	done
 
 TiffanyAsleepText:

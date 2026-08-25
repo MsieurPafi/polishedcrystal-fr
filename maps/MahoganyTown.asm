@@ -129,12 +129,12 @@ endc
 	done
 
 RageCandyBarMerchantRefusedText:
-	text "Oh, fine then…"
+	text "Oh, très bien..."
 	done
 
 RageCandyBarMerchantNoRoomText:
-	text "You don't have"
-	line "room for this."
+	text "Et non, y'a plus"
+	line "de place!"
 	done
 
 RageCandyBarMerchantSoldOutText:
@@ -152,42 +152,40 @@ endc
 
 
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "Magikarp have"
-	line "returned to Lake"
-	cont "of Rage."
+	text "Des Magicarpe sont"
+	line "revenus au Lac"
+	cont "colère."
 
-	para "That should be"
-	line "good news for the"
-	cont "anglers there."
+	para "Ça devrait faire"
+	line "plaisir aux"
+	cont "pêcheurs du coin."
 	done
 
 MahoganyTownFisherText:
-	text "Since you came"
-	line "this far, take the"
+	text "Si tu as fait tout"
+	line "ce chemin, prends"
 
-	para "time to do some"
-	line "sightseeing."
+	para "donc le temps de"
+	line "faire du tourisme."
 
-	para "You should head"
-	line "north and check"
-
-	para "out Lake of Rage"
-	line "right now."
+	para "Tu devrais aller"
+	line "au Nord et voir"
+	cont "le Lac Colère."
 	done
 
 MahoganyTownLassText:
-	text "Visit Grandma's"
-	line "shop. She sells"
+	text "Va voir la"
+	line "boutique de mémé."
 
-	para "stuff that nobody"
-	line "else has."
+	para "Elle vend des"
+	line "trucs incroyables."
 	done
 
 MahoganyTownSignText:
-	text "Mahogany Town"
+	text "Acajou"
 
-	para "Welcome to the"
-	line "Home of the Ninja"
+	para "Bienvenue chez"
+	line "le grand ninja"
 	done
 
 MahoganyTownSouvenirShopSignText1:
@@ -202,10 +200,9 @@ MahoganyTownSouvenirShopSignText1:
 	done
 
 MahoganyGymSignText:
-	text "Mahogany Town"
-	line "#mon Gym"
-	cont "Leader: Pryce"
+	text "champion d'Arene"
+	line "d'Acajou: Fredo"
 
-	para "The Teacher of"
-	line "Winter's Harshness"
+	para "Le prof. qui"
+	line "venait du froid"
 	done

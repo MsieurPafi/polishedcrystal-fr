@@ -78,9 +78,10 @@ LakeOfRageFloodScript:
 	endcallback
 
 LakeOfRageSignText:
-	text "Lake of Rage,"
-	line "also known as"
-	cont "Gyarados Lake."
+	text "Lac Colère,"
+	line "aussi connu sous"
+	cont "le nom de Lac"
+	cont "Leviator."
 	done
 
 LakeOfRageAdvancedTipsSignText:
@@ -111,8 +112,8 @@ LakeOfRageFishingGuruSign:
 	endtext
 
 .Text:
-	text "Fishing Guru's"
-	line "House"
+	text "maison du maître"
+	line "pêcheur"
 	done
 
 LakeOfRageLanceScript:
@@ -155,66 +156,62 @@ LakeOfRageLanceScript:
 	sjump .Agreed
 
 .OverheardText:
-	text "This lake is full"
-	line "of Gyarados but"
-	cont "nothing else…"
+	text "Ce Lac est rempli"
+	line "de Leviator et"
+	cont "rien d'autre..."
 
-	para "So the Magikarp"
-	line "are being forced"
-	cont "to evolve…"
+	para "Les Magicarpe ont"
+	line "été forcés"
+	cont "d'évoluer..."
 	done
 
 .IntroText:
-	text "Did you come here"
-	line "because of the"
-	cont "rumors?"
+	text "Es-tu ici à cause"
+	line "de la rumeur?"
 
-	para "You're <PLAYER>?"
-	line "I'm Lance, a"
-	cont "trainer like you."
+	para "Tu es <PLAYER>?"
+	line "Moi c'est Peter,"
+	cont "un dresseur comme"
+	cont "toi."
 
-	para "I heard some ru-"
-	line "mors, so I came to"
-	cont "investigate…"
+	para "J'ai entendu"
+	line "certaines informa-"
+	cont "tions et je suis"
+	cont "venu faire mon"
+	cont "enquête..."
 
-	para "I saw the way you"
-	line "battled earlier,"
-	cont "<PLAYER>."
+	para "Je t'ai vu com-"
+	line "battre, <PLAYER>."
 
-	para "I can tell that"
-	line "you're a trainer"
+	para "On peut dire que"
+	line "tu as du talent."
 
-	para "with considerable"
-	line "skill."
-
-	para "If you don't mind,"
-	line "could you help me"
-	cont "investigate?"
+	para "Ça te dirait de"
+	line "me donner un coup"
+	cont "de main?"
 	done
 
 .YesText:
-	text "Lance: Excellent!"
+	text "Peter: Excellent!"
 
-	para "It seems that the"
-	line "lake's Magikarp"
+	para "On dirait que"
+	line "quelque chose"
+	cont "force les"
+	cont "Magicarpe du Lac"
+	cont "à évoluer."
 
-	para "are being forced"
-	line "to evolve."
+	para "Un mystérieux"
+	line "signal radio vient"
+	cont "d'Acajou."
 
-	para "A mysterious radio"
-	line "broadcast coming"
-
-	para "from Mahogany is"
-	line "the cause."
-
-	para "I'll be waiting"
-	line "for you, <PLAYER>."
+	para "Je t'y attendrai,"
+	line "<PLAYER>."
 	done
 
 
 .QuestionText:
-	text "Lance: Hm? Are you"
-	line "going to help me?"
+	text "Peter: Hum? Vas-tu"
+	line "m'aider?"
 	done
 
 LakeOfRageEngineerText:
@@ -256,7 +253,7 @@ LakeOfRageRedGyaradosScript:
 	end
 
 .GyaradosText:
-	text "Gyarados: Gyashaa!"
+	text "Leviator: Tttooor!"
 	done
 
 .RedScaleText:
@@ -298,31 +295,32 @@ WesleyScript:
 	done
 
 .MeetText:
-	text "Wesley: Well, how"
-	line "do you do?"
+	text "Homer: Alors,"
+	line "comment va?"
 
-	para "Seeing as how it's"
-	line "Wednesday today,"
+	para "Moi c'est Homer"
+	line "du mercredi. Et"
 
-	para "I'm Wesley of"
-	line "Wednesday."
+	para "aujourd'hui..."
+	line "C'est mercredi!"
 	done
 
 .GivesGiftText:
-	text "Pleased to meet"
-	line "you. Please take a"
-	cont "souvenir."
+	text "Enchanté de faire"
+	line "ta connaissance."
+	cont "V'là un souvenir."
 	done
 
 .WednesdayText:
-	text "Wesley: Since you"
-	line "found me, you must"
+	text "Homer: Avant de"
+	line "m'avoir trouvé,"
 
-	para "have met my broth-"
-	line "ers and sisters."
+	para "t'as dû rencontrer"
+	line "mes frères et"
+	cont "soeurs."
 
-	para "Or did you just"
-	line "get lucky?"
+	para "Ou alors t'es en"
+	line "veine?"
 	done
 
 GenericTrainerCooltrainermAaron:
@@ -336,19 +334,18 @@ GenericTrainerCooltrainermAaron:
 	done
 
 .SeenText:
-	text "If a trainer spots"
-	line "another trainer,"
+	text "Si un dresseur"
+	line "éclabousse un"
 
-	para "he has to make a"
-	line "challenge."
+	para "autre dresseur, ça"
+	line "fini en duel."
 
-	para "That is our"
-	line "destiny."
+	para "C'est la loi."
 	done
 
 .BeatenText:
-	text "Whew…"
-	line "Good battle."
+	text "Whaa..."
+	line "Bon combat!"
 	done
 
 GenericTrainerCooltrainerfLois:
@@ -360,20 +357,20 @@ GenericTrainerCooltrainerfLois:
 	done
 
 .SeenText:
-	text "What happened to"
-	line "the red Gyarados?"
+	text "Qu'est-il arrivé"
+	line "au Leviator rouge?"
 
-	para "It's gone?"
+	para "Il est parti?"
 
-	para "Oh, darn. I came"
-	line "here for nothing?"
+	para "Oh, zut! Je suis"
+	line "venue pour rien?"
 
-	para "I know--let's"
-	line "battle!"
+	para "Bon..."
+	line "combat!"
 	done
 
 .BeatenText:
-	text "Good going!"
+	text "Pas mal!"
 	done
 
 GenericTrainerFisherAndre:
@@ -385,17 +382,18 @@ GenericTrainerFisherAndre:
 	done
 
 FisherAndreSeenText:
-	text "Let me battle with"
-	line "the #mon I just"
-	cont "caught!"
+	text "Laisse-moi donc"
+	line "combattre avec le"
+	cont "#mon que je"
+	cont "viens d'attraper!"
 	done
 
 FisherAndreBeatenText:
-	text "I might be an ex-"
-	line "pert angler, but"
+	text "J'suis peut-être"
+	line "un bon pêcheur"
 
-	para "I stink as a #-"
-	line "mon trainer…"
+	para "mais j'suis un"
+	line "mauvais dresseur."
 	done
 
 GenericTrainerFisherRaymond:
@@ -406,16 +404,16 @@ GenericTrainerFisherRaymond:
 	done
 
 FisherRaymondSeenText:
-	text "No matter what I"
-	line "do, all I catch"
+	text "Qu'importe ce que"
+	line "je fais, j'attrape"
 
-	para "are the same #-"
-	line "mon…"
+	para "toujours le même"
+	line "#mon..."
 	done
 
 FisherRaymondBeatenText:
-	text "My line's all"
-	line "tangled up…"
+	text "Ma ligne est toute"
+	line "emmêlée..."
 	done
 
 LakeOfRageGrampsScript:
@@ -430,30 +428,29 @@ LakeOfRageGrampsScript:
 	done
 
 .Text2:
-	text "Hahah! The Magi-"
-	line "karp are biting!"
+	text "Hahah! Les"
+	line "Magicarpe mordent!"
 	done
 
 LakeOfRageSuperNerdText:
-	text "I heard this lake"
-	line "was made by ram-"
-	cont "paging Gyarados."
+	text "On dit que ce Lac"
+	line "a été fait par"
+	cont "le déchaînement de"
+	cont "Leviator."
 
-	para "I wonder if there"
-	line "is any connection"
+	para "Je me demande"
+	line "s'il y a un lien"
 
-	para "to their mass out-"
-	line "break now?"
+	para "avec leur colère?"
 	done
 
 LakeOfRageCooltrainerFText:
-	text "Did my eyes de-"
-	line "ceive me? I saw a"
+	text "J'ai la berlue ou"
+	line "quoi? J'ai vu un"
+	cont "Leviator rouge"
+	cont "dans le Lac..."
 
-	para "red Gyarados in"
-	line "the lake…"
-
-	para "But I thought"
-	line "Gyarados were"
-	cont "usually blue?"
+	para "Je croyais qu'il"
+	line "n'y avait que des"
+	cont "Leviator bleus?"
 	done

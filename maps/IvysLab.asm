@@ -217,7 +217,7 @@ IvysLabNidorinoScript:
 	end
 
 IvysLabNidorinoText:
-	text "Nidorino: Gyun!"
+	text "Nidorino: Nido!"
 	done
 
 IvysLabWindowText:
@@ -245,8 +245,8 @@ IvysLabHealingMachine:
 	endtext
 
 .Text:
-	text "Would you like to"
-	line "heal your #mon?"
+	text "Voulez-vous soi-"
+	line "gner vos #mon?"
 	done
 
 PokemonJournalProfIvyScript:

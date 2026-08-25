@@ -126,31 +126,27 @@ CeladonGymStatue:
 	jumpstd gymstatue2
 
 ErikaBeforeBattleText:
-	text "Erika: Hello…"
-	line "Lovely weather,"
+	text "Erika: Bonjour..."
+	line "Belle journée,"
+	cont "non?"
 
-	para "isn't it?"
-	line "It's so pleasant…"
+	para "C'est beau la vie."
 
-	para "…I'm afraid I may"
-	line "doze off…"
+	para "Moi je suis Erika,"
+	line "Championne de"
+	cont "l'Arene de Celado-"
+	cont "Pole."
 
-	para "My name is Erika."
-	line "I am the Leader of"
-	cont "Celadon Gym."
+	para "...Oh? Tu viens"
+	line "de Johto?"
+	cont "C'est bien..."
 
-	para "…Oh? All the way"
-	line "from Johto, you"
-	cont "say? How nice…"
+	para "...Quoi? Tu veux"
+	line "te battre? Mais il"
+	cont "faut le dire!!!"
 
-	para "Oh. I'm sorry, I"
-	line "didn't realize"
-
-	para "that you wished to"
-	line "challenge me."
-
-	para "Very well, but I"
-	line "shall not lose."
+	para "J'vais te casser"
+	line "ta face!!!"
 	done
 
 ErikaBeatenText:
@@ -175,45 +171,44 @@ ErikaExplainTMText:
 
 
 ErikaAfterBattleText:
-	text "Erika: Losing"
-	line "leaves a bitter"
-	cont "aftertaste…"
+	text "Erika: Perdre"
+	line "fait toujours un"
+	cont "peu mal mais..."
 
-	para "But knowing that"
-	line "there are strong"
-
-	para "trainers spurs me"
-	line "to do better…"
+	para "Combattre un bon"
+	line "adversaire est"
+	cont "stimulant..."
 	done
 
 LassMichelleSeenText:
-	text "Do you think a"
-	line "girls-only Gym"
-	cont "is rare?"
+	text "Ça t'étonne une"
+	line "Arene remplie"
+	cont "de filles?"
 	done
 
 LassMichelleBeatenText:
-	text "Oh, bleah!"
+	text "Ouiiiiin!"
 	done
 
 PicnickerTanyaSeenText:
-	text "Oh, a battle?"
-	line "That's kind of"
-	cont "scary, but OK!"
+	text "Un combat?"
+	line "Heu...non."
+	cont "..."
+	cont "Allez, d'accord!"
 	done
 
 PicnickerTanyaBeatenText:
-	text "Oh, that's it?"
+	text "C'est fini?"
 	done
 
 BeautyJuliaSeenText:
-	text "Were you looking"
-	line "at these flowers"
-	cont "or at me?"
+	text "Tu regardes les"
+	line "fleurs ou c'est"
+	cont "moi que tu mates?"
 	done
 
 BeautyJuliaBeatenText:
-	text "How annoying!"
+	text "C'est pas bien!"
 	done
 
 Aroma_ladyDahliaSeenText:
@@ -228,20 +223,20 @@ Aroma_ladyDahliaBeatenText:
 	done
 
 TwinsJoandzoe1SeenText:
-	text "We'll show you"
-	line "#mon moves that"
-	cont "Erika taught us!"
+	text "Erika nous a ap-"
+	line "pris plein de"
+	cont "trucs!"
 	done
 
 TwinsJoandzoe1BeatenText:
-	text "Oh… We lost…"
+	text "Oh... On a perdu."
 	done
 
 TwinsJoandzoe2SeenText:
-	text "We're going to"
-	line "protect Erika!"
+	text "On doit protéger"
+	line "la grande Erika!"
 	done
 
 TwinsJoandzoe2BeatenText:
-	text "We couldn't win…"
+	text "Nooooonn...."
 	done

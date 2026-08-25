@@ -33,15 +33,15 @@ GenericTrainerBug_maniacEd:
 	done
 
 Bug_maniacEdSeenText:
-	text "If you walk in"
-	line "tall grass wearing"
+	text "Ça pique pas de se"
+	line "balader en short"
 
-	para "shorts, do you get"
-	line "nicks and cuts?"
+	para "dans les hautes"
+	line "herbes?"
 	done
 
 Bug_maniacEdBeatenText:
-	text "Ouch, ouch, ouch!"
+	text "Ouilleuu!"
 	done
 
 Route2NorthCooltrainermText:
@@ -56,5 +56,5 @@ Route2NorthCooltrainermText:
 	done
 
 Route2DiglettsCaveSignText:
-	text "Diglett's Cave"
+	text "Cave Taupiqueur"
 	done

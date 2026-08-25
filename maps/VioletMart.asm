@@ -17,17 +17,20 @@ VioletMart_MapScriptHeader:
 	object_event  5,  2, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, VioletMartCooltrainerMText, -1
 
 VioletMartGrannyText:
-	text "When you first"
-	line "catch a #mon,"
-	cont "it may be weak."
+	text "Le premier #mon"
+	line "que tu attrapes"
+	cont "peut être tout"
+	cont "rikiki."
 
-	para "But it will even-"
-	line "tually grow to be"
-	cont "strong."
+	para "Mais il peut sans"
+	line "aucun doute"
+	cont "devenir costaud."
 
-	para "It's important to"
-	line "treat #mon with"
-	cont "love."
+	para "C'est la raison"
+	line "pour laquelle il"
+	cont "est primordial de"
+	cont "bercer d'amour ses"
+	cont "#mon."
 	done
 
 VioletMartCooltrainerMText:

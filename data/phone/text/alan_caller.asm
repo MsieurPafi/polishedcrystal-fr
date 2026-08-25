@@ -49,7 +49,7 @@ AlanBattleRematchText:
 	done
 
 AlanHangUpText:
-	text "See you later!"
+	text "A plus tard!"
 	done
 
 AlanFoundItemText:
@@ -65,11 +65,11 @@ AlanFoundItemText:
 	done
 
 AlanHaventPickedUpAnythingText:
-	text "I haven't picked"
-	line "up anything yet."
+	text "Je n'ai encore"
+	line "rien trouvé."
 
-	para "I'll call you if I"
-	line "find something."
+	para "Je t'appelle si"
+	line "j'ai du nouveau."
 	done
 
 AlanReminderText:

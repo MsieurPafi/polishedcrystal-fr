@@ -215,17 +215,19 @@ Movement_NinjaSpin:
 	step_end
 
 JanineText_DisappointYou:
-	text "Fufufufu…"
+	text "Gnah ha ha ha ha!"
 
-	para "I'm sorry to dis-"
-	line "appoint you…"
+	para "Désolée de te dé-"
+	line "cevoir mais..."
 
-	para "I'm only joking!"
+	para "En fait..."
 
-	para "I'm the real deal!"
+	para "C'est moi la"
+	line "vraie!"
 
-	para "Janine of Fuchsia"
-	line "Gym, that's me!"
+	para "Je suis Jeannine"
+	line "de l'Arene de"
+	cont "Parmanie!"
 	done
 
 JanineText_ToughOne:
@@ -248,92 +250,91 @@ JanineText_ToxicSpeech:
 	done
 
 JanineText_ApplyMyself:
-	text "Janine: I'm going"
-	line "to really apply"
+	text "Jeannine: Je vais"
+	line "encore m'entraîner"
+	cont "et m'améliorer."
 
-	para "myself and improve"
-	line "my skills."
-
-	para "I want to become"
-	line "better than both"
-	cont "Father and you!"
+	para "Je serai plus for-"
+	line "te que toi et mon"
+	cont "petit papa!"
 	done
 
 LassAmandaBeforeText:
-	text "Fufufu!"
+	text "Gnah ha ha ha!"
 
-	para "I'm Janine, the"
-	line "Gym Leader!"
+	para "Je suis Jeannine"
+	line "de l'Arene de"
+	cont "Parmanie!"
 
-	para "No, I'm not!"
-	line "Gotcha, sucker!"
+	para "..."
+	line "Même pas vrai!"
 	done
 
 LassAmandaBeatenText:
-	text "I had you fooled…"
+	text "Tu m'as crue,"
+	line "hein?"
 	done
 
 LassAmandaAfterText:
-	text "How will you dis-"
-	line "tinguish our real"
-	cont "Leader?"
+	text "Comment vas-tu"
+	line "reconnaître la"
+	cont "vraie Championne?"
 	done
 
 LassLindaBeforeText:
-	text "Fooled you!"
-	line "Hahaha!"
+	text "Tu m'as crue!"
+	line "Hahaha! Débile!"
 	done
 
 LassLindaBeatenText:
-	text "Ooh… I lost…"
-	line "You're not weak…"
+	text "Pfff..."
+	line "Même pas mal."
 	done
 
 LassLindaAfterText:
-	text "Well? Wasn't my"
-	line "disguise perfect?"
+	text "Il est pas bien"
+	line "mon déguisement?"
 	done
 
 PicnickerCindyBeforeText:
-	text "I'm Janine!"
+	text "Je suis Jeannine!"
 
-	para "How did you know I"
-	line "was real?"
+	para "..."
+	line "Tu me crois, non?"
 
-	para "Let's battle!"
+	para "combat!"
 	done
 
 PicnickerCindyBeatenText:
-	text "Darn it!"
-	line "I wanted to win!"
+	text "Zut!"
+	line "Presque!"
 	done
 
 PicnickerCindyAfterText:
-	text "You must be"
-	line "getting tired."
+	text "Alors?"
+	line "Tu fatigues?"
 	done
 
 CamperBarryBeforeText:
 	text "Wahahaha!"
 
-	para "You betcha!"
-	line "I'm Janine!"
+	para "J'suis Jeannine!"
+	line "J'te jure!"
 	done
 
 CamperBarryBeatenText:
-	text "My disguise was"
-	line "right on! Dang!"
+	text "C'est trop bien de"
+	line "se déguiser!"
 	done
 
 CamperBarryAfterText:
-	text "Hey, you. Was my"
-	line "disguise cute or"
-	cont "what, huh?"
+	text "Alors je suis mimi"
+	line "en fille?"
 	done
 
 
 FuchsiaGymGuyWinText:
-	text "That was a great"
-	line "battle, trainer"
-	cont "from Johto!"
+	text "C'était un beau"
+	line "combat, dresseur"
+	cont "de Johto!"
 	done

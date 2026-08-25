@@ -118,28 +118,29 @@ VioletPokeCenter1FElmsAideScript:
 	done
 
 .QuestionText:
-	text "<PLAYER>, will you"
-	line "take the Egg?"
+	text "<PLAYER>, veux-tu"
+	line "prendre l'Oeuf?"
 	done
 
 .GoodbyeText:
-	text "We discovered that"
-	line "a #mon will not"
+	text "Nous avons décou-"
+	line "vert qu'un #mon"
 
-	para "hatch until it"
-	line "grows in the Egg."
+	para "ne peut naître qu'"
+	line "en grandissant"
+	cont "dans l'Oeuf."
 
-	para "It also has to be"
-	line "with other active"
-	cont "#mon to hatch."
+	para "Il doit aussi être"
+	line "en compagnie de"
+	cont "#mon actifs."
 
-	para "<PLAYER>, you're"
-	line "the only person"
-	cont "we can rely on."
+	para "<PLAYER>, nous ne"
+	line "pouvons que comp-"
+	cont "ter sur toi."
 
-	para "Please call Prof."
-	line "Elm when that Egg"
-	cont "hatches!"
+	para "Appelle le Prof."
+	line "Orme après son"
+	cont "éclosion!"
 	done
 
 .WalkAroundMovement:
@@ -164,22 +165,24 @@ VioletPokeCenter1FElmsAideScript:
 	step_end
 
 VioletPokeCenter1FGameboyKidText:
-	text "A guy named Bill"
-	line "made the #mon"
-	cont "PC storage system."
+	text "Un type du nom de"
+	line "Leo a créé le"
+	cont "système de stocka-"
+	cont "ge de #mon."
 	done
 
 VioletPokeCenter1FGentlemanText:
-	text "It was around"
-	line "three years ago."
+	text "Ça fait plus ou"
+	line "moins trois ans."
 
-	para "Team Rocket was up"
-	line "to no good with"
-	cont "#mon."
+	para "La Team Rocket"
+	line "était la pire en-"
+	cont "nemie des #mon."
 
-	para "But justice pre-"
-	line "vailed--a young"
-	cont "kid broke 'em up."
+	para "Mais y'a une"
+	line "justice! Un jeune"
+	cont "gamin les a depuis"
+	cont "détrônés."
 	done
 
 VioletPokeCenter1FSageText:
@@ -197,15 +200,17 @@ VioletPokeCenter1FSageText:
 	done
 
 VioletPokeCenter1FYoungsterText:
-	text "#mon are smart."
-	line "They won't obey a"
+	text "Les #mon"
+	line "sont intelligents."
 
-	para "trainer they don't"
-	line "respect."
+	para "Ils n'obéissent"
+	line "pas aux dresseurs"
+	cont "qui ne les res-"
+	cont "pectent pas."
 
-	para "Without the right"
-	line "Gym Badges, they"
+	para "Sans les Badges"
+	line "appropriés, ils"
 
-	para "will just do as"
-	line "they please."
+	para "n'en feront qu'à"
+	line "leur tête."
 	done

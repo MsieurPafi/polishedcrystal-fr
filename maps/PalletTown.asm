@@ -28,11 +28,11 @@ PalletTownFlyPoint:
 	endcallback
 
 PalletTownTeacherText:
-	text "I'm raising #-"
-	line "mon too."
+	text "J'entraîne des"
+	line "#mon. Ils sont"
 
-	para "They serve as my"
-	line "private guards."
+	para "mes gardes du"
+	line "corps."
 	done
 
 PalletTownFisherText:
@@ -59,21 +59,21 @@ PalletTownYoungsterText:
 	done
 
 PalletTownSignText:
-	text "Pallet Town"
+	text "Bourg Palette"
 
-	para "A Tranquil Setting"
-	line "of Peace & Purity"
+	para "Calme, paix et"
+	line "pureté"
 	done
 
 RedsHouseSignText:
-	text "Red's House"
+	text "chez Red"
 	done
 
 OaksLabSignText:
-	text "Oak #mon"
-	line "Research Lab"
+	text "Labo #mon"
+	line "de Chen"
 	done
 
 BluesHouseSignText:
-	text "Blue's House"
+	text "chez Blue"
 	done

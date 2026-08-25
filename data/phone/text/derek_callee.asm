@@ -1,22 +1,22 @@
 DerekAnswerPhoneText:
-	text "Hi, <PLAYER>?"
+	text "<PLAYER>?"
 
-	para "Good morning pika."
-	line "What's up pika?"
+	para "Bonjour pika."
+	line "Ça va pika?"
 	done
 
 DerekAnswerPhoneDayText:
-	text "Hi, <PLAYER>?"
+	text "<PLAYER>?"
 
-	para "Good day pika,"
-	line "what's up pika?"
+	para "Bonjour pika."
+	line "Ça va pika?"
 	done
 
 DerekAnswerPhoneNiteText:
-	text "Hi, <PLAYER>?"
+	text "<PLAYER>?"
 
-	para "Good evening pika,"
-	line "what's up pika?"
+	para "Bonsoir pika."
+	line "Ça va pika?"
 	done
 
 DerekGreetText:

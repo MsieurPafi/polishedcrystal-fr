@@ -190,17 +190,20 @@ PryceText_Intro:
 	done
 
 PryceText_Impressed:
-	text "Ah, I am impressed"
-	line "by your prowess."
+	text "Ah, je suis très"
+	line "impressionné par"
+	cont "ta prouesse."
 
-	para "With your strong"
-	line "will, I know you"
+	para "Avec un tempé-"
+	line "rament comme le"
 
-	para "will overcome all"
-	line "life's obstacles."
+	para "tien, tu surmon-"
+	line "teras tous les"
+	cont "obstacles de la"
+	cont "vie."
 
-	para "You are worthy of"
-	line "this Badge!"
+	para "Tu mérites ce"
+	line "Badge!"
 	done
 
 PryceText_GlacierBadgeSpeech:
@@ -215,90 +218,94 @@ PryceText_GlacierBadgeSpeech:
 	done
 
 PryceText_CherishYourPokemon:
-	text "When the ice and"
-	line "snow melt, spring"
-	cont "arrives."
+	text "Lorsque la glace"
+	line "et la neige"
+	cont "fondent, le"
+	cont "printemps arrive."
 
-	para "You and your #-"
-	line "mon will be to-"
+	para "Toi et tes #-"
+	line "mon serez ensemble"
+	cont "pendant des"
+	cont "années."
 
-	para "gether for many"
-	line "years to come."
-
-	para "Cherish your time"
-	line "together!"
+	para "Profitez bien de"
+	line "ces instants!"
 	done
 
 BoarderRonaldSeenText:
-	text "I'll freeze your"
-	line "#mon, so you"
-	cont "can't do a thing!"
+	text "Je vais geler tes"
+	line "#mon et tu ne"
+	cont "pourras plus rien"
+	cont "faire!"
 	done
 
 BoarderRonaldBeatenText:
-	text "Darn. I couldn't"
-	line "do a thing."
+	text "Saperlipopette!"
+	line "Je n'ai rien pu"
+	cont "faire."
 	done
 
 BoarderBradSeenText:
-	text "This Gym has a"
-	line "slippery floor."
+	text "Cette Arene a le"
+	line "sol glissant."
 
-	para "It's fun, isn't"
-	line "it?"
+	para "C'est délire, pas"
+	line "vrai?"
 
-	para "But hey--we're"
-	line "not playing games"
-	cont "here!"
+	para "Mais..."
+	line "Fini de jouer!"
 	done
 
 BoarderBradBeatenText:
-	text "Do you see how"
-	line "serious we are?"
+	text "Tu vois à quel"
+	line "point on est"
+	cont "sérieux ici?"
 	done
 
 BoarderDouglasSeenText:
-	text "I know Pryce's"
-	line "secret."
+	text "Je connais le"
+	line "secret de Fredo."
 	done
 
 BoarderDouglasBeatenText:
-	text "OK. I'll tell you"
-	line "Pryce's secret."
+	text "OK. Je vais te"
+	line "le dire."
 	done
 
 SkierRoxanneSeenText:
-	text "To get to Pryce,"
-	line "our Gym Leader,"
+	text "Pour vaincre"
+	line "Fredo, notre"
 
-	para "you need to think"
-	line "before you skate."
+	para "champion d'Arene,"
+	line "tu dois penser"
+	cont "avant de patiner."
 	done
 
 SkierRoxanneBeatenText:
-	text "I wouldn't lose to"
-	line "you in skiing!"
+	text "Enfin, moi j'te"
+	line "bats en ski!"
 	done
 
 SkierClarissaSeenText:
-	text "Check out my"
-	line "parallel turn!"
+	text "Sors de mon"
+	line "slalom!"
 	done
 
 SkierClarissaBeatenText:
-	text "No! You made me"
-	line "wipe out!"
+	text "Non! Tu m'as fait"
+	line "déraper!"
 	done
 
 
 MahoganyGymGuyWinText:
-	text "Pryce is some-"
-	line "thing, but you're"
-	cont "something else!"
+	text "Fredo, c'est quel-"
+	line "qu'un, mais toi"
+	cont "t'es pas naze"
+	cont "non plus!"
 
-	para "That was a hot"
-	line "battle that"
+	para "C'était un combat"
+	line "chaud qui a soudé"
 
-	para "bridged the gen-"
-	line "eration gap!"
+	para "l'écart entre deux"
+	line "générations!"
 	done

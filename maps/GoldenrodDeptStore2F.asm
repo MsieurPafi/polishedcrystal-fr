@@ -38,29 +38,29 @@ GoldenrodDeptStore2FYoungsterText:
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
-	text "I got my Abra at"
-	line "the Game Corner."
+	text "J'ai eu mon Abra"
+	line "au Casino."
 
-	para "Now it's my best"
-	line "partner."
+	para "Maintenant, c'est"
+	line "mon meilleur ami."
 	done
 
 GoldenrodDeptStore2FGentlemanText:
-	text "This Dept.Store"
-	line "makes me realize"
+	text "Ce centre Commer-"
+	line "cial montre que"
 
-	para "that Goldenrod is"
-	line "a big city."
+	para "Doublonville est"
+	line "une grande ville."
 
-	para "The selection here"
-	line "is unmatched any-"
-	cont "where else."
+	para "La marchandise est"
+	line "la meilleure de"
+	cont "la région."
 	done
 
 GoldenrodDeptStore2FDirectoryText:
-	text "Your Travel"
-	line "Companion"
+	text "Votre compagnon de"
+	line "voyage"
 
-	para "2F Trainer's"
-	line "   Market"
+	para "1Er  boutique"
+	line "     dresseur"
 	done

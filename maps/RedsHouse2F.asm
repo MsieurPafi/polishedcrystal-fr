@@ -40,9 +40,9 @@ PokemonJournalProfOakScript:
 	done
 
 RedsHouse2FPCText:
-	text "It looks like it"
-	line "hasn't been used"
-	cont "in a long time…"
+	text "On n'a pas utilisé"
+	line "ceci depuis bien"
+	cont "longtemps..."
 	done
 
 RedsHouse2FSNESText:

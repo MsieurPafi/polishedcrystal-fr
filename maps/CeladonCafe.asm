@@ -101,69 +101,73 @@ CeladonCafeFisher3:
 	end
 
 ChefText_Eatathon:
-	text "Hi!"
+	text "Salut!"
 
-	para "We're holding an"
-	line "eatathon contest."
+	para "On doit bouffer"
+	line "un max."
 
-	para "We can't serve you"
-	line "right now. Sorry."
+	para "Je ne peux pas"
+	line "t'aider pour"
+	cont "l'instant."
 	done
 
 Fisher1Text_Snarfle:
-	text "…Snarfle, chew…"
+	text "...(tousse)..."
+	line "...(crache)..."
 	done
 
 Fisher1Text_Concentration:
-	text "Don't talk to me!"
+	text "Me parle pas!"
 
-	para "You'll break my"
+	para "J'vais perdre ma"
 	line "concentration!"
 	done
 
 Fisher2Text_GulpChew:
-	text "…Gulp… Chew…"
+	text "...(tousse)..."
+	line "...(mâche)..."
 	done
 
 Fisher2Text_Quantity:
-	text "I take quantity"
-	line "over quality!"
+	text "Bouffer!"
+	line "Bouuuuuffer!"
 
-	para "I'm happy when I'm"
-	line "full!"
+	para "J'vais m'faire"
+	line "exploser l'ventre!"
 	done
 
 Fisher3Text_MunchMunch:
-	text "Munch, munch…"
+	text "Miam...(bouffe)..."
 	done
 
 Fisher3Text_GoldenrodIsBest:
-	text "The food is good"
-	line "here, but Golden-"
-	cont "rod has the best"
-	cont "food anywhere."
+	text "Ici la nourriture"
+	line "est bonne mais"
+	cont "celle de Doublon-"
+	cont "ville est la meil-"
+	cont "leure de toutes."
 	done
 
 TeacherText_CrunchCrunch:
-	text "Crunch… Crunch…"
+	text "(mâche), (croque)."
 	done
 
 TeacherText_NoCoinCase:
-	text "Nobody here will"
-	line "give you a Coin"
+	text "Personne ne te"
+	line "donnera de boîte"
 
-	para "Case. You should"
-	line "look in Johto."
+	para "Jeton, ici. Va"
+	line "voir à Johto."
 	done
 
 TeacherText_KeepEating:
-	text "Crunch… Crunch…"
+	text "Ouuaiiiiis!"
 
-	para "I can keep eating!"
+	para "Manger c'est bon!"
 	done
 
 TeacherText_MoreChef:
-	text "More, Chef!"
+	text "Et la sauce?"
 	done
 
 MayleneText1:
@@ -240,14 +244,13 @@ CeladonCafeBakerText:
 	done
 
 EatathonContestPosterText:
-	text "Eatathon Contest!"
-	line "No time limit!"
+	text "Concours de"
+	line "Bouffe! Pas de"
 
-	para "A battle without"
-	line "end! The biggest"
-
-	para "muncher gets it"
-	line "all for free!"
+	para "temps limite!"
+	line "Une joie sans fin!"
+	cont "Et c'est gratuit"
+	cont "pour le vainqueur!"
 	done
 
 EatathonContestTrashCanText:

@@ -41,11 +41,11 @@ GoldenrodBikeShopClerkScript:
 	jumpthisopenedtext
 
 GoldenrodBikeShopClerkFirstRateBikesText:
-	text "My Bicycles are"
-	line "first-rate! You"
+	text "Mes Bicyclettes"
+	line "sont trop bien!"
 
-	para "can ride them"
-	line "anywhere."
+	para "Tu peux en faire"
+	line "partout."
 	done
 
 GoldenrodBikeShopClerkIntroText:
@@ -62,29 +62,31 @@ GoldenrodBikeShopClerkIntroText:
 	done
 
 GoldenrodBikeShopClerkAgreedText:
-	text "Really? Great!"
+	text "Vraiment? Génial!"
 
-	para "Give me your name"
-	line "and phone number,"
+	para "Donne-moi ton nom"
+	line "et ton numéro de"
 
-	para "and I'll loan you"
-	line "a Bicycle."
+	para "téléphone et je te"
+	line "prêterai une"
+	cont "Bicyclette."
 	done
 
 GoldenrodBikeShopClerkRefusedText:
-	text "…sigh… Oh, for"
-	line "the kindness of"
-	cont "people…"
+	text "...(soupir)..."
+	line "Ah, que dire de"
+	cont "plus..."
 	done
 
 GoldenrodBikeShopBicycleText:
-	text "It's a shiny new"
-	line "Bicycle!"
+	text "C'est une sacrée"
+	line "jolie Bicyclette!"
 	done
 
 GoldenrodBikeShopJustReleasedCompactBikeText:
-	text "Just released!"
+	text "Tout chô tout bô!"
 
-	para "First-rate compact"
-	line "Bicycles!"
+	para "Bicyclettes de"
+	line "poche de premier"
+	cont "choix!"
 	done

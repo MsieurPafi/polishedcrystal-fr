@@ -56,17 +56,17 @@ ReenaGreetNiteText:
 	done
 
 ReenaGenericText:
-	text "Hey, how are your"
-	line "#mon doing?"
+	text "Hé! Ça va tes"
+	line "#mon?"
 
-	para "What? Great?"
-	line "I see…"
+	para "Quoi? Super?"
+	line "Je vois..."
 
-	para "What? My #mon?"
+	para "Quoi? Mes #mon?"
 
-	para "Of course they're"
-	line "doing great! What"
+	para "Bien sûr qu'ils"
+	line "vont bien! C'est"
 
-	para "kind of a question"
-	line "is that?"
+	para "quoi cette"
+	line "question?"
 	done

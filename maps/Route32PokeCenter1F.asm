@@ -56,43 +56,43 @@ Route32Pokecenter1FFishingGuruScript:
 	end
 
 .IntroText:
-	text "This is a great"
-	line "fishing spot."
+	text "C'est un bon en-"
+	line "droit pour pêcher."
 
-	para "You saw people"
-	line "fishing? How"
-	cont "about you?"
+	para "Tu as vu des"
+	line "pêcheurs? Tu veux"
+	cont "t'y mettre?"
 
-	para "Would you like one"
-	line "of my Rods?"
+	para "Tu veux une de mes"
+	line "Cannes?"
 	done
 
 .YesText:
-	text "Heh, that's good"
-	line "to hear."
+	text "Ha! C'est bien"
+	line "mon petit."
 
-	para "Now you're an"
-	line "angler too!"
+	para "Tu es toi aussi un"
+	line "vrai pêcheur!"
 	done
 
 .AfterText:
-	text "Fishing is great!"
+	text "Pêcher c'est bien!"
 
-	para "If there's water,"
-	line "be it the sea or a"
+	para "Essaie ta canne"
+	line "dès qu'il y a la"
 
-	para "stream, try out"
-	line "your Rod."
+	para "mer ou un fleuve."
+	line "Bonne chance."
 	done
 
 .NoText:
-	text "Oh. That's rather"
-	line "disappointing…"
+	text "Ah. C'est bien"
+	line "dommage..."
 	done
 
 .DoneText:
-	text "Yo, kid. How are"
-	line "they biting?"
+	text "Yo."
+	line "Ça mord?"
 	done
 
 Route32PokeCenter1FPokefanMScript:
@@ -161,10 +161,10 @@ Route32PokeCenter1FPokefanMScript:
 	done
 
 Route32Pokecenter1FCooltrainerFText:
-	text "What should I make"
-	line "my #mon hold?"
+	text "Que dois-je donner"
+	line "à mon #mon?"
 
-	para "Maybe an item that"
-	line "increases Attack"
-	cont "power…"
+	para "Peut-être un objet"
+	line "qui augmente son"
+	cont "attaque..."
 	done

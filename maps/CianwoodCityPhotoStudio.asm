@@ -88,8 +88,8 @@ PhotoStudioWhichMonText:
 	done
 
 PhotoStudioHoldStillText:
-	text "All righty. Hold"
-	line "still for a bit."
+	text "Parfait. Parfait."
+	line "On ne bouge plus."
 	done
 
 PhotoStudioPrestoText:
@@ -110,9 +110,11 @@ PhotoStudioAlreadyDoneText:
 	done
 
 PhotoStudioRefusedText:
-	text "Oh, that's too"
-	line "bad. I thought it"
+	text "Oh! Pas terrible,"
+	line "terrible. Je pen-"
 
-	para "would be a great"
-	line "memento…"
+	para "sais que ça ferait"
+	line "quelque chose de"
+	cont "plus... Enfin de"
+	cont "moins..."
 	done

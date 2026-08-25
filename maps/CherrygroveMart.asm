@@ -37,9 +37,12 @@ CherrygroveMartCooltrainerMScript:
 	done
 
 CherrygroveMartCooltrainerMText_PokeBallsInStock:
-	text "# Balls are in"
-	line "stock! Now I can"
-	cont "catch #mon!"
+	text "Les # Balls"
+	line "sont arrivées!"
+	cont "C'est reparti! Les"
+	cont "#mon n'ont"
+	cont "qu'à bien se"
+	cont "tenir!"
 	done
 
 CherrygroveMartYoungsterText:

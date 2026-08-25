@@ -106,14 +106,15 @@ GenericTrainerBird_keeperPerry:
 	done
 
 Bird_keeperPerrySeenText:
-	text "Agility is the key"
-	line "attribute of bird"
-	cont "#mon."
+	text "l'agilité est la"
+	line "caractéristique"
+	cont "des #mon"
+	cont "oiseaux."
 	done
 
 Bird_keeperPerryBeatenText:
-	text "You beat me with"
-	line "your speed…"
+	text "Ta vitesse m'a"
+	line "blousé..."
 	done
 
 GenericTrainerBird_keeperBret:
@@ -124,16 +125,16 @@ GenericTrainerBird_keeperBret:
 	done
 
 Bird_keeperBretSeenText:
-	text "Check out my #-"
-	line "mon. Just look at"
+	text "Mate donc mes bô"
+	line "#mon. Regarde"
 
-	para "their coloring and"
-	line "their plumage."
+	para "leur joli plumage."
+	line "C'est trop cool."
 	done
 
 Bird_keeperBretBeatenText:
-	text "Shoot!"
-	line "Not good enough!"
+	text "Naaaan!"
+	line "Pas glop!"
 	done
 
 GenericTrainerCamperTanner:
@@ -227,13 +228,13 @@ GenericTrainerPokefanmAlex:
 	done
 
 PokefanmAlexSeenText:
-	text "Bow down before my"
-	line "regal #mon!"
+	text "A genoux devant"
+	line "mes #mon!"
 	done
 
 PokefanmAlexBeatenText:
-	text "How… How dare you"
-	line "mock royalty!"
+	text "Comment oses-tu???"
+	line "Sacrilège!"
 	done
 
 GenericTrainerPokefanmJoshua:
@@ -247,9 +248,9 @@ GenericTrainerPokefanmJoshua:
 	done
 
 PokefanmJoshuaSeenText:
-	text "Nihihi! Would you"
-	line "like to battle my"
-	cont "Pikachu gang?"
+	text "Gnihihi! Tu veux"
+	line "te mesurer à mon"
+	cont "gang Pikachu?"
 	done
 
 PokefanmJoshuaBeatenText:
@@ -269,21 +270,20 @@ GenericTrainerHikerKenny:
 	done
 
 HikerKennySeenText:
-	text "I should go to"
-	line "Rock Tunnel to get"
-	cont "myself an Onix."
+	text "Je vais passer à"
+	line "la grotte pour"
+	cont "choper un Onix."
 	done
 
 HikerKennyBeatenText:
-	text "I lost…"
+	text "Perdu..."
 	done
 
 Route13TrainerTips1Text:
-	text "Trainer Tips"
+	text "Astuce"
 
-	para "Look! Right there,"
-	line "at the left side"
-	cont "of the post."
+	para "Regardez à gauche"
+	line "de cette pancarte."
 	done
 
 Route13TrainerTips2Text:
@@ -301,16 +301,13 @@ Route13TrainerTips2Text:
 	done
 
 Route13SignText:
-	text "Route 13"
+	text "route 13"
 
-	para "North to Silence"
-	line "Bridge"
+	para "Nord du Pont du"
+	line "silence"
 	done
 
 Route13DirectionsSignText:
-	text "North to Lavender"
-	line "Town"
-
-	para "West to Fuchsia"
-	line "City"
+	text "Nord: Lavanville"
+	line "Ouest: Parmanie"
 	done

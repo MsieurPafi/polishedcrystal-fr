@@ -60,21 +60,21 @@ VictoryRoadGateOfficerText:
 	done
 
 VictoryRoadGateLeftBlackBeltText:
-	text "This way leads to"
-	line "Mt.Silver."
+	text "Cette route mène"
+	line "au Mont Argent."
 
-	para "You'll see scary-"
-	line "strong #mon out"
-	cont "there."
+	para "Tu y verras des"
+	line "#mon affreu-"
+	cont "sement forts."
 	done
 
 VictoryRoadGateRightBlackBeltText:
-	text "Off to the #mon"
-	line "League, are you?"
+	text "Tu vas à la Ligue"
+	line "#mon, hein?"
 
-	para "The Elite Four are"
-	line "so strong it's"
+	para "Le conseil des 4"
+	line "est super hyper"
 
-	para "scary, and they're"
-	line "ready for you!"
+	para "méga fort!!! Tu"
+	line "vas en baver!"
 	done

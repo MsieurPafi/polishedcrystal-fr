@@ -18,9 +18,9 @@ Route15FuchsiaGate_MapScriptHeader:
 	object_event  5,  1, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route15FuchsiaGateOfficerText, -1
 
 Route15FuchsiaGateOfficerText:
-	text "You're working on"
-	line "a #dex? That's"
+	text "Tu veux compléter"
+	line "un #dex? C'est"
 
-	para "really something."
-	line "Don't give up!"
+	para "génial! Surtout"
+	line "n'abandonne pas!"
 	done

@@ -187,28 +187,28 @@ WiseTriosRoomSageAllowsPassageMovement:
 	step_end
 
 WiseTriosRoomSage1Text:
-	text "Astounding…"
+	text "Dingue..."
 
-	para "Suicune, Entei and"
-	line "Raikou have arisen"
-	cont "from their sleep…"
+	para "Suicune, Entei et"
+	line "Raikou se sont"
+	cont "réveillés..."
 
-	para "Is the legend"
-	line "coming true?"
+	para "La légende est-"
+	line "elle vraie?"
 	done
 
 WiseTriosRoomSage2Text:
-	text "We train at the"
-	line "Burned Tower, but"
+	text "On s'entraîne à la"
+	line "Tour Cendrée mais"
 
-	para "we've never heard"
-	line "of a hole opening"
+	para "on n'a jamais vu"
+	line "de trou s'ouvrir"
 
-	para "up there before."
-	line "It must have been"
+	para "jusqu'à présent."
+	line "Quelqu'un doit en"
 
-	para "deliberately made"
-	line "by someone."
+	para "être le"
+	line "responsable."
 	done
 
 WiseTriosRoomSage3BlocksExitText:
@@ -229,11 +229,11 @@ WiseTriosRoomSage3BlocksExitText:
 	done
 
 WiseTriosRoomSage3Text:
-	text "We, the Wise Trio,"
-	line "are the protectors"
+	text "Nous, le Trio des"
+	line "Sages, sommes les"
 
-	para "of the legendary"
-	line "#mon."
+	para "gardiens des #-"
+	line "mon légendaires."
 	done
 
 ElderGakuSeenText:
@@ -267,39 +267,36 @@ ElderGakuSeenText:
 	done
 
 ElderGakuBeatenText:
-	text "Stronger than we"
-	line "thought? Perhaps…"
+	text "Trop de puissance!"
 	done
 
 ElderMasaSeenText:
-	text "Can you be trusted"
-	line "with the truth?"
+	text "Doit-on te faire"
+	line "confiance?"
 
-	para "I must ascertain"
-	line "your worthiness."
+	para "Je dois te mettre"
+	line "à l'épreuve."
 	done
 
 ElderMasaBeatenText:
-	text "…I will tell you"
-	line "the truth…"
+	text "...Je dirai la"
+	line "vérité..."
 	done
 
 ElderKojiSeenText:
-	text "Let me see your"
-	line "power!"
+	text "Montre-moi ta"
+	line "force!"
 	done
 
 ElderKojiBeatenText:
-	text "Too strong!"
-	line "Why?"
+	text "Trop de puissance!"
+	line "Pourquoi?"
 	done
 
 SageKojiAfterBattleQuestionText:
-	text "You… Are you the"
-	line "trainer who is"
-
-	para "awaited by the"
-	line "legendary #mon?"
+	text "Toi... Es-tu là"
+	line "pour les #mon"
+	cont "légendaires?"
 	done
 
 SageKojiAfterBattleSpeechText:
@@ -329,8 +326,8 @@ SageKojiAfterBattleSpeechText:
 	done
 
 SageKojiAfterBattleFinalText:
-	text "Please, do go on."
+	text "Va."
 
-	para "Suicune will put"
-	line "you to the test."
+	para "Suicune te mettra"
+	line "à l'épreuve."
 	done

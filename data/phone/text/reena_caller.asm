@@ -61,7 +61,7 @@ ReenaBattleRematchText:
 	done
 
 ReenaHangUpText:
-	text "Fine, you may go."
+	text "OK. Tchao."
 	done
 
 ReenaForwardText:

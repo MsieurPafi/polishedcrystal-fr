@@ -76,36 +76,31 @@ BlackthornGymClairScript:
 	end
 
 .IntroText:
-	text "I am Clair."
+	text "Je suis Sandra."
 
-	para "The world's best"
-	line "dragon master."
+	para "Je suis la reine"
+	line "des dragons."
 
-	para "I can hold my own"
-	line "against even the"
+	para "Je peux même tenir"
+	line "tête au conseil"
+	cont "des 4 de la Ligue."
 
-	para "#mon League's"
-	line "Elite Four."
+	para "Tu veux toujours"
+	line "te battre?"
 
-	para "Do you still want"
-	line "to take me on?"
+	para "...Bon."
+	line "C'est parti!"
 
-	para "…Fine."
-	line "Let's do it!"
-
-	para "As a Gym Leader,"
-	line "I will use my full"
-
-	para "power against any"
-	line "opponent!"
+	para "Je vais pas y"
+	line "aller mollo!"
 	done
 
 .WinText:
-	text "I lost?"
+	text "Perdu?"
 
-	para "I don't believe"
-	line "it. There must be"
-	cont "some mistake…"
+	para "J'y crois pas!!"
+	line "Il y a sûrement"
+	cont "une erreur..."
 	done
 
 .GoToDragonsDenText:
@@ -143,10 +138,10 @@ BlackthornGymClairScript:
 	done
 
 .TooMuchToExpectText:
-	text "What's the matter?"
+	text "Et alors?"
 
-	para "Is it too much to"
-	line "expect of you?"
+	para "On a peur"
+	line "maintenant?"
 	done
 
 ClairPokemonLeagueDirectionsText:
@@ -210,16 +205,17 @@ BlackthornGymGuyScript:
 	done
 
 .WinText:
-	text "You were great to"
-	line "beat Clair!"
+	text "Bien joué!"
+	line "Beau combat!"
 
-	para "All that's left is"
-	line "the #mon League"
-	cont "challenge."
+	para "Il ne reste plus"
+	line "que le challenge"
+	cont "de la Ligue"
+	cont "#mon."
 
-	para "You're on the way"
-	line "to becoming the"
-	cont "#mon Champion!"
+	para "Tu es sur le"
+	line "point de devenir"
+	cont "maître #mon!"
 	done
 
 GenericTrainerDragonTamerPaul:
@@ -233,16 +229,18 @@ GenericTrainerDragonTamerPaul:
 	done
 
 .SeenText:
-	text "Your first battle"
-	line "against dragons?"
+	text "C'est ton premier"
+	line "combat face à des"
+	cont "dragons?"
 
-	para "I'll show you how"
-	line "tough they are!"
+	para "Je vais te montrer"
+	line "leur résistance"
+	cont "suprême!"
 	done
 
 .BeatenText:
-	text "My dragon #mon"
-	line "lost?"
+	text "Mes #mon"
+	line "dragon ont perdu?"
 	done
 
 GenericTrainerCooltrainermMike:
@@ -256,13 +254,15 @@ GenericTrainerCooltrainermMike:
 	done
 
 .SeenText:
-	text "My chance of"
-	line "losing? Not even"
-	cont "one percent!"
+	text "Mes chances de"
+	line "perdre? Même pas"
+	cont "une pour mille!"
 	done
 
 .BeatenText:
-	text "That's odd."
+	text "Je ne suis plus"
+	line "très bon en"
+	cont "maths."
 	done
 
 GenericTrainerCooltrainerfLola:
@@ -274,19 +274,19 @@ GenericTrainerCooltrainerfLola:
 	done
 
 .SeenText:
-	text "Dragons are sacred"
-	line "#mon."
+	text "Les dragons sont"
+	line "des #mon"
 
-	para "They are full of"
-	line "life energy."
+	para "sacrés. Ils sont"
+	line "plein de vie."
 
-	para "If you're not"
-	line "serious, you won't"
+	para "Si tu ne fais pas"
+	line "attention, tu ne"
 
-	para "be able to beat"
-	line "them."
+	para "pourras pas en"
+	line "venir à bout."
 	done
 
 .BeatenText:
-	text "Way to go!"
+	text "Bien joué!"
 	done

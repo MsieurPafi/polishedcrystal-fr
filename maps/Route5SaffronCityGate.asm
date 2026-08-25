@@ -18,12 +18,12 @@ Route5SaffronCityGate_MapScriptHeader:
 	object_event  6,  4, SPRITE_BLACK_BELT, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, Route5SaffronCityGateBlackBeltScript, -1
 
 Route5SaffronCityGateOfficerText:
-	text "You're from Johto,"
-	line "aren't you?"
+	text "Tu es de Johto,"
+	line "n'est-ce pas?"
 
-	para "How do you like"
-	line "Kanto? It's nice,"
-	cont "don't you agree?"
+	para "Tu aimes Kanto?"
+	line "C'est joli, hein?"
+	cont "Qu'en penses-tu?"
 	done
 
 Route5SaffronCityGateBlackBeltScript:

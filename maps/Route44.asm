@@ -424,25 +424,23 @@ GenericTrainerCooltrainermAllen:
 	done
 
 FisherWilton1SeenText:
-	text "Aack! You made me"
-	line "lose a Poliwag!"
+	text "Aahh! Tu m'as fait"
+	line "perdre un Ptitard!"
 
-	para "What are you going"
-	line "to do about it?"
+	para "Tu vas t'excuser,"
+	line "ouais?"
 	done
 
 FisherWilton1BeatenText:
-	text "Just forget about"
-	line "it."
+	text "Je te pardonne."
 	done
 
 FisherWiltonHugePoliwagText_Imperial:
-	text "That Poliwag that"
-	line "got away…"
-	cont "It was huge."
+	text "Ce Ptitard était"
+	line "énorme!"
 
-	para "I swear it must've"
-	line "been 16 feet long!"
+	para "Il faisait 5 mè-"
+	line "tres au moins!"
 	done
 
 FisherWiltonHugePoliwagText_Metric:
@@ -456,15 +454,15 @@ FisherWiltonHugePoliwagText_Metric:
 	done
 
 FisherEdgarSeenText:
-	text "I fish until I"
-	line "can't anymore."
+	text "Je pêche comme"
+	line "un méga dingue."
 
-	para "I also battle"
-	line "until I drop."
+	para "Je fais des com-"
+	line "bats, aussi."
 
-	para "That's my"
-	line "relationship"
-	cont "with my #mon."
+	para "Les #mon, je"
+	line "les aime aussi"
+	cont "pour ça."
 	done
 
 FisherEdgarBeatenText:
@@ -473,96 +471,94 @@ FisherEdgarBeatenText:
 	done
 
 Bird_keeperVance1SeenText:
-	text "Do you know about"
-	line "the legendary bird"
-	cont "#mon?"
+	text "Tu connais les"
+	line "#mon oiseaux"
+	cont "légendaires?"
 	done
 
 Bird_keeperVance1BeatenText:
-	text "Whew! You're hot"
-	line "stuff."
+	text "Alors toi, tu"
+	line "rigoles pas!"
 	done
 
 BirdKeeperVanceLegendaryBirdsText:
-	text "Articuno, Zapdos"
-	line "and Moltres are"
+	text "Artikodin,"
+	line "Electhor et"
 
-	para "the three legend-"
-	line "ary bird #mon."
+	para "Sulfura sont les"
+	line "trois #mon oi-"
+	cont "seaux légendaires."
 
-	para "I heard there are"
-	line "other legendary"
-	cont "birds, though."
+	para "On dit qu'il y en"
+	line "a d'autres..."
 	done
 
 BirdKeeperVance2BeatenText:
-	text "Why can't I ever"
-	line "beat you?"
+	text "Pourquoi j'arrive"
+	line "jamais à te"
+	cont "battre, toi?"
 
-	para "Oh yeah, here you"
-	line "go. It's that gift"
+	para "Au fait... Voilà"
+	line "le truc que je"
 
-	para "I couldn't give"
-	line "you last time."
+	para "voulais te donner"
+	line "la dernière fois."
 	done
 
 PsychicPhilSeenText:
-	text "I'm gonna win,"
-	line "for sure!"
+	text "J'vais gagner!"
+	line "Pour sûr!"
 	done
 
 PsychicPhilBeatenText:
-	text "Arrgh… That's a"
-	line "shocking loss…"
+	text "Qu...Comm..."
+	line "Hein?"
 	done
 
 PokemaniacZachSeenText:
-	text "I'll do anything"
-	line "to get my hands on"
-	cont "rare #mon!"
+	text "J'veux des #mon"
+	line "rares! Yaaaaah!"
 	done
 
 PokemaniacZachBeatenText:
-	text "Oooh, your #mon"
-	line "are so appealing."
+	text "Oooh, tes #mon"
+	line "sont siii beaux!"
 	done
 
 CooltrainermAllenSeenText:
-	text "I can tell you're"
-	line "a good trainer by"
-	cont "looking at you."
+	text "Tu as du talent,"
+	line "ça se voit."
 
-	para "I'm good at #-"
-	line "mon, and I can see"
-	cont "that you are too."
+	para "Mais... Comment"
+	line "dire... J'suis"
+	cont "le plus fort."
 	done
 
 CooltrainermAllenBeatenText:
-	text "Tch! It's a total"
-	line "loss on my part."
+	text "Pfff!"
+	line "Même pas mal."
 	done
 
 CooltrainerfCybilSeenText:
-	text "You look strong."
+	text "T'as l'air fort."
 
-	para "Good trainers seek"
-	line "tough opponents"
-	cont "instinctively."
+	para "Ça te dirait un"
+	line "p'tit challenge?"
 	done
 
 CooltrainerfCybilBeatenText:
-	text "Nope! This won't"
-	line "do at all."
+	text "Oh! Rien compris!"
 	done
 
 Route44Sign1Text:
-	text "Route 44"
-	line "Ice Path Ahead"
+	text "route 44"
+	line "Route de Glace"
+	cont "Tout droit"
 	done
 
 Route44Sign2Text:
-	text "Route 44"
+	text "route 44"
 
-	para "Mahogany Town -"
-	line "Blackthorn City"
+	para "Acajou -"
+	line "Ébènelle"
 	done

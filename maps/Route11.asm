@@ -38,16 +38,16 @@ GenericTrainerYoungsterOwen:
 	done
 
 YoungsterOwenSeenText:
-	text "There's no cheat-"
-	line "ing in #mon."
+	text "Y'a pas de triche"
+	line "à #mon."
 
-	para "Let's keep it fair"
-	line "and square!"
+	para "Jouer franc-jeu,"
+	line "ça c'est chouette!"
 	done
 
 YoungsterOwenBeatenText:
-	text "Huh? How did this"
-	line "happen?"
+	text "Hein?"
+	line "T'as grugé!"
 	done
 
 GenericTrainerYoungsterJason:
@@ -59,16 +59,15 @@ GenericTrainerYoungsterJason:
 	done
 
 YoungsterJasonSeenText:
-	text "It itches and"
-	line "tickles a bit when"
+	text "Porter des shorts"
+	line "dans l'herbe, ça"
 
-	para "I wear shorts in"
-	line "the grass."
+	para "pique à donf..."
+	line "Pas cool."
 	done
 
 YoungsterJasonBeatenText:
-	text "Aiyaaah!"
-	line "I got stomped!"
+	text "Ouilleuuuuu!"
 	done
 
 GenericTrainerYoungsterAlfie:
@@ -114,15 +113,15 @@ GenericTrainerPsychicFidel:
 	done
 
 PsychicFidelSeenText:
-	text "I can see it…"
+	text "Je vois tout..."
 
-	para "Everything to see"
-	line "about you…"
+	para "Présent, futur..."
+	line "Combat!"
 	done
 
 PsychicFidelBeatenText:
-	text "I couldn't foresee"
-	line "your power…"
+	text "Heu..."
+	line "Je l'avais prévu!"
 	done
 
 GenericTrainerPsychicUri:

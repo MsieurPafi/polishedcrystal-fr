@@ -49,20 +49,20 @@ GinaBattleRematchText:
 	done
 
 GinaHangUpText:
-	text "Bye! Let's chat"
-	line "again!"
+	text "On se reparle"
+	line "plus tard!"
 	done
 
 GinaRocketTakeoverRumorText:
-	text "Have you heard"
-	line "about Team Rocket?"
+	text "As-tu appris pour"
+	line "la Team Rocket?"
 
-	para "They've taken over"
-	line "the Radio Tower in"
-	cont "Goldenrod."
+	para "Ils ont envahi la"
+	line "Tour Radio de"
+	cont "Doublonville."
 
-	para "Are the people"
-	line "inside safe?"
+	para "Les gens sont-ils"
+	line "en sécurité?"
 	done
 
 GinaFoundItemText:
@@ -82,14 +82,14 @@ GinaFoundItemText:
 	done
 
 GinaHaventFoundAnythingYetText:
-	text "Sorry, I haven't"
-	line "found anything"
+	text "Je n'ai encore"
+	line "rien trouvé de"
 
-	para "useful yet…"
-	line "I promise, if I"
+	para "spécial..."
+	line "Si je trouve quel-"
 
-	para "find anything, you"
-	line "can have it!"
+	para "que chose, c'est"
+	line "pour toi!"
 	done
 
 GinaReminderText:

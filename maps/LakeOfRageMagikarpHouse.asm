@@ -89,87 +89,93 @@ MagikarpLengthRaterScript:
 	done
 
 MagikarpLengthRaterText_LakeOfRageHistory:
-	text "Lake of Rage is"
-	line "actually a crater"
+	text "Le Lac Colère est"
+	line "en fait un cratère"
 
-	para "made by rampaging"
-	line "Gyarados."
+	para "créé par le"
+	line "déchaînement des"
+	cont "Leviator."
 
-	para "The crater filled"
-	line "up with rainwater"
+	para "Le cratère s'est"
+	line "peu à peu rempli"
 
-	para "and the lake was"
-	line "formed."
+	para "d'eau de pluie et"
+	line "un Lac s'est"
+	cont "formé."
 
-	para "That's the story"
-	line "passed on from my"
+	para "Cette histoire se"
+	line "transmet de géné-"
 
-	para "Grandpa's great-"
-	line "great-grandpa."
+	para "ration en géné-"
+	line "ration. Elle vient"
+	cont "d'un de mes"
+	cont "grands-pères."
 
-	para "It used to be that"
-	line "you could catch"
+	para "On pouvait attra-"
+	line "per de vrais"
 
-	para "lively Magikarp"
-	line "there, but…"
+	para "Magicarpe en"
+	line "pleine forme ici!"
 
-	para "I don't understand"
-	line "what's happening."
+	para "Je ne comprends"
+	line "pas ce qu'il se"
+	cont "passe."
 	done
 
 MagikarpLengthRaterText_MenInBlack:
-	text "The lake hasn't"
-	line "been normal since"
+	text "Ce Lac n'est plus"
+	line "normal depuis"
 
-	para "those men wearing"
-	line "black arrived."
+	para "l'arrivée des"
+	line "hommes en noir."
 	done
 
 MagikarpLengthRaterText_WorldsLargestMagikarp:
-	text "Lake of Rage is"
-	line "back to normal."
+	text "Le Lac Colère est"
+	line "redevenu normal."
 
-	para "The Magikarp have"
-	line "returned."
+	para "Les Magicarpe sont"
+	line "de retour."
 
-	para "I may yet realize"
-	line "my dream of see-"
-	cont "ing the world's"
-	cont "largest Magikarp."
+	para "Mon rêve se"
+	line "réalise enfin:"
+	cont "voir un monde"
+	cont "plein de"
+	cont "Magicarpe."
 
-	para "Do you have a Rod?"
-	line "Please help me if"
-	cont "you do."
+	para "As-tu une canne?"
+	line "Aide-moi si tu en"
+	cont "as une."
 	done
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
-	text "Ah, you have a"
-	line "Magikarp! Let's"
+	text "Ah, tu as un"
+	line "Magicarpe! Laisse-"
 
-	para "see how big that"
-	line "baby is."
+	para "moi voir sa"
+	line "taille."
 	done
 
 MagikarpLengthRaterText_Memento:
-	text "Wow! This one is"
-	line "outstanding!"
+	text "Whaou! Celui-ci"
+	line "est démesuré!"
 
-	para "I tip my hat to"
-	line "you!"
+	para "Je te tire mon"
+	line "chapeau!"
 
-	para "Take this as a"
-	line "memento!"
+	para "Accepté ceci en"
+	line "récompense!"
 	done
 
 MagikarpLengthRaterText_Bonus:
-	text "The record is the"
-	line "important thing."
+	text "Ce qui est impor-"
+	line "tant, c'est d'épa-"
 
-	para "Think of that as"
-	line "a bonus!"
+	para "ter les autres!"
+	line "Suis mes conseils!"
 	done
 
 MagikarpLengthRaterText_NotMagikarp:
-	text "What? That's not a"
-	line "Magikarp!"
+	text "Quoi? Ce n'est pas"
+	line "un Magicarpe!"
 	done

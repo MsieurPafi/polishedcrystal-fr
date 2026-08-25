@@ -191,8 +191,8 @@ RadioTower5FPlayerTwoStepsLeftMovement:
 	step_end
 
 FakeDirectorTextBefore1:
-	text "Y-you! You came to"
-	line "rescue me?"
+	text "T-toi! T-tu es là"
+	line "pour me s-sauver?"
 	done
 
 FakeDirectorTextBefore2:
@@ -220,107 +220,104 @@ FakeDirectorTextBefore3:
 	done
 
 FakeDirectorWinText:
-	text "OK, OK. I'll tell"
-	line "you where he is."
+	text "OK, OK. Je vais"
+	line "parler."
 	done
 
 FakeDirectorTextAfter:
-	text "We stashed the"
-	line "real Director in"
+	text "On a planqué le"
+	line "Directeur dans"
 
-	para "the Underground"
-	line "Warehouse."
+	para "l'Entrepot"
+	line "souterrain."
 
-	para "It's at the far"
-	line "end of the Under-"
-	cont "ground."
+	para "C'est tout au bout"
+	line "du souterrain."
 
-	para "But I doubt you'll"
-	line "get that far."
+	para "Mais t'y arriveras"
+	line "jamais... Ha!"
 	done
 
 Ariana1SeenText:
-	text "Remember me from"
-	line "the hideout in"
-	cont "Mahogany Town?"
+	text "Tu te souviens de"
+	line "moi? Dans la"
+	cont "planque d'Acajou?"
 
-	para "I lost then, but I"
-	line "won't this time."
+	para "J'avais perdu..."
+	line "Mais cette fois..."
 	done
 
 Ariana1BeatenText:
-	text "This can't be"
-	line "happening!"
+	text "Mais c'est pas"
+	line "possible!"
 
-	para "I fought hard, but"
-	line "I still lost…"
+	para "J'me bats à fond"
+	line "et je perds..."
 	done
 
 RadioTower5FRocketBossBeforeText:
-	text "Oh? You managed to"
-	line "get this far?"
+	text "Oh? Tu es déjà"
+	line "là?"
 
-	para "You must be quite"
-	line "the trainer."
+	para "Tu dois avoir un"
+	line "sacré talent."
 
-	para "We intend to take"
-	line "over this Radio"
+	para "Nous allons con-"
+	line "trôler cette sta-"
 
-	para "Station and an-"
-	line "nounce our come-"
-	cont "back."
+	para "tion de radio pour"
+	line "annoncer au monde"
+	cont "notre retour."
 
-	para "That should bring"
-	line "our boss Giovanni"
+	para "Cela devrait faire"
+	line "revenir notre chef"
 
-	para "back from his solo"
-	line "training."
+	para "Giovanni de son"
+	line "entraînement solo."
 
-	para "We are going to"
-	line "regain our former"
-	cont "glory."
+	para "La gloire passée"
+	line "de la Team sera"
+	cont "restituée."
 
-	para "I won't allow you"
-	line "to interfere with"
-	cont "our plans."
+	para "Et toi minable,"
+	line "tu vas pas nous"
+	cont "agacer longtemps."
 	done
 
 RadioTower5FRocketBossWinText:
-	text "No! Forgive me,"
+	text "Non! Pardon,"
 	line "Giovanni!"
 	done
 
 RadioTower5FRocketBossAfterText:
-	text "How could this be?"
+	text "Impossible!"
 
-	para "Our dreams have"
-	line "come to naught."
+	para "Nos rêves se"
+	line "brisent."
 
-	para "I wasn't up to the"
-	line "task after all."
+	para "Je suis pas"
+	line "digne."
 
-	para "Like Giovanni did"
-	line "before me, I will"
+	para "Comme Giovanni l'a"
+	line "fait jadis, je"
 
-	para "disband Team"
-	line "Rocket here today."
+	para "vais dissoudre la"
+	line "Team Rocket."
 
-	para "Farewell."
+	para "Adieu."
 	done
 
 RadioTower5FDirectorThankYouText:
-	text "Director: <PLAYER>,"
-	line "thank you!"
+	text "Directeur:"
+	line "Merci <PLAYER>!"
 
-	para "Your courageous"
-	line "actions have saved"
+	para "Ton courage a"
+	line "sauvé les #mon"
+	cont "du monde entier."
 
-	para "#mon nation-"
-	line "wide."
-
-	para "I know it's not"
-	line "much, but please"
-	cont "take this."
+	para "Ce n'est pas grand"
+	line "chose, mais c'est"
+	cont "pour toi."
 	done
 
 RadioTower5FDirectorDescribeClearBellText:
@@ -375,33 +372,33 @@ RadioTower5FDirectorDescribeClearBellText:
 	done
 
 RadioTower5FDirectorText:
-	text "Director: Hello,"
+	text "Directeur: Salut,"
 	line "<PLAYER>!"
 
-	para "You know, I love"
-	line "#mon."
+	para "Tu sais, j'adore"
+	line "les #mon."
 
-	para "I built this Radio"
-	line "Tower so I could"
+	para "J'ai construit"
+	line "cette Tour Radio"
 
-	para "express my love"
-	line "of #mon."
+	para "pour crier au mon-"
+	line "de mon amour."
 
-	para "It would be nice"
-	line "if people enjoyed"
-	cont "our programs."
+	para "Mais les gens"
+	line "aiment-ils nos"
+	cont "émissions?"
 	done
 
 BenText:
-	text "Ben: Do you listen"
-	line "to our music?"
+	text "ben: Tu écoutes"
+	line "notre musique?"
 	done
 
 SignpostRadioTower5FOffice:
-	text "5F Director's"
-	line "   Office"
+	text "4Eme bureau"
+	line "     direction"
 	done
 
 SignpostRadioTower5FStudio:
-	text "5F Studio 1"
+	text "4Eme studio 1"
 	done

@@ -59,9 +59,9 @@ TullyGreetNiteText:
 	done
 
 TullyGenericText:
-	text "How's your trip"
-	line "coming along?"
+	text "Ça va ton"
+	line "p'tit voyage?"
 
-	para "I can't complain"
-	line "about my fishing!"
+	para "Moi la pêche..."
+	line "Ça marche!"
 	done

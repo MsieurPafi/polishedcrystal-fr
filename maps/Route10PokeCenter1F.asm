@@ -55,31 +55,31 @@ Route10PokeCenter1FGymGuyScript:
 	done
 
 .Text2:
-	text "I hear Team Rocket"
-	line "got back together"
+	text "On dit que la Team"
+	line "Rocket s'est re-"
 
-	para "in Johto but fell"
-	line "apart right away."
+	para "formée à Johto et"
+	line "s'est plantée à"
+	cont "nouveau."
 
-	para "I didn't know any-"
-	line "thing about that."
+	para "C'est tout ce"
+	line "qu'on raconte."
 	done
 
 Route10PokeCenter1FGentlemanText:
-	text "A #mon Center"
-	line "near a cave?"
+	text "Un centre #mon"
+	line "près d'une"
+	cont "caverne?"
 
-	para "That's mighty"
-	line "convenient."
+	para "C'est super"
+	line "pratique, ça."
 	done
 
 Route10PokeCenter1FCooltrainerfText:
-	text "When you go out-"
-	line "side, you can see"
+	text "Dehors on voit le"
+	line "toit d'un très"
 
-	para "the roof of a big"
-	line "building."
+	para "grand bâtiment."
 
-	para "That's the Power"
-	line "Plant."
+	para "C'est la centrale."
 	done

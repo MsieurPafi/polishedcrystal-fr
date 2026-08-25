@@ -163,18 +163,18 @@ VioletCitySpinningEarl_MovementData:
 	step_end
 
 Text_EarlAsksIfYouBeatFalkner:
-	text "Hello!"
-	line "You are trainer?"
+	text "Salut!"
+	line "T'es dresseur?"
 
-	para "Battle Gym Leader,"
-	line "win you did?"
+	para "Une vraie baston,"
+	line "ça te dit?"
 	done
 
 
 Text_FollowEarl:
-	text "Is that so? Then"
-	line "study shall you!"
-	cont "Follow me!"
+	text "Vraiment? Tu"
+	line "veux un cours!"
+	cont "Suis-moi!"
 	done
 
 Text_HereTeacherIAm:
@@ -197,26 +197,29 @@ Text_EarlsTypeChart:
 	done
 
 VioletCityLassText:
-	text "Ghosts are rumored"
-	line "to appear in"
-	cont "Sprout Tower."
+	text "Le bruit court que"
+	line "des fantômes"
+	cont "errent dans la"
+	cont "Tour Chetiflor."
 
-	para "They said Normal-"
-	line "type #mon moves"
+	para "On dit que les"
+	line "capacités des"
 
-	para "had no effect on"
-	line "ghosts."
+	para "#mon de type"
+	line "normal n'ont pas"
+	cont "d'effet sur les"
+	cont "fantômes."
 	done
 
 VioletCityCooltrainerM1Text:
-	text "Hey, you're a"
-	line "#mon trainer?"
+	text "T'es dresseur"
+	line "de #mon?"
 
-	para "If you beat the"
-	line "Gym Leader here,"
+	para "Si tu bats le"
+	line "champion d'Arene,"
 
-	para "you'll be ready"
-	line "for prime time!"
+	para "tu passeras au"
+	line "20 heures!"
 	done
 
 VioletCityCooltrainerFText:
@@ -230,26 +233,28 @@ VioletCityCooltrainerFText:
 	done
 
 VioletCityGrampsText:
-	text "Falkner, from the"
-	line "Violet #mon"
+	text "Albert de l'Arene"
+	line "#mon de"
 
-	para "Gym, is a fine"
-	line "trainer!"
+	para "Mauville est un"
+	line "dresseur sympa!"
 
-	para "He inherited his"
-	line "father's gym and"
+	para "Il a hérité de"
+	line "l'Arene de son"
 
-	para "has done a great"
-	line "job with it."
+	para "père et a fait du"
+	line "bon travail."
 	done
 
 VioletCityYoungsterText:
-	text "I saw a wiggly"
-	line "tree up ahead!"
+	text "J'ai vu un arbre"
+	line "tout cabossé"
+	cont "là-bas!"
 
-	para "If you touch it,"
-	line "it squirms and"
-	cont "dances! Cool!"
+	para "Si on le touche,"
+	line "il gigote et"
+	cont "smurfe en même"
+	cont "temps! Cool!"
 	done
 
 VioletCityFisherText:
@@ -274,29 +279,30 @@ VioletCityCooltrainerM2Text:
 	done
 
 VioletCitySignText:
-	text "Violet City"
+	text "Mauville"
 
-	para "The City of"
-	line "Nostalgic Scents"
+	para "La ville aux"
+	line "senteurs du passé"
 	done
 
 VioletGymSignText:
-	text "Violet City"
-	line "#mon Gym"
-	cont "Leader: Falkner"
+	text "champion d'Arene"
+	line "de Mauville:"
+	cont "Albert"
 
-	para "The Elegant Master"
-	line "of Flying #mon"
+	para "Le dresseur de"
+	line "#mon volants"
 	done
 
 SproutTowerSignText:
-	text "Sprout Tower"
+	text "Tour Chetiflor"
 
-	para "Experience the"
-	line "Way of #mon"
+	para "Elle est grande,"
+	line "elle est belle et"
+	cont "pleine de #mon"
 	done
 
 EarlsPokemonAcademySignText:
-	text "Earl's #mon"
-	line "Academy"
+	text "Academie #mon"
+	line "de Theophile"
 	done

@@ -29,29 +29,31 @@ DarkCaveBlackthornEntrancePharmacistScript:
 	jumpthisopenedtext
 
 .PharmacistText2:
-	text "BlackGlasses ups"
-	line "the power of Dark-"
-	cont "type moves."
+	text "Les Lunet.Noires"
+	line "augmentent la"
+	cont "puissance des"
+	cont "attaques du type"
+	cont "ténèbres."
 	done
 
 .PharmacistText1:
-	text "Whoa! You startled"
-	line "me there!"
+	text "Whoa! Tu m'as"
+	line "fait peur!"
 
-	para "I had my Black-"
-	line "Glasses on, so I"
+	para "J'avais mes"
+	line "lunettes Noires..."
 
-	para "didn't notice you"
-	line "at all."
+	para "J'ai rien vu"
+	line "venir."
 
-	para "What am I doing"
-	line "here?"
+	para "Ce que je fais"
+	line "ici?"
 
-	para "Hey, don't you"
-	line "worry about it."
+	para "C'est pas trop tes"
+	line "oignons, non?"
 
-	para "I'll give you a"
-	line "pair of Black-"
-	cont "Glasses, so forget"
-	cont "you saw me, OK?"
+	para "Voilà une paire de"
+	line "lunettes Noires."
+	cont "Oublié que tu m'as"
+	cont "vu, OK?"
 	done

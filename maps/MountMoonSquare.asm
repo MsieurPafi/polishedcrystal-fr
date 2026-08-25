@@ -102,6 +102,7 @@ ClefairyFleeMovement:
 	step_end
 
 DontLitterSignText:
-	text "Mt.Moon Square"
-	line "Don't Litter"
+	text "Square du Mont"
+	line "Selenite"
+	cont "Ne rien jeter"
 	done

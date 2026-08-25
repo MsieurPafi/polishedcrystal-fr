@@ -58,19 +58,19 @@ HikerJimSeenText:
 	done
 
 HikerJimBeatenText:
-	text "Hahaha-hachoo!"
+	text "Hahaha-atchaa!"
 	done
 
 PokefanmRobertSeenText:
-	text "You like #mon,"
-	line "don't you?"
+	text "T'aimes les #-"
+	line "mon? Et ben..."
 
-	para "Me too!"
+	para "Moi aussi!"
 	done
 
 PokefanmRobertBeatenText:
-	text "I'd have to say"
-	line "that's my loss."
+	text "J'aime pas perdre."
+	line "Mais pas du tout."
 	done
 
 HexManiacAmySeenText:
@@ -87,8 +87,8 @@ HexManiacAmyBeatenText:
 	done
 
 Route10SignText:
-	text "Route 10"
+	text "route 10"
 
-	para "Cerulean City -"
-	line "Lavender Town"
+	para "Azuria -"
+	line "Lavanville"
 	done

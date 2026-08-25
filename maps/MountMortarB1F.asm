@@ -89,17 +89,17 @@ MountMortarB1FKiyoScript:
 	jumpthisopenedtext
 
 MountMortarB1FKiyoGotTyrogueText:
-	text "Tyrogue is a"
-	line "Fighting-type."
+	text "Debugant est du"
+	line "type combat."
 
-	para "It evolves into a"
-	line "tougher #mon."
+	para "Il évolue en un"
+	line "puissant #mon."
 
-	para "Keep up the hard"
-	line "work. I'll keep"
-	cont "training too."
+	para "Alors fais comme"
+	line "moi..."
+	cont "Entraîne-toi!"
 
-	para "Farewell!"
+	para "Adieu!"
 	done
 
 MountMortarB1FHikerText:
@@ -136,39 +136,40 @@ Text_MountMortarB1FTutorQuestion:
 
 
 MountMortarB1FKiyoIntroText:
-	text "Hey!"
+	text "Hé!"
 
-	para "I am the Karate"
-	line "King!"
+	para "Je suis le roi du"
+	line "karaté!"
 
-	para "I train alone here"
-	line "in the dark!"
+	para "Je m'entraîne seul"
+	line "dans le noir!"
 
-	para "You!"
-	line "Battle with me!"
+	para "Toi! Moi!"
+	line "Combat!"
 
-	para "Hwaaarggh!"
+	para "Yaaaaaah!"
 	done
 
 MountMortarB1FKiyoWinText:
 	text "Waaaarggh!"
-	line "I'm beaten!"
+	line "Perdu!"
 	done
 
 MountMortarB1FTyrogueRewardText:
-	text "I… I'm crushed…"
+	text "J'suis...mauvais."
 
-	para "My training is"
-	line "still not enough…"
+	para "Mon entraînement"
+	line "n'est pas encore"
+	cont "suffisant."
 
-	para "But a loss is a"
-	line "loss. I admit it."
+	para "Mais j'admets ma"
+	line "défaite."
 
-	para "As proof that you"
-	line "defeated me, I'll"
+	para "En gage de récom-"
+	line "pense, je vais te"
 
-	para "give you a rare"
-	line "fighting #mon."
+	para "donner un #mon"
+	line "de combat rare."
 	done
 
 MountMortarB1FKiyoFullPartyAndBoxText:

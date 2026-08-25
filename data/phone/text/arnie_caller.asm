@@ -52,8 +52,8 @@ ArnieBattleRematchText:
 	done
 
 ArnieHangUpText:
-	text "Let's talk again,"
-	line "huh?"
+	text "On se parle"
+	line "bientôt, OK?"
 	done
 
 ArnieSwarmText:
@@ -75,12 +75,12 @@ ArnieSwarmText:
 	done
 
 ArnieHaventSeenRareMonText:
-	text "I haven't had any"
-	line "luck seeing rare"
-	cont "#mon lately…"
+	text "Je n'ai pas vu de"
+	line "#mon rares"
+	cont "dernièrement..."
 
-	para "But I know they're"
-	line "out there!"
+	para "Mais ils ne sont"
+	line "pas loin!"
 	done
 
 ArnieReminderText:
@@ -95,12 +95,12 @@ ArnieReminderText:
 	done
 
 ArnieHurryText:
-	text "Hello? Are you"
-	line "coming or what?"
+	text "Allô? Tu viens"
+	line "oui ou zut?"
 
-	para "You're missing out"
-	line "on seeing Yanma!"
+	para "Tu vas voir un"
+	line "Yanma!"
 
-	para "Get down to Route"
-	line "35 right now!"
+	para "Viens sur la route"
+	line "35 maintenant!"
 	done

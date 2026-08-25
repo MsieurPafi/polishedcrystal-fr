@@ -129,17 +129,13 @@ EcruteakPokeCenter1FBillScript:
 	done
 
 .YesText:
-	text "Bill: I knew you'd"
-	line "come through!"
+	text "Leo: Je savais"
+	line "que je pouvais"
 
-	para "Way to go! You're"
-	line "the real deal!"
+	para "compter sur toi!"
+	line "T'es trop chou!"
 
-	para "OK, I'm counting"
-	line "on you."
-
-	para "Take good care of"
-	line "it!"
+	para "Prends-en soin!"
 	done
 
 .GoodbyeText:
@@ -160,8 +156,8 @@ EcruteakPokeCenter1FBillScript:
 	done
 
 .NoText:
-	text "Oh… Now what to"
-	line "do?"
+	text "Mais alors..."
+	line "Que faire?"
 	done
 
 .LeaveMovement:
@@ -267,20 +263,20 @@ EcruteakPokeCenter1FLassScript:
 	done
 
 EcruteakPokeCenter1FCooltrainerFText:
-	text "Morty, the Gym"
-	line "Leader, is soooo"
-	cont "cool."
+	text "Mortimer, le"
+	line "champion d'Arene"
+	cont "est trooop cool."
 
-	para "His #mon are"
-	line "really tough too."
+	para "Ses #mon sont"
+	line "bien balèzes."
 	done
 
 EcruteakPokeCenter1FGymGuyText:
-	text "Lake of Rage…"
+	text "Lac Colère..."
 
-	para "The appearance of"
-	line "a Gyarados swarm…"
+	para "Là où le Leviator"
+	line "apparaît..."
 
-	para "I smell a conspir-"
-	line "acy. I know it!"
+	para "Ça sent l'em-"
+	line "brouille. Je sais!"
 	done

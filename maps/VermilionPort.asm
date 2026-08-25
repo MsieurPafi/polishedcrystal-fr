@@ -205,67 +205,70 @@ VermilionPortApproachFastShipRightMovement:
 	step_end
 
 VermilionPortDepartingText:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "Le départ est"
+	line "proche. Montez à"
+	cont "bord s.v.p."
 	done
 
 
 VermilionPortAskBoardingText:
-	text "Welcome to Fast"
-	line "Ship S.S.Aqua."
+	text "Bienvenue sur le"
+	line "bateau Express:"
+	cont "l'Aquaria."
 
-	para "Will you be board-"
-	line "ing today?"
+	para "Allez-vous monter"
+	line "à bord?"
 	done
 
 VermilionPortAskTicketText:
-	text "May I see your"
-	line "S.S.Ticket?"
+	text "Puis-je voir votre"
+	line "passe bateau?"
 	done
 
 VermilionPortComeAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "A bientot!"
 	done
 
 VermilionPortSSTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.Ticket."
+	text "<PLAYER> montre"
+	line "son passe bateau."
 
-	para "That's it."
-	line "Thank you!"
+	para "Parfait."
+	line "Merci bien!"
 	done
 
 VermilionPortNoTicketText:
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "Ticket…"
+	text "<PLAYER> voudrait"
+	line "bien montrer son"
+	cont "passe bateau..."
 
-	para "…But no Ticket!"
+	para "Mais..."
+	line "Pas de ticket!"
 
-	para "Sorry!"
-	line "You may board only"
+	para "Désolé!"
+	line "On ne monte à bord"
 
-	para "if you have an"
-	line "S.S.Ticket."
+	para "que sur présenta-"
+	line "tion d'un passe."
 	done
 
 VermilionPortSailMondayText:
-	text "The Fast Ship will"
-	line "sail on Wednesday."
+	text "Le bateau Express"
+	line "partira mercredi"
+	cont "prochain."
 	done
 
 VermilionPortSailSundayText:
-	text "The Fast Ship will"
-	line "sail next Sunday."
+	text "Le bateau Express"
+	line "partira dimanche"
+	cont "prochain."
 	done
 
 VermilionPortSuperNerdText:
-	text "You came from"
+	text "Tu viens de"
 	line "Johto?"
 
-	para "I hear many rare"
-	line "#mon live over"
-	cont "there."
+	para "On dit qu'il y a"
+	line "plein de #mon"
+	cont "rares là-bas."
 	done

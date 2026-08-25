@@ -273,26 +273,24 @@ GenericTrainerDragonTamerErick:
 	done
 
 DragonTamerKazuSeenText:
-	text "I'm making my"
-	line "final preparations"
-
-	para "for the #mon"
-	line "League."
+	text "Je me prépare pour"
+	line "la Ligue #mon."
 	done
 
 DragonTamerKazuBeatenText:
-	text "I blew it!"
+	text "Noooon!"
 	done
 
 CooltrainermGaven1SeenText:
-	text "By experiencing"
-	line "tough battles, you"
-	cont "gain power."
+	text "C'est en rempor-"
+	line "tant des combats"
+	cont "difficiles que"
+	cont "l'on progresse."
 	done
 
 CooltrainermGaven1BeatenText:
-	text "Gaah! Life is even"
-	line "tougher!"
+	text "Gaah!"
+	line "Tu progresses là?"
 	done
 
 CooltrainermGavenAfterText:
@@ -311,60 +309,61 @@ CooltrainermGavenAfterText:
 	done
 
 CooltrainerfJoyceSeenText:
-	text "Since you've come"
-	line "this far, you must"
-	cont "be good."
+	text "Si tu es là, c'est"
+	line "que tu dois être"
+	cont "balèze."
 
-	para "I'm going to give"
-	line "this battle every-"
-	cont "thing I've got!"
+	para "Je vais me donner"
+	line "à fond..."
+	cont "Tu vas voir!"
 	done
 
 CooltrainerfJoyceBeatenText:
-	text "No! I don't"
-	line "believe this!"
+	text "Mais...c'est..."
+	line "Incroyable!"
 	done
 
 CooltrainerfBeth1SeenText:
-	text "I lost to a train-"
-	line "er named <RIVAL>."
+	text "J'ai perdu face"
+	line "à un type du nom"
+	cont "de <RIVAL>."
 
-	para "He was really"
-	line "strong, but…"
+	para "Il était fort"
+	line "mais..."
 
-	para "It was as if he"
-	line "absolutely had to"
-	cont "win at any cost."
+	para "On aurait dit qu'"
+	line "il combattait pour"
+	cont "sa vie..."
 
-	para "I felt sorry for"
-	line "his #mon."
+	para "Ça me faisait de"
+	line "la peine pour ses"
+	cont "#mon."
 	done
 
 CooltrainerfBeth1BeatenText:
-	text "#mon aren't"
-	line "tools of war."
+	text "Les #mon ne"
+	line "sont pas nos"
+	cont "esclaves."
 	done
 
 CooltrainerfBethAfterText:
-	text "#mon are in-"
-	line "valuable, lifelong"
-	cont "partners."
+	text "Les #mon sont"
+	line "des amis pour"
+	cont "la vie."
 	done
 
 PsychicRichardSeenText:
-	text "Wow, look at all"
-	line "those Badges!"
-	cont "I'm impressed."
+	text "Whoa! Regarde-moi"
+	line "tous ces Badges!"
+	cont "J'suis bluffé."
 
-	para "But you're not"
-	line "satisfied by just"
-
-	para "collecting them,"
-	line "right?"
+	para "Les collectionner"
+	line "ne te suffit pas,"
+	cont "hein?"
 	done
 
 PsychicRichardBeatenText:
-	text "Good battle!"
+	text "Même pas mal!"
 	done
 
 BattleGirlRondaSeenText:
@@ -377,17 +376,17 @@ BattleGirlRondaBeatenText:
 	done
 
 FisherScottSeenText:
-	text "I'm feeling great"
-	line "today!"
+	text "Moi j'suis en"
+	line "pleine forme!"
 
-	para "I feel like I"
-	line "could boot even"
-	cont "the League Champ!"
+	para "J'me sens capable"
+	line "de battre l'maître"
+	cont "de la Ligue!"
 	done
 
 FisherScottBeatenText:
-	text "No! Not in this"
-	line "battle!"
+	text "Heu..."
+	line "Ça compte pas!"
 	done
 
 DragonTamerErickSeenText:
@@ -400,8 +399,8 @@ DragonTamerErickBeatenText:
 	done
 
 Route26SignText:
-	text "Route 26"
+	text "route 26"
 
-	para "#mon League"
-	line "Reception Gate"
+	para "Ligue #mon"
+	line "porte d'accès"
 	done

@@ -23,20 +23,20 @@ TrainerHouse1F_MapScriptHeader:
 	object_event  2,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, TrainerHouse1FGentlemanText, -1
 
 TrainerHouse1FReceptionistText:
-	text "Welcome to Trainer"
-	line "House, the newest"
+	text "Bienvenue au Club"
+	line "des dresseurs,"
 
-	para "and most happening"
-	line "place in Viridian."
+	para "l'attraction de"
+	line "Jadielle."
 
-	para "We're open to"
-	line "trainers only."
+	para "Nous accueillons"
+	line "les dresseurs."
 
-	para "You can battle"
-	line "against the best"
+	para "Vous pouvez com-"
+	line "battre les meil-"
 
-	para "of the best right"
-	line "downstairs."
+	para "leurs à l'étage"
+	line "inférieur."
 	done
 
 TrainerHouse1FCooltrainerMText:
@@ -59,70 +59,72 @@ TrainerHouse1FCooltrainerMText:
 	done
 
 TrainerHouse1FCooltrainerFText:
-	text "They hold practice"
-	line "battles downstairs"
-	cont "here."
+	text "Des combats d'en-"
+	line "traînement se dé-"
+	cont "roulent en bas."
 
-	para "I would love to"
-	line "see how well a"
+	para "J'aimerais bien"
+	line "voir comment se"
 
-	para "trainer from Johto"
-	line "battles."
+	para "débrouille un"
+	line "dresseur de Johto."
 	done
 
 TrainerHouse1FYoungsterText:
-	text "I guess you can't"
-	line "become the Champ"
+	text "A mon avis, on ne"
+	line "peut pas devenir"
 
-	para "unless you go all"
-	line "over the place and"
+	para "un maître sans"
+	line "avoir tout vu et"
 
-	para "battle all kinds"
-	line "of people."
+	para "combattu tout le"
+	line "monde."
 
-	para "The Champion from"
-	line "Pallet traveled to"
+	para "Le maître de"
+	line "Palette a voyagé"
 
-	para "all the cities and"
-	line "towns in Kanto."
+	para "dans tous les"
+	line "coins de Kanto."
 	done
 
 TrainerHouse1FGentlemanText:
-	text "Whew… I'm taking a"
-	line "rest from #mon"
-	cont "battles."
+	text "Fouiii...j'ai trop"
+	line "combattu. Je me"
+	cont "repose un peu."
 	done
 
 TrainerHouseSign1Text:
-	text "Practice battles"
-	line "are held in the"
+	text "Des combats d'en-"
+	line "traînement se dé-"
 
-	para "Training Hall"
-	line "downstairs."
+	para "roulent en bas,"
+	line "dans le Hall d'en-"
+	cont "traînement."
 
-	para "Skilled trainers"
-	line "are invited to"
-	cont "participate."
+	para "Les bons dresseurs"
+	line "y sont invités."
 	done
 
 TrainerHouseSign2Text:
-	text "There are no rules"
-	line "or regulations for"
+	text "Comme pour les"
+	line "combats en exté-"
 
-	para "practice matches."
-	line "Just like in field"
+	para "rieur, il n'y a"
+	line "pas de règles spé-"
 
-	para "battles, anything"
-	line "goes!"
+	para "ciales pour les"
+	line "combats d'entraî-"
+	cont "nement!"
 	done
 
 TrainerHouseIllegibleText:
-	text "…What's this?"
-	line "A strategy memo?"
+	text "...C'est quoi ça?"
+	line "Une note sur la"
+	cont "stratégie?"
 
-	para "This writing looks"
-	line "like Onix tracks…"
+	para "On dirait des tra-"
+	line "cés faits par un"
 
-	para "It's completely"
-	line "illegible…"
+	para "Onix..."
+	line "C'est illisible..."
 	done

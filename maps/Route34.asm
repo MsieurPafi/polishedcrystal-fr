@@ -598,14 +598,16 @@ TrainerCooltrainerfKate:
 	jumpthisopenedtext
 
 CooltrainerfKateAfterText:
-	text "Kate: I'm sorry we"
-	line "jumped you."
+	text "Irene: Désolée de"
+	line "t'avoir sauté"
+	cont "dessus."
 
-	para "We never expected"
-	line "anyone to find us"
+	para "On ne pensait pas"
+	line "que quelqu'un"
 
-	para "here. You sure"
-	line "startled us."
+	para "nous trouverait"
+	line "ici. Tu nous as"
+	cont "bien surprises!"
 	done
 
 Route34MovementData_DayCareManWalksBackInside_WalkAroundPlayer:
@@ -686,66 +688,65 @@ BreederJulieSeenText:
 	done
 
 BreederJulieBeatenText:
-	text "Beaten by a"
-	line "passing stranger!"
+	text "Battu par toi???"
 	done
 
 CamperTodd1SeenText:
-	text "I'm confident in"
-	line "my ability to"
-	cont "raise #mon."
+	text "J'ai foi en mon"
+	line "talent de dresseur"
+	cont "de #mon."
 
-	para "Want to see?"
+	para "Tu veux voir?"
 	done
 
 CamperTodd1BeatenText:
-	text "Did I screw up my"
-	line "training?"
+	text "J'ai raté mon en-"
+	line "traînement?"
 	done
 
 CamperTodd1AfterText:
-	text "Maybe I should"
-	line "take one to a Day-"
+	text "Je devrais en"
+	line "mettre un en pen-"
 
-	para "Care. Or maybe use"
-	line "some items…"
+	para "sion. Ou peut-"
+	line "être utiliser des"
+	cont "objets..."
 	done
 
 CamperToddSaleText:
-	text "Shopping under the"
-	line "sky!"
+	text "Faire des courses"
+	line "sous le ciel!"
 
-	para "It feels so nice"
-	line "up on a rooftop."
+	para "Ça c'est la super"
+	line "classe."
 	done
 
 PicnickerGina1SeenText:
-	text "Are you a trainer?"
+	text "Tu t'entraînes?"
 
-	para "Let's have a"
-	line "practice battle."
+	para "On se fait un duel"
+	line "d'entraînement?"
 	done
 
 PicnickerGina1BeatenText:
-	text "Oh, no! I just"
-	line "can't win…"
+	text "Ne gagnerai-je"
+	line "donc jamais?"
 	done
 
 PicnickerGina1AfterText:
-	text "You're too strong"
-	line "to be a practice"
-	cont "partner."
+	text "Tu es trop balèze"
+	line "pour qu'on s'en-"
+	cont "traîne ensemble."
 	done
 
 OfficerfMaraSeenText:
-	text "Who goes there?"
-	line "What are you up"
-	cont "to?"
+	text "Qui va là?"
+	line "Pour quelle"
+	cont "raison?"
 	done
 
 OfficerfMaraWinText:
-	text "You're a tough"
-	line "little kid."
+	text "T'es coriace toi!"
 	done
 
 OfficerfMaraAfterText:
@@ -757,100 +758,97 @@ OfficerfMaraAfterText:
 	done
 
 OfficerfMaraDaytimeText:
-	text "I'm on patrol for"
-	line "suspicious indi-"
-	cont "viduals."
+	text "Je contrôle tous"
+	line "ceux qui ont l'air"
+	cont "louche."
 	done
 
 PokefanmBrandonSeenText:
-	text "I just got my"
-	line "#mon back from"
-	cont "Day-Care."
+	text "Mon #mon vient"
+	line "de rentrer de la"
+	cont "Pension."
 
-	para "Let's see how much"
-	line "stronger it got!"
+	para "Voyons s'il est"
+	line "plus fort!"
 	done
 
 PokefanmBrandonBeatenText:
-	text "Why does it end"
-	line "this way?"
+	text "Pourquoi?"
 	done
 
 CooltrainerfIreneSeenText:
-	text "Irene: Kyaaah!"
-	line "Someone found us!"
+	text "Amy: Kyaaah! On"
+	line "nous a trouvées!"
 	done
 
 CooltrainerfIreneBeatenText:
-	text "Irene: Ohhh!"
-	line "Too strong!"
+	text "Amy: Ohhh!"
 	done
 
 CooltrainerfIreneAfterText2:
-	text "Irene: Isn't this"
-	line "beach great?"
+	text "Amy: Elle est"
+	line "pas excellente"
+	cont "cette plage?"
 
-	para "It's our secret"
-	line "little getaway!"
+	para "C'est notre"
+	line "cachette secrète!"
 	done
 
 CooltrainerfJennSeenText:
-	text "Jenn: You can't"
-	line "beat Irene and go"
-	cont "unpunished!"
+	text "Maria: Tu ne peux"
+	line "battre Amy comme"
+	cont "ça! Attends!"
 	done
 
 CooltrainerfJennBeatenText:
-	text "Jenn: So sorry,"
-	line "Irene! Sis!"
+	text "Maria: Pardon Amy!"
 	done
 
 CooltrainerfJennAfterText2:
-	text "Jenn: Sunlight"
-	line "makes your body"
-	cont "stronger."
+	text "Maria: Le soleil"
+	line "rend le corps"
+	cont "plus fort."
 	done
 
 CooltrainerfKateSeenText:
-	text "Kate: You sure"
-	line "were mean to my"
-	cont "little sisters!"
+	text "Irene: T'as pas"
+	line "été sympa avec mes"
+	cont "petites soeurs!"
 	done
 
 CooltrainerfKateBeatenText:
-	text "Kate: No! I can't"
-	line "believe I lost."
+	text "Irene: Non! J'ai"
+	line "perdu! Incroyable!"
 	done
 
 CooltrainerfKateOfferPowerHerbText:
-	text "Kate: You're too"
-	line "strong. I didn't"
-	cont "stand a chance."
+	text "Irene: Tu es trop"
+	line "balèze. Je n'avais"
+	cont "aucune chance."
 
-	para "Here. You deserve"
-	line "this."
+	para "Tiens, tu mérites"
+	line "bien ceci."
 	done
 
 Route34SignText:
-	text "Route 34"
+	text "route 34"
 
-	para "Goldenrod City -"
-	line "Azalea Town"
+	para "Doublonville -"
+	line "Écorcia"
 
-	para "Ilex Forest"
-	line "Somewhere Between"
+	para "Bois aux Chenes"
+	line "Sur la route"
 	done
 
 Route34TrainerTipsText:
-	text "Trainer Tips"
+	text "Astuce"
 
-	para "Berry trees grow"
-	line "new Berries"
-	cont "every day."
+	para "Les arbres à Baies"
+	line "donnent des Baies"
+	cont "tous les jours."
 
-	para "Make a note of"
-	line "which trees bear"
-	cont "which Berries."
+	para "Notez quel arbre"
+	line "donne quelle Baie."
 	done
 
 Route34AdvancedTipsSignText:
@@ -871,8 +869,8 @@ Route34AdvancedTipsSignText:
 	done
 
 DayCareSignText:
-	text "Day-Care"
+	text "Pension"
 
-	para "Let Us Raise Your"
-	line "#mon For You!"
+	para "On élève votre"
+	line "#mon pour vous!"
 	done

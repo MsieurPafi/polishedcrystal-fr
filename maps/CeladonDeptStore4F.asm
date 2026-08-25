@@ -162,8 +162,9 @@ CeladonDeptStore4FYoungsterText:
 	done
 
 CeladonDeptStore4FDirectoryText:
-	text "Express Yourself"
-	line "With Gifts!"
+	text "Offrir, c'est"
+	line "merveilleux!"
 
-	para "4F: Wiseman Gifts"
+	para "3Eme: cadeaux du"
+	line "      sage"
 	done

@@ -358,19 +358,19 @@ BillsGrandpaIntroText:
 	done
 
 BillsGrandpaAskToSeeMonText:
-	text "If you have that"
-	line "#mon, may I see"
-	cont "it, please?"
+	text "Si tu as ce #-"
+	line "mon, peux-tu me"
+	cont "le montrer?"
 	done
 
 BillsGrandpaExcitedToSeeText:
-	text "You will show me?"
-	line "How good of you!"
+	text "Tu vas me le mon-"
+	line "trer? Cool!"
 	done
 
 BillsGrandpaYouDontHaveItTextText:
-	text "You don't have it?"
-	line "That's too bad…"
+	text "Tu ne l'as pas?"
+	line "Dommage..."
 	done
 
 BillsGrandpaShownPokemonText:
@@ -385,27 +385,27 @@ BillsGrandpaShownPokemonText:
 	done
 
 BillsGrandpaTokenOfAppreciationText:
-	text "Thanks!"
+	text "Toi t'es cool!"
 
-	para "This is a token of"
-	line "my appreciation."
+	para "Voilà une petite"
+	line "récompense."
 	done
 
 BillsGrandpaComeAgainText:
-	text "Come visit again"
-	line "sometime."
+	text "Rends-moi visite"
+	line "des fois."
 	done
 
 BillsGrandpaShownAllThePokemonText:
-	text "Thanks for showing"
-	line "me so many cute"
-	cont "#mon."
+	text "Merci de me mon-"
+	line "trer autant de"
+	cont "#mon tout mimi."
 
-	para "I really enjoyed"
-	line "myself. I'm glad"
+	para "C'est vraiment"
+	line "très amusant. Ma"
 
-	para "I've lived such a"
-	line "long life."
+	para "vie est belle"
+	line "grâce à toi."
 	done
 
 BillsGrandpaSnubbullText:
@@ -471,48 +471,47 @@ BillsGrandpaBellsproutText:
 	done
 
 BillsGrandpaStaryuText:
-	text "Do you know of a"
-	line "sea #mon that"
+	text "Connais-tu un"
+	line "#mon marin avec"
 
-	para "has a red sphere"
-	line "in its body?"
+	para "une sphère rouge"
+	line "dans le corps?"
 
-	para "You know, the one"
-	line "that's shaped like"
-	cont "a star?"
+	para "Tu sais... Celui"
+	line "qui est en forme"
+	cont "d'étoile?"
 
-	para "I heard that it"
-	line "appears at night."
+	para "On dit qu'il appa-"
+	line "raît la nuit."
 
-	para "I would surely"
-	line "like to see it."
+	para "J'aimerais tant"
+	line "le voir."
 	done
 
 BillsGrandpaGrowlitheText:
-	text "Bill told me about"
-	line "a #mon that is"
+	text "Leo m'a parlé d'un"
+	line "#mon très loyal"
 
-	para "very loyal to its"
-	line "trainer."
+	para "envers son dres-"
+	line "seur."
 
-	para "It's supposed to"
-	line "Roar well."
+	para "On dit qu'il hurle"
+	line "très bien."
 	done
 
 BillsGrandpaPichuText:
-	text "Do you know that"
-	line "hugely popular"
-	cont "#mon?"
+	text "Tu connais ce"
+	line "#mon super"
+	cont "populaire?"
 
-	para "The #mon that"
-	line "has a yellow body"
-	cont "and red cheeks."
+	para "Ce #mon qui"
+	line "a un corps jaune"
+	cont "et des joues"
+	cont "rouges..."
 
-	para "I would love to"
-	line "see what it looks"
-
-	para "like before it"
-	line "evolves."
+	para "J'aimerais tant le"
+	line "voir avant qu'il"
+	cont "n'évolue."
 	done
 
 
@@ -534,19 +533,21 @@ BillsMomText_AfterEcruteak:
 	done
 
 BillsSisterUsefulNumberText:
-	text "Are you a trainer?"
+	text "Es-tu dresseur?"
 
-	para "I've got a useful"
-	line "phone number for"
-	cont "you."
+	para "J'ai un numéro de"
+	line "téléphone utile"
+	cont "pour toi."
 	done
 
 RecordedBillsNumberText:
-	text "<PLAYER> recorded"
-	line "Bill's number."
+	text "<PLAYER> enregistre"
+	line "le numéro de télé-"
+	cont "phone de Leo."
 	done
 
 BillsSisterPhoneFullText:
-	text "You can't record"
-	line "any more numbers."
+	text "Mais tu ne peux"
+	line "plus enregistrer"
+	cont "de numéros!"
 	done

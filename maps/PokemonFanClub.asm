@@ -107,126 +107,127 @@ ClefairyDollScript:
 	done
 
 PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText:
-	text "I'm the Chairman"
-	line "of the #mon Fan"
-	cont "Club."
-
-	para "I've raised over"
-	line "150 #mon."
-
-	para "I'm very fussy"
-	line "when it comes to"
+	text "Je suis le Presi-"
+	line "dent du fan Club"
 	cont "#mon."
 
-	para "Did you visit just"
-	line "to hear about my"
-	cont "#mon?"
+	para "J'ai élevé plus de"
+	line "150 #mon."
+
+	para "Je suis très dif-"
+	line "ficile quand il"
+	cont "s'agit de"
+	cont "#mon."
+
+	para "Tu es ici pour"
+	line "en apprendre plus"
+	cont "sur mes #mon?"
 	done
 
 PokemonFanClubChairmanRapidashText:
-	text "Good!"
-	line "Then listen up!"
+	text "Bien!"
+	line "Alors, écoute!"
 
-	para "So… my favorite"
-	line "Rapidash…"
+	para "Mon préféré..."
+	line "Galopa..."
 
-	para "It… cute… lovely…"
-	line "smart… unbearably…"
-	cont "plus… amazing… oh…"
-	cont "you think so?…"
-	cont "Too much… wild…"
-	cont "beautiful… kindly…"
-	cont "love it!"
+	para "Il est mignon..."
+	line "beau...rapide..."
+	cont "élégant...en feu."
+	cont "Il fait pataclop,"
+	cont "pataclop...quand"
+	cont "il court...c'est"
+	cont "super non?"
+	cont "Je l'aime...!"
 
-	para "Hug it… when…"
-	line "sleeping… warm and"
-	cont "cuddly… Oh, and…"
-	cont "spectacular…"
-	cont "ravishing… simply"
-	cont "divine…"
-	cont "Oops! Look at the"
-	cont "time! I've kept"
-	cont "you too long!"
+	para "Je lui fais...des"
+	line "câlins...des..."
+	cont "poutoux...des..."
+	cont "gnangnans...des"
+	cont "zigouzigoux..."
+	cont "...Oups! Regarde"
+	cont "l'heure! Je crois"
+	cont "qu'il est temps"
+	cont "d'y aller!"
 	done
 
 PokemonFanClubChairmanIWantYouToHaveThisText:
-	text "Thanks for hearing"
-	line "me out. I want you"
-	cont "to have this!"
+	text "Merci de m'avoir"
+	line "écouté..."
+	cont "Voilà pour toi!"
 	done
 
 
 PokemonFanClubChairmanMoreTalesToTellText:
-	text "Hello, <PLAYER>!"
+	text "Salut, <PLAYER>!"
 
-	para "Did you come see"
-	line "me about my #-"
-	cont "mon again?"
+	para "Tu es ici pour en"
+	line "apprendre encore"
+	cont "sur mes #mon?"
 
-	para "No? Oh… I had more"
-	line "tales to tell…"
+	para "Non? Oh..."
+	line "J'avais de belles"
+	cont "histoires..."
 	done
 
 PokemonFanClubChairmanHowDisappointingText:
-	text "How disappointing…"
+	text "Dommage..."
 
-	para "Come back if you"
-	line "want to listen."
+	para "Reviens me voir"
+	line "vite."
 	done
 
 PokemonFanClubReceptionistText:
-	text "Our Chairman is"
-	line "very vocal when it"
-	cont "comes to #mon…"
+	text "Notre President"
+	line "parle un peu trop"
+	cont "de ses #mon..."
 	done
 
 PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
-	text "I love the way"
-	line "Clefairy waggles"
+	text "J'aime quand"
+	line "Melofee gigote son"
 
-	para "its finger when"
-	line "it's trying to use"
+	para "doigt quand il"
+	line "utilise son"
 
 	para "Metronome."
-	line "It's so adorable!"
+	line "C'est adorable!"
 	done
 
 PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
-	text "I love Clefairy,"
-	line "but I could never"
+	text "J'aime Melofee,"
+	line "mais je ne pourrai"
 
-	para "catch one. So I'm"
-	line "making do with a"
+	para "jamais en attraper"
+	line "un... Alors je"
 
-	para "# Doll that I"
-	line "found."
+	para "m'amuse avec cette"
+	line "# poupée."
 	done
 
 PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
-	text "Oh, I see now. The"
-	line "girl who lost this"
+	text "Oh, je vois. La"
+	line "fille qui a perdu"
 
-	para "# Doll is sad…"
+	para "sa # poupée"
+	line "est triste..."
 
-	para "OK. Could you take"
-	line "this # Doll"
+	para "OK. Peux-tu porter"
+	line "cette # poupée"
 
-	para "back to that poor"
-	line "little girl?"
+	para "à la pauvre petite"
+	line "fille triste?"
 
-	para "I'll befriend a"
-	line "real Clefairy on"
-
-	para "my own one day."
-	line "No worries!"
+	para "Je trouverai un"
+	line "vrai Melofee..."
 	done
 
 PokemonFanClubClefairyGuyGoingToGetARealClefairyText:
-	text "You watch. I'm"
-	line "going to get a"
+	text "J'attraperai un"
+	line "Melofee et il sera"
 
-	para "real Clefairy as"
-	line "my friend."
+	para "mon ami pour la"
+	line "vie."
 	done
 
 PokemonFanClubTeacherText:
@@ -242,12 +243,13 @@ FanClubOddishText:
 	done
 
 PokemonFanClubListenSignText:
-	text "Let's all listen"
-	line "politely to other"
-	cont "trainers."
+	text "Ecoutons tous"
+	line "les autres"
+	cont "dresseurs."
 	done
 
 PokemonFanClubBraggingSignText:
-	text "If someone brags,"
-	line "brag right back!"
+	text "Si quelqu'un se"
+	line "vante, vante-toi"
+	cont "à ton tour!"
 	done

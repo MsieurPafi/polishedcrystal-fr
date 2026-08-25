@@ -116,22 +116,22 @@ SaffronCityFisherScript:
 
 
 SaffronCityLass1Text_ReturnedMachinePart:
-	text "The Copycat girl"
-	line "looked unhappy."
+	text "La Copieuse semble"
+	line "malheureuse. Elle"
 
-	para "She said she lost"
-	line "her favorite #"
-	cont "Doll--Clefairy."
+	para "dit avoir perdu sa"
+	line "# poupée pré-"
+	cont "férée: Melofee."
 	done
 
 
 SaffronCityPokefanMText_ReturnedMachinePart:
-	text "You came out from"
-	line "Johto?"
+	text "Tu viens de Johto?"
 
-	para "You can zip back"
-	line "home by hopping on"
-	cont "the Magnet Train."
+	para "Tu peux retourner"
+	line "chez toi en une"
+	cont "seconde avec le"
+	cont "train Magnet."
 	done
 
 SaffronCityCooltrainerMText:
@@ -150,59 +150,54 @@ SaffronCityCooltrainerMText:
 	done
 
 SaffronCityCooltrainerFText:
-	text "This is Silph Co.,"
-	line "famous for #mon"
-	cont "merchandise."
+	text "La Sylphe SARL est"
+	line "célèbre pour ses"
+	cont "produits #mon."
 
-	para "In the past, Team"
-	line "Rocket wanted the"
+	para "C'est pour ça que"
+	line "la Team Rocket"
 
-	para "company because of"
-	line "that."
+	para "voulait la contrô-"
+	line "ler..."
 	done
 
 
 SaffronCityFisherText_ReturnedMachinePart:
-	text "Chew… Chew…"
+	text "(bouffe)(mâche)"
 
-	para "I hear there was"
-	line "big trouble at the"
-	cont "Power Plant."
+	para "On dit qu'il y a-"
+	line "vait du tintouin à"
+	cont "la centrale."
 
-	para "Chew… Chew…"
-	line "Haaah, I'm full!"
+	para "(bouffe)(mâche)"
+	line "J'ai plus faim!"
 	done
 
 SaffronCityYoungster1Text:
-	text "Going into an"
-	line "alley for the"
+	text "Se balader dans"
+	line "une ruelle pour la"
 
-	para "first time makes"
-	line "me sorta anxious."
+	para "première fois fait"
+	line "peur, non?"
 	done
 
 SaffronCityYoungster2Text:
-	text "There's a place"
-	line "called Trainer"
+	text "On dit que les"
+	line "dresseurs se ren-"
 
-	para "House in Viridian"
-	line "where trainers"
-
-	para "gather from all"
-	line "over the place."
+	para "contrent au Club"
+	line "des dresseurs à"
+	cont "Jadielle."
 	done
 
 SaffronCityLass2Text:
-	text "Our city was"
-	line "featured on a"
-	cont "radio program."
+	text "On a parlé de"
+	line "notre ville à la"
+	cont "radio."
 
-	para "It's nice to hear"
-	line "praise for your"
-
-	para "city, but it's a"
-	line "bit embarrassing"
-	cont "too."
+	para "Ça fait plaisir."
+	line "C'est pas tous les"
+	cont "jours."
 	done
 
 SaffronCityBlackBelt1Text:
@@ -265,10 +260,10 @@ SaffronCitySilphEmployeeText:
 	done
 
 SaffronCitySignText:
-	text "Saffron City"
+	text "Safrania"
 
-	para "Shining, Golden"
-	line "Land of Commerce"
+	para "Le berceau doré"
+	line "du commerce"
 	done
 
 SaffronGymSignText:
@@ -281,24 +276,24 @@ SaffronGymSignText:
 	done
 
 FightingDojoSignText:
-	text "Everyone Welcome!"
-	line "Fighting Dojo"
+	text "Dojo"
+	line "Bienvenue à tous!"
 	done
 
 SilphCoSignText:
-	text "Silph Co."
-	line "Office Building"
+	text "Bureaux de la"
+	line "Sylphe SARL"
 	done
 
 MrPsychicsHouseSignText:
-	text "Mr.Psychic's"
-	line "House"
+	text "maison de"
+	line "M.psy"
 	done
 
 SaffronCityMagnetTrainStationSignText:
-	text "Saffron City"
-	line "Magnet Train"
-	cont "Station"
+	text "Station du"
+	line "train Magnet"
+	cont "de Safrania"
 	done
 
 PokemonTrainerFanClubSignText:

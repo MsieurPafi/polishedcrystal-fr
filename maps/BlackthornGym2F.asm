@@ -76,14 +76,14 @@ GenericTrainerCooltrainermCody:
 	done
 
 .SeenText:
-	text "It's not as if we"
-	line "all use Dragon-"
-	cont "type #mon."
+	text "On n'utilise pas"
+	line "tous des #mon"
+	cont "dragon."
 	done
 
 .BeatenText:
-	text "Rats! If only I"
-	line "had a dragon!"
+	text "Zut! Il me faut"
+	line "un dragon!"
 	done
 
 GenericTrainerCooltrainerfFran:
@@ -94,14 +94,14 @@ GenericTrainerCooltrainerfFran:
 	done
 
 .SeenText:
-	text "I can't allow a"
-	line "nameless trainer"
-	cont "past me!"
+	text "Un dresseur"
+	line "quelconque ne"
+	cont "passera pas!"
 
-	para "Clair would be"
-	line "livid if I did!"
+	para "Sandra ne le"
+	line "permettrait pas!"
 	done
 
 .BeatenText:
-	text "Awww… I lost…"
+	text "Pffff. Perdu..."
 	done

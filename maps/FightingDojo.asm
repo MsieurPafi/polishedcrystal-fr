@@ -257,13 +257,15 @@ BlackBeltText_ExplainsRematches:
 	done
 
 FightingDojoSign1Text:
-	text "What goes around"
-	line "comes around!"
+	text "Le riz il est"
+	line "cuit!"
+	cont "(proverbe)"
 	done
 
 FightingDojoSign2Text:
-	text "Enemies on every"
-	line "side!"
+	text "Tape aussi fort"
+	line "que t'es beau!"
+	cont "(proverbe)"
 	done
 
 MACRO rematch_script

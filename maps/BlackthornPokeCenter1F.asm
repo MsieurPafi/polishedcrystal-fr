@@ -118,27 +118,29 @@ ProfOaksAide4Script:
 	done
 
 BlackthornPokeCenter1FGentlemanText:
-	text "Deep inside far-"
-	line "off Indigo Plateau"
+	text "Au fin fond du"
+	line "Plateau Indigo se"
 
-	para "is the #mon"
-	line "League."
+	para "trouve la Ligue"
+	line "#mon."
 
-	para "I hear the best"
-	line "trainers gather"
+	para "On dit que seuls"
+	line "les meilleurs"
 
-	para "there from around"
-	line "the country."
+	para "dresseurs du coin"
+	line "y vivent."
 	done
 
 BlackthornPokeCenter1FTwinText:
-	text "There was this"
-	line "move I just had"
+	text "Il y avait une"
+	line "capacité que je"
 
-	para "to teach my #-"
-	line "mon."
+	para "voulais donner à"
+	line "mon #mon..."
 
-	para "So I got the Move"
-	line "Deleter to make it"
-	cont "forget an HM move."
+	para "Alors j'ai demandé"
+	line "au type qui Efface"
+	cont "les capacités de"
+	cont "lui faire oublier"
+	cont "une CS."
 	done

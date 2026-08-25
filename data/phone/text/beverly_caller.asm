@@ -9,15 +9,12 @@ BeverlyMadeMonEvenCuterText:
 	done
 
 BeverlyDefeatedMonText:
-	text "I happened to come"
-	line "across a wild"
-	cont "Snubbull recently."
+	text "J'ai croisé un"
+	line "Snubbull sauvage."
 
-	para "My Snubbull, I"
-	line "assure you, was"
-
-	para "far cuter than the"
-	line "wild one."
+	para "Mon Snubbull à"
+	line "moi était bien"
+	cont "plus joli."
 	done
 
 BeverlyLostAMonText:
@@ -37,8 +34,8 @@ BeverlyLostAMonText:
 	done
 
 BeverlyHangUpText:
-	text "You can expect a"
-	line "call from me."
+	text "Je vais bientôt"
+	line "t'appeler."
 	done
 
 BeverlyFoundItemText:
@@ -61,11 +58,11 @@ BeverlyFoundItemText:
 	done
 
 BeverlyLetsChatAboutMonAgainText:
-	text "Are your #mon"
-	line "in prime form?"
+	text "Tes #mon"
+	line "sont en forme?"
 
-	para "Let's chat about"
-	line "#mon again."
+	para "On en parlera plus"
+	line "tard."
 	done
 
 BeverlyComePickUpText:

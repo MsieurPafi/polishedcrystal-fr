@@ -67,13 +67,14 @@ CeruleanPokeCenter1FGymGuyScript:
 	done
 
 CeruleanPokeCenter1FSuperNerdText:
-	text "For battles, I'd"
-	line "much rather use"
+	text "Pour les combats,"
+	line "je préfère utili-"
 
-	para "#mon I've been"
-	line "raising, even if"
+	para "ser des #mon"
+	line "que j'ai entraînés"
 
-	para "they're weaker"
-	line "than some newly"
-	cont "caught #mon."
+	para "plutôt que des"
+	line "#mon plus forts"
+	cont "que je viens"
+	cont "d'attraper."
 	done

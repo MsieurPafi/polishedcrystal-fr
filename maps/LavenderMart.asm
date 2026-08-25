@@ -17,26 +17,25 @@ LavenderMart_MapScriptHeader:
 	object_event  9,  2, SPRITE_ROCKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavenderMartRockerText, -1
 
 LavenderMartPokefanMText:
-	text "Repel is a neces-"
-	line "sity if you are"
+	text "Du repousse est"
+	line "utile pour explo-"
 
-	para "going to explore a"
-	line "cave."
+	para "rer une caverne."
 
-	para "Even though I like"
-	line "exploring, I still"
+	para "Moi j'me balade"
+	line "beaucoup, mais je"
 
-	para "haven't made it to"
-	line "all the caves."
+	para "n'ai pas encore"
+	line "tout vu."
 	done
 
 LavenderMartRockerText:
-	text "I heard about a"
-	line "craftsman who"
+	text "On m'a parlé d'un"
+	line "artisan qui fabri-"
 
-	para "makes custom Balls"
-	line "in the Johto town"
+	para "que des # Balls"
+	line "à Écorcia, à"
 
-	para "of Azalea. I wish"
-	line "I had some."
+	para "Johto. J'aimerais"
+	line "en avoir une."
 	done

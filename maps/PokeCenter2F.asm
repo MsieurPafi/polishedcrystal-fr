@@ -259,64 +259,68 @@ PokeCenter2FMovementData_ReceptionistStepsRightAndDown:
 	step_end
 
 Text_BattleReceptionistIntro:
-	text "Welcome to Cable"
-	line "Club Colosseum."
+	text "Bienvenue au"
+	line "Colisee du Club"
+	cont "Link."
 
-	para "You may battle a"
-	line "friend here."
+	para "Vous pouvez y"
+	line "affronter un(e)"
+	cont "ami(e)."
 
-	para "Would you like to"
-	line "battle?"
+	para "Voulez-vous"
+	line "combattre?"
 	done
 
 Text_TradeReceptionistIntro:
-	text "Welcome to Cable"
-	line "Trade Center."
+	text "Bienvenue au"
+	line "centre Troc."
 
-	para "You may trade your"
-	line "#mon here with"
-	cont "a friend."
+	para "Vous pouvez y"
+	line "faire des échanges"
+	cont "de #mon avec"
+	cont "un(e) ami(e)."
 
-	para "Would you like to"
-	line "trade?"
+	para "Voulez-vous"
+	line "échanger?"
 	done
 
 Text_FriendNotReady:
-	text "Your friend is not"
-	line "ready."
+	text "Votre ami(e) n'est"
+	line "pas prêt(e)."
 	prompt
 
 Text_MustSaveGame:
-	text "Before opening the"
-	line "link, you must"
-	cont "save your game."
+	text "Avant toute conne-"
+	line "xion, vous devez"
+	cont "sauvegarder."
 	done
 
 Text_PleaseWait:
-	text "Please wait."
+	text "Attendre s.v.p."
 	done
 
 Text_LinkTimedOut:
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
+	text "Pas de réponse:"
+	line "la connexion a été"
+	cont "fermée."
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again."
+	para "Contactez votre"
+	line "ami(e) et recom-"
+	cont "mencez plus tard."
 	prompt
 
 Text_PleaseComeAgain:
-	text "Please come again."
+	text "A bientôt."
 	prompt
 
 Text_PleaseComeIn:
-	text "Please come in."
+	text "Entrez s.v.p."
 	prompt
 
 Text_CantLinkToThePast:
-	text "You can't link to"
-	line "the past here."
+	text "Vous ne pouvez pas"
+	line "vous connecter au"
+	cont "passé ici."
 	prompt
 
 Text_OldVersionDetected:
@@ -371,8 +375,9 @@ Text_WrongOptions:
 	prompt
 
 Text_IncompatibleRooms:
-	text "Incompatible rooms"
-	line "were chosen."
+	text "Votre ami(e) a"
+	line "choisi une salle"
+	cont "différente."
 	prompt
 
 Text_TimeCapsuleClosed:

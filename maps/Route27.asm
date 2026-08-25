@@ -433,29 +433,29 @@ Route27FisherStepLeftTwiceMovement:
 	step_end
 
 Route27FisherHeyText:
-	text "Hey!"
+	text "Hé!"
 	done
 
 Route27FisherText:
-	text "Do you know what"
-	line "you just did?"
+	text "Tu sais ce que tu"
+	line "viens de faire?"
 
-	para "You've taken your"
-	line "first step into"
-	cont "Kanto."
+	para "Tu viens de faire"
+	line "ton premier pas à"
+	cont "Kanto..."
 
-	para "Check your #-"
-	line "gear Map and see."
+	para "Regarde la carte"
+	line "de ton #matos!"
 	done
 
 CooltrainermBlakeSeenText:
-	text "You look pretty"
-	line "strong."
-	cont "Let me battle you!"
+	text "Tu as l'air"
+	line "fort."
+	cont "Combaaat!"
 	done
 
 CooltrainermBlakeBeatenText: ; text > text
-	text "Yow!"
+	text "Huf!"
 	done
 
 AceDuoJakeandbri1SeenText:
@@ -480,59 +480,58 @@ AceDuoJakeandbri2BeatenText:
 	done
 
 CooltrainerfReena1SeenText:
-	text "You shouldn't"
-	line "underestimate the"
+	text "Tu devrais faire"
+	line "attention aux"
 
-	para "wild #mon in"
-	line "these parts."
+	para "#mon sauvages"
+	line "du coin."
 	done
 
 CooltrainerfReena1BeatenText:
-	text "Oh! You're much"
-	line "too strong!"
+	text "Oh!"
+	line "Pas glop!"
 	done
 
 CooltrainerfReenaAfterBattleText:
-	text "You're just a kid,"
-	line "but you're not to"
+	text "T'es jeune,"
+	line "mais..."
 
-	para "be underestimated"
-	line "either."
+	para "T'es balèze!"
+	line "Oh que oui!"
 	done
 
 CooltrainerfMeganSeenText:
-	text "It's rare to see"
-	line "anyone come here."
+	text "C'est rare de voir"
+	line "quelqu'un ici."
 
-	para "Are you training"
-	line "on your own?"
+	para "Tu t'entraînes"
+	line "en solitaire?"
 	done
 
 CooltrainerfMeganBeatenText:
-	text "Oh! You're really"
-	line "strong!"
+	text "Ben ça alors!"
 	done
 
 PsychicGilbertSeenText:
-	text "Don't say a thing!"
+	text "Ne dis rien!"
 
-	para "Let me guess what"
-	line "you're thinking."
+	para "Je vais lire dans"
+	line "tes pensées..."
 
-	para "Mmmmmmm…"
+	para "Mmmmmmm..."
 
-	para "I got it! You're"
-	line "on the #mon"
-	cont "League challenge!"
+	para "Je sais! Tu veux"
+	line "te mesurer à la"
+	cont "Ligue #mon!"
 	done
 
 PsychicGilbertBeatenText:
-	text "You're too much!"
+	text "Je le savais!"
 	done
 
 Bird_keeperJose1SeenText:
-	text "Tweet! Tweet!"
-	line "Tetweet!"
+	text "Piou! Piou!"
+	line "Piouuu!"
 	done
 
 Bird_keeperJose1BeatenText:
@@ -540,16 +539,17 @@ Bird_keeperJose1BeatenText:
 	done
 
 BirdKeeperJose2AfterBattleText:
-	text "Bird Keepers like"
-	line "me mimic bird"
+	text "Les Ornithologues"
+	line "aiment siffler"
 
-	para "whistles to com-"
-	line "mand #mon."
+	para "comme les oiseaux"
+	line "pour parler aux"
+	cont "#mon."
 	done
 
 TohjoFallsSignText:
-	text "Tohjo Falls"
+	text "Chutes Tohjo"
 
-	para "The Link Between"
-	line "Kanto and Johto"
+	para "Le lien entre"
+	line "Kanto et Johto"
 	done

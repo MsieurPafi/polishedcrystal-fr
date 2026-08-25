@@ -57,14 +57,14 @@ GoldenrodUndergroundEntrancesVeteranMScript:
 	done
 
 GoldenrodUndergroundEntrances_TeacherText:
-	text "There are some"
-	line "shops downstairs…"
+	text "Il y a des bouti-"
+	line "ques en bas..."
 
-	para "But there are"
-	line "also trainers."
+	para "Mais il y a aussi"
+	line "des dresseurs..."
 
-	para "I'm scared to go"
-	line "down there."
+	para "Alors j'ai peur"
+	line "d'y aller."
 	done
 
 GoldenrodUndergroundEntrances_SuperNerd1Text:
@@ -81,13 +81,12 @@ GoldenrodUndergroundEntrances_SuperNerd1Text:
 	done
 
 GoldenrodUndergroundEntrances_SuperNerd2Text:
-	text "I was challenged"
-	line "to a battle down-"
-	cont "stairs."
+	text "J'ai fait un"
+	line "combat en bas."
 
-	para "It's rough down"
-	line "there. You'd"
-	cont "better be careful."
+	para "C'était super"
+	line "chaud. Un conseil:"
+	cont "fais super gaffe!"
 	done
 
 GoldenrodUndergroundEntrances_BeautyText:

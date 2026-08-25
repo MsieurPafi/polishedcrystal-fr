@@ -116,8 +116,9 @@ GenericTrainerTwinsKayandtia2:
 	done
 
 TeacherColetteSeenText:
-	text "Have you forgotten"
-	line "anything?"
+	text "Il est où ton"
+	line "cahier?"
+	cont "Et ta trousse?"
 	done
 
 TeacherColetteBeatenText:
@@ -125,62 +126,60 @@ TeacherColetteBeatenText:
 	done
 
 TeacherHillarySeenText:
-	text "On sunny days, I"
-	line "think that the"
+	text "Avoir son matériel"
+	line "est important."
 
-	para "kids would rather"
-	line "be playing in the"
-
-	para "schoolyard than"
-	line "studying in class."
+	para "Comme les dictées"
+	line "et les devoirs."
 	done
 
 TeacherHillaryBeatenText:
-	text "I didn't want to"
-	line "lose…"
+	text "Perdre c'est mal."
+	line "Pfff..."
 	done
 
 SchoolboyKippSeenText:
-	text "Hang on. I have to"
-	line "phone my mom."
+	text "Un p'tit combat"
+	line "et j'appelle ma"
+	cont "maman."
 	done
 
 SchoolboyKippBeatenText:
-	text "Sorry, Mom!"
-	line "I was beaten!"
+	text "Allô maman?"
+	line "J'ai perdu!"
 	done
 
 SchoolboyTommySeenText:
-	text "Let's battle."
-	line "I won't lose!"
+	text "Coooombaaaat!"
+	line "ha ha ha ha!"
 	done
 
 SchoolboyTommyBeatenText:
-	text "I forgot to do my"
-	line "homework!"
+	text "Heu..."
+	line "Copain?"
 	done
 
 SchoolgirlFaithSeenText:
-	text "We're on a field"
-	line "trip to Lavender"
+	text "On va étudier à la"
+	line "Tour Radio de"
 
-	para "Radio Tower for"
-	line "social studies."
+	para "Lavanville..."
+	line "Génial, non?"
 	done
 
 SchoolgirlFaithBeatenText:
-	text "You're wickedly"
-	line "tough!"
+	text "T'es pas sympa,"
+	line "toi!"
 	done
 
 SchoolboyBillySeenText:
-	text "My favorite class"
-	line "is gym!"
+	text "J'aime la purée!"
+	line "Combat!"
 	done
 
 SchoolboyBillyBeatenText:
-	text "Oh, no!"
-	line "How could I lose?"
+	text "...."
+	line "Super."
 	done
 
 PokefanfBooneSeenText:
@@ -233,8 +232,8 @@ TwinsKayandtia2BeatenText:
 	done
 
 Route15SignText:
-	text "Route 15"
+	text "route 15"
 
-	para "Fuchsia City -"
-	line "Lavender Town"
+	para "Parmanie -"
+	line "Lavanville"
 	done

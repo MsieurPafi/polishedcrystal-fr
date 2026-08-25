@@ -158,43 +158,40 @@ PewterCityCooltrainermText:
 	done
 
 PewterCityBugCatcherText:
-	text "At night, Clefairy"
-	line "come out to play"
-	cont "at Mt.Moon."
+	text "La nuit, les"
+	line "Melofee sortent"
+	cont "pour jouer au Mont"
+	cont "Selenite."
 
-	para "But not every"
-	line "night."
+	para "Mais pas toutes"
+	line "les nuits."
 	done
 
 PewterCityGrampsText:
-	text "Ah, you came all"
-	line "the way out here"
-	cont "from Johto?"
+	text "Ah, tu viens de"
+	line "Johto, toi?"
 
-	para "That brings back"
-	line "memories. When I"
+	para "Moi aussi je me"
+	line "baladais dans"
 
-	para "was young, I went"
-	line "to Johto to train."
+	para "Johto étant plus"
+	line "jeune."
 
-	para "You remind me so"
-	line "much of what I was"
+	para "Tu me rappelles"
+	line "mes jeunes années."
 
-	para "like as a young"
-	line "man."
-
-	para "Here. I want you"
-	line "to have this item"
-	cont "I found in Johto."
+	para "Tiens. Voilà un"
+	line "objet que j'ai"
+	cont "trouvé à Johto."
 	done
 
 PewterCityGrampsText_GotSilverWing:
-	text "Going to new, un-"
-	line "known places and"
-	cont "seeing new people…"
+	text "Découvrir de nou-"
+	line "veaux visages, de"
+	cont "nouveaux lieux..."
 
-	para "Those are the joys"
-	line "of travel."
+	para "C'est beau de"
+	line "voyager."
 	done
 
 PewterCityYoungsterText1:
@@ -208,17 +205,17 @@ PewterCityYoungsterText1:
 
 
 PewterCitySignText:
-	text "Pewter City"
-	line "A Stone Gray City"
+	text "Argenta"
+	line "Grise comme le roc"
 	done
 
 PewterGymSignText:
-	text "Pewter City"
-	line "#mon Gym"
-	cont "Leader: Brock"
+	text "champion d'Arene"
+	line "d'Argenta:"
+	cont "pierre"
 
-	para "The Rock Solid"
-	line "#mon Trainer"
+	para "Le dresseur dur"
+	line "comme la roche"
 	done
 
 PewterMuseumOfScienceSignText:
@@ -227,11 +224,13 @@ PewterMuseumOfScienceSignText:
 	done
 
 PewterCityMtMoonGiftShopSignText:
-	text "There's a notice"
-	line "here…"
+	text "Il y a une affiche"
+	line "ici..."
 
-	para "Mt.Moon Gift Shop"
-	line "Now open!"
+	para "La boutique de"
+	line "souvenirs du Mont"
+	cont "Selenite est"
+	cont "ouverte!"
 	done
 
 PewterCityTrainerTipsText:

@@ -61,16 +61,15 @@ ProfOaksAide2Script:
 	done
 
 Route38EcruteakGateOfficerText:
-	text "Where did you say"
-	line "you're from?"
+	text "Tu viens d'où?"
 
-	para "New Bark Town?"
+	para "Bourg Geon?"
 
-	para "Prof.Elm lives"
-	line "over there, right?"
+	para "Le Prof.Orme"
+	line "y vit, non?"
 
-	para "You've come a long"
-	line "way to get here."
+	para "Tu viens de loin,"
+	line "dis donc."
 	done
 
 ProfOaksAide2HiText:

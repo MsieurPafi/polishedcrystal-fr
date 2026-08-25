@@ -53,41 +53,42 @@ ToddBattleRematchText:
 	done
 
 ToddHangUpText:
-	text "See you later!"
+	text "A plus tard!"
 	done
 
 ToddDepartmentStoreBargainSaleText:
-	text "This is it--the"
-	line "one we've all been"
-	cont "waiting for!"
+	text "Ça y est!"
+	line "Enfin!"
 
-	para "Goldenrod Dept."
-	line "Store's bargain"
-	cont "sale is on now!"
+	para "Le centre Commer-"
+	line "cial de Doublon-"
+	cont "ville fait des"
+	cont "soldes!"
 
-	para "Want it cheap?"
-	line "Want it lots?"
+	para "Pas cher!"
+	line "Tout neuf!"
 
-	para "Don't miss this"
-	line "Goldenrod chance!"
+	para "Faut aller à"
+	line "Doublonville!"
 
-	para "Huh? I sound like"
-	line "a huckster?"
+	para "Quoi? Mais non je"
+	line "travaille pas chez"
+	cont "eux!"
 
-	para "Well, yeah. I was"
-	line "mimicking them…"
+	para "Je veux faire de"
+	line "la pub plus tard."
 
-	para "Anyway, you've got"
-	line "to get there as"
-	cont "soon as you can!"
+	para "En tout cas,"
+	line "vas-y, ça vaut le"
+	cont "coup!"
 	done
 
 ToddSavingUpForBargainSaleText:
-	text "I'm saving up for"
-	line "the next bargain"
+	text "J'économise pour"
+	line "les prochaines"
 
-	para "sale. When's the"
-	line "next one?"
+	para "soldes. C'est pour"
+	line "quand?"
 	done
 
 ToddLookingForwardToBattleText:
@@ -103,15 +104,13 @@ ToddLookingForwardToBattleText:
 	done
 
 ToddHaveYouGoneToDepartmentStoreText:
-	text "Haven't you gone"
-	line "to Goldenrod Dept."
+	text "Tu as visité le"
+	line "centre Commercial"
 
-	para "Store? I've scoped"
-	line "it out already!"
+	para "de Doublonville?"
+	line "Ils font des super"
+	cont "soldes!"
 
-	para "They had some real"
-	line "bargains."
-
-	para "You should get"
-	line "there quickly."
+	para "Tu devrais y"
+	line "aller."
 	done

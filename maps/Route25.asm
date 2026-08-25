@@ -120,81 +120,80 @@ Route25CooltrainerMovementData:
 	step_end
 
 SchoolboyDudleySeenText:
-	text "Beat the six of us"
-	line "trainers to win a"
-	cont "fabulous prize!"
+	text "Bats les six"
+	line "dresseurs pour"
+	cont "gagner un prix!"
 
-	para "Think you've got"
-	line "what it takes?"
+	para "Tu crois en être"
+	line "capable?"
 	done
 
 SchoolboyDudleyBeatenText:
-	text "Whoo! Good stuff."
+	text "Whoa! Balèze."
 	done
 
 LassEllenSeenText:
-	text "I'm second."
-	line "Now it's serious!"
+	text "J'suis en deuz."
+	line "Ça va barder!"
 	done
 
 LassEllenBeatenText:
-	text "How could I lose?"
+	text "Impossible!"
 	done
 
 SchoolboyJoeSeenText:
-	text "Here's No. 3!"
-	line "I won't be easy."
+	text "Numéro 3!"
+	line "Tu vas en baver!"
 	done
 
 SchoolboyJoeBeatenText:
-	text "Ow! Stomped flat!"
+	text "Ouille! Perdu!"
 	done
 
 LassLauraSeenText:
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "Numéro 4! Tu"
+	line "tiens le coup?"
 	done
 
 LassLauraBeatenText:
-	text "I lost too…"
+	text "Perdu? Moi aussi?"
 	done
 
 CamperLloydSeenText:
-	text "OK! I'm No. 5."
-	line "I'll stomp you!"
+	text "OK! Numéro 5."
+	line "Combaaaat!"
 	done
 
 CamperLloydBeatenText:
-	text "Whoa! Too much."
+	text "Whoa! Trop fort."
 	done
 
 LassShannonSeenText:
-	text "I'm the last in"
-	line "line, but I tell"
-	cont "you, I'm tough!"
+	text "Dernier rempart!"
+	line "Autant te dire..."
+	cont "Ça va être dur!"
 	done
 
 LassShannonBeatenText:
-	text "You're kidding."
+	text "Sans blague?"
 	done
 
 SupernerdPatSeenText:
-	text "Mufufufu…"
+	text "Hin hin hin..."
 
-	para "I have nothing to"
-	line "do with the six-"
-	cont "pack trainers."
+	para "Je me fiche des"
+	line "six autres dres-"
+	cont "seurs."
 
-	para "I waited here to"
-	line "beat you when you"
+	para "Je suis là pour te"
+	line "battre au moment"
 
-	para "were tired out by"
-	line "all the battles."
+	para "où tu es le plus"
+	line "à plat."
 	done
 
 SupernerdPatBeatenText:
-	text "Aren't you tired"
-	line "at all?"
+	text "T'es pas à plat?"
 	done
 
 Route25MewYoungsterText:
@@ -207,49 +206,49 @@ Route25MewYoungsterText:
 	done
 
 Route25SlowpokeText1:
-	text "Slowpoke: …"
+	text "Ramoloss: ..."
 
-	para "…… …… ……"
+	para ".................."
 	done
 
 Route25SlowpokeText2:
-	text "…… ……Yawn?"
+	text ".........gueuh?"
 	done
 
 CooltrainermKevinNuggetText:
-	text "You took on one"
-	line "more battle than"
+	text "Tu as livré un"
+	line "combat de plus que"
 
-	para "you expected, but"
-	line "you won anyway."
+	para "prévu et tu as"
+	line "quand même gagné."
 
-	para "As promised, you"
-	line "win a prize."
+	para "Tu remportes donc"
+	line "un prix."
 	done
 
 CooltrainermKevinSeenText:
-	text "But after seeing"
-	line "how you battle, I"
+	text "Mais après avoir"
+	line "vu ton combat, je"
 
-	para "want to see how"
-	line "I'll fare."
+	para "voudrais tenter ma"
+	line "chance."
 
-	para "How about it? Let"
-	line "me take you on."
+	para "Ça te dit?"
+	line "Alors c'est parti."
 	done
 
 CooltrainermKevinBeatenText:
-	text "I've never had a"
-	line "battle this good!"
+	text "Ouais!"
+	line "Beau combat!"
 	done
 
 CooltrainermKevinAfterBattleText:
-	text "That was a great"
-	line "battle!"
+	text "Quelle belle"
+	line "rencontre!"
 
-	para "You and your #-"
-	line "mon are truly out-"
-	cont "standing!"
+	para "Toi et tes #mon"
+	line "êtes vraiment"
+	cont "impressionnants!"
 	done
 
 NuggetBridgeNotClearedText:

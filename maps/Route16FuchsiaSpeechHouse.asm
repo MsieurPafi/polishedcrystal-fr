@@ -17,11 +17,11 @@ Route16FuchsiaSpeechHouse_MapScriptHeader:
 	object_event  5,  4, SPRITE_LADY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route16FuchsiaSpeechHouseLadyText, -1
 
 Route16FuchsiaSpeechHouseSuperNerdText:
-	text "If you cruise down"
-	line "Cycling Road, you"
+	text "Si tu descends la"
+	line "Piste Cyclable, tu"
 
-	para "will end up in"
-	line "Fuchsia City."
+	para "te retrouveras à"
+	line "Parmanie."
 	done
 
 Route16FuchsiaSpeechHouseLadyText:

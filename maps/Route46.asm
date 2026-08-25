@@ -232,69 +232,67 @@ Text_Route46TutorQuestion:
 
 
 HikerBaileySeenText:
-	text "Awright! I'll show"
-	line "you the power of"
-	cont "mountain #mon!"
+	text "Je vais t'montrer"
+	line "la force des"
+	cont "#mon de"
+	cont "montagne!"
 	done
 
 HikerBaileyBeatenText:
-	text "Mercy! You showed"
-	line "me your power!"
+	text "Au secours!"
 	done
 
 CamperTedSeenText:
-	text "I'm raising #-"
-	line "mon too!"
+	text "Moi aussi j'ai des"
+	line "#mon!"
 
-	para "Will you battle"
-	line "with me?"
+	para "Ça te dit un bon"
+	line "combat?"
 	done
 
 CamperTedBeatenText: ; text > text
-	text "Wha…?"
+	text "Hein...?"
 	done
 
 PicnickerErin1SeenText:
-	text "I raise #mon"
-	line "too!"
+	text "J'ai des #mon"
+	line "moi z'aussi!"
 
-	para "Will you battle"
-	line "with me?"
+	para "On se fritte la"
+	line "tête?"
 	done
 
 PicnickerErin1BeatenText:
-	text "Oh, rats!"
+	text "Oh, ben mince!"
 	done
 
 PicnickerErinAfterBattleText:
-	text "I've been to many"
-	line "Gyms, but the Gym"
+	text "Je connais toutes"
+	line "les Arenes mais ma"
 
-	para "in Goldenrod is my"
-	line "favorite."
+	para "préférée c'est"
+	line "celle de Doublon-"
+	cont "ville."
 
-	para "It's filled with"
-	line "pretty flowers!"
+	para "Y'a tout plein"
+	line "de zolies fleurs!"
 	done
 
 PicnickerErin2BeatenText:
-	text "Aww… I keep losing"
-	line "all the time!"
+	text "Pfff... Je perds"
+	line "tout le temps!"
 
-	para "I'll just have to"
-	line "try harder!"
+	para "Y faut que je"
+	line "m'entraîne!"
 
-	para "Anyway, thanks for"
-	line "battling me again"
-
-	para "and again. Here's"
-	line "that present from"
-	cont "the other time."
+	para "Merci quand même."
+	line "Voilà le cadeau de"
+	cont "la dernière fois."
 	done
 
 Route46SignText:
-	text "Route 46"
-	line "Mountain Rd. Ahead"
+	text "route 46"
+	line "chemin de montagne"
 	done
 
 Route46LassText:

@@ -60,7 +60,7 @@ JoeyBattleRematchText:
 	done
 
 JoeyHangUpText:
-	text "All right. Later!"
+	text "A plus tard!"
 	done
 
 JoeyDevisingStrategiesText:

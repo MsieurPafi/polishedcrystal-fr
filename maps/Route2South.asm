@@ -42,27 +42,30 @@ GenericTrainerBug_maniacDoug:
 	done
 
 Bug_maniacRobSeenText:
-	text "My bug #mon are"
-	line "tough. Prepare to"
-	cont "lose!"
+	text "Mes #mon in-"
+	line "secte sont forts."
+	cont "Tu vas perdre!"
 	done
 
 Bug_maniacRobBeatenText:
-	text "I was whipped…"
+	text "Tout perdu!"
 	done
 
 Bug_maniacDougSeenText:
-	text "Why don't girls"
-	line "like bug #mon?"
+	text "Pourquoi les fil-"
+	line "les n'aiment pas"
+	cont "les #mon insec-"
+	cont "te? C'est quoi"
+	cont "cette question?"
 	done
 
 Bug_maniacDougBeatenText:
-	text "No good!"
+	text "Naaaaan!"
 	done
 
 Route2SignText:
-	text "Route 2"
+	text "route 2"
 
-	para "Viridian City -"
-	line "Pewter City"
+	para "Jadielle -"
+	line "Argenta"
 	done

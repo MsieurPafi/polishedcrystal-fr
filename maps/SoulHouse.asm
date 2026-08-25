@@ -65,28 +65,27 @@ MrFujiScript:
 	endtext
 
 MrFujiText:
-	text "Mr.Fuji: Welcome."
+	text "M.Fuji:"
+	line "Bienvenue à toi."
 
-	para "Hmm… You appear to"
-	line "be raising your"
+	para "Hmm... Tu as l'air"
+	line "d'être un dresseur"
 
-	para "#mon in a kind"
-	line "and loving manner."
+	para "de #mon doux"
+	line "et attentionné."
 
-	para "#mon lovers"
-	line "come here to pay"
+	para "Ceux qui aiment"
+	line "les #mon vien-"
 
-	para "their respects to"
-	line "departed #mon."
+	para "nent ici saluer"
+	line "leur âme."
 
-	para "Please offer con-"
-	line "dolences for the"
+	para "Tu peux présenter"
+	line "ici tes condoléan-"
+	cont "ces."
 
-	para "souls of the de-"
-	line "parted #mon."
-
-	para "I'm sure that will"
-	line "make them happy."
+	para "Cela leur fera"
+	line "plaisir."
 	done
 
 MrFujiGiveSilphScopeText:
@@ -105,27 +104,29 @@ MrFujiUseThisText:
 	done
 
 SoulHouseTeacherText:
-	text "There are other"
-	line "graves of #mon"
-	cont "here, I think."
+	text "Il y a d'autres"
+	line "tombes de #mon"
+	cont "ici, je crois."
 
-	para "There are many"
-	line "chambers that only"
-	cont "Mr.Fuji may enter."
+	para "Beaucoup de pièces"
+	line "ne sont réservées"
+	cont "qu'à M.Fuji."
 	done
 
 SoulHouseLassText:
-	text "I came with my mom"
-	line "to visit #mon"
-	cont "graves…"
+	text "J'suis venue avec"
+	line "ma môman pour voir"
+	cont "les tombes de"
+	cont "#mon..."
 	done
 
 SoulHouseGrannyText:
-	text "The #mon that"
-	line "lived with me…"
+	text "Les #mon que"
+	line "j'ai perdus..."
 
-	para "I loved them like"
-	line "my grandchildren…"
+	para "Je les aimais com-"
+	line "me mes petits-"
+	cont "enfants..."
 	done
 
 AgathaSeenText:

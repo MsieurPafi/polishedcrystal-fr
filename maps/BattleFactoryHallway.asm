@@ -174,8 +174,7 @@ BattleFactoryHallwayEnterScene:
 	step_end
 
 .PleaseStepThisWayText:
-	text "Please step this"
-	line "way."
+	text "Par ici."
 	prompt
 
 .StepAbovePlayerMovement:

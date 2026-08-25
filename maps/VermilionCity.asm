@@ -261,15 +261,16 @@ VermilionCitySuperNerd2Script:
 	done
 
 VermilionCityBadgeGuyBattleEdgeText:
-	text "Having a variety"
-	line "of #mon types"
+	text "Avoir des #mon"
+	line "de types diffé-"
 
-	para "should give you an"
-	line "edge in battle."
+	para "rents donne"
+	line "l'avantage en"
+	cont "combat."
 
-	para "I'm sure the Kanto"
-	line "Gym Badges will"
-	cont "help you."
+	para "Les Badges de Kan-"
+	line "To t'aideront,"
+	cont "j'en suis sûr."
 	done
 
 LawrenceOverheardText:
@@ -324,13 +325,15 @@ LawrenceIntroText:
 	done
 
 VermilionCityTeacherText:
-	text "Vermilion Port is"
-	line "Kanto's seaside"
-	cont "gateway."
+	text "Le port de Carmin"
+	line "est la porte de"
+	cont "Kanto vers"
+	cont "l'océan."
 
-	para "Luxury liners from"
-	line "around the world"
-	cont "dock here."
+	para "De magnifiques"
+	line "paquebots du monde"
+	cont "entier viennent y"
+	cont "jeter l'ancre."
 	done
 
 VermilionMachokeOwnerText:
@@ -353,12 +356,12 @@ VermilionMachokeText:
 	done
 
 VermilionCitySuperNerdText:
-	text "There are eight"
-	line "Gyms in Kanto."
+	text "Il y a huit Arenes"
+	line "à Kanto."
 
-	para "That big building"
-	line "is Vermilion's"
-	cont "#mon Gym."
+	para "Ce grand bâtiment"
+	line "est l'Arene #-"
+	cont "mon de Carmin."
 	done
 
 VermilionCitySuperNerd2Text:
@@ -388,55 +391,58 @@ VermilionCitySailorText:
 	done
 
 VermilionCityRadioNearSnorlaxText:
-	text "The #gear was"
-	line "placed near the"
-	cont "sleeping Snorlax…"
+	text "Le #matos est"
+	line "placé près de"
+	cont "l'oreille du"
+	cont "Ronflex."
 
-	para "…"
+	para "..."
 
-	para "Snorlax woke up!"
+	para "Ronflex se"
+	line "réveille!"
 	done
 
 VermilionCityBadgeGuyAllBadgesText:
-	text "Congratulations!"
+	text "Félicitations!"
 
-	para "You got all the"
-	line "Kanto Gym Badges."
+	para "Tu as tous les"
+	line "Badges des Arenes"
+	cont "de Kanto!"
 
-	para "I've got a reward"
-	line "for your efforts."
+	para "Voilà une petite"
+	line "récompense."
 	done
 
 VermilionCitySignText:
-	text "Vermilion City"
+	text "Carmin sur mer"
 
-	para "The Port of"
-	line "Exquisite Sunsets"
+	para "Le port aux cou-"
+	line "chers de soleil"
 	done
 
 VermilionGymSignText:
-	text "Vermilion City"
-	line "#mon Gym"
-	cont "Leader: Lt.Surge"
+	text "champion d'Arene"
+	line "de Carmin sur mer:"
+	cont "Major Bob"
 
-	para "The Lightning"
-	line "American"
+	para "l'Américain"
+	line "survolté"
 	done
 
 PokemonFanClubSignText:
-	text "#mon Fan Club"
+	text "fan Club #mon"
 
-	para "All #mon Fans"
-	line "Welcome!"
+	para "Fans de #mon"
+	line "bienvenus!"
 	done
 
 VermilionCityDiglettsCaveSignText:
-	text "Diglett's Cave"
+	text "Cave Taupiqueur"
 	done
 
 VermilionCityPortSignText:
-	text "Vermilion Port"
-	line "Entrance"
+	text "port de Carmin"
+	line "Entree"
 	done
 
 VermilionCityPierSignText:

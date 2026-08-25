@@ -59,20 +59,23 @@ FuchsiaCitySetUpPaletteSwap:
 	db -1 ; end
 
 FuchsiaCityYoungsterText:
-	text "One of the Elite"
-	line "Four used to be"
+	text "Un membre du"
+	line "conseil des 4"
+	cont "était le"
 
-	para "the Leader of"
-	line "Fuchsia's Gym."
+	para "champion de l'Are-"
+	line "ne de Parmanie."
 	done
 
 FuchsiaCityPokefanMText:
-	text "Koga's daughter"
-	line "succeeded him as"
+	text "La fille de Koga"
+	line "a pris sa succes-"
 
-	para "the Gym Leader"
-	line "after he joined"
-	cont "the Elite Four."
+	para "sion en tant que"
+	line "Championne d'Arene"
+	cont "après son départ"
+	cont "pour le conseil"
+	cont "des 4."
 	done
 
 FuchsiaCityTeacherText:
@@ -104,28 +107,29 @@ FuchsiaCityPokefanFText:
 	done
 
 FuchsiaCitySignText:
-	text "Fuchsia City"
+	text "Parmanie"
 
-	para "Behold! It's"
-	line "Passion Pink!"
+	para "Le rose de la"
+	line "passion!"
 	done
 
 FuchsiaGymSignText:
-	text "Fuchsia City"
-	line "#mon Gym"
-	cont "Leader: Janine"
+	text "champion d'Arene"
+	line "de Parmanie:"
+	cont "Jeannine"
 
-	para "The Poisonous"
-	line "Ninja Master"
+	para "La Ninja aux"
+	line "mille poisons"
 	done
 
 SafariZoneOfficeSignText:
-	text "There's a notice"
-	line "here…"
+	text "Il y a une"
+	line "affiche..."
 
-	para "Safari Zone Office"
-	line "is closed until"
-	cont "further notice."
+	para "Le bureau du Parc"
+	line "Safari est fermé"
+	cont "jusqu'à nouvel"
+	cont "ordre."
 	done
 
 SafariZoneOfficeClosedSignText:
@@ -133,8 +137,8 @@ SafariZoneOfficeClosedSignText:
 	done
 
 WardensHomeSignText:
-	text "Safari Zone"
-	line "Warden's Home"
+	text "maison du gardien"
+	line "du Parc Safari"
 	done
 
 SafariZoneClosedSignText:
@@ -147,10 +151,10 @@ SafariZoneClosedSignText:
 	done
 
 NoLitteringSignText:
-	text "No littering."
+	text "Ne rien jeter."
 
-	para "Please take your"
-	line "waste with you."
+	para "Utilisez les"
+	line "poubelles."
 	done
 
 SafariZoneExhibitSignText:
@@ -159,17 +163,17 @@ SafariZoneExhibitSignText:
 	done
 
 HouseForSaleSignText:
-	text "What's this?"
+	text "C'est quoi ça?"
 
-	para "House for Sale…"
-	line "Nobody lives here."
+	para "Maison à vendre..."
+	line "Il n'y a personne."
 	done
 
 FuchsiaCityCarefulSwimmingSignText:
-	text "Please be careful"
-	line "if you are swim-"
-	cont "ming to Seafoam"
-	cont "Islands."
+	text "Nagez prudemment"
+	line "si vous vous"
+	cont "dirigez vers les"
+	cont "Îles Écume."
 
-	para "Fuchsia Police"
+	para "police de Parmanie"
 	done

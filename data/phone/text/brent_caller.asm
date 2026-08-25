@@ -1,15 +1,14 @@
 BrentRareTradeText:
-	text "Oh yeah, I got an"
-	line "extremely rare"
+	text "Oh! J'ai eu un"
+	line "#mon super"
+	cont "rare en faisant"
+	cont "un échange."
 
-	para "#mon in a trade"
-	line "a while back."
+	para "Tu veux savoir ce"
+	line "que c'est?"
 
-	para "Do you want to"
-	line "know what it is?"
-
-	para "Hehe, I'm keeping"
-	line "it a secret!"
+	para "C'est..."
+	line "Un secret!"
 	done
 
 BrentDefeatedMonText:
@@ -26,18 +25,17 @@ BrentDefeatedMonText:
 	done
 
 BrentLostAMonText:
-	text "Oh yeah, I saw a"
-	line "rare #mon about"
-	cont "an hour ago."
+	text "Oh! J'ai vu mon"
+	line "premier #mon"
+	cont "rare il y"
+	cont "a une heure."
 
-	para "It was my first"
-	line "sighting. But I"
+	para "Manque de pot..."
+	line "Je n'avais plus de"
+	cont "# Balls..."
 
-	para "didn't have any"
-	line "# Balls…"
-
-	para "Would Bill laugh"
-	line "at my mistakes?"
+	para "Leo se ficherait"
+	line "bien de moi!"
 	done
 
 BrentBattleRematchText:
@@ -60,96 +58,80 @@ BrentBattleRematchText:
 	done
 
 BrentHangUpText:
-	text "So that's it then."
+	text "Très bien."
 	done
 
 BrentFatherGossipText:
-	text "Did you know…?"
-	line "Bill's father is"
-
-	para "supposed to be a"
-	line "great #Maniac."
+	text "Tu savais que le"
+	line "père de Leo était"
+	cont "un #maniac?"
 	done
 
 BrentGrandpaGossipText:
-	text "Did you know…?"
-	line "Apparently Bill's"
+	text "Tu savais que le"
+	line "grand-père de Leo"
 
-	para "grandpa isn't a"
-	line "#Maniac."
+	para "n'était pas un"
+	line "#maniac?"
 	done
 
 BrentGoldenrodGossipText:
-	text "Did you know…?"
-	line "Bill's originally"
-	cont "from Goldenrod."
+	text "Tu savais que Leo"
+	line "était né à"
+	cont "Doublonville?"
 	done
 
 BrentRoute25GossipText:
-	text "Did you know…?"
-	line "Bill evidently"
-
-	para "lives on Route 25"
-	line "in Kanto."
+	text "Tu savais que Leo"
+	line "vivait sur la"
+	cont "route 25 à Kanto?"
 	done
 
 BrentAbraGossipText:
-	text "Did you know…?"
-	line "Abra was the first"
-
-	para "#mon that Bill"
-	line "ostensibly caught."
+	text "Tu savais que le"
+	line "premier #mon"
+	cont "de Leo a attrapé"
+	cont "est un Abra?"
 	done
 
 BrentSisterGossipText:
-	text "Did you know…?"
-	line "Bill's younger"
-
-	para "sister apparently"
-	line "can't wink."
+	text "Tu savais que Leo"
+	line "avait une petite"
+	cont "soeur?"
 	done
 
 BrentMilkGossipText:
-	text "Did you know…?"
-	line "Bill supposedly"
-
-	para "hates milk and"
-	line "can't drink it."
+	text "Tu savais que Leo"
+	line "détestait le lait?"
 	done
 
 BrentBattlingGossipText:
-	text "Did you know…?"
-	line "Evidently, Bill"
-
-	para "isn't very good at"
-	line "battling."
+	text "Tu savais que Leo"
+	line "était une tache en"
+	cont "combat?"
 	done
 
 BrentFlowerShopGossipText:
-	text "Did you know…?"
-	line "Bill appears to"
-
-	para "like the lady at"
-	line "the Flower Shop."
+	text "Tu savais que Leo"
+	line "draguait la"
+	cont "Fleuriste?"
 	done
 
 BrentKimonoGirlGossipText:
-	text "Did you know…?"
-	line "Bill's mother is"
-
-	para "said to have been"
-	line "a Kimono Girl."
+	text "Tu savais que la"
+	line "mère de Leo était"
+	cont "une Kimono?"
 	done
 
 BrentSorryImTooBusyText:
-	text "You wanted to hear"
-	line "about Bill?"
+	text "Tu veux en savoir"
+	line "plus sur Leo?"
 
-	para "Sorry, but I'm too"
-	line "busy for you."
+	para "Je suis trop"
+	line "occupé."
 
-	para "I'll call when I"
-	line "have time."
+	para "Je t'appelle plus"
+	line "tard."
 	done
 
 BrentReminderText:

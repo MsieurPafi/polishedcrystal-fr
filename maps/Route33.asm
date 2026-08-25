@@ -139,38 +139,39 @@ TrainerSchoolgirlImogen:
 	done
 
 HikerAnthony1SeenText:
-	text "I came through the"
-	line "tunnel, but I"
+	text "J'ai traversé le"
+	line "tunnel, mais il me"
 
-	para "still have plenty"
-	line "of energy left."
+	para "reste encore pas"
+	line "mal d'énergie."
 	done
 
 HikerAnthony1BeatenText:
-	text "Whoa! You've got"
-	line "more zip than me!"
+	text "Whoa! Alors toi"
+	line "t'es speed!"
 	done
 
 HikerAnthony1AfterText:
-	text "We Hikers are at"
-	line "our best in the"
-	cont "mountains."
+	text "Nous, Montagnards,"
+	line "sommes à l'aise"
+	cont "dans la montagne."
 	done
 
 HikerAnthonyDunsparceText:
-	text "Hey, did you get a"
-	line "Dunsparce?"
+	text "Hé! As-tu chopé un"
+	line "Insolourdo?"
 
-	para "I caught one too."
+	para "Moi ouais."
 
-	para "Take a look at it"
-	line "in the light. It's"
-	cont "got a funny face!"
+	para "Regarde-le bien!"
+	line "Il a une bonne"
+	cont "bouille, hein?"
 	done
 
 SchoolgirlImogenSeenText:
-	text "I'm the best in my"
-	line "class at #mon."
+	text "Le meilleur de la"
+	line "classe à #mon,"
+	cont "c'est moi!"
 	done
 
 SchoolgirlImogenBeatenText:

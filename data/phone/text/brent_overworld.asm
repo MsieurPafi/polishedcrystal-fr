@@ -22,41 +22,42 @@ BrentAskNumber1Text:
 	done
 
 BrentAskNumber2Text:
-	text "I'll teach you all"
-	line "I know about Bill,"
+	text "Je peux tout te"
+	line "dire sur Leo..."
 
-	para "so leave me your"
-	line "phone number."
+	para "Alors laisse-moi"
+	line "ton numéro."
 	done
 
 BrentNumberAcceptedText:
-	text "Bill--he's more"
-	line "than amazing!"
+	text "Leo..."
+	line "Il est trop fort!"
 
-	para "To be a #Maniac"
-	line "like him someday…"
+	para "Je veux être un"
+	line "#maniac"
+	cont "comme lui..."
 
-	para "That's my dream."
+	para "C'est mon rêve."
 	done
 
 BrentNumberDeclinedText:
-	text "You're going to"
-	line "regret it…"
+	text "Tu vas le"
+	line "regretter..."
 
-	para "And I won't care…"
+	para "Oh que oui..."
 	done
 
 BrentPhoneFullText:
-	text "Huh? Your phone"
-	line "list's full."
+	text "Ton téléphone est"
+	line "plein."
 
-	para "A #Maniac has"
-	line "to be more tidy!"
+	para "Fais plus atten-"
+	line "tion, voyons!"
 	done
 
 BrentRematchText:
-	text "I've been waiting."
+	text "Je t'attendais."
 
-	para "Look, check out my"
+	para "Mate donc mes"
 	line "#mon!"
 	done

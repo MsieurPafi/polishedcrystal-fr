@@ -58,16 +58,16 @@ ViridianPokeCenter1FCooltrainermScript:
 	done
 
 ViridianPokeCenter1FCooltrainerfText:
-	text "I heard that the"
-	line "Gym in Cinnabar is"
-	cont "gone."
+	text "On dit qu'il n'y a"
+	line "plus d'Arene à"
+	cont "Cramois'Île."
 
-	para "I wonder what be-"
-	line "came of Blaine,"
-	cont "the Gym Leader."
+	para "Qu'est-il arrivé"
+	line "à Auguste, le"
+	cont "champion?"
 	done
 
 ViridianPokeCenter1FBugCatcherText:
-	text "My dream is to be-"
-	line "come a Gym Leader."
+	text "Je rêve de devenir"
+	line "champion d'Arene."
 	done

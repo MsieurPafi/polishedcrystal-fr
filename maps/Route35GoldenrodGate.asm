@@ -124,64 +124,66 @@ Route35GoldenrodGatePokefanFScript:
 	done
 
 Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
-	text "Excuse me, kid!"
-	line "Can you do a guy"
-	cont "a favor?"
+	text "Minute papillon!"
+	line "Tu peux me rendre"
+	cont "service?"
 
-	para "Can you take this"
-	line "#mon with Mail"
-	cont "to my friend?"
+	para "Tu peux apporter"
+	line "ce #mon et sa"
+	cont "lettre à mon pote?"
 
-	para "He's on Route 31."
+	para "Il est sur la"
+	line "route 31."
 	done
 
 Route35GoldenrodGateRandyThanksText:
-	text "You will? Perfect!"
-	line "Thanks, kid!"
+	text "Tu veux bien?"
+	line "Merci!"
 
-	para "My pal's a chubby"
-	line "guy who snoozes"
-	cont "all the time."
+	para "Mon pote est gras"
+	line "et il pionce tout"
+	cont "le temps."
 
-	para "You'll recognize"
-	line "him right away!"
+	para "Tu vas le recon-"
+	line "naître, c'est sûr!"
 	done
 
 Route35GoldenrodGatePlayerReceivedAMonWithMailText:
-	text "<PLAYER> received a"
-	line "#mon with Mail."
+	text "<PLAYER> reçoit"
+	line "un #mon avec"
+	cont "une lettre."
 	done
 
 
 
 
 Route35GoldenrodGateRandySomethingForYourTroubleText:
-	text "Thanks, kid! You"
-	line "made the delivery"
-	cont "for me!"
+	text "Merci bien! Tu"
+	line "as bien fait la"
+	cont "livraison!"
 
-	para "Here's something"
-	line "for your trouble!"
+	para "Voilà pour toi!"
 	done
 
 Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
-	text "My pal was snooz-"
-	line "ing, right? Heh,"
-	cont "what'd I say?"
+	text "Mon pote pionce"
+	line "comme un fou, non?"
+	cont "Quelle classe!"
 	done
 
 
 
 Route35GoldenrodGateFisherText:
-	text "I wonder how many"
-	line "kinds of #mon"
+	text "Je me demande"
+	line "combien de types"
 
-	para "there are in the"
-	line "world."
+	para "de #mon il y a"
+	line "dans le monde."
 
-	para "Three years ago,"
-	line "Prof.Oak said that"
+	para "Il y a trois ans,"
+	line "le Prof.Chen"
 
-	para "there were 150"
-	line "different kinds."
+	para "disait qu'il y"
+	line "avait 150 types"
+	cont "différents."
 	done

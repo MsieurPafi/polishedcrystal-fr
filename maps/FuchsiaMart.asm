@@ -28,8 +28,8 @@ FuchsiaMartFisherText:
 	done
 
 FuchsiaMartCooltrainerFText:
-	text "The Safari Zone"
-	line "Warden's grand-"
-	cont "daughter lives in"
-	cont "town."
+	text "La petite-fille du"
+	line "gardien du Parc"
+	cont "Safari vit en"
+	cont "ville."
 	done

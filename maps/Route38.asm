@@ -275,120 +275,116 @@ GenericTrainerBeautyOlivia:
 	done
 
 Bird_keeperTobySeenText:
-	text "Fly high into the"
-	line "sky, my beloved"
-	cont "bird #mon!"
+	text "Volez, mes jolis"
+	line "petits #mon!"
 	done
 
 Bird_keeperTobyBeatenText:
-	text "I feel like just"
-	line "flying away now."
+	text "Chplof!"
 	done
 
 SchoolboyChad1SeenText:
-	text "Let me try some-"
-	line "thing I learned"
-	cont "today."
+	text "J'vais te montrer"
+	line "ce que j'ai appris"
+	cont "aujourd'hui."
 	done
 
 SchoolboyChad1BeatenText:
-	text "I didn't study"
-	line "enough, I guess."
+	text "Faut que j'étudie"
+	line "encore un peu."
 	done
 
 SchoolboyChadSoManyTestsText:
-	text "I have to take so"
-	line "many tests, I"
+	text "Les études ça me"
+	line "prend la tête."
 
-	para "don't have much"
-	line "time for #mon."
+	para "Je préfère les"
+	line "#mon."
 
-	para "So when I do get"
-	line "to play, I really"
-	cont "concentrate."
+	para "Alors moi, jouer,"
+	line "c'est mon truc."
 	done
 
 LassDana1SeenText:
-	text "You seem to be"
-	line "good at #mon."
+	text "Tu as l'air de t'y"
+	line "connaître en"
+	cont "#mon."
 
-	para "If you are, how"
-	line "about giving me"
-	cont "some advice?"
+	para "Tu veux bien me"
+	line "donner des"
+	cont "conseils?"
 	done
 
 LassDana1BeatenText:
-	text "I see. So you can"
-	line "battle that way."
+	text "Je vois. C'est pas"
+	line "mal."
 	done
 
 LassDanaMoomooMilkText:
-	text "I know something"
-	line "good!"
+	text "Je vais te dire"
+	line "un truc..."
 
-	para "Moomoo Farm's milk"
-	line "is famous for its"
-	cont "flavor."
+	para "Le lait du Ranch"
+	line "Meumeu est super"
+	cont "bon."
 	done
 
 BeautyValenciaSeenText:
-	text "Hi! Aren't you a"
-	line "cute trainer!"
+	text "Hé! T'es mimi"
+	line "comme dresseur!"
 
-	para "May I see your"
+	para "Je peux voir tes"
 	line "#mon?"
 	done
 
 BeautyValenciaBeatenText:
-	text "I'm glad I got to"
-	line "see your #mon!"
+	text "Merci."
+	line "Sympa!"
 	done
 
 SailorHarrySeenText:
-	text "I've been over-"
-	line "seas, so I know"
-
-	para "about all sorts of"
-	line "#mon!"
+	text "Moi j'ai voyagé!"
+	line "Je connais tous"
+	cont "les #mon!"
 	done
 
 SailorHarryBeatenText:
-	text "Your skill is"
-	line "world class!"
+	text "T'es cool!"
 	done
 
 BeautyOliviaSeenText:
-	text "Don't you think my"
-	line "#mon and I are"
-	cont "beautiful?"
+	text "Tu ne trouves pas"
+	line "que mes #mon et"
+	cont "moi-même avons une"
+	cont "classe folle?"
 	done
 
 BeautyOliviaBeatenText:
-	text "We drink Moomoo"
-	line "Milk every day."
+	text "On boit du lait"
+	line "Meumeu tous les"
+	cont "jours."
 	done
 
 Route38SignText:
-	text "Route 38"
+	text "route 38"
 
-	para "Olivine City -"
-	line "Ecruteak City"
+	para "Oliville -"
+	line "Rosalia"
 	done
 
 Route38TrainerTipsText:
-	text "Trainer Tips"
+	text "Astuce"
 
-	para "If a #mon is"
-	line "trying to evolve,"
-	cont "you can stop it."
+	para "Vous pouvez arrê-"
+	line "ter l'évolution d'"
+	cont "un #mon."
 
-	para "Press the B But-"
-	line "ton during evolu-"
-	cont "tion."
+	para "Appuyez sur B pen-"
+	line "dant l'évolution."
 
-	para "That startles the"
-	line "#mon and stops"
-	cont "its evolution."
+	para "Cela surprendra le"
+	line "#mon et le"
+	cont "fera s'arrêter."
 	done
 
 Route38AdvancedTipsText:

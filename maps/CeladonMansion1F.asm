@@ -196,15 +196,15 @@ CeladonMansionManagerScript:
 	db "Bitter@" ; sdf
 
 CeladonMansion1FMeowthText:
-	text "Meowth: Meow!"
+	text "Miaouss: Miaou!"
 	done
 
 CeladonMansion1FClefairyText:
-	text "Clefairy: Clef"
-	line "cleff!"
+	text "Melofee: Mélo!"
+	line "Méloooo!"
 	done
 
 CeladonMansion1FNidoranFText:
-	text "Nidoran: Kya"
-	line "kyaoo!"
+	text "Nidoran: Nido!"
+	line "Nidooo!"
 	done

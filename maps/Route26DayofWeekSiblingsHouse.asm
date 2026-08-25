@@ -28,49 +28,50 @@ DayOfWeekSiblingsHousePokedexScript:
 	endtext
 
 DayOfWeekSiblingsHousePokedexText1:
-	text "There's something"
-	line "written here."
+	text "Il y a quelque"
+	line "chose d'écrit."
 
-	para "Read it?"
+	para "Lire?"
 	done
 
 DayOfWeekSiblingsHousePokedexText2:
-	text "To my brothers and"
-	line "sisters:"
+	text "A mes frères et"
+	line "soeurs:"
 
-	para "We take pride in"
-	line "serving #mon"
-	cont "trainers."
+	para "Nous devons aider"
+	line "les dresseurs de"
+	cont "#mon."
 
-	para "When trainers talk"
-	line "to you, give them"
-	cont "something useful."
+	para "Quand un dresseur"
+	line "vient vous parler,"
+	cont "donnez-lui un"
+	cont "objet."
 
-	para "Love,"
-	line "Monica"
+	para "Bisous,"
+	line "Lucie"
 
-	para "Keep reading?"
+	para "Continuer à lire?"
 	done
 
 DayOfWeekSiblingsHousePokedexText3:
-	text "Monday, Monica"
-	line "Route 40"
+	text "Lundi, Lucie"
+	line "route 40"
 
-	para "Tuesday, Tuscany"
-	line "Route 29"
+	para "Mardi, Marie"
+	line "route 29"
 
-	para "Wednesday, Wesley"
-	line "Lake of Rage"
+	para "Mercredi, Homer"
+	line "Lac Colère"
 
-	para "Thursday, Arthur"
-	line "Route 36"
+	para "Jeudi, Jerome"
+	line "route 36"
 
-	para "Friday, Frieda"
-	line "Route 32"
+	para "Vendredi, Vanessa"
+	line "route 32"
 
-	para "Saturday, Santos"
-	line "Blackthorn City"
+	para "Samedi, Samuel"
+	line "Ébènelle"
 
-	para "Sunday, Sunny"
-	line "Route 37"
+	para "Dimanche, Dimitri"
+	line "route 37"
 	done

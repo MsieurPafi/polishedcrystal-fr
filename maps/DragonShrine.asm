@@ -330,75 +330,78 @@ DragonShrineClairWalkOutMovement:
 	step_end
 
 DragonShrineElderGreetingText:
-	text "Hm… Good to see"
-	line "you here."
+	text "Hmm..."
+	line "Bienvenue."
 
-	para "No need to explain"
-	line "why you came."
+	para "Ne parle pas."
 
-	para "Clair sent you"
-	line "here, didn't she?"
+	para "Sandra t'a dit de"
+	line "venir, non?"
 
-	para "That girl is a"
-	line "handful…"
+	para "Coriace la petite,"
+	line "non?"
 
-	para "I am sorry, but I"
-	line "must test you."
+	para "Je dois te mettre"
+	line "à l'épreuve."
 
-	para "Not to worry, you"
-	line "are to answer only"
-	cont "a few questions."
+	para "Tu ne dois répon-"
+	line "dre qu'à quelques"
+	cont "questions."
 
-	para "Ready?"
+	para "On commence?"
 	done
 
 DragonShrineQuestion1Text:
-	text "What are #mon"
-	line "to you?"
+	text "Que représente un"
+	line "#mon à tes"
+	cont "yeux?"
 	done
 
 DragonShrineQuestion2Text:
-	text "What helps you to"
-	line "win battles?"
+	text "Qu'est-ce qui aide"
+	line "à gagner les"
+	cont "combats?"
 	done
 
 DragonShrineQuestion3Text:
-	text "What kind of"
-	line "trainer do you"
-	cont "wish to battle?"
+	text "Quel type de"
+	line "dresseur veux-tu"
+	cont "affronter?"
 	done
 
 DragonShrineQuestion4Text:
-	text "What is most"
-	line "important for"
-	cont "raising #mon?"
+	text "Quelle est la cho-"
+	line "se la plus impor-"
+	cont "tante en entraî-"
+	cont "nant les #mon?"
 	done
 
 DragonShrineQuestion5Text:
-	text "Strong #mon."
-	line "Weak #mon."
+	text "#mon puissant."
+	line "#mon faible."
 
-	para "Which is more"
+	para "Lequel est le plus"
 	line "important?"
 	done
 
 DragonShrinePassedTestText:
-	text "Hm… I see…"
+	text "Hmm... Je vois..."
 
-	para "You care deeply"
-	line "for #mon."
+	para "Tu as de vrais"
+	line "sentiments pour"
+	cont "les #mon."
 
-	para "Very commendable."
+	para "C'est bien ça."
 
-	para "That conviction is"
-	line "what is important!"
+	para "C'est très impor-"
+	line "tant!"
 
-	para "<PLAYER>, don't"
-	line "lose that belief."
+	para "<PLAYER>, ne"
+	line "change jamais."
 
-	para "It will see you"
-	line "through at the"
-	cont "#mon League."
+	para "Cela t'aidera"
+	line "pour la Ligue"
+	cont "#mon."
 	done
 
 DragonShrineMustIInformLanceText:
@@ -417,35 +420,34 @@ DragonShrineMustIInformLanceText:
 	done
 
 DragonShrineElderScoldsClairText:
-	text "Clair…"
+	text "Sandra..."
 
-	para "Reflect upon what"
-	line "it is that you"
+	para "Penche-toi sur"
+	line "tes lacunes..."
 
-	para "lack and this"
-	line "child has."
+	para "Prends exemple sur"
+	line "<PLAYER>."
 	done
 
 DragonShrineComeAgainText:
-	text "Come again, if you"
-	line "so desire."
+	text "N'hésite pas à"
+	line "revenir en ce"
+	cont "saint lieu."
 	done
 
 DragonShrineTakeThisDratiniText:
-	text "Hm… Good to see"
-	line "you here."
+	text "Hmm..."
+	line "Bienvenue."
 
-	para "Your arrival is"
-	line "most fortunate."
+	para "Tu tombes au bon"
+	line "moment."
 
-	para "I have something"
-	line "for you."
+	para "J'ai quelque chose"
+	line "pour toi."
 
-	para "Take this Dratini"
-	line "as proof that I"
-
-	para "have recognized"
-	line "your worth."
+	para "Ce Minidraco est"
+	line "la preuve de ta"
+	cont "valeur..."
 	done
 
 DragonShrinePartyAndBoxFullText:
@@ -454,94 +456,92 @@ DragonShrinePartyAndBoxFullText:
 	done
 
 DragonShrineSymbolicDragonText:
-	text "Dragon #mon are"
-	line "symbolic of our"
-	cont "clan."
+	text "Les #mon dra-"
+	line "gons représentent"
+	cont "notre clan."
 
-	para "You have shown"
-	line "that you can be"
-
-	para "entrusted with"
-	line "one."
+	para "Tu es digne d'en"
+	line "posséder un."
 	done
 
 
 DragonShrineSilverIsInTrainingText:
-	text "A boy close to"
-	line "your age is in"
-	cont "training here."
+	text "Un garçon de ton"
+	line "âge s'entraîne"
+	cont "ici."
 
-	para "He is much like"
-	line "Clair when she was"
+	para "Il est comme l'é-"
+	line "tait Sandra plus"
 
-	para "younger. It is a"
-	line "little worrisome…"
+	para "jeune. Je suis"
+	line "très inquiet..."
 	done
 
 DragonShrineWrongAnswerText1:
-	text "Hah? I didn't"
-	line "quite catch that…"
+	text "Hein? J'ai pas"
+	line "tout compris..."
 	done
 
 DragonShrineWrongAnswerText2:
-	text "What was it you"
-	line "said?"
+	text "Qu'as-tu dit?"
 	done
 
 DragonShrineRightAnswerText:
-	text "Oh, I understand…"
+	text "Oh, je vois..."
 	done
 
 DragonShrineElder2Text:
-	text "It's been quite"
-	line "some time since a"
+	text "Cela fait long-"
+	line "temps que notre"
 
-	para "trainer has gained"
-	line "our Master's rare"
-	cont "approval."
+	para "maître n'a pas"
+	line "cautionné un"
+	cont "dresseur."
 
-	para "In fact, not since"
-	line "Master Lance."
+	para "Pas une seule fois"
+	line "depuis Peter."
 	done
 
 DragonShrineElder3Text:
-	text "You know young"
-	line "Master Lance?"
+	text "Tu connais"
+	line "Maître Peter?"
 
-	para "He looks so much"
-	line "like our Master"
-	cont "did in his youth."
+	para "Il ressemble à"
+	line "notre maître étant"
+	cont "jeune."
 
-	para "It's in their"
-	line "blood."
+	para "C'est dans leur"
+	line "sang."
 	done
 
 DragonShrineClairYouPassedText:
-	text "So how did it go?"
+	text "Comment c'était?"
 
-	para "I guess there's no"
-	line "point in asking."
+	para "Je ne vois pas"
+	line "pourquoi je deman-"
+	cont "de..."
 
-	para "You did fail?"
+	para "Tu as échoué,"
+	line "n'est-ce pas?"
 
 	para "………………………………"
 
-	para "…What? You passed?"
+	para "...Quoi? Réussi?"
 	done
 
 DragonShrineClairThatCantBeText:
-	text "That can't be!"
+	text "Y'a maldonne!"
 	done
 
 DragonShrineClairYoureLyingText:
-	text "You're lying!"
+	text "Tu mens!"
 
-	para "Even I haven't"
-	line "been approved!"
+	para "Même moi j'ai pas"
+	line "réussi!"
 	done
 
 DragonShrineIUnderstandText:
-	text "I-I understand…"
+	text "Je... Je vois."
 	done
 
 DragonShrineHereRisingBadgeText:

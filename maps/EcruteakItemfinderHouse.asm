@@ -31,29 +31,30 @@ EcruteakItemfinderGuy:
 	jumpthisopenedtext
 
 ItemfinderExplanationText:
-	text "There are many"
-	line "items lying about"
+	text "Il y a beaucoup"
+	line "d'objets cachés"
+	cont "par terre."
 
-	para "that aren't ob-"
-	line "vious."
+	para "Utilise Cherch'"
+	line "objet pour voir"
 
-	para "Use Itemfinder to"
-	line "check if there is"
+	para "s'il y a un objet"
+	line "par terre près de"
+	cont "toi."
 
-	para "an item on the"
-	line "ground near you."
+	para "Ça ne te montre"
+	line "pas l'endroit"
 
-	para "It doesn't show"
-	line "the exact spot,"
+	para "exact mais c'est"
+	line "sûrement dans les"
+	cont "environs."
 
-	para "so you'll have to"
-	line "look yourself."
+	para "Ah oui, j'ai en-"
+	line "tendu dire qu'il y"
 
-	para "Oh yeah--I heard"
-	line "there are items"
-
-	para "in Ecruteak's"
-	line "Burned Tower."
+	para "a des objets dans"
+	line "la Tour Cendrée"
+	cont "de Rosalia."
 	done
 
 EcruteakHistoryBook:
@@ -90,56 +91,59 @@ EcruteakHistoryBook:
 	done
 
 EcruteakItemfinderAdventureText:
-	text "Ah. You're on an"
-	line "adventure with"
-	cont "your #mon?"
+	text "Ah! Tu fais les"
+	line "400 coups avec tes"
+	cont "#mon?"
 
-	para "Well, what's an"
-	line "adventure without"
-	cont "treasure hunting?"
+	para "Mais qu'est-ce"
+	line "qu'une aventure"
+	cont "sans une chasse au"
+	cont "trésor?"
 
-	para "Am I right, or am"
-	line "I right?"
+	para "J'ai bon ou j'ai"
+	line "bon?"
 	done
 
 EcruteakItemfinderTrueSpiritText:
-	text "Good! You under-"
-	line "stand the true"
+	text "C'est cool, tu"
+	line "comprends le vrai"
 
-	para "spirit of adven-"
+	para "esprit de l'aven-"
 	line "ture."
 
-	para "I like that! Take"
-	line "this with you."
+	para "Et moi, j'aime ça!"
+	line "Prends ça avec"
+	cont "toi."
 	done
 
 EcruteakItemfinderToEachHisOwnText:
-	text "Oh… To each his"
-	line "own, I suppose…"
+	text "Oh... Chacun pour"
+	line "soi je parie."
 	done
 
 EcruteakHistoryBookText:
-	text "History of"
-	line "Ecruteak"
+	text "histoire de"
+	line "Rosalia"
 
-	para "Want to read it?"
+	para "Désirez-vous lire?"
 	done
 
 EcruteakTwoTowersText:
-	text "In Ecruteak, there"
-	line "were two towers."
+	text "Il existait deux"
+	line "tours à Rosalia."
 
-	para "Each tower was the"
-	line "roost of powerful"
-	cont "flying #mon."
+	para "Chacune d'elle"
+	line "était le perchoir"
+	cont "d'un puissant"
+	cont "#mon volant."
 
-	para "But one of the"
-	line "towers burned to"
-	cont "the ground."
+	para "Mais l'une des"
+	line "tours a complète-"
+	cont "ment brûlé."
 
-	para "The two #mon"
-	line "haven't been seen"
-	cont "since…"
+	para "Les deux #mon"
+	line "n'ont jamais été"
+	cont "revus depuis..."
 
-	para "Keep reading?"
+	para "Continuer à lire?"
 	done

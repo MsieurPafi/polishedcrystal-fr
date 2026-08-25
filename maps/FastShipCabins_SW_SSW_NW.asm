@@ -124,25 +124,26 @@ FastShipBed:
 	end
 
 FirebreatherLyleSeenText:
-	text "I'm going to Kanto"
-	line "to put on fire-"
-	cont "breathing shows!"
+	text "Je vais à Kanto"
+	line "me donner en"
+	cont "spectacle!"
 	done
 
 FirebreatherLyleBeatenText:
-	text "Fizzle… The"
-	line "flame's tiny…"
+	text "Pfff... Ma flamme"
+	line "est minuscule..."
 	done
 
 Bug_catcherKenSeenText:
-	text "I'm visiting my"
-	line "grandma to catch"
-	cont "me some bugs!"
+	text "Je vais voir ma"
+	line "grand-mère pour"
+	cont "attraper des"
+	cont "insectes!"
 	done
 
 Bug_catcherKenBeatenText:
-	text "Ooh, wow."
-	line "You're tough!"
+	text "Ooh!"
+	line "Fort de café!"
 	done
 
 RichBoyWinstonSeenText:
@@ -160,48 +161,48 @@ RichBoyWinstonBeatenText:
 	done
 
 BeautyCassieSeenText:
-	text "I'm trying to"
-	line "forget my woes."
-	cont "Let's battle!"
+	text "J'oublie mes"
+	line "malheurs et..."
+	cont "combat!"
 	done
 
 BeautyCassieBeatenText:
-	text "My heart weeps…"
+	text "Mon coeur saigne."
 	done
 
 GuitaristmClydeSeenText:
-	text "I'm going to audi-"
-	line "tion my songs at"
+	text "Je vais audition-"
+	line "ner à la Station"
 
-	para "Goldenrod's Radio"
-	line "Station."
+	para "radio de Doublon-"
+	line "ville."
 	done
 
 GuitaristmClydeBeatenText:
-	text "Yowza!"
-	line "Total distortion!"
+	text "Wouh!"
+	line "Un bide!"
 	done
 
 
 
 FastShipBedText1:
-	text "A comfy bed!"
-	line "Time to sleep…"
+	text "Un lit douillet!"
+	line "Hop! Au dodo..."
 	done
 
 FastShipBedText2:
-	text "Ah, refreshed and"
-	line "restored!"
+	text "Ah... C'est la"
+	line "super pêche!"
 	done
 
 FastShipArrivedOlivineText:
-	text "Fast Ship S.S.Aqua"
-	line "has arrived in"
-	cont "Olivine City."
+	text "Le bateau Express"
+	line "Aquaria est arrivé"
+	cont "à Oliville."
 	done
 
 FastShipArrivedVermilionText:
-	text "Fast Ship S.S.Aqua"
-	line "has arrived in"
-	cont "Vermilion City."
+	text "Le bateau Express"
+	line "Aquaria est arrivé"
+	cont "à Carmin sur mer."
 	done

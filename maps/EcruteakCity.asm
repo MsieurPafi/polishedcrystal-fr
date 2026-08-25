@@ -87,26 +87,26 @@ EcruteakCityFisherScript:
 	done
 
 EcruteakCityGramps1Text:
-	text "Ecruteak used to"
-	line "have two towers:"
+	text "Rosalia avait"
+	line "deux tours:"
 
-	para "one each in the"
-	line "east and west."
+	para "une à l'Est,"
+	line "l'autre à l'Ouest."
 	done
 
 EcruteakCityGramps2Text:
-	text "Ah, child."
-	line "Have you learned"
+	text "Ah..."
+	line "As-tu appris à"
 
-	para "to dance like the"
-	line "Kimono Girls?"
+	para "danser comme les"
+	line "Kimono?"
 
-	para "If you go to their"
-	line "Dance Theater, an"
+	para "Si tu vas dans"
+	line "leur salle de"
 
-	para "odd old man will"
-	line "give you something"
-	cont "nice, I hear."
+	para "danse, un vieil"
+	line "homme bizarre te"
+	cont "donnera un cadeau."
 	done
 
 EcruteakCityLass1Text:
@@ -138,75 +138,82 @@ EcruteakCitySmeargleText:
 
 
 EcruteakCityLass2Text_ReleasedBeasts:
-	text "Three big #mon"
-	line "ran off in differ-"
-	cont "ent directions."
-	cont "What were they?"
+	text "Trois gros #mon"
+	line "se sont enfuis"
+	cont "dans des direc-"
+	cont "tions différentes."
+	cont "Qu'est-ce qui"
+	cont "s'organise?"
 	done
 
 
 EcruteakCityFisherText_JasmineReturned:
-	text "The #mon at"
-	line "Olivine Lighthouse"
-	cont "has been cured."
+	text "Le #mon du"
+	line "Phare d'Oliville a"
+	cont "été soigné."
 
-	para "Boats can safely"
-	line "sail out to sea at"
-	cont "night again."
+	para "Les bateaux peu-"
+	line "vent de nouveau"
+	cont "naviguer de nuit"
+	cont "sans soucis."
 	done
 
 EcruteakCityYoungsterText:
-	text "I hear #mon are"
-	line "rampaging at the"
+	text "On dit que les"
+	line "#mon sont"
 
-	para "Lake of Rage. I'd"
-	line "like to see that."
+	para "déchaînés au Lac"
+	line "colère. J'aimerais"
+	cont "bien voir ça."
 	done
 
 EcruteakCityGramps3Text:
-	text "In the distant"
-	line "past…"
+	text "Il y a bien"
+	line "longtemps..."
 
-	para "This tower burned"
-	line "in a fire. Three"
+	para "La tour prit feu."
+	line "3 #mon inconnus"
 
-	para "nameless #mon"
-	line "perished in it."
+	para "périrent alors"
+	line "dans les flammes."
 
-	para "A rainbow-colored"
-	line "#mon descended"
+	para "Un #mon aux"
+	line "couleurs de l'arc-"
 
-	para "from the sky and"
-	line "resurrected them…"
+	para "en-ciel descendit"
+	line "du ciel et les"
+	cont "ressuscita..."
 
-	para "It's a legend that"
-	line "has been passed"
+	para "Cette légende est"
+	line "connue de tous les"
 
-	para "down by Ecruteak"
-	line "Gym Leaders."
+	para "Champions de"
+	line "Rosalia."
 
-	para "Me?"
+	para "Moi?"
 
-	para "I was a trainer"
-	line "way back when."
+	para "J'étais dresseur"
+	line "à l'époque."
 	cont "Hohoho!"
 	done
 
 EcruteakCitySign:
-	text "Ecruteak City"
-	line "A Historical City"
+	text "Rosalia"
+	line "Une ville bien"
 
-	para "Where the Past"
-	line "Meets the Present"
+	para "historique où"
+	line "le Passé et le"
+	cont "Présent se"
+	cont "rencontrent"
 	done
 
 EcruteakGymSign:
-	text "Ecruteak City"
-	line "#mon Gym"
-	cont "Leader: Morty"
+	text "champion d'Arene"
+	line "de Rosalia:"
+	cont "Mortimer"
 
-	para "The Mystic Seer of"
-	line "the Future"
+	para "Le mystérieux"
+	line "voyant"
 	done
 
 EcruteakCityAdvancedTips:
@@ -229,19 +236,21 @@ EcruteakCityAdvancedTips:
 	done
 
 EcruteakDanceTheaterSign:
-	text "Ecruteak Dance"
-	line "Theater"
+	text "salle de danse"
+	line "de Rosalia"
 	done
 
 BurnedTowerSign:
-	text "Burned Tower"
+	text "Tour Cendrée"
 
-	para "It was destroyed"
-	line "by a mysterious"
-	cont "fire."
+	para "Elle a été détrui-"
+	line "te par un feu"
+	cont "d'origine encore"
+	cont "inconnue."
 
-	para "Please stay away,"
-	line "as it is unsafe."
+	para "Restez à l'écart"
+	line "pour votre propre"
+	cont "sécurité."
 	done
 
 EcruteakShrineSign:

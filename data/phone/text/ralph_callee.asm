@@ -1,31 +1,25 @@
 RalphAnswerPhoneText:
-	text "Yes? Ah, <PLAYER>."
+	text "Oui? Ah, <PLAYER>."
 
-	para "You're courteous"
-	line "enough to state"
-
-	para "your name when you"
-	line "call on the phone."
+	para "Merci de dire ton"
+	line "nom quand tu"
+	cont "m'appelles..."
 	done
 
 RalphAnswerPhoneDayText:
-	text "Yes? Ah, <PLAYER>."
+	text "Oui? Ah, <PLAYER>."
 
-	para "You're courteous"
-	line "enough to state"
-
-	para "your name when you"
-	line "call on the phone."
+	para "Merci de dire ton"
+	line "nom quand tu"
+	cont "m'appelles..."
 	done
 
 RalphAnswerPhoneNiteText:
-	text "Yes? Ah, <PLAYER>."
+	text "Oui? Ah, <PLAYER>."
 
-	para "You're courteous"
-	line "enough to state"
-
-	para "your name when you"
-	line "call on the phone."
+	para "Merci de dire ton"
+	line "nom quand tu"
+	cont "m'appelles..."
 	done
 
 RalphGreetText:
@@ -50,10 +44,9 @@ RalphGreetNiteText:
 	done
 
 RalphGenericText:
-	text "Are you taking"
-	line "good care of your"
+	text "Tu prends soin de"
+	line "tes #mon?"
 
-	para "#mon? You have"
-	line "to be good to your"
-	cont "partners!"
+	para "Sois sympa avec"
+	line "tes petits amis!"
 	done

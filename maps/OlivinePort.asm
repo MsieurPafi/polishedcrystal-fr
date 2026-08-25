@@ -258,96 +258,102 @@ OlivinePortApproachFastShipAfterHOFRightMovement:
 	step_end
 
 OlivinePortSailorGetOnBoardText:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "Le départ est"
+	line "proche. Tout le"
+	cont "monde à bord."
 	done
 
 
 OlivinePortAskBoardText:
-	text "Welcome to Fast"
-	line "Ship S.S.Aqua."
+	text "Bienvenue sur le"
+	line "bateau Express:"
+	cont "l'Aquaria."
 
-	para "Will you be board-"
-	line "ing today?"
+	para "Allez-vous monter"
+	line "à bord?"
 	done
 
 OlivinePortAskTicketText:
-	text "May I see your"
-	line "S.S.Ticket?"
+	text "Puis-je voir votre"
+	line "passe bateau?"
 	done
 
 OlivinePortComeAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "A bientôt!"
 	done
 
 OlivinePortFlashTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.Ticket."
+	text "<PLAYER> montre"
+	line "son passe bateau."
 
-	para "That's it."
-	line "Thank you!"
+	para "Parfait."
+	line "Merci bien!"
 	done
 
 OlivinePortNoTicketText:
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "Ticket…"
+	text "<PLAYER> voudrait"
+	line "bien montrer son"
+	cont "passe bateau..."
 
-	para "…But no Ticket!"
+	para "Mais..."
+	line "Pas de ticket!"
 
-	para "Sorry!"
-	line "You may board only"
+	para "Désolé!"
+	line "On ne monte à bord"
 
-	para "if you have an"
-	line "S.S.Ticket."
+	para "que sur présenta-"
+	line "tion d'un passe."
 	done
 
 OlivinePortMondayShipText:
-	text "The Fast Ship will"
-	line "sail next Monday."
+	text "Le bateau Express"
+	line "partira lundi"
+	cont "prochain."
 	done
 
 OlivinePortFridayShipText:
-	text "The Fast Ship will"
-	line "sail next Friday."
+	text "Le bateau Express"
+	line "partira vendredi"
+	cont "prochain."
 	done
 
 OlivinePortFishingGuru1Text:
-	text "Shellder are easy"
-	line "to catch here."
+	text "Les Kokiyas sont"
+	line "faciles à choper"
 
-	para "They're kind of"
-	line "rare elsewhere."
+	para "dans le coin. Ils"
+	line "sont plus rares"
+	cont "ailleurs."
 	done
 
 OlivinePortFishingGuru2Text:
-	text "How many Rods do"
-	line "you have?"
+	text "Combien de Cannes"
+	line "as-tu?"
 
-	para "Different Rods"
-	line "catch different"
-	cont "#mon."
+	para "Des Cannes diffé-"
+	line "rentes attrapent"
+	cont "des #mon diffé-"
+	cont "rents."
 	done
 
 OlivinePortYoungsterText:
-	text "S.S.Aqua uses jets"
-	line "to skim over the"
-	cont "waves!"
+	text "l'Aquaria a des"
+	line "propulseurs pour"
+	cont "foncer sur l'eau!"
 	done
 
 OlivinePortCooltrainerFText:
-	text "There are lots of"
-	line "#mon in Kanto."
+	text "Il y a plein de"
+	line "#mon à Kanto."
 
-	para "I wish I could go…"
+	para "J'aimerais tant"
+	line "y aller..."
 	done
 
 OlivinePortSailorBeforeHOFText:
-	text "We don't want you"
-	line "to fall into the"
+	text "On ne veut pas que"
+	line "tu tombes à l'eau"
 
-	para "sea, so you're not"
-	line "allowed in."
+	para "alors tu ne peux"
+	line "pas passer."
 	done

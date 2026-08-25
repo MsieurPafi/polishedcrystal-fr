@@ -552,22 +552,23 @@ Route36SuicuneMovement:
 	step_end
 
 UseSquirtbottleText:
-	text "It's a weird tree."
-	line "Use SquirtBottle?"
+	text "Un arbre bizarre."
+	line "Utiliser la"
+	cont "Carapuce A O?"
 	done
 
 UsedSquirtbottleText:
-	text "<PLAYER> used the"
-	line "SquirtBottle."
+	text "<PLAYER> utilise la"
+	line "Carapuce A O."
 	done
 
 SudowoodoAttackedText:
-	text "The weird tree"
-	line "doesn't like the"
-	cont "SquirtBottle!"
+	text "l'arbre bizarre"
+	line "n'aime pas la"
+	cont "Carapuce A O!"
 
-	para "The weird tree"
-	line "attacked!"
+	para "l'arbre bizarre"
+	line "attaque!"
 	done
 
 
@@ -616,32 +617,32 @@ FloriaTextAfterSudowoodo:
 
 
 RockSmashGuyText2:
-	text "Did you clear that"
-	line "wretched tree?"
+	text "Tu as battu"
+	line "l'arbre?"
 
-	para "I'm impressed!"
-	line "I want you to"
-	cont "have this."
+	para "Impressionnant!"
+	line "Tu as bien mérité"
+	cont "ça."
 	done
 
 
 
 Route36LassText_ClearedSudowoodo:
-	text "That odd tree dis-"
-	line "appeared without a"
-	cont "trace."
+	text "l'arbre bizarre a"
+	line "disparu..."
 
-	para "Oh! That tree was"
-	line "really a #mon?"
+	para "Oh! C'était un"
+	line "#mon?"
+	cont "Vraiment?"
 	done
 
 PsychicMarkSeenText:
-	text "I'm going to read"
-	line "your thoughts!"
+	text "Je suis..."
+	line "Puissant!"
 	done
 
 PsychicMarkBeatenText:
-	text "I misread you!"
+	text "J'suis une tache!"
 	done
 
 SchoolgirlMollySeenText:
@@ -655,45 +656,44 @@ SchoolgirlMollyBeatenText:
 	done
 
 SchoolboyAlan1SeenText:
-	text "Thanks to my stud-"
-	line "ies, I'm ready for"
-	cont "any #mon!"
+	text "J'ai étudié et je"
+	line "suis incollable!"
+	cont "A l'attaque!"
 	done
 
 SchoolboyAlan1BeatenText:
-	text "Oops! Computation"
-	line "error?"
+	text "Oups! Me serais-je"
+	line "trompé?"
 	done
 
 SchoolboyAlanBooksText:
-	text "Darn. I study five"
-	line "hours a day too."
+	text "Pfff. J'étudie 5"
+	line "heures par jour."
 
-	para "There's more to"
-	line "learning than just"
-	cont "reading books."
+	para "Lire des livres"
+	line "ça suffit pas..."
+	cont "Apparemment..."
 	done
 
 MeetArthurText:
-	text "Arthur: Who are"
-	line "you?"
+	text "Jerome: Qui es-tu?"
 
-	para "I'm Arthur of"
-	line "Thursday."
+	para "Moi c'est Jerome"
+	line "du jeudi."
 	done
 
 ArthurGivesGiftText:
-	text "Here. You can have"
-	line "this."
+	text "Tiens. Voilà pour"
+	line "toi."
 	done
 
 
 ArthurThursdayText:
-	text "Arthur: I'm Arthur"
-	line "of Thursday. I'm"
+	text "Jerome: Moi c'est"
+	line "Jerome du jeudi,"
 
-	para "the second son out"
-	line "of seven children."
+	para "le deuxième fils"
+	line "des sept enfants."
 	done
 
 
@@ -702,39 +702,41 @@ Route36SignText:
 	done
 
 RuinsOfAlphNorthSignText:
-	text "Ruins of Alph"
-	line "North Entrance"
+	text "ruines d'alpha"
+	line "Entree Nord"
 	done
 
 Route36TrainerTips1Text:
-	text "Trainer Tips"
+	text "Astuce"
 
-	para "#mon stats"
-	line "vary--even within"
-	cont "the same species."
+	para "Les statistiques"
+	line "des #mon"
+	cont "varient, même dans"
+	cont "la même espèce."
 
-	para "Their stats may be"
-	line "similar at first."
+	para "Et même si au dé-"
+	line "but deux #mon"
+	cont "se ressemblent..."
 
-	para "However, differ-"
-	line "ences will become"
+	para "En grandissant ils"
+	line "n'auront pas les"
 
-	para "pronounced as the"
-	line "#mon grow."
+	para "mêmes forces et"
+	line "faiblesses."
 	done
 
 Route36TrainerTips2Text:
-	text "Trainer Tips"
+	text "Astuce"
 
-	para "Use Dig to return"
-	line "to the entrance of"
-	cont "any place."
+	para "Utiliser tunnel"
+	line "pour retourner au"
+	cont "début d'un lieu."
 
-	para "It is convenient"
-	line "for exploring"
+	para "C'est très prati-"
+	line "que pour explorer"
 
-	para "caves and other"
-	line "landmarks."
+	para "les grottes et les"
+	line "cavernes."
 	done
 
 Route36AdvancedTips1Text:

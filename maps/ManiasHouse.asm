@@ -126,38 +126,42 @@ ShuckieOTName:
 	rawchar "Kirk@"
 
 ManiaText_AskLookAfterShuckie:
-	text "I, I'm in shock!"
+	text "Je suis choqué!"
 
-	para "A guy about your"
-	line "age with piercing"
+	para "Un garnement de"
+	line "ton âge avec"
 
-	para "eyes and long hair"
-	line "came in."
+	para "l'oeil mauvais"
+	line "et des cheveux"
+	cont "longs, s'est in-"
+	cont "filtré chez moi."
 
-	para "He scared me into"
-	line "giving him my"
-	cont "prized #mon!"
+	para "Il m'a fait grand-"
+	line "peur et chapardé"
+	cont "mon #mon"
+	cont "adoré!"
 
-	para "I still have one"
-	line "left, but what if"
-	cont "he comes back?"
+	para "Il m'en reste un"
+	line "mais que faire"
+	cont "s'il revient?"
 
-	para "You look strong."
-	line "Could you look"
+	para "Tu as l'air"
+	line "fort. Peux-tu"
 
-	para "after my #mon"
-	line "for a while?"
+	para "t'occuper de"
+	line "mon #mon"
+	cont "un petit moment?"
 	done
 
 ManiaText_TakeCareOfShuckie:
-	text "Oh, thank you!"
+	text "Oh, bien le merci!"
 
-	para "Take good care of"
-	line "it, please!"
+	para "Prends-en bien"
+	line "soin, pitié!"
 	done
 
 ManiaText_GotShuckie:
-	text "<PLAYER> received a"
+	text "<PLAYER> reçoit un"
 	line "#mon."
 	done
 
@@ -175,26 +179,30 @@ ManiaText_PartyAndBoxFull:
 
 
 ManiaText_CanIHaveMyMonBack:
-	text "Hi! How's my #-"
-	line "mon?"
+	text "Salut! Comment va"
+	line "mon #mon?"
 
-	para "I think I'm safe"
-	line "now, so may I have"
-	cont "it back?"
+	para "Je pense être en"
+	line "sécurité main-"
+	cont "tenant, serait-il"
+	cont "possible de le"
+	cont "récupérer?"
 	done
 
 ManiaText_ThankYou:
-	text "Thank you!"
+	text "Merci mon petit!"
 	done
 
 
 ManiaText_ShuckieLikesYou:
-	text "My #mon has"
-	line "come to like you."
+	text "Mon #mon a"
+	line "l'air de t'appré-"
+	cont "cier."
 
-	para "All right, you"
-	line "should keep it."
+	para "Très bien! Tu"
+	line "peux le garder."
 
-	para "But promise to"
-	line "be good to it!"
+	para "Mais promets-moi"
+	line "d'être sympa avec"
+	cont "lui!"
 	done

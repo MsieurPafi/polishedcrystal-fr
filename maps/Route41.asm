@@ -257,64 +257,64 @@ GenericTrainerSwimmermLewis:
 	done
 
 SwimmermCharlieSeenText:
-	text "The water's warm"
-	line "here. I'm loose"
-	cont "and limber."
+	text "l'eau est bonne"
+	line "par ici."
 
-	para "Sure, I'll take"
-	line "you on!"
+	para "Tu veux combattre?"
+	line "Pas de problème!"
 	done
 
 SwimmermCharlieBeatenText:
-	text "Yikes! I've got"
-	line "prune skin!"
+	text "J'suis tout fripé!"
 	done
 
 SwimmermGeorgeSeenText:
-	text "I'm a bit tired."
-	line "If I win, lend me"
-	cont "your #mon."
+	text "J'suis fatigué."
+	line "Si je gagne, tu me"
+	cont "prêtes tes #-"
+	cont "mon, OK?"
 	done
 
 SwimmermGeorgeBeatenText:
-	text "Pant, pant…"
+	text "Pfff...pff..."
 	done
 
 SwimmermBerkeSeenText:
-	text "See those islands"
-	line "that are blocked"
-	cont "by whirlpools?"
+	text "Tu vois ces îles"
+	line "bloquées par des"
+	cont "siphons?"
 
-	para "There just has to"
-	line "be a secret!"
+	para "Il doit y avoir"
+	line "quelque chose de"
+	cont "secret!"
 	done
 
 SwimmermBerkeBeatenText:
-	text "What's the secret"
-	line "to your strength?"
+	text "Pourquoi t'es"
+	line "cool, toi?"
 	done
 
 SwimmermKirkSeenText:
-	text "The waves are wild"
-	line "here."
+	text "Les vagues sont"
+	line "dangereuses ici."
 
-	para "They tire you out"
-	line "while you swim."
+	para "Elles empêchent de"
+	line "nager calmement."
 	done
 
 SwimmermKirkBeatenText:
-	text "I'm beat!"
+	text "J'suis crevé!"
 	done
 
 SwimmermMathewSeenText:
-	text "Are you seeking"
-	line "the secrets of"
-	cont "Whirl Islands?"
+	text "Tu cherches le"
+	line "secret des"
+	cont "Tourb'Îles?"
 	done
 
 SwimmermMathewBeatenText:
-	text "Ooh, you've got"
-	line "great endurance!"
+	text "Ooh!!! Quelle"
+	line "endurance!"
 	done
 
 SwimmermLewisSeenText:
@@ -328,32 +328,30 @@ SwimmermLewisBeatenText:
 	done
 
 SwimmerfKayleeSeenText:
-	text "I'm on my way to"
-	line "Whirl Islands."
+	text "Je vais aux"
+	line "Tourb'Îles."
 
-	para "I'm going explor-"
-	line "ing with friends."
+	para "Je vais les explo-"
+	line "rer avec un ami."
 	done
 
 SwimmerfKayleeBeatenText:
-	text "Is that how you do"
-	line "it?"
+	text "C'est tout?"
 	done
 
 SwimmerfSusieSeenText:
-	text "You look so ele-"
-	line "gant, riding your"
-	cont "#mon."
+	text "Cool, t'es à dada"
+	line "sur ton #mon."
 	done
 
 SwimmerfSusieBeatenText:
-	text "I'm crushed…"
+	text "Tout perdu..."
 	done
 
 SwimmerfDeniseSeenText:
-	text "The weather is so"
-	line "beautiful, I'm in"
-	cont "a daze!"
+	text "Il fait si beau!"
+	line "C'est la fête!"
+	cont "Youkiii!"
 	done
 
 SwimmerfDeniseBeatenText:
@@ -361,28 +359,25 @@ SwimmerfDeniseBeatenText:
 	done
 
 SwimmerfKaraSeenText:
-	text "If you need to"
-	line "rest, just tread"
-	cont "water."
+	text "Si tu es naze,"
+	line "fais la planche!"
 
-	para "You'll get your"
-	line "wind back, so you"
-
-	para "can keep on going"
-	line "strong."
+	para "Bon..."
+	line "On s'bat?"
 	done
 
 SwimmerfKaraBeatenText:
-	text "Oh! You have more"
-	line "energy than I do."
+	text "Oh! Tu en as de"
+	line "l'énergie, toi."
 	done
 
 SwimmerfWendySeenText:
-	text "At night, Staryu"
-	line "gather near the"
-	cont "water's surface."
+	text "La nuit tombée,"
+	line "des Stari se réu-"
+	cont "nissent à la sur-"
+	cont "face de l'eau."
 	done
 
 SwimmerfWendyBeatenText:
-	text "Oh, dear…"
+	text "Oh..."
 	done

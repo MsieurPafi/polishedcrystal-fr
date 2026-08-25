@@ -59,20 +59,20 @@ ChadGreetNiteText:
 	done
 
 ChadGenericText:
-	text "How are your"
-	line "#mon doing?"
+	text "Comment vont tes"
+	line "#mon?"
 
-	para "You know Prof.Oak,"
-	line "so of course your"
-	cont "#mon are fine!"
+	para "Vu que tu connais"
+	line "le Prof.Chen, tes"
+	cont "#mon sont"
+	cont "forcément en"
+	cont "bonne forme!"
 
-	para "My #mon are"
-	line "doing well too."
+	para "Mes #mon vont"
+	line "bien."
 
-	para "But then, I am"
-	line "trying to become a"
-
-	para "#mon professor,"
-	line "so that shouldn't"
-	cont "be a big surprise."
+	para "J'essaie aussi de"
+	line "devenir un"
+	cont "professeur #mon"
+	cont "de mon côté."
 	done

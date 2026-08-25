@@ -29,12 +29,13 @@ CeladonDeptStore3FGameboyKid2Script:
 	end
 
 CeladonDeptStore6FSuperNerdText:
-	text "A vending machine"
-	line "with a prize rou-"
-	cont "lette…"
+	text "Un distributeur"
+	line "avec une roulette!"
+	cont "On peut gagner"
+	cont "quelque chose!"
 
-	para "You never see"
-	line "those anymore."
+	para "Alors ça..."
+	line "C'est fort."
 	done
 
 CeladonDeptStore6FYoungsterText:

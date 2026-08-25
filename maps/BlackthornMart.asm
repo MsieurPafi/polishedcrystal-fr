@@ -18,27 +18,29 @@ BlackthornMart_MapScriptHeader:
 	object_event 11,  3, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BlackthornMartSuperNerdText, -1
 
 BlackthornMartCooltrainermText:
-	text "You can't buy Max"
-	line "Revive, but it"
+	text "Tu ne peux pas"
+	line "acheter de Rappel"
 
-	para "fully restores a"
-	line "fainted #mon."
+	para "max mais il permet"
+	line "de ramener un"
+	cont "#mon évanoui"
+	cont "en pleine forme."
 
-	para "Beware--it won't"
-	line "restore PP, the"
-
-	para "Power Points"
-	line "needed for moves."
+	para "Fais attention, ça"
+	line "ne restaure pas"
+	cont "les points de pou-"
+	cont "voir des attaques."
 	done
 
 BlackthornMartBlackbeltText:
-	text "Max Repel keeps"
-	line "weak #mon away"
-	cont "from you."
+	text "Le max repousse"
+	line "repousse les #-"
+	cont "mon faibles de ta"
+	cont "route."
 
-	para "It's the longest"
-	line "lasting of the"
-	cont "Repel sprays."
+	para "C'est le repousse"
+	line "le plus puissant"
+	cont "de tous."
 	done
 
 BlackthornMartSuperNerdText:

@@ -250,30 +250,28 @@ SabrinaMarshBadgeText:
 	done
 
 SabrinaFightDoneText:
-	text "Sabrina: Your love"
-	line "for your #mon"
+	text "Morgane: Ton amour"
+	line "pour tes #mon a"
 
-	para "overwhelmed my"
-	line "psychic power…"
+	para "brouillé mes pou-"
+	line "voirs psy..."
 
-	para "The power of love,"
-	line "I think, is also a"
-
-	para "kind of psychic"
-	line "power…"
+	para "l'amour..."
+	line "Quelle force!"
 	done
 
 MediumDorisSeenText:
-	text "Fufufufu…"
-	line "I see it clearly."
+	text "Gnihihihihi!"
+	line "Forces occultes!"
 
-	para "I can see into"
-	line "your soul!"
+	para "Ténèbres..."
+	line "Pâté de foie!"
 	done
 
 MediumDorisBeatenText:
-	text "Though I read you,"
-	line "I still lost…"
+	text "J'aime le paranor-"
+	line "mal, oui, mais la"
+	cont "charcuterie aussi!"
 	done
 
 PsychicLeonSeenText:
@@ -287,13 +285,13 @@ PsychicLeonBeatenText:
 	done
 
 PsychicJaredSeenText:
-	text "The Fighting Dojo"
-	line "next door was once"
-	cont "this city's Gym."
+	text "Le Dojo d'à côté"
+	line "était jadis l'Are-"
+	cont "ne de cette ville."
 	done
 
 PsychicJaredBeatenText:
-	text "I was no match…"
+	text "Tout perdu..."
 	done
 
 HexManiacLunaSeenText:
@@ -315,29 +313,26 @@ HexManiacNatalieBeatenText:
 	done
 
 PsychicFranklinSeenText:
-	text "Psychic power is"
-	line "the power of your"
-	cont "soul."
+	text "Je vais prendre"
+	line "ton âme!"
 	done
 
 PsychicFranklinBeatenText:
-	text "Your soul has more"
-	line "power than mine!"
+	text "Pourquoi tant de"
+	line "haine?"
 	done
 
 MediumRebeccaSeenText:
-	text "The power of all"
-	line "those you defeated"
-	cont "comes to me!"
+	text "Que la force soit"
+	line "avec moi!"
 	done
 
 MediumRebeccaBeatenText:
-	text "Strong…"
-	line "Far too strong…"
+	text "Bah alors?"
 	done
 
 
 SaffronGymGuyWinText:
-	text "That was another"
-	line "fantastic battle!"
+	text "Quelle belle"
+	line "rencontre!"
 	done

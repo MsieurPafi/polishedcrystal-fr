@@ -417,88 +417,87 @@ BattleGirlNozomiBeatenText:
 	done
 
 HikerErikSeenText:
-	text "Be prepared for"
-	line "anything!"
+	text "Attends-toi à"
+	line "l'impossible!"
 
-	para "Let me see if your"
-	line "#mon have been"
-	cont "raised properly!"
+	para "Montre si tes"
+	line "#mon ont bien"
+	cont "été entraînés!"
 	done
 
 HikerErikBeatenText:
-	text "Oh, I lost that!"
+	text "Oh! Perdu!"
 	done
 
 HikerMichaelSeenText:
-	text "Yo! You're spunky!"
-	line "But you know what?"
+	text "Toi, tu crains!"
+	line "Tu le sais, ça?"
 
-	para "When it comes to"
-	line "sheer spunkiness,"
-	cont "I'm the man!"
+	para "Alors il faut se"
+	line "battre. Parce que"
+	cont "j't'aime pas!"
 	done
 
 HikerMichaelBeatenText:
-	text "My #mon weren't"
-	line "spunky enough!"
+	text "Bien joué!"
 	done
 
 HikerParry1SeenText:
-	text "My #mon are"
-	line "power packed!"
+	text "J'ai super boosté"
+	line "mes #mon!"
 	done
 
 HikerParry1BeatenText:
-	text "Wahahah! I'm the"
-	line "big loser!"
+	text "Wahahah!"
+	line "J'suis nul!"
 	done
 
 HikerParryAfterBattleText:
-	text "I'm not much good"
-	line "at thinking, see?"
+	text "Réfléchir, c'est"
+	line "pas mon truc."
 
-	para "So, I just plow"
-	line "ahead with power!"
+	para "Alors, je cogne."
 	done
 
 HikerTimothySeenText:
-	text "Why do I climb"
-	line "mountains?"
+	text "Pourquoi j'aime"
+	line "l'escalade?"
 
-	para "Because they're"
-	line "there."
+	para "Parce que j'aime"
+	line "la montagne."
 
-	para "Why do I train"
-	line "#mon?"
+	para "Pourquoi j'aime"
+	line "les #mon?"
 
-	para "Because they're"
-	line "there!"
+	para "Parce que j'aime"
+	line "combattre!"
 	done
 
 HikerTimothyBeatenText:
-	text "Losses…"
-	line "They're there too!"
+	text "Mais..."
+	line "J'aime pas perdre!"
 	done
 
 HikerParryGivesIronText:
-	text "I just can't find"
-	line "a way to win!"
+	text "Je n'arrive pas"
+	line "à gagner!"
 
-	para "Keep it up!"
+	para "Courage!"
 
-	para "Oh, and take this"
-	line "--it's the gift"
+	para "Oh, prends ça..."
+	line "C'est le truc que"
 
-	para "you couldn't take"
-	line "when we last met."
+	para "tu ne pouvais pas"
+	line "prendre la derniè-"
+	cont "re fois."
 	done
 
 BlackbeltKenji1SeenText:
-	text "I was training"
-	line "here alone."
+	text "Je m'entraîne en"
+	line "solitaire."
 
-	para "Behold the fruits"
-	line "of my labor!"
+	para "Et voilà le"
+	line "résultat!"
 	done
 
 BlackbeltKenji1BeatenText:
@@ -506,38 +505,39 @@ BlackbeltKenji1BeatenText:
 	done
 
 BlackbeltKenjiAfterBattleText:
-	text "This calls for"
-	line "extreme measures."
+	text "Parfait..."
+	line "Tu l'auras voulu."
 
-	para "I must take to the"
-	line "hills and train in"
-	cont "solitude."
+	para "Je vais encore"
+	line "m'entraîner en"
+	cont "solitaire."
 	done
 
 
 
 CooltrainermRyanSeenText:
-	text "What are your"
-	line "thoughts on rais-"
-	cont "ing #mon?"
+	text "Comment tu fais"
+	line "pour entraîner tes"
+	cont "#mon?"
 	done
 
 CooltrainermRyanBeatenText:
-	text "You've won my"
-	line "respect."
+	text "Respect."
+	line "Bravo."
 	done
 
 CooltrainerfKellySeenText:
-	text "What is your"
-	line "battle strategy?"
+	text "Quelle est ta"
+	line "stratégie?"
 
-	para "It is foolish to"
-	line "use strong moves"
-	cont "indiscriminately."
+	para "Utiliser des capa-"
+	line "cités puissantes"
+	cont "au hasard ne sert"
+	cont "à rien."
 	done
 
 CooltrainerfKellyBeatenText:
-	text "Fine. I lost."
+	text "Bien. Perdu."
 	done
 
 CamperQuentinSeenText:
@@ -550,11 +550,12 @@ CamperQuentinSeenText:
 	done
 
 CamperQuentinBeatenText:
-	text "I was tough at the"
-	line "Battle Tower…"
+	text "La Tour de Combat"
+	line "c'est de la balle!"
 	done
 
 Route45SignText:
-	text "Route 45"
-	line "Mountain Rd. Ahead"
+	text "route 45"
+	line "chemin de montagne"
+	cont "Tout droit"
 	done

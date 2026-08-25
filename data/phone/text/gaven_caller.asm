@@ -64,13 +64,11 @@ GavenBattleRematchText:
 	done
 
 GavenHangUpText:
-	text "OK, I'll talk to"
-	line "you soon!"
+	text "OK, à bientôt!"
 	done
 
 GavenHangUpNotThursdayText:
-	text "I obsess over how"
-	line "to beat you."
+	text "Je veux te battre!"
 	done
 
 GavenReminderText:

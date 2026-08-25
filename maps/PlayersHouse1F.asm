@@ -105,24 +105,28 @@ MomEventScript:
 	end
 
 PlayersHouse1FFridgeText:
-	text "Let's see what's"
-	line "in the fridge…"
+	text "Voyons voir ce"
+	line "qui se trame"
+	cont "dans le frigo..."
 
-	para "Fresh Water and"
-	line "tasty Lemonade!"
+	para "De l'Eau Fraiche"
+	line "et de la bonne"
+	cont "limonade!"
 	done
 
 PlayersHouse1FSinkText:
-	text "The sink is spot-"
-	line "less. Mom likes it"
-	cont "clean."
+	text "l'évier est nickel"
+	line "de chez nickel."
+	cont "Maman est assez"
+	cont "maniaque."
 	done
 
 PlayersHouse1FStoveText:
-	text "Mom's specialty!"
+	text "La spécialité de"
+	line "Maman!"
 
-	para "Cinnabar Volcano"
-	line "Burger!"
+	para "Un bon Burger"
+	line "style Cramois'Île!"
 	done
 
 PlayersHouse1FTVScript:
@@ -199,23 +203,24 @@ else
 endc
 
 MomPokegearText:
-	text "#mon Gear, or"
-	line "just #gear."
+	text "Le matos #mon,"
+	line "ou simplement"
+	cont "#matos..."
 
-	para "It's essential if"
-	line "you want to be a"
-	cont "good trainer."
+	para "...est primordial"
+	line "si tu veux devenir"
+	cont "dresseur."
 
-	para "Oh, the day of the"
-	line "week isn't set."
+	para "Oh! Le jour de la"
+	line "semaine n'est pas"
+	cont "paramétré."
 
-	para "You mustn't forget"
-	line "that!"
+	para "N'oublie pas ça!"
 	done
 
 MomDSTText:
-	text "Is it Daylight"
-	line "Saving Time now?"
+	text "Changement d'heure"
+	line "à activer?"
 	done
 
 MomRunningShoesText:
@@ -251,24 +256,24 @@ MomOutroText:
 	done
 
 MomErrandText:
-	text "So, what was Prof."
-	line "Elm's errand?"
+	text "Alors, quelle"
+	line "était la commis-"
+	cont "sion du Prof.Orme?"
 
-	para "…"
+	para "..."
 
-	para "That does sound"
-	line "challenging."
+	para "Ça a l'air"
+	line "difficile."
 
-	para "But, you should be"
-	line "proud that people"
-	cont "rely on you."
+	para "Mais c'est impor-"
+	line "tant que l'on te"
+	cont "fasse confiance."
 	done
 
 MomDoItText:
-	text "<PLAYER>, do it!"
+	text "<PLAYER>, courage!"
 
-	para "I'm behind you all"
-	line "the way!"
+	para "Je suis avec toi!"
 	done
 
 NeighborScript:
@@ -304,34 +309,39 @@ NeighborScript:
 	end
 
 .MornIntroText:
-	text "Good morning,"
+	text "Bonjour,"
 	line "<PLAYER>!"
 
-	para "I'm visiting!"
+	para "Je suis de"
+	line "passage!"
 	done
 
 .DayIntroText:
-	text "Hello, <PLAYER>!"
-	line "I'm visiting!"
+	text "Bonjour,"
+	line "<PLAYER>!"
+
+	para "Je suis de"
+	line "passage!"
 	done
 
 .NiteIntroText:
-	text "Good evening,"
+	text "Bonjour,"
 	line "<PLAYER>!"
 
-	para "I'm visiting!"
+	para "Je suis de"
+	line "passage!"
 	done
 
 .NeighborText:
-	text "<PLAYER>, have you"
-	line "heard?"
+	text "<PLAYER>, es-tu"
+	line "au courant?"
 
-	para "My daughter is"
-	line "adamant about"
+	para "Ma fille veut"
+	line "devenir l'assis-"
 
-	para "becoming Prof."
-	line "Elm's assistant."
+	para "tante du Prof."
+	line "Orme."
 
-	para "She really loves"
+	para "Elle adoooore les"
 	line "#mon!"
 	done

@@ -34,9 +34,9 @@ Route19FuchsiaGateOfficerScript:
 	done
 
 Route19FuchsiaGateOfficerText_RocksCleared:
-	text "No Cinnabar citi-"
-	line "zens were injured"
+	text "Aucun habitant de"
+	line "Cramois'Île n'a"
 
-	para "by the eruption."
-	line "That's great!"
+	para "été blessé pendant"
+	line "l'éruption. Cool!"
 	done

@@ -38,27 +38,31 @@ CharcoalKilnBoss:
 	done
 
 .Text2:
-	text "The Slowpoke have"
-	line "returned…"
+	text "Les Ramoloss sont"
+	line "de retour..."
 
-	para "But my Apprentice"
-	line "hasn't come back"
-	cont "from Ilex Forest."
+	para "Mais mon Apprenti"
+	line "n'est pas revenu"
+	cont "du Bois aux"
+	cont "Chenes."
 
-	para "Where in the world"
-	line "is that lazy guy?"
+	para "Où est donc ce"
+	line "dresseur de"
+	cont "troisième zone?"
 	done
 
 .Text3:
-	text "You chased off"
-	line "Team Rocket and"
+	text "Tu as chassé la"
+	line "Team Rocket et tu"
 
-	para "went to Ilex"
-	line "Forest alone?"
+	para "as visité le bois"
+	line "aux Chenes en"
+	cont "solitaire?"
 
-	para "That takes guts!"
-	line "I like that. Come"
-	cont "train with us."
+	para "Pas mal!"
+	line "J'aime ça. Viens"
+	cont "donc t'entraîner"
+	cont "avec nous."
 	done
 
 CharcoalKilnApprentice:
@@ -76,32 +80,32 @@ CharcoalKilnApprentice:
 	endtext
 
 .Text1:
-	text "Where have all the"
-	line "Slowpoke gone?"
+	text "Où sont passés"
+	line "les Ramoloss?"
 
-	para "Are they out play-"
-	line "ing somewhere?"
+	para "Sont-ils dehors en"
+	line "train de traîner?"
 	done
 
 .Text2:
-	text "I'm sorry--I for-"
-	line "got to thank you."
+	text "Pardonne-moi, j'ai"
+	line "oublié de te re-"
+	cont "mercier."
 
-	para "This is Charcoal"
-	line "that I made."
+	para "J'ai produit ce"
+	line "charbon."
 
-	para "Fire-type #mon"
-	line "would be happy to"
-	cont "hold that."
+	para "Les #mon de feu"
+	line "seront contents"
+	cont "d'en tenir un."
 	done
 
 .Text3:
-	text "The Slowpoke came"
-	line "back, and you even"
-	cont "found Farfetch'd."
-
-	para "You're the cool-"
-	line "est, man!"
+	text "Les Ramoloss sont"
+	line "de retour et tu as"
+	cont "même retrouvé"
+	cont "Canarticho."
+	cont "T'es trop cool!"
 	done
 
 CharcoalKilnFarfetchdScript:

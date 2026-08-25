@@ -173,11 +173,11 @@ ChucksWifeChubbyText:
 	done
 
 CianwoodCityYoungsterText:
-	text "If you use Fly,"
-	line "you can get back"
+	text "En utilisant vol,"
+	line "tu peux revenir à"
 
-	para "to Olivine in-"
-	line "stantly."
+	para "Oliville en un"
+	line "instant."
 	done
 
 CianwoodCityPokefanMText:
@@ -199,11 +199,12 @@ endc
 	done
 
 CianwoodCityLassText:
-	text "Chuck, the Gym"
-	line "Leader, spars with"
+	text "Chuck, le"
+	line "champion d'Arene"
 
-	para "his fighting #-"
-	line "mon."
+	para "s'entraîne avec"
+	line "ses #mon de"
+	cont "type combat."
 	done
 
 CianwoodCityRocketText:
@@ -232,46 +233,47 @@ CianwoodCityFisherText:
 	done
 
 EusineSuicuneText:
-	text "Eusine: Yo,"
-	line "<PLAYER>."
+	text "Eusine: Hé!"
+	line "<PLAYER>!"
 
-	para "Wasn't that"
-	line "Suicune just now?"
+	para "C'était pas"
+	line "Suicune?"
 
-	para "I only caught a"
-	line "quick glimpse, but"
+	para "Je l'ai juste"
+	line "aperçu mais j'ai"
 
-	para "I thought I saw"
-	line "Suicune running on"
-	cont "the waves."
+	para "vu Suicune courir"
+	line "sur les vagues."
 
-	para "Suicune is beau-"
-	line "tiful and grand."
+	para "Suicune est siiii"
+	line "bôôô et vaillant!"
 
-	para "And it races"
-	line "through towns and"
+	para "Il court et tra-"
+	line "verse les villes"
 
-	para "roads at simply"
-	line "awesome speeds."
+	para "à une telle vi-"
+	line "tesse."
 
-	para "It's wonderful…"
+	para "C'est dingue..."
 
-	para "I want to see"
-	line "Suicune up close…"
+	para "Je veux voir"
+	line "Suicune de près..."
 
-	para "I've decided."
+	para "C'est décidé."
 
-	para "I'll battle you as"
-	line "a trainer to earn"
-	cont "Suicune's respect!"
+	para "Je vais t'affron-"
+	line "ter pour montrer"
+	cont "mon talent à"
+	cont "Suicune!"
 
-	para "Come on, <PLAYER>."
-	line "Let's battle now!"
+	para "Mais si c'est"
+	line "logique!"
+	cont "combat!"
 	done
 
 EusineBeatenText:
-	text "I hate to admit"
-	line "it, but you win."
+	text "Bon d'accord."
+	line "J'ai perdu."
 	done
 
 EusineLossText:
@@ -283,58 +285,55 @@ EusineLossText:
 	done
 
 EusineAfterText:
-	text "You're amazing,"
+	text "Tu es formidable,"
 	line "<PLAYER>!"
 
-	para "No wonder #mon"
-	line "gravitate to you."
+	para "Les #mon"
+	line "doivent t'adorer."
 
-	para "I get it now."
+	para "Je comprends tout."
 
-	para "I'm going to keep"
-	line "searching for"
+	para "Je vais encore"
+	line "traquer le grand"
 	cont "Suicune."
 
-	para "I'm sure we'll see"
-	line "each other again."
+	para "On se reverra."
 
-	para "See you around!"
+	para "A bientôt!"
 	done
 
 CianwoodCitySignText:
-	text "Cianwood City"
+	text "Irisia"
 
-	para "A Port Surrounded"
-	line "by Rough Seas"
+	para "Un port entouré"
+	line "d'une mer bien"
+	cont "déchaînée"
 	done
 
 CianwoodGymSignText:
-	text "Cianwood City"
-	line "#mon Gym"
+	text "champion d'Arene"
+	line "d'Irisia: Chuck"
 
-	para "Leader: Chuck"
-
-	para "His Roaring Fists"
-	line "Do the Talking"
+	para "Ses poings parlent"
+	line "pour lui"
 	done
 
 CianwoodPharmacySignText:
-	text "500 Years of"
+	text "500 ans de"
 	line "Tradition"
 
-	para "Cianwood City"
-	line "Pharmacy"
+	para "Pharmacie d'Irisia"
 
-	para "We Await Your"
-	line "Medicinal Queries"
+	para "Malades..."
+	line "Venez nombreux!"
 	done
 
 CianwoodPhotoStudioSignText:
-	text "Cianwood City"
-	line "Photo Studio"
+	text "studio photo"
+	line "d'Irisia"
 
-	para "Take a Snapshot as"
-	line "a Keepsake!"
+	para "Une petite photo"
+	line "souvenir!"
 	done
 
 CianwoodCliffEdgeGateSignText:

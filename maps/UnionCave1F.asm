@@ -87,12 +87,11 @@ GenericTrainerRuin_maniacJones:
 	done
 
 HikerRussellSeenText:
-	text "You're headed to"
-	line "Azalea, are you?"
+	text "Tu vas à Écorcia,"
+	line "n'est-ce pas?"
 
-	para "Let my #mon see"
-	line "if you are good"
-	cont "enough to battle."
+	para "Voyons si tu as"
+	line "les épaules..."
 	done
 
 HikerRussellBeatenText:
@@ -100,55 +99,57 @@ HikerRussellBeatenText:
 	done
 
 PokemaniacLarrySeenText:
-	text "I roam far and"
-	line "wide in search of"
-	cont "#mon."
+	text "Je parcours la"
+	line "terre à la recher-"
+	cont "che de #mon."
 
-	para "Are you looking"
-	line "for #mon too?"
+	para "Quoi? Toi aussi tu"
+	line "les collectionnes?"
 
-	para "Then you're my"
-	line "collecting rival!"
+	para "Bah alors..."
+	line "combat!"
 	done
 
 PokemaniacLarryBeatenText:
-	text "Ugh. My poor #-"
-	line "mon…"
+	text "Non!!! Mes pauvres"
+	line "#mon..."
 	done
 
 HikerDanielSeenText:
-	text "Whoa! What a"
-	line "surprise!"
+	text "Whoa! Tu m'as"
+	line "fait peur!"
 
-	para "I didn't expect to"
-	line "see anyone here!"
+	para "Je me croyais seul"
+	line "dans le coin!"
 	done
 
 HikerDanielBeatenText:
-	text "Whoa! I'm beaten"
-	line "big time!"
+	text "Whoa! J'me suis"
+	line "fait détruire!"
 	done
 
 FirebreatherBillSeenText:
-	text "Zubat's Supersonic"
-	line "keeps confusing"
-	cont "my #mon."
+	text "l'Ultrason de"
+	line "Nosferapti rend"
+	cont "mes #mon"
+	cont "complètement fous."
 
-	para "I'm seriously"
-	line "upset about that!"
+	para "Et ça..."
+	line "C'est super lourd!"
 	done
 
 FirebreatherBillBeatenText:
-	text "I flamed out!"
+	text "Tout perdu!"
 	done
 
 FirebreatherRaySeenText:
-	text "If it's light, a"
-	line "cave isn't scary."
+	text "Une caverne éclai-"
+	line "rée, ça fait pas"
+	cont "peur."
 
-	para "If you're strong,"
-	line "#mon aren't"
-	cont "scary."
+	para "Avec du courage,"
+	line "les méchants, ça"
+	cont "fait pas peur."
 	done
 
 FirebreatherRayBeatenText:

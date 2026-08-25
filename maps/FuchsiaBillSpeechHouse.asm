@@ -22,7 +22,8 @@ BillsBrotherText:
 	done
 
 BillsBrothersHouseYoungsterText:
-	text "I saw these weird,"
-	line "slow #mon on"
-	cont "Cycling Road."
+	text "J'ai vu des drôles"
+	line "de #mon lents"
+	cont "sur la Piste"
+	cont "Cyclable."
 	done

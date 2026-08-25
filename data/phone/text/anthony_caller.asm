@@ -66,8 +66,8 @@ AnthonyBattleRematchText:
 	done
 
 AnthonyHangUpText:
-	text "All right then!"
-	line "Be good!"
+	text "Allez hop!"
+	line "A la prochaine!"
 	done
 
 AnthonySwarmText:
@@ -98,13 +98,13 @@ AnthonySwarmText:
 	done
 
 AnthonyWasntPayingAttentionText:
-	text "Rare #mon?"
+	text "Des #mon rares?"
 
-	para "Hey, sorry! I was"
-	line "too focused on my"
+	para "Désolé!"
+	line "Je ne fais pas"
 
-	para "hike, so I wasn't"
-	line "paying attention."
+	para "attention quand je"
+	line "me balade."
 	done
 
 AnthonyReminderText:
@@ -121,17 +121,14 @@ AnthonyReminderText:
 	done
 
 AnthonyHurryText:
-	text "Hello? What? Where"
-	line "is Dunsparce?"
+	text "Allô? Quoi? Où"
+	line "est Insolourdo?"
 
-	para "Dark Cave! Hurry!"
+	para "Antre Noire! Vite!"
 
-	para "I know I've said"
-	line "it before, but"
+	para "Il n'apparaît pas"
+	line "s'il y a trop de"
 
-	para "Dunsparce don't"
-	line "appear when there"
-
-	para "are strong #mon"
-	line "around."
+	para "#mon puissants"
+	line "dans le coin."
 	done

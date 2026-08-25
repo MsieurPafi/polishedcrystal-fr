@@ -150,40 +150,40 @@ CardKeySlotScript::
 	end
 
 RadioTower3FSuperNerdText:
-	text "We have recordings"
-	line "of the cries of"
+	text "Nous avons un"
+	line "enregistrement de"
 
-	para "all #mon that"
-	line "have been found."
+	para "tous les cris de"
+	line "#mon connus."
 
-	para "We must have about"
-	line "200 kinds."
+	para "Nous en avons près"
+	line "de 200 différents."
 	done
 
 
 RadioTower3FGymGuideText:
-	text "We run 24 hours a"
-	line "day to broadcast"
+	text "Nous diffusons des"
+	line "émissions distray-"
 
-	para "entertaining pro-"
-	line "grams."
+	para "antes sans jamais"
+	line "nous arrêter."
 
-	para "I'll do my best to"
-	line "run around the"
-	cont "clock too!"
+	para "Je vais essayer de"
+	line "garder le micro"
+	cont "24 heures sur 24!"
 	done
 
 RadioTower3FCooltrainerFIsDirectorSafeText:
-	text "Is the Director"
-	line "safe?"
+	text "Le Directeur est-"
+	line "il en sécurité?"
 	done
 
 RadioTower3FCooltrainerFYoureMyHeroText:
-	text "Thank you!"
-	line "You're my hero!"
+	text "Merci!"
+	line "Tu es trop cool!"
 
-	para "This is a token of"
-	line "my appreciation."
+	para "Prends ceci en"
+	line "récompense."
 	done
 
 RadioTower3FCooltrainerFItsAGBCSoundsText:
@@ -208,72 +208,72 @@ RadioTower3FCooltrainerFItsAGBCSoundsText:
 	done
 
 RadioTower3FCooltrainerFYouWereMarvelousText:
-	text "You were simply"
-	line "marvelous!"
+	text "Tu es cool!"
+	line "Cooooool!"
 	done
 
 GruntM7SeenText:
-	text "I've been given"
-	line "strict orders."
+	text "On m'a donné des"
+	line "ordres précis."
 
-	para "I'm to crush any-"
-	line "one who challenges"
-	cont "Team Rocket!"
+	para "Je dois casser"
+	line "tous ceux qui sont"
+	cont "contre la Rocket!"
 	done
 
 GruntM7BeatenText:
-	text "What?!"
+	text "De quoi?!"
 	done
 
 GruntM8SeenText:
-	text "It feels great"
-	line "ordering #mon"
-	cont "to commit crimes."
+	text "Commander les"
+	line "#mon pour le"
+	cont "crime, c'est cool."
 	done
 
 GruntM8BeatenText:
-	text "You're kidding!"
+	text "Arrête ça!"
 	done
 
 GruntM9SeenText:
-	text "Why did the shut-"
-	line "ter open? Did you"
+	text "Pourquoi le truc"
+	line "s'est ouvert?"
 
-	para "have something to"
-	line "do with this?"
+	para "C'est toi qui as"
+	line "fait ça?"
 	done
 
 GruntM9BeatenText:
-	text "I'm done for!"
+	text "J'suis fichu!"
 	done
 
 RocketScientistMarcSeenText:
-	text "An unknown child"
-	line "wandering here?"
+	text "Quelqu'un qui se"
+	line "balade?"
 
-	para "Who are you?"
+	para "T'es qui toi?"
 	done
 
 RocketScientistMarcBeatenText:
-	text "Tch! I took you"
-	line "too lightly!"
+	text "Psss! J'faisais"
+	line "pas attention!"
 	done
 
 RadioTower3FCardKeySlotText:
-	text "It's the Card Key"
-	line "slot."
+	text "Un lecteur de"
+	line "carte Magn."
 	done
 
 InsertedTheCardKeyText:
-	text "<PLAYER> inserted"
-	line "the Card Key."
+	text "<PLAYER> insère"
+	line "la carte Magn."
 	done
 
 RadioTower3FPersonnelSignText:
-	text "3F Personnel"
+	text "2Eme personnel"
 	done
 
 RadioTower3FPokemonMusicSignText:
-	text "#mon Music with"
-	line "Host DJ Ben"
+	text "musique #mon"
+	line "avec DJ ben"
 	done

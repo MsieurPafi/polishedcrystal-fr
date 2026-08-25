@@ -51,7 +51,7 @@ DanaBattleRematchText:
 	done
 
 DanaHangUpText:
-	text "See you!"
+	text "Salut!"
 	done
 
 DanaFoundItemText:
@@ -71,14 +71,14 @@ DanaFoundItemText:
 	done
 
 DanaCanYouWaitABitLongerText:
-	text "Oh! You wanted a"
-	line "gift, right?"
+	text "Oh! Tu voulais"
+	line "un cadeau?"
 
-	para "I got one, but I"
-	line "want to keep this."
+	para "Je veux le garder"
+	line "celui-ci."
 
-	para "Can you wait a bit"
-	line "longer?"
+	para "Tu peux encore"
+	line "attendre un peu?"
 	done
 
 DanaReminderText:

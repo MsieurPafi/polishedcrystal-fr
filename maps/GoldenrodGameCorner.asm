@@ -342,16 +342,16 @@ GoldenrodGameCornerCardFlipMachineScript:
 	endtext
 
 GoldenrodGameCornerPrizeVendorIntroText:
-	text "Welcome!"
+	text "Bienvenue!"
 
-	para "We exchange your"
-	line "game coins for"
-	cont "fabulous prizes!"
+	para "On échange les"
+	line "jetons contre de"
+	cont "fabuleux prix!"
 	done
 
 GoldenrodGameCornerPrizeVendorWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Quel prix désires-"
+	line "tu?"
 	done
 
 GoldenrodGameCornerPrizeVendorConfirmPrizeText:
@@ -361,7 +361,7 @@ GoldenrodGameCornerPrizeVendorConfirmPrizeText:
 	done
 
 GoldenrodGameCornerPrizeVendorHereYouGoText:
-	text "Here you go!"
+	text "Allez hop!"
 	done
 
 GoldenrodGameCornerPrizeVendorAlreadyHaveTMText:
@@ -380,14 +380,14 @@ GoldenrodGameCornerPrizeVendorNoMoreRoomText:
 	done
 
 GoldenrodGameCornerPrizeVendorQuitText:
-	text "OK. Please save"
-	line "your coins and"
-	cont "come again!"
+	text "OK. Économisé"
+	line "tes jetons et"
+	cont "reviens plus tard!"
 	done
 
 GoldenrodGameCornerPrizeVendorNoCoinCaseText:
-	text "Oh? You don't have"
-	line "a Coin Case."
+	text "Oh? Tu n'as pas"
+	line "de boîte Jeton."
 	done
 
 GoldenrodGameCornerFisherText:
@@ -447,8 +447,9 @@ GoldenrodGameCornerPokefanFText:
 	done
 
 GoldenrodGameCornerCooltrainerFText:
-	text "I won't quit until"
-	line "I win!"
+	text "Tant que je"
+	line "perds..."
+	cont "Je reste!"
 	done
 
 GoldenrodGameCornerGentlemanText:
@@ -477,6 +478,6 @@ GoldenrodGameCornerPokefanM2Text:
 	done
 
 GoldenrodGameCornerPokefanM3Text:
-	text "Wahahah! The coins"
-	line "keep rolling in!"
+	text "Wahahah! Encore"
+	line "des jetons!"
 	done

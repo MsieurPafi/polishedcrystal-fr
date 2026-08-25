@@ -234,58 +234,58 @@ FastShipB1FJugglerFritzSeasickTrashScript:
 	done
 
 FastShipB1FOnDutySailorRefusedText:
-	text "Oh, gee…"
+	text "Oh, ben..."
 
-	para "The Captain will"
-	line "be furious…"
+	para "Le Capitaine va"
+	line "être furax..."
 	done
 
 FastShipB1FOnDutySailorThanksText:
-	text "Thanks, kid!"
-	line "I chewed him out"
+	text "Merci toi!"
+	line "J'lui ai passé un"
 
-	para "good so he'll quit"
-	line "slacking off!"
+	para "savon des familles"
+	line "et il va bosser"
+	cont "maintenant."
 	done
 
 FastShipB1FOnDutySailorDirectionsText:
-	text "The dining room is"
-	line "up ahead."
+	text "La salle à manger"
+	line "est tout droit."
 
-	para "The stairs at the"
-	line "end lead to the"
-	cont "Captain's cabin."
+	para "Les escaliers au"
+	line "bout mènent à la"
+	cont "cabine du"
+	cont "Capitaine."
 	done
 
 SailorJeffSeenText:
-	text "Nothing beats a"
-	line "battle when I'm"
-	cont "on my break."
+	text "Y'a rien de tel"
+	line "qu'un combat pen-"
+	cont "dant la pause."
 	done
 
 SailorJeffBeatenText:
-	text "Win or lose, my"
-	line "break's over!"
+	text "Finie la pause!"
 	done
 
 PicnickerDebraSeenText:
-	text "I'm so bored."
-	line "Want to battle?"
+	text "J'm'ennuie."
+	line "...Combat?"
 	done
 
 PicnickerDebraBeatenText:
-	text "Yow! You're too"
-	line "strong!"
+	text "Woah. Cool."
 	done
 
 JugglerFritzSeenText:
-	text "Urrf…"
-	line "I'm seasick!"
+	text "Beuh..... J'ai"
+	line "le mal de mer!"
 	done
 
 JugglerFritzBeatenText:
-	text "I can't move any-"
-	line "more…"
+	text "J'peux plus"
+	line "bouger..."
 	done
 
 BakerSharynSeenText:
@@ -300,58 +300,55 @@ BakerSharynBeatenText:
 	done
 
 SailorGarrettSeenText:
-	text "This is where we"
-	line "sailors work!"
+	text "Nous les marins,"
+	line "on rigole pas!"
 	done
 
 SailorGarrettBeatenText:
-	text "I lost on my home"
-	line "field…"
+	text "Ha ha ha ha ha."
+	line "Perdu."
 	done
 
 FisherJonahSeenText:
-	text "Even though we're"
-	line "out on the sea, I"
-	cont "can't fish!"
+	text "On est en mer"
+	line "mais on peut pas"
+	cont "pêcher!"
 
-	para "This is boring!"
-	line "Let's battle!"
+	para "C'est naze!"
+	line "Allez...combat!"
 	done
 
 FisherJonahBeatenText:
-	text "I… I'm not bored"
-	line "anymore…"
+	text "T'es naze..."
+	line "J't'aime pas."
 	done
 
 BlackbeltWaiSeenText:
-	text "I'm building up my"
-	line "legs by bracing"
-
-	para "against the ship's"
-	line "rocking!"
+	text "Je me muscle les"
+	line "jambes avec le"
+	cont "tangage du bateau!"
 	done
 
 BlackbeltWaiBeatenText:
-	text "Rocked and rolled"
-	line "over!"
+	text "Je me suis"
+	line "tout planté!"
 	done
 
 SailorKennethSeenText:
-	text "I'm a sailor man!"
+	text "J'suis un marin!"
 
-	para "But I'm training"
-	line "#mon, so I can"
-	cont "become the Champ!"
+	para "J'entraîne aussi"
+	line "des #mon pour"
+	cont "devenir un boss!"
 	done
 
 SailorKennethBeatenText:
-	text "My lack of train-"
-	line "ing is obvious…"
+	text "J'suis un nul..."
 	done
 
 TeacherShirleySeenText:
-	text "Don't lay a finger"
-	line "on my students!"
+	text "Touche pas à mes"
+	line "élèves!"
 	done
 
 TeacherShirleyBeatenText:
@@ -359,8 +356,8 @@ TeacherShirleyBeatenText:
 	done
 
 SchoolboyNateSeenText:
-	text "Do you know the"
-	line "Ruins of Alph?"
+	text "Tu connais les"
+	line "ruines d'alpha?"
 	done
 
 SchoolboyNateBeatenText:
@@ -368,11 +365,11 @@ SchoolboyNateBeatenText:
 	done
 
 SchoolboyRickySeenText:
-	text "There are some odd"
-	line "stone panels in"
-	cont "the Ruins of Alph."
+	text "Il y a d'étranges"
+	line "panneaux dans les"
+	cont "ruines d'alpha."
 	done
 
 SchoolboyRickyBeatenText:
-	text "I was done in!"
+	text "Yaaaaaah!"
 	done

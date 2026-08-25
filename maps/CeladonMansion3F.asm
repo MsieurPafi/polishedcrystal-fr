@@ -120,22 +120,21 @@ MapCeladonMansion3FSignpost3Script:
 	done
 
 GameFreakGameDesignerText:
-	text "Is that right?"
+	text "Mmmmoui?"
 
-	para "I'm the Game"
-	line "Designer!"
+	para "Je suis le dési-"
+	line "gner du jeu!"
 
-	para "Filling up your"
-	line "#dex is tough,"
-	cont "but don't give up!"
+	para "Continue à remplir"
+	line "ton #dex!"
 	done
 
 GameFreakGameDesignerCompletedPokedexText:
-	text "Wow! Excellent!"
-	line "You completed your"
+	text "Whoa! Super!"
+	line "Tu as complété ton"
 	cont "#dex!"
 
-	para "Congratulations!"
+	para "Formidable!"
 	done
 
 GameFreakGameDesignerPauseForDiplomaText:
@@ -168,10 +167,11 @@ GameFreakDesignerGaveDiplomaText:
 	done
 
 GameFreakGraphicArtistText:
-	text "I'm the Graphic"
-	line "Artist."
+	text "Je suis l'Artiste"
+	line "Graphique."
 
-	para "I drew you!"
+	para "J'ai fait ton"
+	line "dessin!"
 	done
 
 GameFreakGraphicArtistPrintDiplomaText:
@@ -186,9 +186,9 @@ GameFreakGraphicArtistPrintDiplomaText:
 	done
 
 GameFreakGraphicArtistRefusedText:
-	text "Give me a shout if"
-	line "you want your"
-	cont "Diploma printed."
+	text "Appelle-moi si tu"
+	line "veux que j'imprime"
+	cont "ton Diplome."
 	done
 
 GameFreakProgrammerText:

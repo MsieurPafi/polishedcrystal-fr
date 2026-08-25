@@ -164,28 +164,27 @@ PILookerBeatenText:
 	done
 
 CooltrainermSeanSeenText:
-	text "I'm going to Kanto"
-	line "to test my skills."
+	text "Je vais à Kanto"
+	line "pour m'entraîner."
 	done
 
 CooltrainermSeanBeatenText:
-	text "I wanted to win!"
+	text "J'voulais gagner!"
 	done
 
 CooltrainerfCarolSeenText:
-	text "I'm training to"
-	line "become the Champ!"
+	text "J'm'entraîne pour"
+	line "être la meilleure!"
 	done
 
 CooltrainerfCarolBeatenText:
-	text "What's so differ-"
-	line "ent between us?"
+	text "Pourquoi?"
 	done
 
 PokemaniacEthanSeenText:
-	text "Do you know Lily?"
-	line "She's a hot DJ in"
-	cont "Kanto."
+	text "Tu connais Petra?"
+	line "C'est un super DJ"
+	cont "de Kanto."
 	done
 
 PokemaniacEthanBeatenText:
@@ -193,59 +192,59 @@ PokemaniacEthanBeatenText:
 	done
 
 HikerNolandSeenText:
-	text "Are you alone?"
-	line "Then let's battle!"
+	text "Ça va?"
+	line "Alors...combat!"
 	done
 
 HikerNolandBeatenText:
-	text "That's too much to"
-	line "handle!"
+	text "T'es trop, toi!"
+	line "Pfouiii!"
 	done
 
 SailorStanlySeenText:
-	text "Yeah, I'm a sail-"
-	line "or, all right."
+	text "Ouaip. Moi j'suis"
+	line "un marin."
 
-	para "I wasn't goofing"
-	line "off!"
+	para "Un vrai de vrai."
+	line "Pur boeuf!"
 
-	para "This cabin was"
-	line "vacant, so I just"
-	cont "took a quick nap!"
+	para "J'suis grand."
+	line "J'suis beau."
+	cont "Je sens le sable"
+	cont "chaud."
 
-	para "Ah, forget it!"
-	line "Let's battle!"
+	para "Oh! Tu m'écoutes?"
+	line "...combat!"
 	done
 
 SailorStanlyBeatenText:
-	text "Sorry! It's all my"
-	line "fault!"
+	text "Heu... Comment?"
+	line "De quoi?"
 	done
 
 SailorStanlyAfterBattleText:
-	text "Being a sailor, I"
-	line "have to do phys-"
-	cont "ical labor. It's"
-	cont "exhausting!"
+	text "Dans la mariiine,"
+	line "on n'est pas des"
+	cont "p'tites filles!"
+	cont "Dans la mariiine!"
 	done
 
 GentlemanEdwardSeenText:
-	text "Oh, no. I've lost"
-	line "something that's"
-	cont "very important."
+	text "J'ai perdu un truc"
+	line "super important..."
 	done
 
 GentlemanEdwardBeatenText:
-	text "I… I can't find"
-	line "it…"
+	text "J'le...trouve..."
+	line "...pas!!!"
 	done
 
 BurglarCoreySeenText:
-	text "Yeehaw!"
-	line "Lucky!"
+	text "Ouaiiis!"
+	line "Le bol!"
 	done
 
 BurglarCoreyBeatenText:
-	text "How unlucky!"
-	line "I lost!"
+	text "Ooooh!"
+	line "Pas d'bol!"
 	done

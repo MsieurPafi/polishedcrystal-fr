@@ -185,16 +185,16 @@ GenericTrainerSailorTerrell:
 	done
 
 Bird_keeperTheoSeenText:
-	text "Why are you here?"
-	line "Are you just going"
+	text "Pourquoi tu es là?"
+	line "Qu'est-ce que tu"
 
-	para "to gawk? I suggest"
-	line "that you leave!"
+	para "veux? Allez..."
+	line "Va-t'en!"
 	done
 
 Bird_keeperTheoBeatenText:
-	text "You really are"
-	line "concerned…"
+	text "T'es tenace,"
+	line "toi..."
 	done
 
 Bird_keeperTheoFinalText:
@@ -208,24 +208,24 @@ Bird_keeperTheoFinalText:
 	done
 
 SailorTerrellSeenText:
-	text "Sailors are both"
-	line "kind and strong."
-	cont "How about you?"
+	text "Les marins sont"
+	line "sympa et musclés."
+	cont "Et toi?"
 	done
 
 SailorTerrellBeatenText:
-	text "You are both kind"
-	line "and strong…"
+	text "Pas mal."
+	line "C'est bien..."
 	done
 
 GentlemanPrestonSeenText:
-	text "I travel the world"
-	line "to train my #-"
-	cont "mon. I wish to"
-	cont "battle with you."
+	text "Je parcours la"
+	line "terre en quête"
+	cont "d'entraînement."
+	cont "En garde!"
 	done
 
 GentlemanPrestonBeatenText:
-	text "…sigh… I must"
-	line "train some more…"
+	text "Bon. Je vais errer"
+	line "autre part alors."
 	done

@@ -51,11 +51,11 @@ SilphCo2FEmployee1Script:
 	done
 
 .Text2:
-	text "It's Silph Co.'s"
-	line "latest product."
+	text "C'est le dernier"
+	line "cri de la Sylphe!"
 
-	para "It's not for sale"
-	line "anywhere yet."
+	para "Et c'est même pas"
+	line "encore en vente!"
 	done
 
 SilphCo2FSilphEmployee2Text:

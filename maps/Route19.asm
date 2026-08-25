@@ -131,49 +131,48 @@ Route19Fisher2Script:
 	done
 
 SwimmerfDawnSeenText:
-	text "I'm disgusted by"
-	line "wimpy people!"
+	text "Nyaaaaah!"
 	done
 
 SwimmerfDawnBeatenText:
-	text "I could beat you"
-	line "at swimming…"
+	text "Je nage plus vite"
+	line "que toi."
 	done
 
 SwimmermTuckerSeenText:
-	text "Pant, pant…"
-	line "Just… a little…"
+	text "Pfff...pfff..."
+	line "Parmanie..n'est.."
 
-	para "farther… to…"
-	line "Fuchsia…"
+	para "plus...très..."
+	line "loin...!"
 	done
 
 SwimmermTuckerBeatenText:
-	text "I'm drowning!"
+	text "Je me noie!"
 	done
 
 SwimmermJeromeSeenText:
-	text "Swimming?"
-	line "I'm lousy at it."
+	text "Nager?"
+	line "Je déteste ça."
 
-	para "I'm just splashing"
-	line "around in these"
-	cont "shallow waters."
+	para "Je patauge."
+	line "J'éclabousse."
+	cont "C'est super."
 	done
 
 SwimmermJeromeBeatenText:
-	text "I thought I could"
-	line "win."
+	text "J'ai cru pouvoir"
+	line "gagner."
 	done
 
 SwimmermHaroldSeenText:
-	text "Have you ever gone"
-	line "swimming in the"
-	cont "sea at night?"
+	text "As-tu déjà"
+	line "nagé au clair"
+	cont "de lune?"
 	done
 
 SwimmermHaroldBeatenText: ; text > text
-	text "Glub…"
+	text "Glub..."
 	done
 
 CosplayerBrookeSeenText:
@@ -188,37 +187,38 @@ CosplayerBrookeBeatenText:
 	done
 
 Route19Fisher1Text:
-	text "Sorry. This road"
-	line "is closed for"
-	cont "construction."
+	text "Cette route est"
+	line "fermée pour cause"
+	cont "de travaux."
 
-	para "If you want to get"
-	line "to Cinnabar, you'd"
+	para "Pour aller à"
+	line "Cramois'Île, va au"
 
-	para "better go south"
-	line "from Pallet Town."
+	para "Sud de Bourg"
+	line "Palette."
 	done
 
 
 Route19EngineerText1:
-	text "Who knows how long"
-	line "it would take to"
-	cont "move this boulder…"
+	text "Combien de temps"
+	line "cela prendrait-il"
+	cont "de bouger ce"
+	cont "rocher?"
 	done
 
 
 Route19SignText:
-	text "Route 19"
+	text "route 19"
 
-	para "Fuchsia City -"
-	line "Seafoam Islands"
+	para "Parmanie -"
+	line "Îles Écume"
 	done
 
 CarefulSwimmingSignText:
-	text "Please be careful"
-	line "if you are swim-"
-	cont "ming to Seafoam"
-	cont "Islands."
+	text "Nagez prudemment"
+	line "si vous vous"
+	cont "dirigez vers les"
+	cont "Îles Écume."
 
-	para "Fuchsia Police"
+	para "police de Parmanie"
 	done

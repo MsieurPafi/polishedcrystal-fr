@@ -143,13 +143,14 @@ AbraDollSentHomeText:
 	done
 
 CeladonEusineText1:
-	text "Eusine: Hi!"
+	text "Eusine: Bonjour!"
 
-	para "I'm back visiting"
-	line "my hometown."
+	para "Je suis de retour"
+	line "dans ma ville"
+	cont "natale."
 
-	para "It's been quite a"
-	line "while."
+	para "Ça faisait bien"
+	line "longtemps."
 	done
 
 EusineLeavesCeladonText:

@@ -73,12 +73,12 @@ BethBattleRematchText:
 	done
 
 BethHangUpText:
-	text "OK, bye-bye!"
+	text "OK, salut!"
 	done
 
 BethLetsBattleAgainSometimeText:
-	text "Let's battle again"
-	line "sometime!"
+	text "Faisons un match"
+	line "un de ces jours!"
 	done
 
 BethReminderText:

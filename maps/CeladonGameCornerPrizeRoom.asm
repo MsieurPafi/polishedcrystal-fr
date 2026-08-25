@@ -205,9 +205,9 @@ CeladonGameCornerPokemonVendor:
 	db "Cancel@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
-	text "I wanted Porygon,"
-	line "but I was short by"
-	cont "100 coins…"
+	text "Je voulais Porygon"
+	line "mais il me manque"
+	cont "100 jetons..."
 	done
 
 CeladonGameCornerPrizeRoomPharmacistText:
@@ -222,16 +222,16 @@ CeladonGameCornerPrizeRoomPharmacistText:
 	done
 
 CeladonPrizeRoom_PrizeVendorIntroText:
-	text "Welcome!"
+	text "Bienvenue!"
 
-	para "We exchange your"
-	line "coins for fabulous"
-	cont "prizes!"
+	para "On échange les"
+	line "jetons contre"
+
+	para "de bô prix!"
 	done
 
 CeladonPrizeRoom_AskWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Quel prix?"
 	done
 
 CeladonPrizeRoom_ConfirmPurchaseText:
@@ -249,7 +249,7 @@ CeladonPrizeRoom_ConfirmTMPurchaseText:
 	done
 
 CeladonPrizeRoom_HereYouGoText:
-	text "Here you go!"
+	text "Et voilà!"
 	done
 
 CeladonPrizeRoom_AlreadyHaveTMText:
@@ -267,11 +267,11 @@ CeladonPrizeRoom_NotEnoughRoomText:
 	done
 
 CeladonPrizeRoom_ComeAgainText:
-	text "Oh. Please come"
-	line "back with coins!"
+	text "Oh. Il faut amener"
+	line "tous les jetons!"
 	done
 
 CeladonPrizeRoom_NoCoinCaseText:
-	text "Oh? You don't have"
-	line "a Coin Case."
+	text "Oh? Pas de"
+	line "boîte Jeton!"
 	done

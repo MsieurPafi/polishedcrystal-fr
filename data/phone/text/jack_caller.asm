@@ -54,25 +54,26 @@ JackBattleRematchText:
 	done
 
 JackHangUpText:
-	text "See you later!"
+	text "A plus tard!"
 	done
 
 JackThunderTriviaText:
-	text "Did you know?"
+	text "Le savais-tu?"
 
-	para "When it's raining,"
-	line "Thunder is sure to"
-	cont "strike."
+	para "Lorsqu'il pleut,"
+	line "Fatal-foudre ne"
+	cont "loupe jamais."
 	done
 
 JackRolloutTriviaText:
-	text "Did you know…?"
+	text "Le savais-tu?"
 
-	para "If you use Defense"
-	line "Curl, Rollout's"
+	para "Si tu lances"
+	line "Boul'Armure, la"
 
-	para "power goes way up"
-	line "past normal."
+	para "puissance de"
+	line "Roulade est"
+	cont "boostée."
 	done
 
 JackSolarbeamTriviaText:
@@ -86,23 +87,21 @@ JackSolarbeamTriviaText:
 	done
 
 JackStompTriviaText:
-	text "Did you know…?"
+	text "Le savais-tu?"
 
-	para "If the opponent"
-	line "uses Minimize,"
+	para "Si l'ennemi lance"
+	line "Lilliput, Ecrase-"
 
-	para "your Stomp becomes"
-	line "more powerful."
+	para "ment fera un max"
+	line "de dégâts."
 	done
 
 JackGustTriviaText:
-	text "Did you know…?"
+	text "Le savais-tu?"
 
-	para "If your opponent"
-	line "is Flying, your"
-
-	para "Gust becomes much"
-	line "more powerful."
+	para "Si l'ennemi vole,"
+	line "tornade sera plus"
+	cont "puissante."
 	done
 
 JackKnockOffTriviaText:
@@ -120,65 +119,63 @@ JackKnockOffTriviaText:
 	done
 
 JackEarthquakeTriviaText:
-	text "Did you know…?"
+	text "Le savais-tu?"
 
-	para "If your opponent"
-	line "uses Dig, your"
-
-	para "Earthquake becomes"
-	line "more powerful."
+	para "Si l'ennemi lance"
+	line "tunnel, Seisme"
+	cont "sera plus"
+	cont "puissant."
 	done
 
 JackMagnitudeTriviaText:
-	text "Did you know…?"
+	text "Le savais-tu?"
 
-	para "If your opponent"
-	line "uses Dig, your"
-
-	para "Magnitude becomes"
-	line "more powerful."
+	para "Si l'ennemi lance"
+	line "tunnel, Ampleur"
+	cont "sera plus"
+	cont "puissante."
 	done
 
 JackSandstormTriviaText:
-	text "Did you know…?"
+	text "Le savais-tu?"
 
-	para "The Rock, Ground"
-	line "and Steel types"
+	para "Les types roche,"
+	line "sol et Acier sont"
 
-	para "can't be hurt by"
-	line "Sandstorm."
+	para "insensibles à"
+	line "Tempetesable."
 	done
 
 JackSunnyDayTriviaText:
-	text "Did you know…?"
+	text "Le savais-tu?"
 
-	para "If the sunlight is"
-	line "harsh, Water-type"
+	para "Si le soleil"
+	line "brille, les atta-"
 
-	para "moves become much"
-	line "weaker."
+	para "ques de type Eau"
+	line "sont plus faibles."
 	done
 
 JackRainDanceTriviaText:
-	text "Did you know…?"
+	text "Le savais-tu?"
 
-	para "When it's raining,"
-	line "Fire-type moves"
+	para "s'il pleut, les"
+	line "attaques de type"
 
-	para "become much weaker"
-	line "than usual."
+	para "feu sont plus"
+	line "faibles."
 	done
 
 JackHeardSomeGreatTipsText:
-	text "My friend heard"
-	line "some great tips."
+	text "Mon pote a reçu"
+	line "de bons conseils."
 
-	para "He's going to let"
-	line "me in on some."
+	para "Il va m'en parler"
+	line "très bientôt."
 
-	para "When he tells me,"
-	line "I'll call right"
-	cont "away and tell you."
+	para "Dès que j'en sais"
+	line "plus, je te passe"
+	cont "un coup de fil."
 	done
 
 JackReminderText:

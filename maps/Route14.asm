@@ -39,19 +39,19 @@ GenericTrainerPokefanmTrevor:
 	done
 
 PokefanmTrevorSeenText:
-	text "Hi. Did you know…?"
+	text "Le savais-tu?"
 
-	para "#mon get more"
-	line "friendly if you"
+	para "Les #mon sont"
+	line "plus amicaux s'ils"
 
-	para "train them in a"
-	line "place that they"
-	cont "remember."
+	para "sont entraînés"
+	line "dans un endroit"
+	cont "familier."
 	done
 
 PokefanmTrevorBeatenText:
-	text "Where did I meet"
-	line "this Psyduck?"
+	text "Où ai-je rencontré"
+	line "ce Psykokwak?"
 	done
 
 GenericTrainerPokefanmCarter:
@@ -65,11 +65,11 @@ GenericTrainerPokefanmCarter:
 	done
 
 PokefanmCarterSeenText:
-	text "Let me tell you,"
-	line "I had a hard time"
+	text "J'ai eu du mal à"
+	line "attraper mes #-"
 
-	para "catching my prized"
-	line "#mon."
+	para "mon rares et super"
+	line "jolis."
 	done
 
 PokefanmCarterBeatenText:
@@ -87,14 +87,14 @@ GenericTrainerBird_keeperRoy:
 	done
 
 Bird_keeperRoySeenText:
-	text "My dream is to fly"
-	line "with my beloved"
-	cont "bird #mon."
+	text "Je rêve de voler"
+	line "avec mes amis les"
+	cont "#mon oiseaux."
 	done
 
 Bird_keeperRoyBeatenText:
-	text "I can dream, but I"
-	line "can't ever fly…"
+	text "Je rêve mais je ne"
+	line "volerai jamais..."
 	done
 
 GenericTrainerBird_keeperJosh:

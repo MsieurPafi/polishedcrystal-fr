@@ -30,9 +30,9 @@ ViridianMartLassText:
 	done
 
 ViridianMartCooltrainerMText:
-	text "Have you been to"
-	line "Cinnabar?"
+	text "As-tu visité"
+	line "Cramois'Île?"
 
-	para "It's an island way"
-	line "south of here."
+	para "C'est une île"
+	line "au Sud."
 	done

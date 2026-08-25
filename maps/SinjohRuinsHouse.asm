@@ -107,18 +107,17 @@ SinjohRuinsHouseGrampsText:
 	done
 
 SinjohRuinsHouseGrampsYesText:
-	text "OK, OK. Picture"
-	line "your house in your"
-	cont "mind…"
+	text "Très bien. Pense"
+	line "fort à ta maison."
 	done
 
 SinjohRuinsHouseGrampsNoText:
-	text "OK, OK. The best"
-	line "of luck to you!"
+	text "OK. Alors bon"
+	line "courage!"
 	done
 
 SinjohRuinsHouseAbraText:
-	text "Abra: Aabra…"
+	text "Abra: Aabra..."
 	done
 
 SinjohRuinsHouseCynthiaChallengeText:

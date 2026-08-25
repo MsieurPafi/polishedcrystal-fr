@@ -128,20 +128,17 @@ FlowerShopFloriaScript:
 	done
 
 GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
-	text "Have you seen that"
-	line "wiggly tree that's"
+	text "As-tu vu l'arbre"
+	line "qui gigote sur la"
+	cont "route 36?"
 
-	para "growing on Route"
-	line "36?"
+	para "Ma petite soeur"
+	line "a absolument tenu"
+	cont "à aller le voir..."
 
-	para "My little sister"
-	line "got all excited"
-
-	para "and went to see"
-	line "it…"
-
-	para "I'm worried… Isn't"
-	line "it dangerous?"
+	para "Ça m'inquiète..."
+	line "N'est-ce pas"
+	cont "dangereux?"
 	done
 
 GoldenrodFlowerShopTeacherStopMySisterText:
@@ -159,14 +156,15 @@ GoldenrodFlowerShopTeacherStopMySisterText:
 	done
 
 GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
-	text "Do you want to"
-	line "borrow the water"
+	text "Tu veux aussi"
+	line "emprunter la"
 
-	para "bottle too?"
-	line "I don't want you"
+	para "bouteille?"
+	line "Je ne veux pas que"
 
-	para "doing anything"
-	line "dangerous with it."
+	para "tu fasses quelque"
+	line "chose de dangereux"
+	cont "avec ça."
 	done
 
 GoldenrodFlowerShopTeacherBetterThanWhitneyText:
@@ -195,22 +193,24 @@ GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
 	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
-	text "Don't do anything"
-	line "too dangerous!"
+	text "Ne fais rien de"
+	line "dangereux!"
 	done
 
 GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
-	text "When I told my sis"
-	line "about the jiggly"
+	text "Quand j'ai parlé"
+	line "de l'arbre qui"
 
-	para "tree, she told me"
-	line "it's dangerous."
+	para "gigote à ma"
+	line "soeur, elle a dit"
+	cont "que c'était dange-"
+	cont "reux."
 
-	para "If I beat Whitney,"
-	line "I wonder if she'll"
+	para "Si je bats blanche"
+	line "elle me prêtera"
 
-	para "lend me her water"
-	line "bottle…"
+	para "sa bouteille!"
+	line "C'est sûr!"
 	done
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:

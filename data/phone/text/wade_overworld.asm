@@ -1,64 +1,63 @@
 WadeAskNumber1Text:
-	text "You're awesome!"
-	line "I like you!"
+	text "T'es terrible!"
+	line "Je t'aime!"
 
-	para "I look for #mon"
-	line "here every day."
+	para "Je cherche des"
+	line "#mon ici"
+	cont "tous les jours."
 
-	para "When I'm in the"
-	line "grass, I find all"
-	cont "kinds of Berries."
+	para "Dans l'herbe je"
+	line "trouve plein de"
+	cont "Baies."
 
-	para "If you'd like,"
-	line "I'll share some."
+	para "Si tu veux, je"
+	line "peux t'en donner."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Tu me donnes ton"
+	line "numéro?"
 	done
 
 WadeAskNumber2Text:
-	text "When I'm in the"
-	line "grass, I find all"
-	cont "kinds of Berries."
+	text "Dans l'herbe je"
+	line "trouve plein de"
+	cont "Baies."
 
-	para "If you'd like,"
-	line "I'll share some."
+	para "Si tu veux, je"
+	line "peux t'en donner."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Tu me donnes ton"
+	line "numéro?"
 	done
 
 WadeNumberAcceptedText:
-	text "You'll hear from"
-	line "me as soon as I"
-
-	para "find anything that"
-	line "you might like."
+	text "Je t'appelle si je"
+	line "trouve un truc"
+	cont "cool."
 	done
 
 WadeNumberDeclinedText:
-	text "Oh well. Don't be"
-	line "shy if you want to"
-	cont "get my number."
+	text "Ne sois pas timide"
+	line "si tu veux mon"
+	cont "numéro."
 	done
 
 WadePhoneFullText:
-	text "Your phone list"
-	line "has no room for my"
-	cont "number."
+	text "Y'a plus de place"
+	line "sur ton téléphone"
+	cont "pour mon numéro."
 	done
 
 WadeRematchText:
-	text "I was waiting for"
-	line "you. Let's battle!"
+	text "Je t'attendais..."
+	line "combat!"
 	done
 
 WadeGiftText:
-	text "Good to see you!"
-	line "See? This is what"
+	text "Bonjour toi!"
+	line "Voilà ce que j'ai"
 
-	para "I found."
-	line "It's for you!"
+	para "trouvé."
+	line "C'est pour toi!"
 	done
 
 WadePackFullText:

@@ -396,61 +396,67 @@ TinTower1FSage3EntersMovement:
 	step_end
 
 TinTowerEusineSuicuneText:
-	text "Eusine: Awesome!"
-	line "Too awesome, even!"
+	text "Eusine: Bravo!"
+	line "Trop fort!"
 
-	para "I've never seen a"
-	line "battle that great."
+	para "Je n'ai jamais vu"
+	line "un tel combat."
 
-	para "That was truly"
-	line "inspiring to see."
+	para "Alors ça..."
+	line "J'suis soufflé."
 
-	para "Suicune was tough,"
-	line "but you were even"
+	para "Suicune est fort,"
+	line "mais tu l'es"
 
-	para "more incredible,"
+	para "encore plus,"
 	line "<PLAYER>."
 
-	para "I heard Suicune's"
-	line "mystic power"
+	para "On dit que Suicune"
+	line "a le pouvoir d'in-"
 
-	para "summons a rainbow-"
-	line "colored #mon."
+	para "voquer un #mon"
+	line "aux couleurs de"
+	cont "l'arc-en-ciel."
 
-	para "Maybe, just maybe,"
-	line "what went on today"
+	para "Peut-être, on ne"
+	line "sait jamais, ce"
 
-	para "will cause that"
-	line "#mon to appear."
+	para "qu'il vient de se"
+	line "passer le fera"
+	cont "apparaître..."
 
-	para "I'm going to study"
-	line "the legends more."
+	para "Je vais encore"
+	line "étudier les"
+	cont "légendes..."
 
-	para "Thanks for showing"
-	line "me that fantastic"
-	cont "battle."
+	para "Merci de m'avoir"
+	line "montré tes"
+	cont "talents..."
 
-	para "Later, <PLAYER>!"
+	para "A très bientôt,"
+	line "<PLAYER>!"
 	done
 
 TinTower1FSage1Text:
-	text "According to"
-	line "legend…"
+	text "Selon la"
+	line "légende..."
 
-	para "When the souls of"
-	line "#mon and humans"
+	para "Lorsque les âmes"
+	line "des #mon et des"
 
-	para "commune, from the"
-	line "heavens descends a"
+	para "humains se réunis-"
+	line "sent, un #mon"
 
-	para "#mon of rainbow"
-	line "colors…"
+	para "aux couleurs de"
+	line "l'arc-en-ciel des-"
+	cont "cend des cieux..."
 
-	para "Could it mean the"
-	line "legendary #mon"
+	para "Est-il possible"
+	line "que les #mon"
 
-	para "are testing us"
-	line "humans?"
+	para "légendaires met-"
+	line "tent les humains"
+	cont "à l'épreuve?"
 	done
 
 TinTower1FSage2Text:
@@ -490,26 +496,25 @@ endc
 	done
 
 TinTower1FSage3Text:
-	text "The two towers are"
-	line "said to have been"
+	text "On dit que les"
+	line "deux tours furent"
 
-	para "built to foster"
-	line "friendship and"
+	para "construites pour"
+	line "sceller l'amitié"
 
-	para "hope between #-"
-	line "mon and people."
+	para "entre #mon et"
+	line "humains."
 
-	para "That was 700 years"
-	line "ago, but the ideal"
+	para "C'était il y a"
+	line "700 ans, mais"
 
-	para "still remains"
-	line "important today."
+	para "l'idée reste la"
+	line "même aujourd'hui."
 	done
 
 
 TinTower1FSage5Text1:
-	text "This will protect"
-	line "you. Take it."
+	text "Ceci te protégera."
 	done
 
 

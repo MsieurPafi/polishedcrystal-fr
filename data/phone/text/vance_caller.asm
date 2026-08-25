@@ -44,13 +44,12 @@ VanceBattleRematchText:
 	done
 
 VanceHangUpText:
-	text "OK, bye for now!"
+	text "OK, à bientôt!"
 	done
 
 VanceLookingForwardText:
-	text "I'll be looking"
-	line "forward to our"
-	cont "next battle!"
+	text "J'attends notre"
+	line "prochain combat!"
 	done
 
 VanceHurryHurryText:

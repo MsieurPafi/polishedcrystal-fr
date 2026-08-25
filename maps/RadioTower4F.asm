@@ -96,96 +96,97 @@ GenericTrainerRocketScientistRich:
 	done
 
 RadioTower4FFisherText:
-	text "I listened to the"
-	line "radio while I was"
-	cont "at the ruins."
+	text "J'écoutais la ra-"
+	line "dio tout en visi-"
+	cont "tant les ruines."
 
-	para "I heard a strange"
-	line "broadcast there."
+	para "J'y ai entendu une"
+	line "émission étrange."
 	done
 
 RadioTower4FDJMaryText_ClearedRockets:
-	text "Mary: Oh! You're"
-	line "my little savior!"
+	text "Lula: Oh! Tu es"
+	line "formidable!"
 
-	para "Will you take this"
-	line "as my thanks?"
+	para "Veux-tu de ceci"
+	line "en remerciement?"
 	done
 
 RadioTower4FDJMaryText_After:
-	text "Mary: Please tune"
-	line "into me on Prof."
+	text "Lula: Écouté mon"
+	line "émission avec le"
 
-	para "Oak's #mon Talk"
-	line "show."
+	para "Prof.Chen: la"
+	line "Chronique #mon."
 	done
 
 RadioTowerMeowthText:
-	text "Meowth: Meowth…"
+	text "Miaouss: Miaou..."
 	done
 
 GruntM10SeenText:
-	text "You plan to rescue"
-	line "the Director?"
+	text "Tu comptes sauver"
+	line "le Directeur?"
 
-	para "That won't be pos-"
-	line "sible because I'm"
-	cont "going to beat you!"
+	para "Je crois que ça va"
+	line "pas être possible."
+	cont "J'vais t'écraser!"
 	done
 
 GruntM10BeatenText:
-	text "No! Unbelievable!"
+	text "Incroyable!"
 	done
 
 Proton1SeenText:
-	text "Stop! I'm known as"
-	line "the Team Rocket"
-	cont "fortress!"
+	text "Stop! On m'appelle"
+	line "la forteresse de"
+	cont "la Team Rocket!"
 
-	para "You're not taking"
-	line "another step!"
+	para "Pas un pas de"
+	line "plus, poussin!"
 	done
 
 Proton1BeatenText:
-	text "The fortress came"
-	line "down!"
+	text "Tout cassé ma"
+	line "forteresse!"
 	done
 
 GruntF4SeenText:
-	text "Don't I think"
-	line "#mon are cute?"
+	text "Quoi? Est-ce que"
+	line "les #mon sont"
+	cont "mignons?"
 
-	para "I'll think my"
-	line "#mon are cute--"
+	para "Les miens seront"
+	line "mignons après"
 
-	para "after they beat"
-	line "yours!"
+	para "t'avoir fichu une"
+	line "raclée, ouais!"
 	done
 
 GruntF4BeatenText:
-	text "Oh, no! They're so"
-	line "useless!"
+	text "Oh, non! Ils sont"
+	line "nuls!"
 	done
 
 RocketScientistRichSeenText:
-	text "Most excellent."
+	text "Parfait."
 
-	para "This Radio Tower"
-	line "will fulfill our"
-	cont "grand design."
+	para "Cette Tour Radio"
+	line "sera parfaite pour"
+	cont "nos plans."
 	done
 
 RocketScientistRichBeatenText:
-	text "Hmmm…"
+	text "Hmmm..."
 
-	para "All grand plans"
-	line "come with snags."
+	para "Tout plan comprend"
+	line "certains accrocs."
 	done
 
 RadioTower4FProductionSignText:
-	text "4F Production"
+	text "3Eme Production"
 	done
 
 RadioTower4FStudio2SignText:
-	text "4F Studio 2"
+	text "3Eme studio 2"
 	done

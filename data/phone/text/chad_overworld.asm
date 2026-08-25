@@ -23,34 +23,34 @@ ChadAskNumber1Text:
 	done
 
 ChadAskNumber2Text:
-	text "May I please have"
-	line "your phone number?"
+	text "Je peux avoir ton"
+	line "numéro?"
 
-	para "We should chat"
-	line "about Prof.Oak."
+	para "On parlera du"
+	line "Prof.Chen."
 
-	para "I'm sure it will"
-	line "be loads of fun!"
+	para "On va bien"
+	line "s'amuser!"
 	done
 
 ChadNumberAcceptedText:
-	text "You must listen to"
-	line "Prof.Oak's #mon"
-	cont "Talk, right?"
+	text "Tu écoutes la"
+	line "Chronique PKMN du"
+	cont "Prof.Chen, non?"
 	done
 
 ChadNumberDeclinedText:
-	text "Oh… I wish I had a"
-	line "chance to meet"
-	cont "Prof.Oak…"
+	text "Oh... J'aurais"
+	line "bien aimé rencon-"
+	cont "trer le Prof..."
 	done
 
 ChadPhoneFullText:
-	text "Your phone list is"
-	line "completely full!"
+	text "Ton téléphone est"
+	line "complet!"
 	done
 
 ChadRematchText:
-	text "I've been waiting!"
-	line "Let's battle now!"
+	text "Je t'attendais!"
+	line "combat!"
 	done

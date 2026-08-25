@@ -36,9 +36,9 @@ GenericTrainerSupernerdHugh:
 	done
 
 SupernerdHughSeenText:
-	text "Yo! Markus!"
+	text "Yo! Marc!"
 	done
 
 SupernerdHughBeatenText:
-	text "Sorry, my mistake."
+	text "Oups. Pardon."
 	done

@@ -66,169 +66,164 @@ ChadBattleRematchText:
 	done
 
 ChadHangUpText:
-	text "See you later!"
+	text "A plus tard!"
 	done
 
 ChadBlueGossipText:
-	text "Do you know Blue?"
+	text "Tu connais Blue?"
 
-	para "He's Prof.Oak's"
-	line "grandson and a"
+	para "Il est le petit-"
+	line "fils du Prof.Chen"
 
-	para "former #mon"
-	line "League Champion!"
+	para "et un ancien"
+	line "maître de Ligue!"
 
-	para "He's one super"
-	line "#mon trainer!"
+	para "C'est un sacré"
+	line "dresseur!"
 	done
 
 ChadDaisyGossipText:
-	text "Prof.Oak has a"
-	line "granddaughter"
-	cont "named Daisy."
+	text "La petite-fille du"
+	line "Prof.Chen s'appel-"
+	cont "le Nina."
 
-	para "When she's around,"
-	line "even the most"
+	para "Elle a le pouvoir"
+	line "de calmer même"
 
-	para "ferocious #mon"
-	line "calm right down."
+	para "les #mon les"
+	line "plus féroces."
 	done
 
 ChadProfElmGossipText:
-	text "Everyone's talking"
-	line "about Prof.Elm."
+	text "Tout le monde"
+	line "parle du Prof."
+	cont "Orme."
 
-	para "He used to be an"
-	line "assistant to the"
-	cont "great Prof.Oak!"
+	para "Il était"
+	line "l'assistant du"
+	cont "Prof.Chen!"
 
-	para "That is so cool!"
-	line "I envy him!"
+	para "C'est trop cool!"
+	line "Je l'envie!"
 	done
 
 ChadProfOaksDreamGossipText:
-	text "Prof.Oak's dream"
-	line "is to compile a"
+	text "Le rêve du"
+	line "Prof.Chen est"
 
-	para "comprehensive"
-	line "#dex."
+	para "d'avoir un"
+	line "#dex complet."
 
-	para "I envy you for"
-	line "taking part in"
-	cont "that project…"
+	para "Je t'envie de"
+	line "faire partie de ce"
+	cont "projet..."
 	done
 
 ChadKurtGossipText:
-	text "Do you know Kurt,"
-	line "the Ball creator?"
+	text "Tu connais Fargas,"
+	line "le créateur de"
+	cont "Balls?"
 
-	para "He and Prof.Oak go"
-	line "back a long way."
+	para "Il connaît le"
+	line "Prof.Chen depuis"
+	cont "longtemps."
 
-	para "I guess great"
-	line "people attract one"
-	cont "another!"
+	para "Les grands esprits"
+	line "se rencontrent!"
 	done
 
 ChadLeagueGossipText:
-	text "#mon League is"
-	line "the great gather-"
-	cont "ing place for all"
+	text "La Ligue #mon"
+	line "est le centre le"
+	cont "plus visité par"
 
-	para "trainers who wish"
-	line "to become Champ."
+	para "des dresseurs en"
+	line "quête de victoire."
 
-	para "Prof.Oak acts as"
-	line "an advisor to the"
+	para "Le Prof.Chen est"
+	line "un consultant aux"
 
-	para "#mon League's"
-	line "headquarters."
+	para "quartiers généraux"
+	line "de la Ligue."
 
-	para "He really is a"
-	line "great man."
+	para "Il est si"
+	line "merveilleux."
 	done
 
 ChadPokemonTalkGossipText:
-	text "Prof.Oak's #mon"
-	line "Talk is a popular"
-	cont "radio show, right?"
+	text "La Chronique"
+	line "#mon du Prof."
+	cont "Chen est une"
+	cont "émission de radio,"
+	cont "d'accord?"
 
-	para "Did you know that"
-	line "he was going to"
+	para "Tu savais que"
+	line "cette émission ne"
 
-	para "turn down the show"
-	line "at first?"
+	para "pouvait pas passer"
+	line "à l'antenne?"
 
-	para "But Mary's energy"
-	line "and persistence"
-	cont "wore him down."
+	para "Mais Lula a été si"
+	line "persuasive que la"
+	cont "direction a"
+	cont "accepté."
 
-	para "So we have Mary to"
-	line "thank for it!"
+	para "Remercions tous"
+	line "Lula!"
 	done
 
 ChadProfOakTrainerGossipText:
-	text "Prof.Oak used to"
-	line "be a trainer a"
-	cont "long time ago."
+	text "Le Prof.Chen"
+	line "était un dresseur"
+	cont "il y a longtemps."
 
-	para "But rather than"
-	line "battling, he found"
+	para "Mais il n'était"
+	line "pas très porté sur"
+	cont "les combats."
 
-	para "#mon themselves"
-	line "to be interesting."
+	para "Il a alors arrêté"
+	line "son entraînement"
 
-	para "So he abandoned"
-	line "his training to"
-
-	para "focus on becoming"
-	line "a researcher."
+	para "pour devenir un"
+	line "chercheur."
 	done
 
 ChadDaisyTeaGossipText:
-	text "Prof.Oak has a"
-	line "granddaughter"
-	cont "named Daisy."
+	text "Le Prof.Chen a une"
+	line "petite-fille du"
+	cont "nom de Nina."
 
-	para "She has tea every"
-	line "day for an hour"
+	para "Elle aime boire du"
+	line "thé vers 3 heures"
+	cont "de l'après-midi."
 
-	para "from three in the"
-	line "afternoon."
+	para "J'aimerais être"
+	line "de la fête et"
 
-	para "I wish I could"
-	line "join her for tea"
-
-	para "and chat about"
-	line "Prof.Oak."
+	para "parler avec le"
+	line "Prof.Chen."
 	done
 
 ChadProfOakTravelingGossipText:
-	text "Did you know?"
-	line "Prof.Oak traveled"
+	text "Le savais-tu?"
+	line "Le Prof.Chen a"
 
-	para "all over the world"
-	line "when he was young."
+	para "fait le tour du"
+	line "monde étant jeune."
 
-	para "While traveling,"
-	line "he must've learned"
+	para "Il a dû en appren-"
+	line "dre beaucoup sur"
+	cont "les #mon."
 
-	para "about #mon"
-	line "naturally."
-
-	para "I envy him…"
-	line "I'd like to travel"
-
-	para "and learn about"
-	line "things too…"
+	para "Comme je l'envie!"
 	done
 
 ChadGoingToStudyHardText:
-	text "I'm going to study"
-	line "hard so Prof.Oak"
+	text "Je vais étudier"
+	line "pour devenir"
 
-	para "will make me his"
-	line "assistant!"
+	para "l'assistant du"
+	line "Prof.Chen!"
 	done
 
 ChadReminderText:

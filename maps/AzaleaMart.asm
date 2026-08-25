@@ -19,26 +19,31 @@ AzaleaMart_MapScriptHeader:
 	object_event  8,  6, SPRITE_ROCKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, (1 << EVE) | (1 << NITE), PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaMartRockerText, -1
 
 AzaleaMartCooltrainermText:
-	text "There's no Great"
-	line "Ball here. #"
+	text "Il n'y a pas"
+	line "de super Balls."
 
-	para "Balls will have"
-	line "to do."
+	para "Les # Balls"
+	line "devront faire"
+	cont "l'affaire."
 
-	para "I wish Kurt would"
-	line "make me some of"
-	cont "his custom Balls."
+	para "J'aimerais que"
+	line "Fargas me fabri-"
+	cont "que quelques unes"
+	cont "de ses Balls"
+	cont "artisanales."
 	done
 
 AzaleaMartBugCatcherText:
-	text "A Great Ball is"
-	line "better for catch-"
-	cont "ing #mon than a"
-	cont "# Ball."
+	text "Une super Ball est"
+	line "plus efficace"
+	cont "qu'une # Ball"
+	cont "pour attraper les"
+	cont "#mon."
 
-	para "But Kurt's might"
-	line "be better some-"
-	cont "times."
+	para "Mais celles de"
+	line "Fargas sont plus"
+	cont "efficaces quelque-"
+	cont "fois."
 	done
 
 AzaleaMartLadyText:

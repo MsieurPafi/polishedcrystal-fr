@@ -43,28 +43,31 @@ GenericTrainerSageEdmond:
 	done
 
 SageNicoSeenText:
-	text "However hard we"
-	line "battle, the tower"
-	cont "will stand strong."
+	text "Toutefois, la tour"
+	line "ne cédera pas même"
+	cont "lors d'un grand et"
+	cont "rude combat."
 	done
 
 SageNicoBeatenText:
-	text "I fought hard but"
-	line "I'm too weak."
+	text "J'ai perdu..."
+	line "Je suis faible."
 	done
 
 SageEdmondSeenText:
-	text "…Sway like leaves"
-	line "in the wind…"
+	text "Volez comme vents"
+	line "et feuilles!"
+	cont "Combat!"
 	done
 
 SageEdmondBeatenText:
-	text "Oh, I'm weak!"
+	text "Oh! Perdu!"
 	done
 
 SproutTower2FStatueText:
-	text "A #mon statue…"
+	text "Une statue de"
+	line "#mon..."
 
-	para "It looks very"
-	line "distinguished."
+	para "Ça a l'air cher"
+	line "et raffiné."
 	done

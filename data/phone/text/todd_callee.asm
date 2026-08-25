@@ -56,15 +56,13 @@ ToddGreetNiteText:
 	done
 
 ToddGenericText:
-	text "How do you raise"
-	line "your #mon?"
+	text "Comment entraînes-"
+	line "tu tes #mon?"
 
-	para "I do all sorts"
-	line "of things, like"
+	para "Moi j'utilise en-"
+	line "tre autres des"
 
-	para "leaving them in"
-	line "Day-Care and"
-
-	para "toughening them up"
-	line "with items."
+	para "objets et je les"
+	line "laisse souvent à"
+	cont "la Pension."
 	done

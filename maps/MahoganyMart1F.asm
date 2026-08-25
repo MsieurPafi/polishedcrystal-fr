@@ -188,46 +188,48 @@ MahoganyMart1FLanceApproachHiddenStairsMovement:
 	step_end
 
 MahoganyMart1FPharmacistText_LanceEntered:
-	text "Arrgh… You found"
-	line "the secret stair-"
-	cont "way…"
+	text "Graaah... Tu as"
+	line "trouvé l'escalier"
+	cont "secret!"
 	done
 
 
 MahoganyMart1FBlackBeltText_LanceEntered:
-	text "Urrgh…"
+	text "Gueuhhh..."
 
-	para "That guy's dragon"
-	line "#mon are tough…"
+	para "Les #mon dragon"
+	line "de ce type sont"
+	cont "super forts..."
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
-	text "Lance: Dragonite,"
-	line "Hyper Beam."
+	text "Peter: Dracolosse,"
+	line "Ultralaser."
 	done
 
 MahoganyMart1FLanceRadioText:
-	text "What took you,"
-	line "<PLAYER>?"
+	text "Tu en as mis du"
+	line "temps, <PLAYER>!"
 
-	para "Just as I thought,"
-	line "that strange radio"
+	para "Comme je le pen-"
+	line "sais, cet étrange"
 
-	para "signal is coming"
-	line "from here."
+	para "signal radio vient"
+	line "d'ici."
 	done
 
 MahoganyMart1FLanceStairsText:
-	text "The stairs are"
-	line "right here."
+	text "Les escaliers sont"
+	line "par ici."
 	done
 
 MahoganyMart1FLanceSplitUpText:
-	text "Lance: <PLAYER>, we"
-	line "should split up to"
+	text "Peter: <PLAYER>,"
+	line "nous ferions mieux"
 
-	para "check this place."
-	line "I'll go first."
+	para "de nous séparer."
+	line "Je passe en"
+	cont "premier."
 	done
 
 MahoganyMart1FVeteranFText:

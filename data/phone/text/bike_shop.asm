@@ -1,19 +1,17 @@
 BikeShopPhoneCallerText:
-	text "Hi, <PLAYER>!"
-	line "Our Bicycle sales"
+	text "Salut <PLAYER>!"
+	line "Nos ventes de"
 
-	para "have gone through"
-	line "the roof!"
+	para "Bicyclettes ont"
+	line "explosé!"
 
-	para "We owe it all to"
-	line "your advertising"
+	para "Tout ça grâce à"
+	line "la pub que tu as"
+	cont "faite."
 
-	para "by riding around"
-	line "on our Bicycle."
+	para "En gage de remer-"
+	line "ciement, garde la"
 
-	para "As our way of say-"
-	line "ing thanks, please"
-
-	para "keep that Bicycle."
-	line "Thanks again!"
+	para "Bicyclette!"
+	line "Encore merci!"
 	done

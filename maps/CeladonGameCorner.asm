@@ -246,19 +246,19 @@ endr
 
 
 CeladonGameCornerReceptionistText:
-	text "Welcome!"
+	text "Bienvenue!"
 
-	para "You may exchange"
-	line "your coins for"
+	para "On peut échanger"
+	line "les jetons contre"
 
-	para "fabulous prizes"
-	line "next door."
+	para "de bô prix juste"
+	line "à côté."
 	done
 
 CeladonGameCornerPokefanMText:
-	text "The slot machines"
-	line "are all state of"
-	cont "the art."
+	text "Les machines à"
+	line "sous, c'est trop"
+	cont "fort."
 	done
 
 CeladonGameCornerTeacherText:
@@ -297,20 +297,17 @@ CeladonGameCornerFisherText1:
 CeladonGameCornerFisherText2:
 	text "Gahahaha!"
 
-	para "It makes me feel"
-	line "good to do nice"
-
-	para "things for other"
-	line "people!"
+	para "Aider son prochain"
+	line "c'est trop cool!"
 	done
 
 CeladonGameCornerFisherNoCoinCaseText:
-	text "Hey, you don't"
-	line "have a Coin Case."
+	text "Hé! Tu n'as pas de"
+	line "boîte Jeton."
 
-	para "How am I supposed"
-	line "to give you any"
-	cont "coins, kid?"
+	para "Et comment je vais"
+	line "te donner des"
+	cont "jetons, moi?"
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
@@ -400,15 +397,15 @@ CeladonGameCornerPosterScript:
 	done
 
 CeladonGameCornerLighterText:
-	text "There's a lighter"
-	line "here."
+	text "Il y a un briquet"
+	line "ici..."
 	done
 
 CeladonGameCornerSodaCanText:
-	text "A can of soda…"
+	text "Une boîte de soda!"
 
-	para "Someone must be"
-	line "coming back…"
+	para "Ça doit être à"
+	line "quelqu'un..."
 
-	para "Huh? It's empty!"
+	para "Hein? C'est vide!"
 	done

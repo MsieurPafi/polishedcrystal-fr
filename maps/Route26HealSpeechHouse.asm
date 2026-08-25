@@ -35,9 +35,9 @@ Route26HealHouseTeacherScript:
 	done
 
 Route26HealHouseRestAWhileText:
-	text "Your #mon look"
-	line "a little tired."
+	text "Tes #mon ont"
+	line "l'air fatigué."
 
-	para "You should rest"
-	line "them a while."
+	para "Tu devrais les"
+	line "soigner."
 	done

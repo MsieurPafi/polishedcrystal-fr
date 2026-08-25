@@ -43,12 +43,12 @@ GenericTrainerBikerReilly:
 	done
 
 BikerReillySeenText:
-	text "Hey, you! You're"
-	line "from Johto, huh?"
+	text "Hé, toi!"
+	line "T'es de Johto?"
 	done
 
 BikerReillyBeatenText:
-	text "Whoa, you kick!"
+	text "Graaaaaah!"
 	done
 
 GenericTrainerBikerJoel:
@@ -63,13 +63,13 @@ GenericTrainerBikerJoel:
 	done
 
 BikerJoelSeenText:
-	text "Wow. That's a cool"
-	line "Bicycle!"
+	text "Oh! Elle est cool"
+	line "ta Bicyclette!"
 	done
 
 BikerJoelBeatenText:
-	text "But you don't just"
-	line "look cool…"
+	text "Par contre, toi..."
+	line "T'es pas cool."
 	done
 
 GenericTrainerBikerGlenn:
@@ -81,13 +81,13 @@ GenericTrainerBikerGlenn:
 	done
 
 BikerGlennSeenText:
-	text "Hey! Want to have"
-	line "a speed battle?"
+	text "Hé! Ça te dit un"
+	line "chtit combat?"
 	done
 
 BikerGlennBeatenText:
-	text "Yikes! You've got"
-	line "awesome torque!"
+	text "Ayaah! Toi t'es"
+	line "pas naze!"
 	done
 
 GenericTrainerBikerDale:

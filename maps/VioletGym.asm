@@ -142,26 +142,26 @@ VioletGymStatue:
 	jumpstd gymstatue3
 
 FalknerIntroText:
-	text "I'm Falkner, the"
-	line "Violet #mon Gym"
-	cont "Leader!"
+	text "Je suis Albert, le"
+	line "champion d'Arene"
+	cont "de Mauville!"
 
-	para "People say you can"
-	line "clip Flying-type"
+	para "On dit qu'avec une"
+	line "bonne décharge"
 
-	para "#mon's wings"
-	line "with a jolt of"
-	cont "electricity…"
+	para "électrique, les"
+	line "#mon volants"
+	cont "grillent..."
 
-	para "I won't allow such"
-	line "insults to bird"
-	cont "#mon!"
+	para "Je n'autorise per-"
+	line "sonne à insulter"
+	cont "les #mon!"
 
-	para "I'll show you the"
-	line "real power of the"
+	para "Tu vas subir les"
+	line "terribles attaques"
 
-	para "magnificent bird"
-	line "#mon!"
+	para "de mes #mon"
+	line "volants!"
 	done
 
 FalknerWinLossText:
@@ -191,32 +191,33 @@ FalknerZephyrBadgeText:
 
 
 FalknerFightDoneText:
-	text "There are #mon"
-	line "Gyms in cities and"
-	cont "towns ahead."
+	text "Il y a des Arenes"
+	line "#mon dans"
+	cont "les alentours."
 
-	para "You should test"
-	line "your skills at"
-	cont "these Gyms."
+	para "Tu devrais tester"
+	line "ton habileté dans"
+	cont "ces Arenes."
 
-	para "I'm going to train"
-	line "harder to become"
+	para "Je vais m'entraî-"
+	line "ner plus dur pour"
 
-	para "the greatest bird"
-	line "master!"
+	para "devenir le plus"
+	line "grand!"
 	done
 
 Bird_keeperRodSeenText:
-	text "The keyword is"
-	line "guts!"
+	text "Le mot clé est..."
+	line "Le cran!"
 
-	para "Those here are"
-	line "training night and"
+	para "Ceux d'ici s'en-"
+	line "traînent nuit et"
 
-	para "day to become bird"
-	line "#mon masters."
+	para "jour pour devenir"
+	line "maître des"
+	cont "#mon volants."
 
-	para "Come on!"
+	para "Allez!"
 	done
 
 Bird_keeperRodBeatenText:
@@ -224,23 +225,25 @@ Bird_keeperRodBeatenText:
 	done
 
 Bird_keeperAbeSeenText:
-	text "Let me see if you"
-	line "are good enough to"
-	cont "face Falkner!"
+	text "Montre-moi si tu"
+	line "as les épaules"
+	cont "pour battre"
+	cont "Albert!"
 	done
 
 Bird_keeperAbeBeatenText:
-	text "This can't be"
-	line "true!"
+	text "Saperlipopette!"
+	line "C'est impossible!"
 	done
 
 
 VioletGymGuyWinText:
-	text "Nice battle! Keep"
-	line "it up, and you'll"
+	text "Beau combat! Ne"
+	line "lâche pas prise et"
 
-	para "be the Champ in no"
-	line "time at all!"
+	para "tu deviendras sans"
+	line "problème une"
+	cont "star!"
 	done
 
 VioletGymGuyFalknerAwayText:

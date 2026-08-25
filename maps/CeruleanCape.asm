@@ -367,17 +367,18 @@ GenericTrainerFisherLeroy:
 	done
 
 .SeenText:
-	text "I keep catching"
-	line "the same #mon…"
+	text "J'attrape toujours"
+	line "le même #mon."
 
-	para "Maybe a battle"
-	line "will turn things"
-	cont "around for me."
+	para "Bon allez..."
+	line "Un petit combat"
+	cont "pour me changer"
+	cont "les idées."
 	done
 
 .BeatenText:
-	text "Nothing ever goes"
-	line "right for me now…"
+	text "Tout cloche pour"
+	line "moi..."
 	done
 
 Route25MistysDateLeavesMovement2:
@@ -414,42 +415,43 @@ Route25MistyLeavesMovement:
 	step_end
 
 Route25MistyDateText:
-	text "Misty: Aww! Why"
-	line "did you have to"
+	text "Ondine: Aaaah!"
+	line "Pourquoi t'es là,"
 
-	para "show up and bug us"
-	line "now?"
+	para "toi? Tu nous as"
+	line "dérangés!"
 
-	para "Do you know what"
-	line "they call people"
-	cont "like you?"
+	para "Ça se voyait pas"
+	line "que j'avais un"
+	cont "rencard?"
 
-	para "Pests! You heard"
-	line "me right, pest!"
+	para "Alors laisse-moi"
+	line "te dire une chose!"
 
-	para "…"
+	para "..."
 
-	para "…Oh? Those Badges"
-	line "you have… Are they"
-	cont "Johto Gym Badges?"
+	para "...Oh? Tes Badges!"
+	line "Ils viennent des"
+	cont "Arenes de Johto?"
 
-	para "If you have eight,"
-	line "you must be good."
+	para "Si tu en as 8,"
+	line "c'est que t'es pas"
+	cont "une mauviette..."
 
-	para "OK, then. Come to"
-	line "Cerulean Gym."
+	para "OK. Viens à"
+	line "l'Arene d'Azuria."
 
-	para "I'll be happy to"
-	line "take you on."
+	para "Je te lance un"
+	line "défi."
 
-	para "I'm Misty, the"
-	line "Gym Leader in"
-	cont "Cerulean."
+	para "Je suis Ondine,"
+	line "la Championne"
+	cont "d'Azuria."
 	done
 
 BillsHouseSignText:
-	text "Sea Cottage"
-	line "Bill's House"
+	text "Villa"
+	line "maison de Leo"
 	done
 
 CeruleanCapeSailboatText:

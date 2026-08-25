@@ -41,15 +41,15 @@ GenericTrainerPokemaniacAndrew:
 	done
 
 PokemaniacAndrewSeenText:
-	text "Who's there?"
+	text "Qui va là?"
 
-	para "Leave me and my"
-	line "#mon alone!"
+	para "Yaaaah! Laisse-moi"
+	line "tranquille!"
 	done
 
 PokemaniacAndrewBeatenText:
-	text "Go…"
-	line "Go away!"
+	text "Va-t'en..."
+	line "Ouste!"
 	done
 
 GenericTrainerPokemaniacCalvin:
@@ -65,18 +65,18 @@ GenericTrainerPokemaniacCalvin:
 	done
 
 PokemaniacCalvinSeenText:
-	text "I came all the way"
-	line "here to conduct my"
-	cont "#mon research."
+	text "Je suis venu ici"
+	line "pour mes études"
+	cont "sur les #mon."
 
-	para "Let me demonstrate"
-	line "my findings in a"
-	cont "real battle!"
+	para "Je vais te montrer"
+	line "tout ça..."
+	cont "Au combat!"
 	done
 
 PokemaniacCalvinBeatenText:
-	text "You demonstrated"
-	line "on me!"
+	text "Plein la tête!"
+	line "Ouille!"
 	done
 
 GenericTrainerHikerPhillip:
@@ -91,16 +91,16 @@ GenericTrainerHikerPhillip:
 	done
 
 HikerPhillipSeenText:
-	text "It's been a while"
-	line "since I last saw"
-	cont "another person."
+	text "Ça fait longtemps"
+	line "que je n'ai pas eu"
+	cont "de compagnie."
 
-	para "Don't be shy."
-	line "Let's battle!"
+	para "Sois sympa..."
+	line "Combat!"
 	done
 
 HikerPhillipBeatenText:
-	text "Uurggh…"
+	text "Uurggh..."
 	done
 
 GenericTrainerHikerLeonard:
@@ -116,13 +116,13 @@ GenericTrainerHikerLeonard:
 	done
 
 HikerLeonardSeenText:
-	text "What do you know!"
-	line "A visitor!"
+	text "Ah bah ça alors!"
+	line "De la visite!"
 	done
 
 HikerLeonardBeatenText:
-	text "Wahahah! You're a"
-	line "feisty one!"
+	text "Wahahah! T'es pas"
+	line "drôle!"
 	done
 
 GenericTrainerFirebreatherJay:

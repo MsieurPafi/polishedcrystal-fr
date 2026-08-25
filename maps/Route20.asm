@@ -40,12 +40,12 @@ GenericTrainerSwimmerfNicole:
 	done
 
 SwimmerfNicoleSeenText:
-	text "I feel so much"
-	line "lighter in water."
+	text "On est léger dans"
+	line "l'eau..."
 	done
 
 SwimmerfNicoleBeatenText:
-	text "Oh, no!"
+	text "Oh, non!"
 	done
 
 GenericTrainerSwimmerfLori:
@@ -57,15 +57,15 @@ GenericTrainerSwimmerfLori:
 	done
 
 SwimmerfLoriSeenText:
-	text "What an impressive"
-	line "collection of Gym"
+	text "Quelle belle"
+	line "collection de"
 
-	para "Badges. We should"
-	line "battle!"
+	para "Badges. On se fait"
+	line "un p'tit combat?"
 	done
 
 SwimmerfLoriBeatenText: ; text > text
-	text "No!"
+	text "Non!"
 	done
 
 GenericTrainerSwimmerfMayu:
@@ -121,10 +121,10 @@ GenericTrainerSwimmermCameron:
 	done
 
 SwimmermCameronSeenText:
-	text "I guess it's im-"
-	line "possible to swim"
+	text "Ça doit être"
+	line "impossible de"
 
-	para "all the way to"
+	para "nager jusqu'à"
 	line "Johto."
 	done
 

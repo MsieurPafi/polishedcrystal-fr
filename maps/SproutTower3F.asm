@@ -162,57 +162,62 @@ SproutTowerElderLecturesRivalText:
 	done
 
 SproutTowerRivalOnlyCareAboutStrongText:
-	text "…"
-	line "…Humph!"
+	text "..."
+	line "...Pfeuh!"
 
-	para "He claims to be"
-	line "the Elder but"
-	cont "he's weak."
+	para "On l'appelle"
+	line "l'ancien mais il"
+	cont "est super nul!"
 
-	para "It stands to"
-	line "reason."
+	para "Et il raconte"
+	line "n'importe quoi..."
 
-	para "I'd never lose to"
-	line "fools who babble"
+	para "Je ne me ferai"
+	line "jamais battre par"
 
-	para "about being nice"
-	line "to #mon."
+	para "un crétin qui"
+	line "conseille d'être"
 
-	para "I only care about"
-	line "strong #mon"
-	cont "that can win."
+	para "gentil avec les"
+	line "#mon."
 
-	para "I really couldn't"
-	line "care less about"
-	cont "weak #mon."
+	para "Seuls les #mon"
+	line "puissants sont"
+	cont "importants."
+
+	para "Je me contrefiche"
+	line "des #mon mi-"
+	cont "gnons et faibles."
 	done
 
 SproutTowerRivalUsedEscapeRopeText:
-	text "<RIVAL> used an"
-	line "Escape Rope!"
+	text "<RIVAL> utilise"
+	line "une Corde sortie!"
 	done
 
 SageLiSeenText:
-	text "So good of you to"
-	line "come here!"
+	text "Bienvenue à toi,"
+	line "mon poussin!"
 
-	para "Sprout Tower is a"
-	line "place of training."
+	para "La Tour Chetiflor"
+	line "est un lieu"
+	cont "d'entraînement."
 
-	para "People and #mon"
-	line "test their bonds"
+	para "Humains et #mon"
+	line "y renforcent leurs"
 
-	para "to build a bright"
-	line "future together."
+	para "liens pour des"
+	line "lendemains qui"
+	cont "chantent."
 
-	para "I am the final"
-	line "test."
+	para "Je serai ton"
+	line "adversaire final."
 
-	para "Allow me to check"
-	line "the ties between"
+	para "Permets-moi de"
+	line "mettre à l'épreuve"
 
-	para "your #mon and"
-	line "you!"
+	para "ton amitié envers"
+	line "tes #mon!"
 	done
 
 SageLiBeatenText:
@@ -231,31 +236,32 @@ SageLiTakeThisFlashText:
 	done
 
 SageLiAfterBattleText:
-	text "I hope you learn"
-	line "and grow from your"
-	cont "journey."
+	text "Va, vole et"
+	line "apprends la vie"
+	cont "grâce aux #mon."
 	done
 
 SageJinSeenText:
-	text "I train to find"
-	line "enlightenment in"
+	text "Je m'entraîne pour"
+	line "trouver la voie du"
 	cont "#mon!"
 	done
 
 SageJinBeatenText:
-	text "My training is"
-	line "incomplete…"
+	text "Mon entraînement"
+	line "est insuffisant."
 	done
 
 SageTroySeenText:
-	text "Let me see how"
-	line "much you trust"
-	cont "your #mon."
+	text "Montre-moi à quel"
+	line "point tu fais"
+	cont "confiance à tes"
+	cont "#mon."
 	done
 
 SageTroyBeatenText:
-	text "Yes, your trust is"
-	line "real!"
+	text "Ta confiance est"
+	line "totale! Bien!"
 	done
 
 SageNealSeenText:
@@ -265,19 +271,20 @@ SageNealSeenText:
 	done
 
 SageNealBeatenText:
-	text "It is my head that"
-	line "is bright!"
+	text "J'en ai pris plein"
+	line "la tête!"
 	done
 
 SproutTower3FPaintingText:
-	text "It's a powerful"
-	line "painting of a"
-	cont "Bellsprout."
+	text "Une belle peinture"
+	line "d'un majestueux"
+	cont "Chetiflor."
 	done
 
 SproutTower3FStatueText:
-	text "A #mon statue…"
+	text "Une statue de"
+	line "#mon..."
 
-	para "It looks very"
-	line "distinguished."
+	para "Ça a l'air cher"
+	line "et raffiné."
 	done

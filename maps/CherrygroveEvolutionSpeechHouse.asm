@@ -16,16 +16,17 @@ CherrygroveEvolutionSpeechHouse_MapScriptHeader:
 	object_event  2,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, CherrygroveEvolutionSpeechHouseYoungsterText, -1
 
 CherrygroveEvolutionSpeechHouseYoungsterText:
-	text "#mon gain expe-"
-	line "rience in battle"
+	text "Les #mon"
+	line "gagnent de l'expé-"
 
-	para "and change their"
-	line "form."
+	para "rience et évoluent"
+	line "en combattant."
 	done
 
 CherrygroveEvolutionSpeechHouseLassText:
-	text "#mon change?"
+	text "Les #mon"
+	line "évoluent?"
 
-	para "I would be shocked"
-	line "if one did that!"
+	para "Je serais curieuse"
+	line "de voir ça!"
 	done

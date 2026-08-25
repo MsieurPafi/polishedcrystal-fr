@@ -142,16 +142,17 @@ Route8BikerZekeProtestText:
 	done
 
 BikerDwayneSeenText:
-	text "We're the Kanto"
-	line "#mon Federation"
-	cont "trainer group."
+	text "Nous sommes la"
+	line "Federation des"
+	cont "dresseurs de #-"
+	cont "mon de Kanto."
 
-	para "We'll drive you"
-	line "under our wheels!"
+	para "On va te faire"
+	line "ta fête!"
 	done
 
 BikerDwayneBeatenText:
-	text "S-sorry!"
+	text "P-Pardon!"
 	done
 
 Route8BikerHarrisProtestText:
@@ -164,38 +165,38 @@ BikerHarrisSeenText:
 	done
 
 BikerHarrisBeatenText:
-	text "F-forgive me!"
+	text "P-Pardon!"
 	done
 
 BikerZekeSeenText:
-	text "We're the Kanto"
-	line "#mon Federa-"
-	cont "tion!"
-	cont "Right on!"
+	text "On est la Federa-"
+	line "tion des dresseurs"
+	cont "de Kanto."
+	cont "On est cool!"
 	done
 
 BikerZekeBeatenText:
-	text "Yikes! Sorry!"
+	text "Oups! Pardon!"
 	done
 
 SupernerdSamSeenText:
-	text "How does the Mag-"
-	line "net Train work?"
+	text "Comment ça marche"
+	line "un train Magnet?"
 	done
 
 SupernerdSamBeatenText:
-	text "I just want to see"
-	line "the Magnet Train…"
+	text "Moi je veux voir"
+	line "le train Magnet..."
 	done
 
 SupernerdTomSeenText:
-	text "Hm… You've got"
-	line "many Gym Badges."
+	text "Hmm... Tu en as"
+	line "des bô Badges."
 	done
 
 SupernerdTomBeatenText:
-	text "Just as I thought…"
-	line "You're tough!"
+	text "Pas mal..."
+	line "Je m'y attendais!"
 	done
 
 GentlemanMiltonSeenText:
@@ -246,12 +247,13 @@ LassMeadowBeatenText:
 	done
 
 Route8LockedDoorText:
-	text "It's locked…"
+	text "C'est fermé..."
 	done
 
 Route8UndergroundPathSignText:
-	text "The flyer's torn."
+	text "l'affiche est"
+	line "déchirée."
 
-	para "It's impossible to"
-	line "read…"
+	para "C'est impossible"
+	line "de la lire..."
 	done

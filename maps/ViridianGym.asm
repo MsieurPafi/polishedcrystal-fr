@@ -180,36 +180,36 @@ ViridianGymStatue:
 	jumpstd gymstatue2
 
 LeaderBlueBeforeText:
-	text "Blue: Yo! Finally"
-	line "got here, huh?"
+	text "Blue: Yo! Te voilà"
+	line "enfin!"
 
-	para "I wasn't in the"
-	line "mood at Cinnabar,"
+	para "J'avais pas trop"
+	line "envie à Cramois'"
 
-	para "but now I'm ready"
-	line "to battle you."
+	para "Île mais là je"
+	line "vais te battre."
 
 	para "…"
 
-	para "You're telling me"
-	line "you conquered all"
-	cont "the Gyms in Johto?"
+	para "Tu dis quoi?"
+	line "Tu as passé toutes"
+	cont "les Arenes de"
+	cont "Johto?"
 
-	para "Heh! Johto's Gyms"
-	line "must be pretty"
-	cont "pathetic then."
+	para "Ils sont nuls à"
+	line "Johto alors..."
 
-	para "Hey, don't worry"
-	line "about it."
+	para "Mais t'en fais"
+	line "pas..."
 
-	para "I'll know if you"
-	line "are good or not by"
+	para "Je vais tout de"
+	line "suite te dire si"
 
-	para "battling you right"
-	line "now."
+	para "tu as du talent"
+	line "ou non."
 
-	para "Ready, Johto"
-	line "Champ?"
+	para "C'est parti,"
+	line "minable de Johto!"
 	done
 
 LeaderBlueWinText:
@@ -234,23 +234,23 @@ LeaderBlueAfterText:
 
 
 LeaderBlueEpilogueText:
-	text "Blue: Listen, you."
+	text "Blue: Écouté voir."
 
-	para "You'd better not"
-	line "lose until I beat"
-	cont "you. Got it?"
+	para "Reste cool jusqu'à"
+	line "notre prochain"
+	cont "combat, d'accord?"
 	done
 
 
 ViridianGymGuyWinText:
-	text "Man, you are truly"
-	line "tough…"
+	text "Fiiou! Alors toi,"
+	line "t'es cool!"
 
-	para "That was a heck of"
-	line "an inspirational"
+	para "Ça c'était du"
+	line "combat!"
 
-	para "battle. It brought"
-	line "tears to my eyes."
+	para "J'en ai les larmes"
+	line "aux yeux."
 	done
 
 AceDuoAraandbela1SeenText:

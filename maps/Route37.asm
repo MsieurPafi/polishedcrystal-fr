@@ -159,25 +159,25 @@ TwinsToriandtil2SeenText:
 	done
 
 PsychicGregSeenText:
-	text "#mon can't do a"
-	line "thing if they are"
-	cont "asleep."
+	text "Les #mon ne"
+	line "peuvent rien faire"
+	cont "s'ils dorment."
 
-	para "I'll show you how"
-	line "scary that is!"
+	para "Tu vas voir quel"
+	line "effet ça fait!"
 	done
 
 PsychicGregBeatenText:
-	text "I lost. That's"
-	line "pretty sad…"
+	text "Perdu. C'est"
+	line "pas cool, ça..."
 	done
 
 MeetSunnyText:
-	text "Sunny: Hi!"
+	text "Dimitri: Salut!"
 
-	para "I'm Sunny of Sun-"
-	line "day, meaning it's"
-	cont "Sunday today!"
+	para "Moi c'est Dimitri"
+	line "du dimanche. Et on"
+	cont "est dimanche!"
 	done
 
 SunnyGivesGiftText:
@@ -188,14 +188,14 @@ SunnyGivesGiftText:
 
 
 SunnySundayText:
-	text "Sunny: My sisters"
-	line "and brothers are"
-	cont "Monica, Tuscany,"
-	cont "Wesley, Arthur,"
-	cont "Frieda and Santos."
+	text "Dimitri: Mes frè-"
+	line "res et soeurs sont"
+	cont "Lucie, Marie,"
+	cont "Homer, Jerome,"
+	cont "Vanessa et Samuel."
 
-	para "They're all older"
-	line "than me!"
+	para "Ils sont tous plus"
+	line "vieux que moi!"
 	done
 
 

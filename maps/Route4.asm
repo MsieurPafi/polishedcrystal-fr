@@ -187,36 +187,34 @@ LassJenniferBeatenText:
 	done
 
 Bird_keeperHankSeenText:
-	text "I'm raising my"
-	line "#mon. Want to"
-	cont "battle with me?"
+	text "J'entraîne des"
+	line "#mon. Un p'tit"
+	cont "combat?"
 	done
 
 Bird_keeperHankBeatenText:
-	text "Ack! I lost that"
-	line "one…"
+	text "Ack! Perdu..."
 	done
 
 PicnickerHopeSeenText:
-	text "I have a feeling"
-	line "that I can win."
+	text "Je vais gagner,"
+	line "je le sens."
 
-	para "Let's see if I'm"
-	line "right!"
+	para "Ça va être ta fête"
+	line "tu vas voir!"
 	done
 
 PicnickerHopeBeatenText:
-	text "Aww, you are too"
-	line "strong."
+	text "Plein la tête!"
 	done
 
 PicnickerSharonSeenText: ; text > text
-	text "Um…"
-	line "I…"
+	text "T'as pas aimé"
+	line "mon histoire?"
 	done
 
 PicnickerSharonBeatenText: ; text > text
-	text "…"
+	text "..........."
 	done
 
 Route4SuperNerd1Text:

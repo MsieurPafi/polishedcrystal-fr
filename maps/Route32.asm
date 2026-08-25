@@ -129,11 +129,10 @@ Route32CooltrainerMTrigger:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "Your experiences"
-	line "in Violet City"
+	text "Ta visite à"
+	line "Mauville te sera"
 
-	para "should be useful"
-	line "for your journey."
+	para "bénéfique."
 	done
 
 .IntroText:
@@ -789,35 +788,31 @@ Movement_Route32CooltrainerMReset:
 	step_end
 
 Route32CooltrainerMText_WhatsTheHurry:
-	text "Wait up!"
-	line "What's the hurry?"
+	text "Hop! Hop!"
+	line "Ça urge ou quoi?"
 	done
 
 Route32CooltrainerMText_AideIsWaiting:
-	text "<PLAYER>, right?"
-	line "Some guy wearing"
+	text "<PLAYER>, c'est ça?"
+	line "Un type avec des"
 
-	para "glasses was look-"
-	line "ing for you."
+	para "lunettes te cher-"
+	line "chait."
 
-	para "See for yourself."
-	line "He's waiting for"
-
-	para "you at the #mon"
-	line "Center."
+	para "Il t'attend au"
+	line "centre #mon."
 	done
 
 Route32CooltrainerMText_VioletGym:
-	text "Have you gone to"
-	line "the #mon Gym?"
+	text "As-tu visité"
+	line "l'Arene #mon?"
 
-	para "You can test your"
-	line "#mon and your-"
-	cont "self there."
+	para "Tu peux y mettre"
+	line "tes compétences à"
+	cont "l'épreuve."
 
-	para "It's a rite of"
-	line "passage for all"
-	cont "trainers!"
+	para "Tous les dresseurs"
+	line "doivent y aller!"
 	done
 
 Text_MillionDollarSlowpokeTail:
@@ -836,42 +831,43 @@ Text_MillionDollarSlowpokeTail:
 
 
 FisherJustinSeenText:
-	text "Whoa!"
+	text "Hééé!"
 
-	para "You made me lose"
-	line "that fish!"
+	para "Tu m'as fait per-"
+	line "dre mon poisson!"
 	done
 
 FisherJustinBeatenText:
-	text "Sploosh!"
+	text "Splash!"
 	done
 
 FisherRalph1SeenText:
-	text "I'm really good at"
-	line "both fishing and"
-	cont "#mon."
+	text "La pêche et les"
+	line "#mon, c'est"
+	cont "de la balle."
 
-	para "I'm not about to"
-	line "lose to any kid!"
+	para "J'suis pas du"
+	line "genre à perdre!"
 	done
 
 FisherRalph1BeatenText:
-	text "Tch! I tried to"
-	line "rush things…"
+	text "Pfff!"
+	line "J't'aime pas."
 	done
 
 FisherRalphAfterText:
-	text "Fishing is a life-"
-	line "long passion."
+	text "Ma passion c'est"
+	line "la pêche et les"
 
-	para "#mon are life-"
-	line "long friends!"
+	para "#mon sont mes"
+	line "amis!"
 	done
 
 
 FisherHenrySeenText:
-	text "My #mon?"
-	line "Freshly caught!"
+	text "Mes #mon?"
+	line "Frais du matin"
+	cont "pêchés!"
 	done
 
 FisherHenryBeatenText:
@@ -879,83 +875,82 @@ FisherHenryBeatenText:
 	done
 
 YoungsterAlbertSeenText:
-	text "I haven't seen you"
-	line "around before."
+	text "On s'connaît?"
+	line "Tu veux crâner?"
 
-	para "So you think you"
-	line "are pretty tough?"
+	para "On va voir ça!"
 	done
 
 YoungsterAlbertBeatenText:
-	text "You're strong!"
+	text "Oulààà!"
 	done
 
 YoungsterGordonSeenText:
-	text "I found some good"
-	line "#mon in the"
-	cont "grass!"
+	text "J'ai trouvé des"
+	line "#mon dans les"
+	cont "hautes herbes!"
 
-	para "I think they'll do"
-	line "it for me!"
+	para "Ils sont cool!"
+	line "Et forts! Regarde!"
 	done
 
 YoungsterGordonBeatenText:
-	text "Darn. I thought I"
-	line "could win."
+	text "Et ben ça alors."
 	done
 
 CamperRolandSeenText:
-	text "That glance…"
-	line "It's intriguing."
+	text "Dis donc..."
+	line "Tu m'cherches?"
 	done
 
 CamperRolandBeatenText:
-	text "Hmmm. This is"
-	line "disappointing."
+	text "Ouaiiis!"
+	line "Perduuu!"
 	done
 
 PicnickerLiz1SeenText:
-	text "Uh-huh. Yeah, and"
-	line "you know…"
+	text "Ah-ha. Ouais."
+	line "Vers midi."
 
-	para "Pardon? Battle?"
-	line "I'm on the phone."
+	para "Quoi? Combat?"
+	line "J'suis au tél!"
 
-	para "Oh, all right. But"
-	line "make it fast."
+	para "Bon d'accord."
+	line "Mais rapide."
 	done
 
 PicnickerLiz1BeatenText:
-	text "Oh! I've got to"
-	line "relieve my anger!"
+	text "Oh! Il faut que"
+	line "je me calme!"
 	done
 
 PicnickerLiz1AfterText:
-	text "I was having a"
-	line "nice chat too."
+	text "J'avais une copine"
+	line "au téléphone."
 	done
 
 Bird_keeperPeterSeenText:
-	text "That Badge! It's"
-	line "from Violet City!"
+	text "Ce Badge! Il vient"
+	line "de Mauville!"
 
-	para "You beat Falkner?"
+	para "T'as battu Albert?"
 	done
 
 Bird_keeperPeterBeatenText:
-	text "I know what my"
-	line "weaknesses are."
+	text "OK."
+	line "Pas mal."
 	done
 
 Text_RoarIntro: ; text > text
-	text "WROOOOAR!"
-	line "PEOPLE RUN WHEN I"
+	text "Graaaaa!"
+	line "les gens N'aiment"
 
-	para "ROAR! BUT YOU"
-	line "CAME LOOKING!"
+	para "pas quand je crié!"
+	line "pourquoi???"
 
-	para "THAT PLEASES ME!"
-	line "NOW TAKE THIS!"
+	para "toi tu aimes?"
+	line "Supeeeer!"
+	cont "voilà pour toi!!!"
 	done
 
 Text_RoarOutro: ; text > text
@@ -967,48 +962,49 @@ Text_RoarOutro: ; text > text
 	done
 
 MeetFriedaText:
-	text "Frieda: Yahoo!"
-	line "It's Friday!"
+	text "Vanessa: Ouaiis!"
+	line "On est vendredi!"
 
-	para "I'm Frieda of"
-	line "Friday!"
+	para "Je suis Vanessa du"
+	line "vendredi!"
 
-	para "Nice to meet you!"
+	para "Bonjour toi!"
 	done
 
 FriedaGivesGiftText:
-	text "Here's a Poison"
-	line "Barb for you!"
+	text "Voilà un Pic Venin"
+	line "pour toi!"
 	done
 
 
 FriedaFridayText:
-	text "Frieda: Hiya! What"
-	line "day do you like?"
+	text "Vanessa: Ouais!"
+	line "Quel jour tu"
+	cont "aimes, toi?"
 
-	para "I love Friday. No"
-	line "doubt about it!"
+	para "Moi j'aime le ven-"
+	line "dredi, et oui!"
 
-	para "Don't you think"
-	line "it's great too?"
+	para "Pas toi? Hein?"
+	line "Pas toi?"
 	done
 
 
 Route32SignText:
-	text "Route 32"
+	text "route 32"
 
-	para "Violet City -"
-	line "Azalea Town"
+	para "Mauville -"
+	line "Écorcia"
 	done
 
 Route32RuinsSignText:
-	text "Ruins of Alph"
-	line "East Entrance"
+	text "ruines d'alpha"
+	line "Entree est"
 	done
 
 Route32UnionCaveSignText:
-	text "Union Cave"
-	line "Ahead"
+	text "Caves jumelles"
+	line "Tout droit"
 	done
 
 Route32AdvancedTips1Text:

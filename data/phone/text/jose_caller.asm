@@ -61,7 +61,7 @@ JoseBattleRematchText:
 	done
 
 JoseHangUpText:
-	text "Be seeing you!"
+	text "A plus tard!"
 	done
 
 JoseFoundItemText:
@@ -82,15 +82,13 @@ JoseFoundItemText:
 	done
 
 JoseHaventGottenItemYetText:
-	text "I haven't gotten"
-	line "what I promised"
-	cont "you yet."
+	text "Je n'ai pas encore"
+	line "ce que je t'ai"
+	cont "promis."
 
-	para "I'll call you as"
-	line "soon as I get it,"
-
-	para "so could you wait"
-	line "a little longer?"
+	para "Je t'appelle si"
+	line "je l'ai."
+	cont "Attends un peu!"
 	done
 
 JoseReminderText:

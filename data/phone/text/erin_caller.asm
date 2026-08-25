@@ -42,16 +42,15 @@ ErinBattleRematchText:
 	done
 
 ErinHangUpText:
-	text "See you. Bye-bye!"
+	text "A bientôt!"
 	done
 
 ErinWorkingHardText:
-	text "I'm working hard"
-	line "to raise my"
-	cont "#mon!"
+	text "J'entraîne à fond"
+	line "mes #mon!"
 
-	para "Come back for"
-	line "another battle!"
+	para "Reviens pour"
+	line "m'affronter!"
 	done
 
 ErinComeBattleText:

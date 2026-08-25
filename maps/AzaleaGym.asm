@@ -103,44 +103,48 @@ AzaleaGymBugsyScript:
 	done
 
 .SeenText:
-	text "I'm Bugsy!"
-	line "I never lose when"
+	text "Je suis Hector!"
+	line "Je ne perds jamais"
 
-	para "it comes to bug"
-	line "#mon."
+	para "lorsqu'il s'agit"
+	line "de #mon"
+	cont "insecte."
 
-	para "My research is"
-	line "going to make me"
+	para "Mes recherches"
+	line "vont me permettre"
 
-	para "the authority on"
-	line "bug #mon!"
+	para "d'être un super"
+	line "expert des"
+	cont "#mon insecte!"
 
-	para "Let me demonstrate"
-	line "what I've learned"
-	cont "from my studies."
+	para "Laisse-moi te"
+	line "montrer ce que"
+	cont "j'ai découvert!"
 	done
 
 .BeatenText:
-	text "Whoa, amazing!"
-	line "You're an expert"
-	cont "on #mon!"
+	text "Whaou, dingue!"
+	line "Tu connais bien"
+	cont "les #mon!"
 
-	para "My research isn't"
-	line "complete yet."
+	para "Mes recherches ne"
+	line "sont pas finies."
 
-	para "OK, you win. Take"
-	line "this Badge."
+	para "OK, tu as gagné."
+	line "Prends ce Badge."
 	done
 
 .AfterText:
-	text "Bug #mon are"
-	line "deep. There are"
+	text "Les #mon"
+	line "insecte ont des"
 
-	para "many mysteries to"
-	line "be explored."
+	para "talents cachés. Il"
+	line "faudra encore du"
+	cont "temps pour tous"
+	cont "les découvrir."
 
-	para "Study your favor-"
-	line "ites thoroughly."
+	para "Étudié-les"
+	line "minutieusement."
 	done
 
 AzaleaGymGuyScript:
@@ -170,15 +174,13 @@ AzaleaGymGuyScript:
 	done
 
 .WinText:
-	text "Well done! That"
-	line "was a great clash"
+	text "Bien joué! Voilà"
+	line "une bonne leçon."
 
-	para "of talented young"
-	line "trainers."
-
-	para "With people like"
-	line "you, the future of"
-	cont "#mon is bright!"
+	para "Avec des gens"
+	line "comme toi, l'ave-"
+	cont "nir des #mon"
+	cont "sera brillant!"
 	done
 
 GenericTrainerBug_catcherBenny:
@@ -190,16 +192,18 @@ GenericTrainerBug_catcherBenny:
 	done
 
 .SeenText:
-	text "Bug #mon evolve"
-	line "young. So they get"
+	text "Les #mon"
+	line "insecte évoluent"
 
-	para "stronger that much"
-	line "faster."
+	para "rapidement. Ils"
+	line "deviennent forts"
+	cont "plus vite."
 	done
 
 .BeatenText:
-	text "Just evolving"
-	line "isn't enough!"
+	text "Faire évoluer un"
+	line "#mon n'est pas"
+	cont "suffisant!"
 	done
 
 GenericTrainerBug_catcherAl:
@@ -215,16 +219,19 @@ GenericTrainerBug_catcherAl:
 	done
 
 .SeenText:
-	text "Bug #mon are"
-	line "cool and tough!"
+	text "Les #mon"
+	line "insecte sont trop"
 
-	para "I'll prove it to"
-	line "you!"
+	para "cool et trop"
+	line "résistants! Je"
+	cont "vais trop te le"
+	cont "prouver!"
 	done
 
 .BeatenText:
-	text "You proved how"
-	line "tough you are…"
+	text "T'as prouvé à"
+	line "quel point t'es"
+	cont "balèze!..."
 	done
 
 GenericTrainerBug_catcherJosh:
@@ -236,17 +243,18 @@ GenericTrainerBug_catcherJosh:
 	done
 
 .SeenText:
-	text "You saved all the"
-	line "Slowpoke? Whew,"
-	cont "you're mighty!"
+	text "Tu as sauvé tous"
+	line "les Ramoloss? T'es"
+	cont "super balèze toi!"
 
-	para "But my grown-up"
-	line "#mon are pretty"
-	cont "tough too!"
+	para "Mais mes #mon"
+	line "adultes sont aussi"
+	cont "un peu balèzes je"
+	cont "crois!"
 	done
 
 .BeatenText:
-	text "Urrgggh!"
+	text "Aarrgggh!"
 	done
 
 GenericTrainerTwinsAmyandmimi1:
@@ -257,9 +265,9 @@ GenericTrainerTwinsAmyandmimi1:
 	done
 
 .SeenText:
-	text "Amy: Hi! Are you"
-	line "challenging the"
-	cont "Leader? No way!"
+	text "Pim: Salut!"
+	line "Tu veux battre le"
+	cont "champion? Oh non!"
 	done
 
 GenericTrainerTwinsAmyandmimi2:

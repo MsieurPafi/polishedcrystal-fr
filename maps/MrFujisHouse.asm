@@ -28,25 +28,23 @@ MrFujisHouseSuperNerdText:
 	done
 
 MrFujisHouseLassText:
-	text "Some cold-hearted"
-	line "people stop caring"
-	cont "for their #mon."
+	text "Des gens sans"
+	line "coeur délaissent"
+	cont "leurs #mon."
 
-	para "Grandpa takes in"
-	line "the poor homeless"
-
-	para "#mon and takes"
-	line "care of them."
+	para "Pépé s'occupe des"
+	line "#mon abandonnés"
+	cont "et les soigne."
 	done
 
 MrFujisPsyduckText:
-	text "Psyduck: Gu-guwa?"
+	text "Psykokwak: Kwa?"
 	done
 
 MrFujisNidorinoText:
-	text "Nidorino: Gyun!"
+	text "Nidorino: Nido!"
 	done
 
 MrFujisPidgeyText:
-	text "Pidgey: Pijji!"
+	text "Roucool: Rrrou!"
 	done

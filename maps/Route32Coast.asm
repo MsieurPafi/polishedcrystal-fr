@@ -184,14 +184,14 @@ GenericTrainerFisherKiley:
 	done
 
 .SeenText:
-	text "Heh, I'm on a roll"
-	line "today. How about a"
-	cont "battle, kid?"
+	text "J'suis en veine..."
+	line "Alors on va"
+	cont "s'battre."
 	done
 
 .BeatenText:
-	text "Oof. I wasn't"
-	line "lucky that time."
+	text "Ah bon."
+	line "Pas d'pot."
 	done
 
 GenericTrainerCamperCraig:
@@ -272,19 +272,17 @@ GenericTrainerCoupleFoxandrae2:
 	done
 
 Route32CoastLassText:
-	text "Pant, pant…"
+	text "Pfff... Pff..."
 
-	para "I finally got"
-	line "through that cave."
+	para "Enfin je sors de"
+	line "cet endroit."
 
-	para "It was much bigger"
-	line "than I'd expected."
+	para "C'est vachement"
+	line "grand!"
 
-	para "I got too tired to"
-	line "explore the whole"
-
-	para "thing, so I came"
-	line "outside."
+	para "Tout explorer à"
+	line "l'intérieur c'est"
+	cont "super crevant."
 	done
 
 Route32CoastTrainerTipsText:
@@ -298,6 +296,6 @@ Route32CoastTrainerTipsText:
 	done
 
 Route32CoastUnionCaveSignText:
-	text "Union Cave"
-	line "Ahead"
+	text "Caves jumelles"
+	line "Tout droit"
 	done

@@ -126,49 +126,55 @@ GoldenrodMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 
 
 GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
-	text "We'll soon depart"
-	line "for Saffron."
+	text "Nous allons bien-"
+	line "tôt partir pour"
+	cont "Safrania."
 
-	para "Are you coming"
-	line "aboard?"
+	para "Vous montez"
+	line "à bord?"
 	done
 
 GoldenrodMagnetTrainStationOfficerRightThisWayText:
-	text "May I see your"
-	line "rail pass, please?"
+	text "Puis-je voir votre"
+	line "passe train, s'il"
+	cont "vous plaît?"
 
-	para "OK. Right this"
-	line "way, please."
+	para "Merci, c'est par"
+	line "là..."
 	done
 
 GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText:
-	text "Sorry. You don't"
-	line "have a rail pass."
+	text "Désolé, vous"
+	line "n'avez pas de"
+	cont "passe train."
+	cont "Pas de passe train"
+	cont "pas de copains!!"
 	done
 
 GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "En espérant vous"
+	line "revoir bientôt!"
 	done
 
 GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
-	text "We have arrived in"
-	line "Goldenrod."
+	text "On est arrivé"
+	line "à Doublonville."
 
-	para "We hope to see you"
-	line "again."
+	para "Nous espérons vous"
+	line "revoir bientôt."
 	done
 
 GoldenrodMagnetTrainStationGentlemanText:
-	text "I'm the President."
+	text "Je suis le"
+	line "President."
 
-	para "My dream was to"
-	line "build a train that"
+	para "Mon rêve était de"
+	line "construire un"
 
-	para "is faster than any"
-	line "#mon."
+	para "train plus rapide"
+	line "que n'importe quel"
+	cont "#mon."
 
-	para "It really brings"
-	line "Johto much closer"
-	cont "to Kanto."
+	para "Cela rapproche"
+	line "Johto de Kanto."
 	done

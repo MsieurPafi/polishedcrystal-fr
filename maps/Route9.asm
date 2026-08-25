@@ -82,20 +82,18 @@ GenericTrainerHikerSidney:
 	done
 
 CamperDeanSeenText:
-	text "I came to explore"
-	line "Rock Tunnel."
+	text "Je viens pour ex-"
+	line "plorer la grotte."
 	done
 
 CamperDeanBeatenText:
-	text "Whoa! Danger, man."
+	text "Whoa! Danger!"
 	done
 
 PicnickerHeidiSeenText:
-	text "Have you ever been"
-	line "to a picnic?"
-
-	para "They're so much"
-	line "fun!"
+	text "Tu aimes les"
+	line "pique-niques?"
+	cont "C'est trop cool!"
 	done
 
 PicnickerHeidiBeatenText:
@@ -103,23 +101,23 @@ PicnickerHeidiBeatenText:
 	done
 
 CamperSidSeenText:
-	text "Hey, you!"
-	line "Don't litter!"
+	text "Toi, moi!"
+	line "Combat, yaaah!"
 	done
 
 CamperSidBeatenText:
-	text "I was just point-"
-	line "ing out…"
+	text "OK."
+	line "A gagné."
 	done
 
 PicnickerEdnaSeenText:
-	text "People shouldn't"
-	line "leave any litter"
-	cont "behind."
+	text "Faire des saletés"
+	line "dans les lieux pu-"
+	cont "blics, c'est mal."
 	done
 
 PicnickerEdnaBeatenText:
-	text "Ohh… I lost…"
+	text "Ohh...pas glop."
 	done
 
 HikerTimSeenText:
@@ -132,28 +130,28 @@ HikerTimSeenText:
 	done
 
 HikerTimBeatenText:
-	text "I was too busy"
-	line "singing…"
+	text "C'est trop bien"
+	line "de chanter."
 	done
 
 HikerSidneySeenText:
-	text "I'll tell you a"
-	line "secret."
+	text "J'ai un secret"
+	line "pour toi."
 
-	para "But first, we"
-	line "battle!"
+	para "Mais d'abord..."
+	line "Combat!"
 	done
 
 HikerSidneyBeatenText:
-	text "Oh, dang!"
-	line "I lost that…"
+	text "Zut de flûte!"
+	line "Perdu!"
 	done
 
 Route9SignText:
-	text "Route 9"
+	text "route 9"
 
-	para "Cerulean City -"
-	line "Rock Tunnel"
+	para "Azuria -"
+	line "grotte"
 	done
 
 Route9AdvancedTipsSignText:

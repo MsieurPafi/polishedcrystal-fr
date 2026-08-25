@@ -164,24 +164,24 @@ SailorHuey1Script:
 	jumpstd rematchgiftm
 
 SailorHuey1SeenText:
-	text "Men of the sea are"
-	line "always spoiling"
-	cont "for a good fight!"
+	text "Les marins sont"
+	line "toujours partants"
+	cont "pour la baston!"
 	done
 
 SailorHuey1BeatenText:
-	text "Urf!"
-	line "I lose!"
+	text "Humpf!"
+	line "Perdu!"
 	done
 
 GentlemanAlfredSeenText:
-	text "Hm? This is no"
-	line "place for playing."
+	text "Hé! C'est interdit"
+	line "de jouer ici..."
 	done
 
 GentlemanAlfredBeatenText:
-	text "Ah! I can see that"
-	line "you're serious."
+	text "Ah! Tu rigoles"
+	line "pas, toi."
 	done
 
 GentlemanAlfredFinalText:
@@ -197,10 +197,9 @@ GentlemanAlfredFinalText:
 	done
 
 SailorHueyGiveProteinText:
-	text "Man! You're as"
-	line "tough as ever!"
+	text "Tu as de plus en"
+	line "plus de talent!"
 
-	para "Anyway, here's"
-	line "that medicine from"
-	cont "before."
+	para "Voilà le médica-"
+	line "ment..."
 	done

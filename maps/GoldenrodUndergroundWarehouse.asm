@@ -68,91 +68,92 @@ GoldenrodUndergroundWarehouseDirectorScript:
 	jumpopenedtext DirectorAfterText
 
 GruntM24SeenText:
-	text "How did you get"
-	line "this far?"
+	text "Comment t'as fait"
+	line "pour arriver ici?"
 
-	para "I guess it can't"
-	line "be helped. I'll"
-	cont "dispose of you."
+	para "Bon... Tant pis:"
+	line "je dois me débar-"
+	cont "rasser de toi."
 	done
 
 GruntM24BeatenText:
-	text "I got disposed of…"
+	text "J'suis fichu..."
 	done
 
 GruntM14SeenText:
-	text "You're not going"
-	line "any farther!"
+	text "Pas un pas de"
+	line "plus!"
 
-	para "I don't show mercy"
-	line "to my enemies, not"
-	cont "even brats!"
+	para "Mes ennemis, j'en"
+	line "fais de la purée."
+	cont "A table!"
 	done
 
 GruntM14BeatenText:
-	text "Blast it!"
+	text "Purééééée!"
 	done
 
 GruntM15SeenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "I remember you!"
+	text "Gnyak Gnyak Gnyak!"
+	line "J'me souviens de"
 
-	para "You got me good"
-	line "at our hideout!"
+	para "toi! Tu m'as battu"
+	line "à notre planque!"
 	done
 
 GruntM15BeatenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "So, that's how?"
+	text "Gnyak!"
+	line "Heu? Encore??"
 	done
 
 DirectorIntroText:
-	text "Director: Who?"
-	line "What? You came to"
-	cont "rescue me?"
+	text "Directeur: Qui?"
+	line "Quoi? Tu es là"
+	cont "pour me sauver?"
 
-	para "Thank you!"
+	para "Merci!"
 
-	para "The Radio Tower!"
+	para "La Tour Radio!"
 
-	para "What's happening"
-	line "there?"
+	para "Que se passe-t-il"
+	line "là-bas?"
 
-	para "Taken over by Team"
-	line "Rocket?"
+	para "Contrôlée par la"
+	line "Team Rocket?"
 
-	para "Here. Take this"
-	line "Card Key."
+	para "Tiens. Prends"
+	line "cette carte Magn."
 	done
 
 DirectorCardKeyText:
-	text "Director: Use that"
-	line "to open the shut-"
-	cont "ters on 3F."
+	text "Directeur: Utilise"
+	line "cette carte pour"
+	cont "ouvrir les volets"
+	cont "du 2ème."
 	done
 
 DirectorAfterText:
-	text "I'm begging you to"
-	line "help."
+	text "Je t'en supplie..."
+	line "Aide-nous."
 
-	para "There's no telling"
-	line "what they'll do if"
+	para "Dieu seul sait ce"
+	line "qu'ils feront en"
 
-	para "they control the"
-	line "transmitter."
+	para "contrôlant le"
+	line "transmetteur."
 
-	para "They may even be"
-	line "able to control"
+	para "Ils pourront même"
+	line "manipuler les"
 
-	para "#mon using a"
-	line "special signal!"
+	para "#mon grâce à un"
+	line "signal spécial!"
 
-	para "You're the only"
-	line "one I can call on."
+	para "Tu es mon seul"
+	line "espoir."
 
-	para "Please save the"
-	line "Radio Tower…"
+	para "Sauvé la tour"
+	line "radio! Pitié!!!"
 
-	para "And all the #-"
-	line "mon nationwide!"
+	para "Sauvé tous les"
+	line "gentils #mon!"
 	done

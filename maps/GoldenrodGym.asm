@@ -211,14 +211,16 @@ WhitneyBeforeText:
 	done
 
 WhitneyShouldntBeSoSeriousText:
-	text "Sob…"
+	text "Sniff-sniff..."
 
-	para "…Waaaaaaah!"
-	line "You're mean!"
+	para "...Waaaaaaah!"
+	line "T'es un peu nul!"
 
-	para "You shouldn't be"
-	line "so serious! You…"
-	cont "you child, you!"
+	para "Tu ne devrais pas"
+	line "te prendre au"
+	cont "sérieux! Tu es"
+	cont "très jeune après"
+	cont "tout!"
 	done
 
 
@@ -245,24 +247,26 @@ WhitneyPlainBadgeText:
 	done
 
 WhitneyGoodCryText:
-	text "Ah, that was a"
-	line "good cry!"
+	text "Ah, ça fait du"
+	line "bien de pleurer!"
 
-	para "Come for a visit"
-	line "again! Bye-bye!"
+	para "Reviens-me voir"
+	line "quand tu veux!"
+	cont "Tchao!"
 	done
 
 LassCathySeenText:
-	text "Don't let my"
-	line "#mon's cute"
+	text "Y sont mignons"
+	line "mes #mon!"
 
-	para "looks fool you."
-	line "They can whip you!"
+	para "Y sont terribles"
+	line "itou!"
 	done
 
 LassCathyBeatenText:
-	text "Darn… I thought"
-	line "you were weak…"
+	text "Zut... Je croyais"
+	line "que tu étais"
+	cont "faible..."
 	done
 
 SrandjrJoandcath1SeenText:
@@ -296,14 +300,16 @@ SrandjrJoandcath2BeatenText:
 	done
 
 JoWhitneyCriesText:
-	text "Oh, no. You made"
-	line "Whitney cry."
+	text "Oh, non. Tu as"
+	line "fait pleurer"
+	cont "blanche."
 
-	para "It's OK. She'll"
-	line "stop soon. She"
+	para "C'est bon, elle va"
+	line "bientôt se calmer."
 
-	para "always cries when"
-	line "she loses."
+	para "Elle pleure à"
+	line "chaque fois"
+	cont "qu'elle perd."
 	done
 
 BeautyVictoriaSeenText:
@@ -315,23 +321,23 @@ BeautyVictoriaSeenText:
 	done
 
 BeautyVictoriaBeatenText:
-	text "Let's see… Oops,"
-	line "it's over?"
+	text "Voyons voir..."
+	line "Oups, c'est fini?"
 	done
 
 BeautySamanthaSeenText:
-	text "Give it your best"
-	line "shot, or I'll take"
-	cont "you down!"
+	text "Fais de ton mieux"
+	line "ou je t'aurai!"
 	done
 
 BeautySamanthaBeatenText:
-	text "No! Oh, Meowth,"
-	line "I'm so sorry!"
+	text "Noon! Oh, Miaouss,"
+	line "je suis désolée!"
 	done
 
 GoldenrodGymGuyWinText:
-	text "You won? Great! I"
-	line "was busy admiring"
-	cont "the ladies here."
+	text "T'as gagné? Super!"
+	line "J'étais occupé à"
+	cont "mater ces jolies"
+	cont "filles."
 	done

@@ -75,18 +75,17 @@ DaisyScript:
 	done
 
 .IntroText:
-	text "Daisy: Hi! Good"
-	line "timing. I'm about"
-	cont "to have some tea."
+	text "Nina: Salut! Ça"
+	line "tombe bien, j'al-"
+	cont "lais faire du thé."
 
-	para "Would you like to"
-	line "join me?"
+	para "En veux-tu?"
 
-	para "Oh, your #mon"
-	line "are a bit dirty."
+	para "Oh, tes #mon"
+	line "sont sales."
 
-	para "Would you like me"
-	line "to groom one?"
+	para "Tu veux que j'en"
+	line "bichonne un?"
 	done
 
 .After:
@@ -110,14 +109,14 @@ DaisyScript:
 	done
 
 .QuestionText:
-	text "Daisy: Which one"
-	line "should I groom?"
+	text "Nina: Lequel dois-"
+	line "je bichonner?"
 	done
 
 .OkayText:
-	text "Daisy: OK, I'll"
-	line "get it looking"
-	cont "nice in no time."
+	text "Nina: OK, je vais"
+	line "le faire beau en"
+	cont "deux secondes."
 	done
 
 .LooksContentText:

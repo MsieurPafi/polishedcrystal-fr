@@ -46,14 +46,13 @@ AlanGreetNiteText:
 	done
 
 AlanGenericText:
-	text "<PLAYER>, are you"
-	line "raising your"
-	cont "#mon properly?"
+	text "<PLAYER>, tu"
+	line "entraînes bien"
+	cont "tes #mon?"
 
-	para "I read in a book"
-	line "that you should"
+	para "J'ai lu qu'il faut"
+	line "entraîner ses"
 
-	para "raise any #mon"
-	line "you catch with"
-	cont "love and care."
+	para "#mon avec amour"
+	line "et attention."
 	done

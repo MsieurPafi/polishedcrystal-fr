@@ -93,11 +93,11 @@ DragonsDenB1FClairTrigger:
 	done
 
 .GiveTMText:
-	text "Clair: I'm sorry"
-	line "about this."
+	text "Sandra: Excuse-moi"
+	line "pour tout."
 
-	para "Here, take this as"
-	line "my apology."
+	para "Tiens. Pour me"
+	line "faire pardonner."
 	done
 
 .DescribeDragonPulseText:
@@ -124,13 +124,12 @@ DragonsDenB1FClairTrigger:
 	step_end
 
 DragonsDenShrineSignText:
-	text "Dragon Shrine"
+	text "Autel dragon"
 
-	para "A shrine honoring"
-	line "the dragon #mon"
-
-	para "said to have lived"
-	line "in Dragon's Den."
+	para "En l'honneur des"
+	line "#mon dragons"
+	cont "ayant vécu dans"
+	cont "l'Antre du dragon."
 	done
 
 DragonsDenB1FRivalScript:
@@ -218,32 +217,33 @@ DragonsDenB1FRivalScript:
 	done
 
 .Training1Text:
-	text "…"
-	line "What? <PLAYER>?"
+	text "......"
+	line "Quoi? <PLAYER>?"
 
-	para "…No, I won't"
-	line "battle you now…"
+	para "...Non, je ne me"
+	line "battrai pas avec"
+	cont "toi maintenant..."
 
-	para "My #mon aren't"
-	line "ready to beat you."
+	para "Mes #mon ne"
+	line "sont pas prêts."
 
-	para "I can't push them"
-	line "too hard now."
+	para "Et je ne veux pas"
+	line "les pousser."
 
-	para "I have to be dis-"
-	line "ciplined to become"
+	para "Je dois être sage"
+	line "pour devenir un"
 
-	para "the greatest #-"
-	line "mon trainer…"
+	para "jour le plus grand"
+	line "des dresseurs..."
 	done
 
 .Training2Text:
-	text "…"
+	text "......."
 
-	para "Whew…"
+	para "Pffouiii..."
 
-	para "Learn to stay out"
-	line "of my way…"
+	para "Ne croise plus"
+	line "jamais ma route..."
 	done
 
 GenericTrainerDragonTamerDarin:
@@ -260,12 +260,12 @@ GenericTrainerDragonTamerDarin:
 	done
 
 .SeenText:
-	text "You! How dare you"
-	line "enter uninvited!"
+	text "Toi! On ne veut"
+	line "pas de toi ici!"
 	done
 
 .BeatenText:
-	text "S-strong!"
+	text "Quelle puissance!"
 	done
 
 GenericTrainerDragonTamerAdam:
@@ -283,8 +283,8 @@ GenericTrainerDragonTamerAdam:
 	done
 
 .SeenText:
-	text "You shouldn't be"
-	line "in here!"
+	text "Tu ne dois pas"
+	line "être ici!"
 	done
 
 .BeatenText:
@@ -354,12 +354,13 @@ GenericTrainerTwinsLeaandpia1:
 	done
 
 .SeenText:
-	text "It's a stranger we"
-	line "don't know."
+	text "C'est un étranger"
+	line "que l'on ne"
+	cont "connaît pas."
 	done
 
 .BeatenText:
-	text "Ouchies."
+	text "Ouille."
 	done
 
 GenericTrainerTwinsLeaandpia2:
@@ -372,7 +373,7 @@ GenericTrainerTwinsLeaandpia2:
 	done
 
 .SeenText:
-	text "Who are you?"
+	text "Qui es-tu?"
 	done
 
 .BeatenText:

@@ -113,11 +113,12 @@ OlivinePokeCenter1FFisherText:
 	done
 
 OlivinePokeCenter1FTeacherText:
-	text "There's a person"
-	line "in Cianwood City"
-	cont "across the sea."
+	text "Il y a quelqu'un"
+	line "à Irisia de"
+	cont "l'autre côté de la"
+	cont "mer."
 
-	para "I heard him brag-"
-	line "ging about his"
-	cont "rare #mon."
+	para "Je l'ai entendu se"
+	line "vanter à propos de"
+	cont "son #mon rare."
 	done

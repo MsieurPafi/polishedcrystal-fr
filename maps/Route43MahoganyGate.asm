@@ -29,7 +29,7 @@ Route43MahoganyGateOfficer:
 	done
 
 Route43MahoganyGateOfficerRocketsClearedText:
-	text "Nobody goes up to"
-	line "Lake of Rage these"
-	cont "days."
+	text "Personne ne va au"
+	line "Lac Colère de nos"
+	cont "jours."
 	done

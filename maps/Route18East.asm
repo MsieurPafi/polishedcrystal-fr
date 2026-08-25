@@ -35,11 +35,11 @@ GenericTrainerBird_keeperBob:
 	done
 
 Bird_keeperBorisSeenText:
-	text "If you're looking"
-	line "for #mon, you"
+	text "Cherche les #-"
+	line "mon dans les"
 
-	para "have to look in"
-	line "the tall grass."
+	para "hautes herbes."
+	line "Tu le savais déjà?"
 	done
 
 Bird_keeperBorisBeatenText:
@@ -47,9 +47,9 @@ Bird_keeperBorisBeatenText:
 	done
 
 Bird_keeperBobSeenText:
-	text "Cycling Road is a"
-	line "quick shortcut to"
-	cont "Celadon."
+	text "La Piste Cyclable"
+	line "est un raccourci"
+	cont "vers Celadopole."
 	done
 
 Bird_keeperBobBeatenText:
@@ -57,8 +57,8 @@ Bird_keeperBobBeatenText:
 	done
 
 Route18SignText:
-	text "Route 18"
+	text "route 18"
 
-	para "Celadon City -"
-	line "Fuchsia City"
+	para "Celadopole -"
+	line "Parmanie"
 	done

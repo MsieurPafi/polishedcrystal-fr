@@ -224,66 +224,65 @@ Route30_MikeysPidgeyAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, Rattata!"
+	text "Allez, Rattata!"
 
-	para "Tackle!"
+	para "charge!"
 	done
 
 Text_ThisIsABigBattle:
-	text "What? This is a"
-	line "big battle!"
-	cont "Leave me alone!"
+	text "Quoi? C'est un"
+	line "grand combat!"
+	cont "Laisse-moi!"
 	done
 
 YoungsterJoey1SeenText:
-	text "I just lost, so"
-	line "I'm trying to find"
-	cont "more #mon."
+	text "Je viens de perdre"
+	line "et j'essaie donc"
+	cont "d'attraper plus de"
+	cont "#mon."
 
-	para "Wait! You look"
-	line "weak! Come on,"
-	cont "let's battle!"
+	para "Au fait! Tu as"
+	line "l'air faible, toi!"
+	cont "combat!"
 	done
 
 YoungsterJoey1BeatenText:
-	text "Ack! I lost again!"
-	line "Doggone it!"
+	text "Encore perdu!"
+	line "Zut de flûte!"
 	done
 
 YoungsterJoey1AfterText:
-	text "Do I have to have"
-	line "more #mon in"
+	text "Dois-je choper"
+	line "plus de #mon"
 
-	para "order to battle"
-	line "better?"
+	para "pour gagner des"
+	line "combats?"
 
-	para "No! I'm sticking"
-	line "with this one no"
-	cont "matter what!"
+	para "Non! Je reste"
+	line "avec celui-ci!"
 	done
 
 YoungsterMikeySeenText:
-	text "You're a #mon"
-	line "trainer, right?"
+	text "T'es un dresseur"
+	line "de #mon, non?"
 
-	para "Then you have to"
-	line "battle!"
+	para "Alors........."
+	line "Coooombaaaat!"
 	done
 
 YoungsterMikeyBeatenText:
-	text "That's strange."
-	line "I won before."
+	text "C'est bizarre."
+	line "J'avais cru..."
 	done
 
 Bug_catcherDonSeenText:
-	text "Instead of a bug"
-	line "#mon, I found"
-	cont "a trainer!"
+	text "Tiens..."
+	line "T'es qui toi?"
 	done
 
 Bug_catcherDonBeatenText:
-	text "Argh! You're too"
-	line "strong!"
+	text "Ah. T'es pas"
+	line "cool, toi!"
 	done
 
 Route30YoungsterText:
@@ -296,11 +295,13 @@ Route30YoungsterText:
 	done
 
 Route30CooltrainerFText:
-	text "I'm not a trainer."
+	text "Je ne suis pas"
+	line "dresseur."
 
-	para "But if you look"
-	line "one in the eyes,"
-	cont "prepare to battle."
+	para "Mais si tu regar-"
+	line "des quelqu'un dans"
+	cont "les yeux, prépare-"
+	cont "toi à combattre."
 	done
 
 Route30SignText:
@@ -311,12 +312,12 @@ Route30SignText:
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "Mr.#mon's House"
-	line "Straight Ahead!"
+	text "chez M.#mon"
+	line "C'est tout droit!"
 	done
 
 MrPokemonsHouseSignText:
-	text "Mr.#mon's House"
+	text "chez M.#mon"
 	done
 
 BerryMastersHouseSignText:
@@ -325,14 +326,16 @@ BerryMastersHouseSignText:
 	done
 
 Route30TrainerTipsText:
-	text "Trainer Tips"
+	text "Astuce"
 
-	para "No stealing other"
-	line "people's #mon!"
+	para "On ne vole pas les"
+	line "#mon des"
+	cont "autres!"
 
-	para "# Balls are to"
-	line "be thrown only at"
-	cont "wild #mon!"
+	para "Les # Balls"
+	line "sont faites pour"
+	cont "attraper les #-"
+	cont "mon sauvages!"
 	done
 
 Route30AdvancedTipsText:
@@ -361,16 +364,16 @@ Route30AdvancedTipsText:
 	done
 
 YoungsterJoeyText_GiveHPUpAfterBattle:
-	text "I lost again…"
-	line "Gee, you're tough!"
+	text "Encore perdu..."
+	line "T'y vas fort!"
 
-	para "Oh yeah, I almost"
-	line "forgot that I had"
-	cont "to give you this."
+	para "Oh oui."
+	line "Je dois te donner"
+	cont "ça."
 
-	para "Use it to get even"
-	line "tougher, OK?"
+	para "Ça améliore quel-"
+	line "que chose..."
 
-	para "I'm going to get"
-	line "tougher too."
+	para "Me demande pas"
+	line "quoi..."
 	done

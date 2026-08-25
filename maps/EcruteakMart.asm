@@ -17,18 +17,19 @@ EcruteakMart_MapScriptHeader:
 	object_event  6,  6, SPRITE_RICH_BOY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakMartGrannyText, -1
 
 EcruteakMartSuperNerdText:
-	text "My Eevee evolved"
-	line "into an Espeon."
+	text "Mon Evoli a évolué"
+	line "en Mentali."
 
-	para "But my friend's"
-	line "Eevee turned into"
-	cont "an Umbreon."
+	para "Mais l'Evoli de"
+	line "mon copain a"
+	cont "évolué en Noctali."
 
-	para "I wonder why? We"
-	line "both were raising"
+	para "Je me demande"
+	line "pourquoi? On a"
 
-	para "our Eevee in the"
-	line "same way…"
+	para "tous les deux"
+	line "élevé notre Evoli"
+	cont "de la même façon!"
 	done
 
 EcruteakMartGrannyText:

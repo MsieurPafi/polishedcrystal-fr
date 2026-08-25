@@ -316,15 +316,15 @@ TrainerPokefanfJaime:
 	done
 
 Route39MiltankText:
-	text "Miltank: Mooo!"
+	text "Écrémeuh: Meuh!"
 	done
 
 SailorEugeneSeenText:
-	text "I just got back to"
-	line "Olivine."
+	text "Je reviens de"
+	line "Oliville."
 
-	para "So how about a"
-	line "#mon battle?"
+	para "Ça te dit un p'tit"
+	line "combat #mon?"
 	done
 
 SailorEugeneBeatenText:
@@ -332,64 +332,58 @@ SailorEugeneBeatenText:
 	done
 
 PokefanmDerek1SeenText:
-	text "This is a good"
-	line "time to brag about"
-	cont "my Pikachu!"
+	text "Moi je crâne avec"
+	line "mon Pikachu!"
 	done
 
 PokefanmDerek1BeatenText:
-	text "I had no time to"
-	line "show off Pikachu…"
+	text "J'ai pas pu"
+	line "crâner..."
 	done
 
 PokefanMDerekText_NotBragging:
-	text "I'm not listening"
-	line "to your bragging!"
-
-	para "We # Fans have"
-	line "a policy of not"
-
-	para "listening to other"
-	line "people brag!"
+	text "Ne te vante pas!"
+	line "Moi j'aime pas"
+	cont "ceux qui se"
+	cont "vantent!"
 	done
 
 PokefanfRuthSeenText:
-	text "Such darling"
+	text "Les jolis"
 	line "#mon."
 
-	para "Let's show our"
-	line "#mon together"
-	cont "at the same time."
+	para "Allez! On se les"
+	line "montre en même"
+	cont "temps, OK?"
 	done
 
 PokefanfRuthBeatenText:
-	text "I don't mind"
-	line "losing."
+	text "J'm'en fiche si je"
+	line "perds."
 	done
 
 
 PsychicNormanSeenText:
-	text "Let me see what"
-	line "your #mon are"
-	cont "capable of."
+	text "Montre-moi tes"
+	line "#mon."
+	cont "Tout de suite!"
 	done
 
 PsychicNormanBeatenText:
-	text "Ooh, your #mon"
-	line "have potential."
+	text "Ooh, tes #mon"
+	line "sont forts!"
 	done
 
 
 PokefanfJaimeSeenText:
-	text "You came at just"
-	line "the right time."
+	text "Tu viens au bon"
+	line "moment."
 
-	para "Let's battle."
+	para "combat."
 	done
 
 PokefanfJaimeBeatenText:
-	text "Oh, how disap-"
-	line "pointing…"
+	text "Oh, quel dommage!"
 	done
 
 
@@ -433,10 +427,10 @@ Route39HikerText:
 	done
 
 Route39SignText:
-	text "Route 39"
+	text "route 39"
 
-	para "Olivine City -"
-	line "Ecruteak City"
+	para "Oliville -"
+	line "Rosalia"
 	done
 
 Route39AdvancedTips1Text:
@@ -475,23 +469,25 @@ RuggedRoadAheadSignText:
 	done
 
 MoomooFarmSignText:
-	text "Moomoo Farm"
+	text "Ranch Meumeu"
 
-	para "Enjoy Our Fresh"
-	line "and Tasty Milk"
+	para "Le meilleur lait"
+	line "sur le marché!"
 	done
 
 Route39TrainerTipsText:
-	text "Trainer Tips"
+	text "Astuce"
 
-	para "Use Headbutt on"
-	line "trees to shake"
-	cont "#mon out."
+	para "Un coup d'boule"
+	line "sur les arbres"
+	cont "peut faire tomber"
+	cont "des #mon."
 
-	para "Different kinds of"
-	line "#mon drop out"
-	cont "of trees."
+	para "Des #mon diffé-"
+	line "rents vivent dans"
+	cont "les arbres."
 
-	para "Use Headbutt on"
-	line "any tree you see!"
+	para "Donnez des coups"
+	line "d'boule et vous"
+	cont "verrez!"
 	done

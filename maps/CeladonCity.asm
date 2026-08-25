@@ -157,7 +157,7 @@ CeladonCityFisherText:
 	done
 
 CeladonCityPoliwrathText:
-	text "Poliwrath: Croak!"
+	text "Tartard: Tarr!"
 	done
 
 CeladonCityTeacher1Text:
@@ -172,26 +172,28 @@ CeladonCityTeacher1Text:
 	done
 
 CeladonCityGramps1Text:
-	text "Grimer have been"
-	line "appearing lately."
+	text "Des Tadmorv sont"
+	line "apparus dans les"
+	cont "environs."
 
-	para "See that pond out"
-	line "in front of the"
+	para "Tu vois la mare"
+	line "devant la maison?"
 
-	para "house? Grimer live"
-	line "there now."
+	para "Un Tadmorv y vit"
+	line "maintenant."
 
-	para "Where did they"
-	line "come from? This is"
-	cont "a serious problem…"
+	para "d'où est-ce qu'ils"
+	line "viennent tous?"
+	cont "C'est un gros"
+	cont "problème..."
 	done
 
 CeladonCityGramps2Text:
-	text "Nihihi! This Gym"
-	line "is great! Only"
+	text "Hihi! Cette Arene"
+	line "est géniale! C'est"
 
-	para "girls are allowed"
-	line "here!"
+	para "réservé aux"
+	line "filles! Youpi!"
 	done
 
 CeladonCityPicnickerText:
@@ -234,38 +236,35 @@ CeladonCityYoungster2Text:
 	done
 
 CeladonCityTeacher2Text:
-	text "Celadon Dept.Store"
-	line "has the biggest"
+	text "Le centre Commer-"
+	line "cial de Celadopole"
+	cont "vend de tout."
 
-	para "and best selection"
-	line "of merchandise."
+	para "Si tu n'y trouves"
+	line "pas ce que tu veux"
 
-	para "If you can't get"
-	line "it there, you"
+	para "c'est que tu n'as"
+	line "pas de chance."
 
-	para "can't get it any-"
-	line "where."
-
-	para "Gee… I sound like"
-	line "a sales clerk."
+	para "...On dirait un"
+	line "slogan."
 	done
 
 CeladonCityLassText_PCC:
-	text "I love being"
-	line "surrounded by tall"
-	cont "buildings!"
+	text "J'adore les grands"
+	line "immeubles!"
 
-	para "Isn't it true that"
-	line "Goldenrod #mon"
+	para "C'est vrai que le"
+	line "centre #mon"
 
-	para "Center was made"
-	line "much, much bigger?"
+	para "de Doublonville"
+	line "est super grand?"
 
-	para "That is so neat!"
-	line "I wish we had a"
+	para "C'est trop bien!"
+	line "J'aimerais voir un"
 
-	para "place like that in"
-	line "Kanto…"
+	para "endroit pareil à"
+	line "Kanto..."
 	done
 
 CeladonCityLassText:
@@ -277,19 +276,19 @@ CeladonCityLassText:
 	done
 
 CeladonCitySignText:
-	text "Celadon City"
+	text "Celadopole"
 
-	para "The City of"
-	line "Rainbow Dreams"
+	para "La ville aux rêves"
+	line "arc-en-ciel"
 	done
 
 CeladonGymSignText:
-	text "Celadon City"
-	line "#mon Gym"
-	cont "Leader: Erika"
+	text "champion d'Arene"
+	line "de Celadopole:"
+	cont "Erika"
 
-	para "The Nature-Loving"
-	line "Princess"
+	para "La princesse de"
+	line "la nature"
 	done
 
 CeladonUniversitySignText:
@@ -300,9 +299,9 @@ CeladonUniversitySignText:
 	done
 
 CeladonCityDeptStoreSignText:
-	text "Find What You"
-	line "Need at Celadon"
-	cont "Dept.Store!"
+	text "Y'a de tout au"
+	line "centre Commercial"
+	cont "de Celadopole!"
 	done
 
 CeladonCityHomeDecorStoreSignText:

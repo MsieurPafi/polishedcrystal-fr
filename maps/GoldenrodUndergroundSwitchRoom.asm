@@ -337,132 +337,129 @@ UndergroundRivalRetreatMovement:
 	step_end
 
 UndergroundRivalBeforeText:
-	text "Hold it!"
+	text "Minute!"
 
-	para "I saw you, so I"
-	line "tailed you."
+	para "Hé hé! J'étais"
+	line "derrière toi..."
 
-	para "I don't need you"
-	line "underfoot while I"
+	para "J'ai pas besoin de"
+	line "toi pour casser la"
 
-	para "take care of Team"
+	para "tête à la Team"
 	line "Rocket."
 
-	para "…Wait a second."
-	line "You beat me be-"
-	cont "fore, didn't you?"
+	para "...Attends voir..."
+	line "Tu m'as battu"
+	cont "avant, non?"
 
-	para "That was just a"
-	line "fluke."
+	para "C'était de la"
+	line "chance."
 
-	para "But I repay my"
-	line "debts!"
+	para "Mais cette fois..."
+	line "Ça va saigner!"
 	done
 
 UndergroundRivalWinText:
-	text "…Why…"
-	line "Why do I lose?"
+	text "...Pourquoi..."
+	line "Moi perdre?"
 
-	para "I've assembled the"
-	line "toughest #mon."
+	para "Mes #mon sont"
+	line "super balèzes!"
 
-	para "I didn't ease up"
-	line "on the gas."
+	para "Je les ai entraî-"
+	line "nés à fond!"
 
-	para "So why do I lose?"
+	para "Alors pourquoi???"
 	done
 
 UndergroundRivalLossText:
-	text "Humph. This is my"
-	line "real power, wimp."
+	text "Tsss! Voilà ce que"
+	line "c'est la force."
 
-	para "I'll make Team"
-	line "Rocket history."
+	para "J'vais la bouffer"
+	line "la Team Rocket."
 
-	para "And I'm going to"
-	line "grind that Lance"
-	cont "under my heels."
+	para "Et Peter..."
+	line "J'vais lui casser"
+	cont "ses rêves."
 	done
 
 GruntM11SeenText:
-	text "Open one shutter,"
-	line "another closes."
+	text "Ouvre un truc et"
+	line "un autre se ferme."
 
-	para "Bet you can't get"
-	line "where you want!"
+	para "C'est dur d'avan-"
+	line "cer, hein?"
 	done
 
 GruntM11BeatenText:
-	text "Drat! I was sunk"
-	line "by indecision!"
+	text "Zut de flûte!"
+	line "J'suis perdu!"
 	done
 
 GruntM25SeenText:
 	text "Kwahaha!"
 
-	para "Confounded by the"
-	line "shutters, are we?"
+	para "Les volets te po-"
+	line "sent un problème?"
 
-	para "I'll let you in on"
-	line "a secret if you"
-	cont "can beat me!"
+	para "Bats-moi et je te"
+	line "confie un p'tit"
+	cont "secret!"
 	done
 
 GruntM25BeatenText:
-	text "Uwww…"
-	line "I blew it."
+	text "Hmmm..."
+	line "Dommage."
 	done
 
 BurglarDuncanSeenText:
-	text "Fork over your"
-	line "goodies!"
+	text "Envoie ton blé!"
 	done
 
 BurglarDuncanBeatenText:
-	text "Mercy!"
+	text "Pitié!"
 	done
 
 BurglarOrsonSeenText:
-	text "They ditched this"
-	line "project before"
-	cont "they finished."
+	text "Ils ont abandonné"
+	line "ce projet avant la"
+	cont "fin."
 
-	para "I'm searching for"
-	line "leftover loot."
+	para "Je cherche des"
+	line "restes à voler."
 	done
 
 BurglarOrsonBeatenText:
-	text "Over the top!"
+	text "Yarglah!"
 	done
 
 GruntM13SeenText:
-	text "I don't care if"
-	line "you're lost."
+	text "Je m'en fiche si"
+	line "tu ne sais pas par"
+	cont "où aller."
 
-	para "You show up here,"
-	line "you're nothing but"
-	cont "a victim!"
+	para "Si tu viens ici,"
+	line "tu dois t'attendre"
+	cont "aux conséquences!"
 	done
 
 GruntM13BeatenText:
-	text "Urk! Yeah, think"
-	line "you're cool, huh?"
+	text "Gueuh! Tu te crois"
+	line "balèze ou quoi?"
 	done
 
 GruntF3SeenText:
-	text "Are you lost? No,"
-	line "you can't be."
+	text "T'as pas l'air"
+	line "d'avoir peur."
 
-	para "You don't have"
-	line "that scared look."
-
-	para "I'll give you"
-	line "something to be"
-	cont "scared about!"
+	para "Attends..."
+	line "Moi je vais te"
+	cont "faire peur!"
 	done
 
 GruntF3BeatenText:
-	text "How could you?"
+	text "Comment oses-tu?"
 	done
 
 SwitchRoomText_RedSwitch:

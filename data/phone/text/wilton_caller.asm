@@ -49,7 +49,7 @@ WiltonBattleRematchText:
 	done
 
 WiltonHangUpText:
-	text "All right, later."
+	text "A plus tard."
 	done
 
 WiltonFoundItemText:
@@ -63,14 +63,12 @@ WiltonFoundItemText:
 	done
 
 WiltonHaventFoundAnythingText:
-	text "Nah, I haven't"
-	line "found anything"
+	text "Non. Je n'ai rien"
+	line "trouvé d'intéres-"
+	cont "sant."
 
-	para "that's worth your"
-	line "time."
-
-	para "You have to have"
-	line "patience."
+	para "Tu dois encore"
+	line "attendre."
 	done
 
 WiltonNotBitingText:

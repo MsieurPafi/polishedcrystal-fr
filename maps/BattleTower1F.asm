@@ -362,36 +362,35 @@ BattleTowerTutorTrickScript:
 		done
 
 Text_BattleTowerCooltrainerF:
-	text "There are lots of"
-	line "Battle Rooms, but"
-
-	para "I'm going to win"
-	line "them all!"
+	text "Il y a plein de"
+	line "Salles de combat!"
+	cont "Mais je vais"
+	cont "gagner!"
 	done
 
 Text_BattleTowerGranny:
-	text "It's a grueling"
-	line "task, not being"
+	text "C'est difficile de"
+	line "se passer d'objets"
 
-	para "able to use items"
-	line "in battle."
+	para "pendant les"
+	line "combats..."
 
-	para "Making your"
-	line "#mon hold items"
-
-	para "is the key to"
-	line "winning battles."
+	para "Faire tenir un ob-"
+	line "jet à son #mon"
+	cont "ça aide..."
 	done
 
 Text_BattleTowerBugCatcher:
-	text "I'm trying to see"
-	line "how far I can go"
+	text "J'essaie de voir"
+	line "jusqu'où on peut"
 
-	para "using just bug"
-	line "#mon."
+	para "aller en n'utili-"
+	line "sant que des"
+	cont "#mon insecte."
 
-	para "Don't let there be"
-	line "any fire #mon…"
+	para "Du moment qu'il"
+	line "n'y a pas de"
+	cont "#mon de feu..."
 	done
 
 PokemonJournalPalmerScript:

@@ -403,9 +403,9 @@ ReceivedSpearowMailText:
 	setcharmap default
 
 Bug_catcherWade1SeenText:
-	text "I caught a bunch"
-	line "of #mon. Let me"
-	cont "battle with you!"
+	text "J'ai attrapé plein"
+	line "de #mon. On va"
+	cont "faire un combat!"
 	done
 
 Bug_catcherWade1BeatenText:
@@ -413,29 +413,30 @@ Bug_catcherWade1BeatenText:
 	done
 
 Bug_catcherWade1AfterText:
-	text "You can catch"
-	line "#mon even if"
+	text "Tu peux attraper"
+	line "un #mon même"
 
-	para "you have six with"
-	line "you."
+	para "si tu en as six"
+	line "sur toi."
 
-	para "If you catch one,"
-	line "it'll go to your"
-	cont "Box automatically."
+	para "Il sera transféré"
+	line "à ta boîte automa-"
+	cont "tiquement."
 	done
 
 
 Text_Route31SleepyManGotMail:
-	text "…Zzzz… Huh?"
+	text "...Zzzz...Hein?"
 
-	para "What's that? You"
-	line "have Mail for me?"
+	para "C'est quoi? Tu as"
+	line "une lettre pour"
+	cont "moi?"
 	done
 
 Text_Route31HandOverMailMon:
-	text "<PLAYER> handed"
-	line "over the #mon"
-	cont "holding the Mail."
+	text "<PLAYER> donne"
+	line "le #mon tenant"
+	cont "la lettre."
 	done
 
 Text_Route31ReadingMail:
@@ -482,27 +483,28 @@ Text_Route31TutorQuestion:
 
 
 Route31YoungsterText:
-	text "I found a good"
-	line "#mon in Dark"
-	cont "Cave."
+	text "J'ai trouvé un bon"
+	line "#mon dans"
+	cont "l'Antre Noire."
 
-	para "I'm going to raise"
-	line "it to take on"
-	cont "Falkner."
+	para "Je vais l'entraî-"
+	line "ner pour battre"
+	cont "Albert."
 
-	para "He's the leader of"
-	line "Violet City's Gym."
+	para "Il est le champion"
+	line "de l'Arene de"
+	cont "Mauville."
 	done
 
 Route31SignText:
-	text "Route 31"
+	text "route 31"
 
-	para "Violet City -"
-	line "Cherrygrove City"
+	para "Mauville -"
+	line "ville Griotte"
 	done
 
 DarkCaveSignText:
-	text "Dark Cave"
+	text "Antre Noire"
 	done
 
 Route31AdvancedTipsSignText:

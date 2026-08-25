@@ -122,9 +122,10 @@ SwimmermWalterBeatenText:
 	done
 
 SwimmerfLisaSeenText:
-	text "The fishermen"
-	line "yelled at me for"
-	cont "bugging them…"
+	text "Les pêcheurs m'ont"
+	line "crié dessus parce"
+	cont "que je les déran-"
+	cont "geais..."
 	done
 
 SwimmerfLisaBeatenText:
@@ -142,13 +143,13 @@ SwimmerfJillBeatenText:
 	done
 
 Bird_keeperBryanSeenText:
-	text "What kinds of"
-	line "Balls do you use?"
+	text "Quelles # Balls"
+	line "utilises-tu?"
 	done
 
 Bird_keeperBryanBeatenText:
-	text "Yikes! Not fast"
-	line "enough!"
+	text "Whoa! Pas assez"
+	line "rapide!"
 	done
 
 SrandjrBeaandmay1SeenText:
@@ -194,11 +195,11 @@ SailorHarveySeenText:
 	done
 
 SailorHarveyBeatenText:
-	text "What power!"
-	line "How would you like"
+	text "Quelle force!"
+	line "Ça te dirait de"
 
-	para "to sail the seas"
-	line "with me?"
+	para "devenir marin?"
+	line "Pourquoi pas?"
 	done
 
 LassRoseSeenText:

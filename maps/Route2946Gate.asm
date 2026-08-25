@@ -18,22 +18,24 @@ Route2946Gate_MapScriptHeader:
 	object_event  6,  4, SPRITE_CAMPER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route29Route46GateYoungsterText, -1
 
 Route29Route46GateOfficerText:
-	text "You can't climb"
-	line "ledges."
+	text "On ne peut pas"
+	line "escalader les"
+	cont "bords."
 
-	para "But you can jump"
-	line "down from them to"
-	cont "take a shortcut."
+	para "Mais on peut sau-"
+	line "ter par-dessus"
+	cont "pour aller plus"
+	cont "vite."
 	done
 
 Route29Route46GateYoungsterText:
-	text "Different kinds of"
-	line "#mon appear"
-	cont "past here."
+	text "Des #mon diffé-"
+	line "rents apparaissent"
+	cont "plus loin."
 
-	para "If you want to"
-	line "catch them all,"
+	para "Si tu veux tous"
+	line "les attraper, il"
 
-	para "you have to look"
-	line "everywhere."
+	para "faut chercher un"
+	line "peu partout."
 	done
