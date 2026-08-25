@@ -7,20 +7,19 @@ from collections import Counter
 
 # Define tokens from the charmap
 TOKENS = [
-	"<START>", "<RAM>", "<WAIT>", "<ASM>", "<NUM>", "<PAUSE>", "<SOUND>", "<DAY>", "<FAR>",
-	"<DONE>", "<PROMPT>", "<LNBRK>", "<NEXT>", "<LINE>", "<CONT>", "<PARA>", "<TARGET>",
-	"<USER>", "<ENEMY>", "<CTXT>", "¯", "<MALE>", "<FEMALE>", "<SHINY>", "<BALL>",
-	"<HP1>", "<HP2>", "<NOHP>", "<FULLHP>", "<HPEND>", "◢", "—", "◣", "<NONO>",
-	"<XP1>", "<XP2>", "<NOXP>", "<FULLXP>", "<XPEND>", " ", "A", "B", "C", "D", "E", "F",
-	"G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W",
-	"X", "Y", "Z", "(", ")", ".", ",", "?", "!", "a", "b", "c", "d", "e", "f", "g", "h",
-	"i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y",
-	"z", "“", "”", "-", ":", "♂", "♀", "'", "à", "â", "ç", "è", "'s", "ê", "î",
-	"é", "ô", "á", "<BOLDH>", "ù", "û", "¿", "¡", "<PO>", "<KE>", "<PK>", "<MN>", "<ID>", "№",
-	"<LV>", "<BOLDP>", "&", "♪", "♥", "×", "/", "%", "+", "<SHARP>", "0", "1", "2", "3",
-	"4", "5", "6", "7", "8", "9", "¥", "…", "★", "▼", "▲", "◀", "▶", "▷", "↑", "↓", "′",
-	"″", "<PHONE>", "<BLACK>", "┌", "─", "┐", "│", "┃", "└", "━", "┘", "#", "#mon", "<PLAYER>",
-	"<RIVAL>", "<TRENDY>"
+	"<DONE>", "@", "<PROMPT>", "<LNBRK>", "<NEXT>", "<LINE>", "<CONT>", "<PARA>", "<TARGET>", "<USER>",
+	"<ENEMY>", " ", "A", "B", "C", "D", "E", "F", "G", "H",
+	"I", "J", "K", "L", "M", "N", "O", "P", "Q", "R",
+	"S", "T", "U", "V", "W", "X", "Y", "Z", "(", ")",
+	".", ",", "?", "!", "a", "b", "c", "d", "e", "f",
+	"g", "h", "i", "j", "k", "l", "m", "n", "o", "p",
+	"q", "r", "s", "t", "u", "v", "w", "x", "y", "z",
+	"É", "Ç", "-", ":", "♂", "♀", "'", "à", "â", "ç",
+	"è", "Î", "ê", "î", "é", "ô", "á", "<BOLDH>", "ù", "û",
+	"¿", "¡", "<PO>", "<KE>", "<PK>", "<MN>", "<ID>", "№", "<LV>", "<BOLDP>",
+	"&", "♪", "♥", "Â", "/", "%", "+", "<SHARP>", "0", "1",
+	"2", "3", "4", "5", "6", "7", "8", "9", "¥", "…",
+	"#", "#mon", "<PLAYER>", "<RIVAL>", "<TRENDY>"
 ]
 
 # Sort tokens by length descending so the tokenizer greedily matches the longest token first

@@ -200,3 +200,79 @@ python3 translation/outils/estimer_cout.py
 Le module ne dit **rien** sur les cases de charmap disponibles — voir
 [`DECISIONS.md`](DECISIONS.md) A1. Il suppose ce problème résolu pour isoler
 la seule question de la compression.
+
+---
+
+## 7. Première régénération — 2026-08-25
+
+Faite après la phase 2 (2 857 blocs traduits, 17 % du texte).
+
+### Pourquoi maintenant, et pas plus tôt ni plus tard
+
+Trois arbres possibles, mesurés sur le texte tel qu'il était :
+
+| Arbre | Coût du texte | Écart |
+|---|---|---|
+| anglais d'origine | 370 227 o | référence |
+| **régénéré sur le texte ACTUEL** | 365 702 o | **−4 525 o** |
+| régénéré sur le **français pur** | 391 043 o | **+20 816 o** ❌ |
+
+⚠️ **Régénérer sur du français pur aurait fait déborder la ROM.** Le texte est
+encore à 83 % anglais ; un arbre accordé au français punit tout ce qui l'est
+resté. L'arbre doit **suivre** le texte, pas le précéder.
+
+⚠️ La liste des accents en attente (507 formes) **ne bloquait pas** : elle pèse
+1 729 occurrences sur 600 926 caractères, soit **0,288 %**. L'arbre ne la sent
+pas.
+
+### La procédure
+
+```bash
+make huffman > chars.txt
+grep -E '^".*"$' chars.txt > chars_propre.txt   # ⚠️ voir ci-dessous
+python3 utils/huffman.py chars_propre.txt > codes.txt
+# puis réinjecter les codes dans constants/charmap.asm
+```
+
+⚠️ **`make huffman` écrit le journal de compilation ET les caractères sur la
+même sortie.** Sans le filtre, `utils/huffman.py` prend chaque ligne de `gcc`
+et de `rgbgfx` pour un caractère et produit 796 codes au lieu de 125 — dont
+`"rgbgfx -c dmg … .png": 0100111100111111000`. Le mode d'emploi du dépôt amont
+ne le mentionne pas.
+
+⚠️ **`utils/ngram.py` embarque sa propre copie de la liste des jetons** :
+la resynchroniser avant, sinon il retokenise faussement.
+
+### Résultat
+
+| | |
+|---|---|
+| espace libre avant | 8 538 o (0,41 %) |
+| espace libre après | **14 256 o (0,68 %)** |
+| **gain** | **+5 718 octets** |
+
+Meilleur que les 4 525 prévus — le simulateur était conservateur.
+
+Quelques longueurs de code, avant → après :
+
+| jeton | avant | après |
+|---|---|---|
+| `é` | 15 bits | **8** |
+| `à` | 12 | **10** |
+| `q` | 11 | **9** |
+| `è` | 10 | 11 |
+| `ç` | 10 | 12 |
+
+L'arbre a donné à `é` — 1 882 occurrences — le code court qu'il méritait, au
+prix de `è` et `ç`, plus rares.
+
+### Contrôles
+
+- **Arbre préfixe valide** : aucun des 125 codes n'en préfixe un autre.
+- **Relecture du binaire** : deux chaînes témoins redécodées depuis la ROM
+  ressortent identiques à la source. Un arbre mal réinjecté aurait corrompu
+  tout le texte sans empêcher la compilation.
+
+### À refaire
+
+À chaque palier de traduction. C'est gratuit et réversible.
