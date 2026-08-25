@@ -271,10 +271,64 @@ final de −12 à −21 Ko.
 
 ---
 
+## 5 bis. Le second budget — les CAPITALES accentuées (décision D3)
+
+La décision **D3** (casse mixte) ouvre un besoin que la casse ALL-CAPS
+n'avait pas : `ECORCIA` devient `Écorcia`. Il faut des **capitales
+accentuées**, que le §2 de [`CONVENTIONS.md`](CONVENTIONS.md) excluait.
+
+### Le besoin — 5 capitales, mesurées
+
+| | Pourquoi | Occurrences |
+|---|---|---|
+| **`Ç`** | « Ca » → « **Ça** » en début de phrase | **666** |
+| **`Î`** | « ILES » → « **Î**les » | 60 |
+| **`Ê`** | « Etre » → « **Ê**tre », « Etes » → « **Ê**tes » | 21 |
+| **`Â`** | « BADGE AME » → « Badge **Â**me », « MAISON DES AMES » | 11 |
+| **`É`** | noms propres — Écorcia, Ébènelle, Écume, Écolier, Écrémeuh | vérifiés par l'utilisateur |
+
+⚠️ `É` n'est pas mesurable par fréquence : les noms propres n'apparaissent
+jamais en minuscules, donc la méthode statistique les rate. Les formes ont été
+**vérifiées une par une sur Poképédia** → [`GLOSSAIRE.md`](GLOSSAIRE.md) §3 bis.
+
+⚠️ Seuls les noms dont la **première** lettre porte un accent comptent.
+`Aéromite`, `Argentée`, `Cendrée` n'exigent rien : leur accent tombe en
+minuscule.
+
+### Les réserves, par coût croissant
+
+| Case | Ce qu'on perd | Coût réel |
+|---|---|---|
+| **`<SHARP>`** | les dièses du **lecteur de musique** (Do♯, Ré♯…) | 5 lignes. Absent du charmap français officiel. |
+| **`♥`** | un symbole du **clavier de surnom** | aucun texte du jeu ne l'emploie |
+| **`♪`** | un symbole du **clavier de surnom** | idem |
+| **`'s`** | la ligature « 's » | ⚠️ **1 970 fois en anglais**, 66 en français (« J'suis »). À libérer **après** la traduction, pas avant : d'ici là chaque occurrence coûterait une tuile de plus. |
+| `№` | « ID№. » — interface réelle (échange, Pokédex) | 17 lignes de code à réécrire en « No. » |
+| `á` `¿` `¡` | l'espagnol de PILAR | **rouvrirait D1** |
+
+### Le compte
+
+**`<SHARP>` + `♥` + `♪` + `'s` = 4 cases**, ce qui couvre **`É` `Ç` `Î` `Â`**
+sans toucher à PILAR ni à aucune interface.
+
+Reste **`Ê`** (21 occurrences). Deux issues :
+- une 5ᵉ case — `№` ou l'un des trois caractères espagnols ;
+- **reformuler** les 21 phrases pour éviter « Être » / « Êtes » en tête.
+
+⚠️ **`'s` ne se libère qu'une fois le texte français.** Tant que l'anglais
+occupe le jeu, les trois autres cases (`<SHARP>`, `♥`, `♪`) sont seules
+disponibles : il faudra donc **échelonner** l'ajout des capitales, ou accepter
+une croissance temporaire de la ROM.
+
+**Décision A6 en attente.**
+
+---
+
 ## 6. Ce qui reste à faire
 
 - [ ] Réoptimiser l'arbre Huffman (`make huffman` puis `utils/huffman.py`)
       **après** la traduction du texte, pas avant.
 - [ ] Trancher la question cosmétique de l'accent de `é` (§5).
+- [ ] Trancher A6 : quelles cases pour les 5 capitales accentuées (§5 bis).
 - [ ] Traduire `Farfetch'd` / `Sirfetch'd` (→ `Canarticho` / `Palarticho`,
       **à vérifier**, jamais de mémoire — [`PIEGES.md`](PIEGES.md) #12).

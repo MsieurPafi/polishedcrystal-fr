@@ -90,6 +90,35 @@ l'utilisateur. **Jamais la mémoire seule.**
 |---|---|---|---|---|
 | *(vide — se remplit à partir de la phase 4)* | | | | |
 
+---
+
+## 3 bis. Formes en casse mixte des noms propres — vérifiées
+
+Suite à la décision **D3** ([`CONVENTIONS.md`](CONVENTIONS.md) §2 bis), les noms
+propres du français officiel, écrits en capitales, doivent être convertis en
+casse mixte — ce qui leur **rend leurs accents**.
+
+⚠️ Ces formes ont été **vérifiées par l'utilisateur sur Poképédia**, jamais
+écrites de mémoire ([`PIEGES.md`](PIEGES.md) #12).
+
+| Officiel (capitales) | Casse mixte | Capitale accentuée requise |
+|---|---|---|
+| `ECORCIA` | **Écorcia** | `É` |
+| `EBENELLE` | **Ébènelle** | `É` *(et un `è`, pas un `é`)* |
+| `ILES ECUME` | **Îles Écume** | `Î` et `É` |
+| `ECOLIER` | **Écolier** | `É` |
+| `ECREMEUH` | **Écrémeuh** | `É` |
+| `AEROMITE` | **Aéromite** | *(aucune — le `é` est en minuscule)* |
+| `ARGENTEE` | **Argentée** | *(aucune)* |
+| `CENDREE` | **Cendrée** | *(aucune)* |
+
+**Enseignement :** seuls les noms dont la **première lettre** porte un accent
+exigent une capitale accentuée. `Aéromite`, `Argentée`, `Cendrée` n'en
+demandent aucune — leur accent tombe en minuscule.
+
+⚠️ `Ébènelle` prend un **accent grave**, pas aigu. Exactement le genre d'écart
+qu'on n'invente pas : c'est pourquoi ces formes se vérifient une par une.
+
 **Statuts :** `validé` (source citée) · `proposé` (en attente de l'utilisateur) ·
 `provisoire` (posé pour avancer, à revoir) · `inchangé` (identique en français,
 confirmé).

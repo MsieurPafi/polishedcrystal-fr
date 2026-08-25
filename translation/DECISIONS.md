@@ -50,7 +50,7 @@ Rangées par ce qu'elles bloquent. **Ne rien trancher seul sur les décisions
 | A2 | ~~Le PNJ hispanophone PILAR~~ | ✅ **Tranchée par l'utilisateur** — voir D1. Réversible. |
 | A3 | ~~Lesquelles des 8 polices affichent du dialogue ?~~ | ✅ **Tranchée : les 8.** `Options_Typeface` laisse le joueur en choisir une. 72 glyphes dessinés. |
 | A4 | ~~**Le français tient-il dans la ROM ?**~~ | ✅ **Tranchée par la mesure** : oui, et il libère 12 à 21 Ko. Voir [`COMPRESSION.md`](COMPRESSION.md). |
-| A6 | **Combien de capitales accentuées faut-il, et d'où viennent leurs cases ?** | Conséquence directe de D3. 3 mesurées (`Î` `Â` `Ç`), plus les noms propres à vérifier sur Poképédia. Charmap à marge zéro : il faudra rouvrir D1 (espagnol) ou sacrifier `<SHARP>`. **Bloquant pour la phase 2.** |
+| A6 | **D'où viennent les cases des 5 capitales accentuées ?** | ✅ **Besoin établi** : `É Ç Î Â Ê` (noms propres vérifiés par l'utilisateur + 666/60/21/11 occurrences mesurées). ✅ **Solution trouvée sans toucher à PILAR** : `<SHARP>` + `♥` + `♪` + `'s` = 4 cases, couvrant `É Ç Î Â`. Reste `Ê` : une 5ᵉ case (`№`) ou reformuler 21 phrases. ⚠️ `'s` ne se libère qu'**après** la traduction. Détail : [`CHARMAP.md`](CHARMAP.md) §5 bis. **Choix final à l'utilisateur.** |
 | A5 | **À quelle cadence refusionner l'amont ?** | Rangi produit ~105 commits par quinzaine et **consomme la place** : la marge est passée de 1,29 % à 0,85 % en 16 jours. Trop rare, la fusion devient ingérable ; trop fréquente, elle coûte à chaque fois. Non tranché. |
 
 ### Bloquent la rédaction
