@@ -65,3 +65,6 @@ bank_ends.txt
 # local tools
 rgbds/
 deploy.sh
+
+# artefact de compilation (gcc precompiled header)
+*.h.pch
