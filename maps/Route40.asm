@@ -225,7 +225,7 @@ SwimmermSimonSeenText:
 	done
 
 SwimmermSimonBeatenText:
-	text "Ouille! Crampe!"
+	text "Aïe! Une crampe!"
 	done
 
 SwimmermRandallSeenText:

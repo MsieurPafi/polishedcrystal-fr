@@ -1413,7 +1413,10 @@ DrawSongInfo:
 	ret
 
 DrawSongID:
-	ld a, '<SHARP>'
+	; « <SHARP> » servait ici de préfixe de numéro (♯12 = piste 12), pas de
+	; dièse musical. Sa case est passée à « ï » (terme officiel « Caïd ») ;
+	; « № » dit exactement la même chose.
+	ld a, '№'
 	ld [hli], a
 	ld a, [wSongSelection]
 	cp 10

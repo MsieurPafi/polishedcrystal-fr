@@ -117,9 +117,9 @@ DEF FIRST_REGULAR_TEXT_CHAR EQU $7f
 	ctxtmap "U",        $94, 110110110001
 	ctxtmap "V",        $95, 00110011110
 	ctxtmap "W",        $96, 1100001011
-	ctxtmap "X",        $97, 11001001101101000
+	ctxtmap "X",        $97, 00110011111001111
 	ctxtmap "Y",        $98, 1100001010
-	ctxtmap "Z",        $99, 11110000100000
+	ctxtmap "Z",        $99, 11001001101101
 
 	ctxtmap "(",        $9a, 001100111111
 	ctxtmap ")",        $9b, 010011101100
@@ -159,9 +159,14 @@ DEF FIRST_REGULAR_TEXT_CHAR EQU $7f
 	ctxtmap "Ç",        $bb, 1111000010110
 	ctxtmap "-",        $bc, 11000011
 	ctxtmap ":",        $bd, 1111000111
-	ctxtmap "♂",        $be, 001100111110000000
-	ctxtmap "♀",        $bf, 0100111011011100001
+	ctxtmap "♂",        $be, 0100111011011100011
+	ctxtmap "♀",        $bf, 0100111011011100010
 
+; Français, 3e vague — « ï », pour le terme officiel « Caïd » (le rang des
+; cadres de la Team Rocket dans Or/Argent/Cristal) et l'interjection « Aïe! ».
+; Cédé sa case : <SHARP>, qui ne servait qu'aux dièses du lecteur de musique,
+; désormais notés « C+ », « D+ »…
+;
 ; Français, 2e vague — les CAPITALES accentuées qu'exige la casse mixte (D3).
 ; Cédé leur case : les guillemets courbes “ ” (56 usages anglais, ZÉRO en
 ; français — cf. CONVENTIONS.md §4), la ligature 's (66 usages en français
@@ -185,35 +190,35 @@ DEF FIRST_REGULAR_TEXT_CHAR EQU $7f
 
 	ctxtmap "é",        $c8, 01001100
 	ctxtmap "ô",        $c9, 1111000010100
-	ctxtmap "á",        $ca, 00110011111000001
-	ctxtmap "<BOLDH>",  $cb, 0100111011011100000
+	ctxtmap "á",        $ca, 111100001000001001
+	ctxtmap "<BOLDH>",  $cb, 0100111011011100001
 	ctxtmap "ù",        $cc, 00110011111010
 	ctxtmap "û",        $cd, 11110000101010
 
-	ctxtmap "¿",        $ce, 010011101101110010
-	ctxtmap "¡",        $cf, 0011001111100011111
+	ctxtmap "¿",        $ce, 010011101101110011
+	ctxtmap "¡",        $cf, 0100111011011100000
 
-	ctxtmap "<PO>",     $d0, 0011001111100011110
-	ctxtmap "<KE>",     $d1, 0011001111100011101
-	ctxtmap "<PK>",     $d2, 0011001111100111
-	ctxtmap "<MN>",     $d3, 0011001111100110
+	ctxtmap "<PO>",     $d0, 0011001111100111011
+	ctxtmap "<KE>",     $d1, 0011001111100111010
+	ctxtmap "<PK>",     $d2, 0011001111100110
+	ctxtmap "<MN>",     $d3, 0011001111100011
 
-	ctxtmap "<ID>",     $d4, 0011001111100011100
-	ctxtmap "№",        $d5, 010011101101110001
-	ctxtmap "<LV>",     $d6, 11001001101101001
-	ctxtmap "<BOLDP>",  $d7, 00110011111000110
+	ctxtmap "<ID>",     $d4, 0011001111100111001
+	ctxtmap "№",        $d5, 010011101101110010
+	ctxtmap "<LV>",     $d6, 11110000100000101
+	ctxtmap "<BOLDP>",  $d7, 00110011111000001
 
 	ctxtmap "&",        $d8, 1100100110110000
 
 	ctxtmap "♪",        $d9, 010011101101101
-	ctxtmap "♥",        $da, 1100100110110101
+	ctxtmap "♥",        $da, 1111000010000011
 
-	ctxtmap "Â",        $db, 0011001111100000011
+	ctxtmap "Â",        $db, 0011001111100111000
 	ctxtmap "/",        $dc, 010011101101100
-	ctxtmap "%",        $dd, 010011101101110011
+	ctxtmap "%",        $dd, 111100001000001000
 
 	ctxtmap "+",        $de, 1100100110110001
-	ctxtmap "<SHARP>",  $df, 0011001111100000010
+	ctxtmap "ï",        $df, 00110011111000000
 
 	ctxtmap "0",        $e0, 111100011010
 	ctxtmap "1",        $e1, 1111000110111
@@ -222,7 +227,7 @@ DEF FIRST_REGULAR_TEXT_CHAR EQU $7f
 	ctxtmap "4",        $e4, 1100100110111
 	ctxtmap "5",        $e5, 1100100110100
 	ctxtmap "6",        $e6, 01001110110101
-	ctxtmap "7",        $e7, 110010011011011
+	ctxtmap "7",        $e7, 111100001000000
 	ctxtmap "8",        $e8, 001100111110111
 	ctxtmap "9",        $e9, 110010011011001
 

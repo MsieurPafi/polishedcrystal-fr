@@ -612,7 +612,7 @@ RocketBaseBossWinText:
 	line "Team Rocket, tu"
 
 	para "deviendrais vite"
-	line "Cadre."
+	line "Caïd."
 	done
 
 RocketBaseBossRetreatText:

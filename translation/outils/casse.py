@@ -61,7 +61,7 @@ MINUSCULES = {"#MON", "#DEX", "#GEAR", "#COM", "#MUSIC"}
 
 # --- Sigles : restent en CAPITALES ---------------------------------------
 # Ni des mots ni des noms propres. `capitalize()` en ferait « Ok », « Pv ».
-ACRONYMES = {"OK", "PV", "PC", "PP", "PKMN", "CT", "CS", "DJ", "SARL",
+ACRONYMES = {"OK", "PV", "PC", "PP", "PKMN", "CT", "CS", "DJ", "SARL", "CD",
              "TV", "ADN", "QG", "SS", "MT", "MS", "ID", "NO", "AZ"}
 
 # --- Titres : toujours en Capitale, comme PC le fait (« Prof.Elm ») -------
@@ -89,17 +89,8 @@ PORTAGE = [
     # `ï` a été abandonné faute de case de charmap (décision P13). Ses 5
     # occurrences sont toutes l'interjection « Aïe! », dont le français a un
     # équivalent exact sans tréma. Voir REFORMULATIONS.md §4.
-    # « CAID » traduit l'anglais « EXECUTIVE », un rang de la Team Rocket.
-    # En capitales l'officiel l'écrit sans tréma ; en casse mixte il faudrait
-    # « Caïd », et `ï` n'a pas de case. « Cadre » dit le même rang.
-    # ⚠️ À CONFIRMER par l'utilisateur sur Poképédia (PIEGES.md #12).
-    ("CAID", "CADRE"),
-    ("Caïd", "Cadre"),
-    ("caïd", "cadre"),
-    ("Aïeuuuuuuu", "Ouilleuuuuu"),
-    ("Aïeuuu", "Ouilleuu"),
-    ("Aïe", "Ouille"),
-    ("aïe", "ouille"),
+    # `ï` a retrouvé une case (3e vague) : les termes officiels « Caïd » et
+    # « Aïe! » sont rétablis. Plus aucun portage nécessaire ici.
 ]
 
 

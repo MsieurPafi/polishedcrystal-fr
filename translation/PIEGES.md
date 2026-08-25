@@ -76,6 +76,29 @@ l'on donne au témoin le même avantage qu'au sujet.
 
 ---
 
+### #12 bis — J'ai remplacé un terme officiel par un mot inventé
+
+**2026-08-25.** Butant sur un `ï` sans case de charmap, j'ai rendu « CAID » par
+« **Cadre** » — en le présentant comme « mot français courant pour ce rang »,
+et en demandant confirmation. L'utilisateur a répondu que **« Caïd » est le
+terme officiel** d'Or/Argent/Cristal : « Caïd Rocket ».
+
+C'est le piège #12 dans sa forme la plus exacte : *ne jamais inscrire un nom
+propre de mémoire*. J'avais même écrit « à confirmer sur Poképédia » — mais
+j'ai livré le mot inventé en attendant, au lieu de m'arrêter.
+
+⚠️ **Et je n'avais pas mesuré son importance** : `CAID` n'est pas un mot de
+dialogue isolé, c'est le **nom du dresseur** dans `data/trainers/parties.asm`,
+affiché à chaque combat contre un cadre Rocket.
+
+**Contournement :** trouver la case. `<SHARP>` ne servait qu'au lecteur de
+musique ; ses dièses sont devenus des `+`. → [`CHARMAP.md`](CHARMAP.md) §5 ter.
+
+**La leçon :** quand une contrainte technique force à s'écarter d'un terme
+officiel, **le bon réflexe est de rouvrir la contrainte**, pas d'inventer un
+substitut. Il restait une case ; je ne l'avais pas cherchée parce que j'avais
+classé `ï` comme abandonné trois jours plus tôt.
+
 ### #7 bis — Les mots coupés en fin de ligne, convertis en deux moitiés
 
 **2026-08-25.** L'utilisateur a relu la liste des formes à accentuer et signalé

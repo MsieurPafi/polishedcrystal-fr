@@ -67,7 +67,7 @@ YoungsterJasonSeenText:
 	done
 
 YoungsterJasonBeatenText:
-	text "Ouilleuuuuu!"
+	text "Aïeuuuuuuu!"
 	done
 
 GenericTrainerYoungsterAlfie:

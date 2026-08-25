@@ -376,6 +376,53 @@ sur un glyphe inchangé.
 
 ---
 
+## 5 ter. Troisième vague — `ï`, pour un terme officiel
+
+**2026-08-25.** L'utilisateur a signalé que **« Caïd » est le terme officiel**
+d'Or/Argent/Cristal pour les cadres de la Team Rocket — « Caïd Rocket ». Ma
+substitution par « Cadre » remplaçait donc un terme officiel par un mot
+inventé : exactement ce que le §8.6 du cahier interdit.
+
+⚠️ Et ce n'est pas un mot de dialogue isolé : `CAID` est le **nom du dresseur**
+dans `data/trainers/parties.asm` — affiché à chaque affrontement contre un
+cadre Rocket.
+
+### La case
+
+| Octet | Était | Devient | Ce que ça coûte |
+|---|---|---|---|
+| `$df` | `<SHARP>` | **`ï`** | les dièses du lecteur de musique, désormais notés `C+`, `D+`… |
+
+`<SHARP>` servait à deux choses, toutes deux dans le lecteur de musique :
+
+- `data/music_player/notes.asm` — les noms de notes (`C♯` → `C+`) ;
+- `audio/music_player.asm` — un **préfixe de numéro de piste** (`♯12`), qui
+  n'était pas un dièse musical du tout. Remplacé par `№`, qui dit exactement
+  la même chose.
+
+### Ce que `ï` rétablit
+
+| Écarté faute de case | Rétabli |
+|---|---|
+| `Ouille!` | **`Aïe!`** — l'interjection officielle |
+| `Cadre` | **`Caïd`** — le terme officiel |
+| `Aïe! Crampe!` (raccourci pour la largeur) | **`Aïe! Une crampe!`** — le texte officiel intégral |
+
+**Décision P13 (« renoncer à `ï` ») annulée.**
+
+### Le budget après trois vagues
+
+| Vague | Cases prises | Sources |
+|---|---|---|
+| 1 — minuscules | 9 (`à â ç è ê î ô ù û`) | 6 contractions anglaises, `É`, `í`, `ó` |
+| 2 — capitales | 4 (`É Ç Î Â`) | `“`, `”`, `'s`, `×` |
+| 3 — `ï` | 1 | `<SHARP>` |
+| **total** | **14** | |
+
+**Marge restante : zéro.** Toujours.
+
+---
+
 ## 6. Ce qui reste à faire
 
 - [ ] Réoptimiser l'arbre Huffman (`make huffman` puis `utils/huffman.py`)

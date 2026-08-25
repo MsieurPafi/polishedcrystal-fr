@@ -41,7 +41,7 @@ Bug_maniacEdSeenText:
 	done
 
 Bug_maniacEdBeatenText:
-	text "Ouilleuu!"
+	text "Aïeuuu!"
 	done
 
 Route2NorthCooltrainermText:

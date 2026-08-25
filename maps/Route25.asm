@@ -147,7 +147,7 @@ SchoolboyJoeSeenText:
 	done
 
 SchoolboyJoeBeatenText:
-	text "Ouille! Perdu!"
+	text "Aïe! Perdu!"
 	done
 
 LassLauraSeenText:

@@ -360,7 +360,7 @@ GenericTrainerTwinsLeaandpia1:
 	done
 
 .BeatenText:
-	text "Ouille."
+	text "Aïe."
 	done
 
 GenericTrainerTwinsLeaandpia2:

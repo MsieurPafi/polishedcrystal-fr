@@ -76,7 +76,7 @@ PokemaniacCalvinSeenText:
 
 PokemaniacCalvinBeatenText:
 	text "Plein la tête!"
-	line "Ouille!"
+	line "Aïe!"
 	done
 
 GenericTrainerHikerPhillip:
